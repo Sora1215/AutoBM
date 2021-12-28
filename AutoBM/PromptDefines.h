@@ -4,30 +4,32 @@
     Written by SeungGeon Kim
 
     Filename : PromptDefines.h
-    Edited : 2021-11-27
+    Edited : 2021-12-28
 */
 
 #pragma once
 
 // None
-#define PROMPT_FUNCNAME     P_STRING("Initiating ", C_PROCEDURE, false);\
+#define PRINT_PROCEDURE     P_STRING("Initiating ", C_PROCEDURE, false);\
                             P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
                             P_STRING(" procedure...", C_PROCEDURE);
 
-// paramFileName
-#define PROMPT_ONFILELOAD   P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
-                            P_STRING(" ~ File was successfully loaded.", C_PROMPT);\
+// [KR_STR] paramFileName
+#define PROMPT_ONFILELOAD   P_STRING("File with the name of : ", C_PROMPT, false);\
+                            P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
+                            P_STRING(" was successfully loaded.", C_PROMPT);\
                             P_STRING("Resource allocated.", C_MEMORY);\
                             system("PAUSE");
 
-// paramFileName
-#define PROMPT_ONFILEUNLOAD P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
-                            P_STRING(" ~ File was successfully unloaded.", C_PROMPT);\
+// [KR_STR] paramFileName
+#define PROMPT_ONFILEUNLOAD P_STRING("File with the name of : ", C_PROMPT, false);\
+                            P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
+                            P_STRING(" was successfully unloaded.", C_PROMPT);\
                             P_STRING("Resource deallocated.", C_MEMORY);\
                             system("PAUSE");
 
 // None
-#define PROMPT_RETRY        P_STRING("Please retry after fixing all issues! ", C_ERROR);\
+#define PROMPT_RETRY        P_STRING("Please retry after fixing all issues. ", C_ERROR);\
                             system("PAUSE");
 
 // None
@@ -39,22 +41,30 @@
                             system("PAUSE");
 
 // None
+#define PROMPT_EDITREADY    P_STRING("Edit is now ready.", C_PROCEDURE_PARAMETER);\
+                            system("PAUSE");
+
+// None
+#define PROMPT_EDITCOMPLETE P_STRING("Edit complete.", C_PROCEDURE_PARAMETER);\
+                            system("PAUSE");
+
+// None
 #define PROMPT_MSG(msg)     P_STRING(msg, C_PROCEDURE);\
                             system("PAUSE");
 
- // paramFileName
+ // [KR_STR] paramFileName
 #define ERROR_FILENOTFOUND  P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                             P_STRING("File with the name of : ", C_PROMPT, false);\
                             P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
                             P_STRING(" was not found.", C_PROMPT);
 
-// inputheetIndex
+// [int] inputSheetIndex
 #define ERROR_SHEETNOTFOUND P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                             P_STRING("Sheet with the index of : ", C_PROMPT, false);\
                             P_DOUBLE(inputSheetIndex, C_PROMPT_PARAMETER, false);\
                             P_STRING(" was not found.", C_PROMPT);
 
-// cellType
+// [CellType] cellType
 #define LOGIC_PRINTCELLTYPE switch (cellType)\
                             {\
                             case CELLTYPE_EMPTY:\
@@ -77,7 +87,7 @@
                                 break;\
                             }
 
-// sheet -> trueLastColIndex
+// [Sheet*] sheet -> trueLastColIndex
 #define LOGIC_FINDLASTCOL   int trueLastColIndex = 0;\
                             for (int i = 0; i < sheet->lastCol(); i++)\
                             {\
@@ -92,7 +102,7 @@
                                 }\
                             }
 
-// XLSX -> totalSheetCount, inputSheetIndex
+// [Book*] XLSX -> totalSheetCount, inputSheetIndex
 #define LOGIC_PROMPTSHEETS  int totalSheetCount = XLSX->sheetCount();\
                             P_STRING("File has a total of : ", C_PROMPT, false);\
                             P_DOUBLE(totalSheetCount, C_PROMPT_PARAMETER, false);\
@@ -109,7 +119,7 @@
                             int inputSheetIndex = 0;\
                             while (true)\
                             {\
-                                std::wstring tempStringBuffer;\
+                                std::wstring tempStringBuffer = L"";\
                                 std::wcin >> tempStringBuffer;\
                                 try\
                                 {\

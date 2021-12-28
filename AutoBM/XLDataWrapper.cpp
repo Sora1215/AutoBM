@@ -11,6 +11,7 @@
 
 #include "ConsoleManager.h"
 #include "PromptDefines.h"
+#include <algorithm>
 #include <iostream>
 #include "libxl.h"
 
@@ -26,7 +27,7 @@ XLDataWrapper& XLDataWrapper::Instance() noexcept
 
 void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
 {
-    PROMPT_FUNCNAME;
+    PRINT_PROCEDURE;
 
     Book* XLSX = CreateXLSXBook<Book*>();
 
@@ -34,7 +35,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
     {
         PROMPT_ONFILELOAD;
 
-        // XLSX -> totalSheetCount, inputSheetIndex
+        // [Book*] XLSX -> totalSheetCount, inputSheetIndex
         LOGIC_PROMPTSHEETS;
 
         PROMPT_SCANREADY;
@@ -45,7 +46,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
         {
             P_STRING("Checking for any formulas in the sheet", C_PROMPT);
 
-            // sheet -> trueLastColIndex
+            // [Sheet*] sheet -> trueLastColIndex
             LOGIC_FINDLASTCOL;
 
             // Go through each cell of the entire sheet
@@ -67,7 +68,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
         }
 
         PROMPT_SCANCOMPLETE;
-        PROMPT_MSG("Above are all formulas found.");
+        PROMPT_MSG("Above are all the formulas found.");
     }
     else
     {
@@ -80,7 +81,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
 
 void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
 {
-    PROMPT_FUNCNAME;
+    PRINT_PROCEDURE;
 
     Book* XLSX = CreateXLSXBook<Book*>();
 
@@ -97,7 +98,7 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
 
         if (sheet != nullptr)
         {
-            P_STRING("Checking for any Zero Width Spaces in the sheet", C_PROMPT);
+            P_STRING("Checking for any zero-width spaces in the sheet", C_PROMPT);
 
             // sheet -> trueLastColIndex
             LOGIC_FINDLASTCOL;
@@ -107,11 +108,42 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
             {
                 for (int col = sheet->firstCol(); col < trueLastColIndex; col++)
                 {
-                    if (sheet->isFormula(row, col))
+
+
+
+                    CellType cellType = sheet->cellType(row, col);
+
+                    if (cellType != CELLTYPE_STRING)
+                    {
+                        continue;
+                    }
+                    
+                    std::wstring tempStringBuffer = sheet->readStr(row, col);
+
+
+
+                    if (tempStringBuffer.find(L'\u200b') != std::wstring::npos)
                     {
                         P_POSITION(row, col, C_PROCEDURE, false);
-                        P_STRING(sheet->readFormula(row, col), C_ERROR);
+
+                        for (auto it = tempStringBuffer.begin(); it < tempStringBuffer.end() - 1; it++)
+                        {
+                            if (*it == L'\u200b')
+                            {
+                                tempStringBuffer.erase(it);
+                            }
+                        }
+
+                        std::string str(tempStringBuffer.length(), 0);
+                        std::transform(tempStringBuffer.begin(), tempStringBuffer.end(), str.begin(), [](wchar_t c) { return static_cast<char>(c); });
+                        P_STRING(str, C_ERROR);
+
+                        //sheet->writeStr(row, col, tempStringBuffer.c_str());
+                        //P_STRING("Successfully fixed!", C_PROCEDURE_PARAMETER);
                     }
+
+
+
                 }
             }
         }
@@ -121,7 +153,7 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
         }
 
         PROMPT_SCANCOMPLETE;
-        PROMPT_MSG("Above are all formulas found.");
+        PROMPT_MSG("Above are all the zero-width spaces found.");
     }
     else
     {
@@ -134,7 +166,7 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
 
 void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
 {
-    PROMPT_FUNCNAME;
+    PRINT_PROCEDURE;
 
     Book* XLSX = CreateXLSXBook<Book*>();
 
@@ -154,7 +186,6 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
             // Go through each row of the entire sheet
             for (int row = ROW_ITEMTABLE_FIRST; row < ItemTable->lastRow(); row++)
             {
-                // Make sure that the cell is a number
                 CellType cellType = ItemTable->cellType(row, COL_ITEMTABLE_ITEMINDEX);
 
                 if (cellType != CELLTYPE_NUMBER)
@@ -187,7 +218,6 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
             // Go through each row of the entire sheet
             for (int row = ROW_ITEMTABLE_FIRST; row < LocalTable->lastRow(); row++)
             {
-                // Make sure that the cell is a string
                 CellType cellType = LocalTable->cellType(row, COL_LOCALTABLE_ITEMINDEX);
 
                 if (cellType != CELLTYPE_STRING)

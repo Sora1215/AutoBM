@@ -4,7 +4,7 @@
 	Written by SeungGeon Kim
 
 	Filename : ConsoleManager.h
-	Edited : 2021-11-27
+	Edited : 2021-12-28
 */
 
 #pragma once
@@ -19,7 +19,7 @@
 #define C_PROMPT ConsoleManager::Color::Green // For general prompting
 #define C_PROMPT_PARAMETER ConsoleManager::Color::Yellow // For general parameters
 #define C_PROCEDURE ConsoleManager::Color::Blue // For procedure-related prompting
-#define C_PROCEDURE_PARAMETER ConsoleManager::Color::Skyblue // For parameters inside the procedure-related prompting
+#define C_PROCEDURE_PARAMETER ConsoleManager::Color::Skyblue // For procedure-related parameters
 #define C_ERROR ConsoleManager::Color::Red // For error messages
 #define C_MEMORY ConsoleManager::Color::Purple // For memory-related prompting
 
