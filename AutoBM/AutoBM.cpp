@@ -34,8 +34,8 @@ int main()
 {
     CONSOLE.SetupLocal();
 
-    XL_DW.RemoveZeroWidthSpace_Recursive(L"Table/", L".xlsm");
-    XL_DW.RemoveZeroWidthSpace_Recursive(L"Table/", L".xlsx");
+    XL_DW.RemoveZeroWidthSpace(L"Table/", L".xlsm");
+    XL_DW.RemoveZeroWidthSpace(L"Table/", L".xlsx");
 
     //XL_DW.CheckForFormula(L"ItemTable.xlsx");
     //XL_DW.CheckForZeroWidthSpace(L"ItemTable.xlsx");
