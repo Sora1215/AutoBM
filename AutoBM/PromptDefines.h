@@ -10,6 +10,9 @@
 #pragma once
 
 // None
+#define WAITFORINPUT        system("PAUSE");
+
+// None
 #define PRINT_PROCEDURE     P_STRING("Initiating ", C_PROCEDURE, false);\
                             P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
                             P_STRING(" procedure...", C_PROCEDURE);
@@ -19,38 +22,51 @@
                             P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
                             P_STRING(" was successfully loaded.", C_PROMPT);\
                             P_STRING("Resource allocated.", C_MEMORY);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // [KR_STR] paramFileName
 #define PROMPT_ONFILEUNLOAD P_STRING("File with the name of : ", C_PROMPT, false);\
                             P_STRING(paramFileName, C_PROMPT_PARAMETER, false);\
                             P_STRING(" was successfully unloaded.", C_PROMPT);\
                             P_STRING("Resource deallocated.", C_MEMORY);\
-                            system("PAUSE");
+                            //system("PAUSE");
+
+// [KR_STR] baseDirectory
+#define PROMPT_PATHFOUND    P_STRING("Path with the name of : ", C_PROMPT, false);\
+                            P_STRING(baseDirectory, C_PROMPT_PARAMETER, false);\
+                            P_STRING(" was successfully located.", C_PROMPT);\
+                            //system("PAUSE");
+
+// [KR_STR] baseDirectory
+#define PROMPT_PATHNOTFOUND P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                            P_STRING("Path with the name of : ", C_PROMPT, false);\
+                            P_STRING(baseDirectory, C_PROMPT_PARAMETER, false);\
+                            P_STRING(" was not found.", C_PROMPT);\
+                            //system("PAUSE");
 
 // None
 #define PROMPT_RETRY        P_STRING("Please retry after fixing all issues. ", C_ERROR);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // None
 #define PROMPT_SCANREADY    P_STRING("Scan is now ready.", C_PROCEDURE_PARAMETER);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // None
 #define PROMPT_SCANCOMPLETE P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // None
 #define PROMPT_EDITREADY    P_STRING("Edit is now ready.", C_PROCEDURE_PARAMETER);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // None
 #define PROMPT_EDITCOMPLETE P_STRING("Edit complete.", C_PROCEDURE_PARAMETER);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
 // None
 #define PROMPT_MSG(msg)     P_STRING(msg, C_PROCEDURE);\
-                            system("PAUSE");
+                            //system("PAUSE");
 
  // [KR_STR] paramFileName
 #define ERROR_FILENOTFOUND  P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\

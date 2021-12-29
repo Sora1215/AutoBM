@@ -84,94 +84,207 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName) noexcept
 {
     PRINT_PROCEDURE;
 
+
+
     Book* XLSX = CreateXLSXBook<Book*>();
 
     if (XLSX->load(paramFileName) == true)
     {
         PROMPT_ONFILELOAD;
-
-        // XLSX -> totalSheetCount, inputSheetIndex
-        LOGIC_PROMPTSHEETS;
-
-        PROMPT_SCANREADY;
-
-        Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
-
-        if (XLSXsheet != nullptr)
-        {
-            P_STRING("Checking for any zero-width spaces in the XLSXsheet", C_PROMPT);
-
-            // XLSXsheet -> trueLastColIndex
-            LOGIC_FINDLASTCOL;
-
-            // Go through each cell of the entire XLSXsheet
-            for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
-            {
-                for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
-                {
-
-
-
-                    CellType cellType = XLSXsheet->cellType(row, col);
-
-                    if (cellType != CELLTYPE_STRING)
-                    {
-                        continue;
-                    }
-                    
-                    std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
-
-
-
-                    std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
-
-                    if (firstZeroWidthSpace != std::wstring::npos)
-                    {
-                        P_POSITION(row, col, C_PROCEDURE, false);
-                        P_STRING(tempStringBuffer, C_ERROR, false);
-
-                        while (firstZeroWidthSpace != std::wstring::npos)
-                        {
-                            tempStringBuffer.erase(firstZeroWidthSpace);
-                            firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
-                        }
-
-                        //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
-
-                        P_STRING(" was fixed as : ", C_PROCEDURE, false);
-                        P_STRING(tempStringBuffer, C_ERROR);
-                    }
-
-
-
-                }
-            }
-        }
-        else
-        {
-            ERROR_SHEETNOTFOUND;
-        }
-
-        PROMPT_SCANCOMPLETE;
-        PROMPT_MSG("Above are all the zero-width spaces found.");
     }
     else
     {
         ERROR_FILENOTFOUND;
+        return;
     }
+
+
+
+    // XLSX -> totalSheetCount, inputSheetIndex
+    LOGIC_PROMPTSHEETS;
+
+    Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
+
+    if (XLSXsheet != nullptr)
+    {
+        PROMPT_SCANREADY;
+    }
+    else
+    {
+        ERROR_SHEETNOTFOUND;
+        return;
+    }
+
+
+
+    // XLSXsheet -> trueLastColIndex
+    LOGIC_FINDLASTCOL;
+
+    // Go through each cell of the entire sheet
+    for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
+    {
+        for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
+        {
+
+
+
+            CellType cellType = XLSXsheet->cellType(row, col);
+
+            if (cellType != CELLTYPE_STRING)
+            {
+                continue;
+            }
+
+            std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
+
+
+
+            std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+
+            if (firstZeroWidthSpace != std::wstring::npos)
+            {
+                P_POSITION(row, col, C_PROCEDURE, false);
+                P_STRING(tempStringBuffer, C_ERROR, false);
+
+                while (firstZeroWidthSpace != std::wstring::npos)
+                {
+                    tempStringBuffer.erase(firstZeroWidthSpace);
+                    firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                }
+
+                //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
+
+                P_STRING(" was fixed as : ", C_PROCEDURE, false);
+                P_STRING(tempStringBuffer, C_ERROR);
+            }
+
+
+
+        }
+    }
+
+
+
+    PROMPT_SCANCOMPLETE;
 
     XLSX->release();
     PROMPT_ONFILEUNLOAD;
 }
 
-void XLDataWrapper::RemoveZeroWidthSpace(KR_STR) noexcept
+void XLDataWrapper::CheckForZeroWidthSpace_Recursive(KR_STR paramFileName) noexcept
 {
+    PRINT_PROCEDURE;
 
+
+
+    Book* XLSX = CreateXLSXBook<Book*>();
+
+    if (XLSX->load(paramFileName) == true)
+    {
+        PROMPT_ONFILELOAD;
+    }
+    else
+    {
+        ERROR_FILENOTFOUND;
+        return;
+    }
+
+
+
+    int totalSheetCount = XLSX->sheetCount();
+
+    for (int inputSheetIndex = 0; inputSheetIndex < totalSheetCount; inputSheetIndex++)
+    {
+        P_STRING("Current sheet : ", C_PROMPT, false);
+        P_STRING(XLSX->getSheetName(inputSheetIndex), C_PROMPT_PARAMETER);
+
+
+
+        Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
+
+        if (XLSXsheet != nullptr)
+        {
+            PROMPT_SCANREADY
+        }
+        else
+        {
+            ERROR_SHEETNOTFOUND
+            return;
+        }
+
+
+
+        // XLSXsheet -> trueLastColIndex
+        LOGIC_FINDLASTCOL;
+
+        // Go through each cell of the entire sheet
+        for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
+        {
+            for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
+            {
+
+
+
+                CellType cellType = XLSXsheet->cellType(row, col);
+
+                if (cellType != CELLTYPE_STRING)
+                {
+                    continue;
+                }
+
+                std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
+
+
+
+                std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+
+                if (firstZeroWidthSpace != std::wstring::npos)
+                {
+                    P_POSITION(row, col, C_PROCEDURE, false);
+                    P_STRING(tempStringBuffer, C_ERROR, false);
+
+                    while (firstZeroWidthSpace != std::wstring::npos)
+                    {
+                        tempStringBuffer.erase(firstZeroWidthSpace);
+                        firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                    }
+
+                    //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
+
+                    P_STRING(" was fixed as : ", C_PROCEDURE, false);
+                    P_STRING(tempStringBuffer, C_ERROR);
+                }
+
+
+
+            }
+        }
+    }
+
+
+
+    PROMPT_SCANCOMPLETE;
+
+    XLSX->release();
+    PROMPT_ONFILEUNLOAD;
 }
 
-void XLDataWrapper::RemoveZeroWidthSpace_Recursive(KR_STR) noexcept
+void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileExtension) noexcept
 {
+    RepeatLambdaForAllFilesByExtension(baseDirectory, paramFileExtension, [&](KR_STR fileName) 
+        {
+            const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
+            CheckForZeroWidthSpace(fullPath.c_str());
+        });
+}
 
+void XLDataWrapper::RemoveZeroWidthSpace_Recursive(KR_STR baseDirectory, KR_STR paramFileExtension) noexcept
+{
+    RepeatLambdaForAllFilesByExtension(baseDirectory, paramFileExtension, [&](KR_STR fileName)
+        {
+            const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
+            CheckForZeroWidthSpace_Recursive(fullPath.c_str());
+        });
 }
 
 void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
@@ -331,31 +444,55 @@ T XLDataWrapper::CreateXLSXBook() noexcept
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, T lambda, KR_STR paramFileExtension) noexcept
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_STR paramFileExtension, T lambda) noexcept
 {
+    if (std::filesystem::exists(baseDirectory))
+    {
+        PROMPT_PATHFOUND
+    }
+    else
+    {
+        PROMPT_PATHNOTFOUND
+        return;
+    }
+
     for (const auto& directoryIterator : std::filesystem::directory_iterator(baseDirectory))
     {
-        const std::wstring fileName = directoryIterator.path().filename();
-        const std::wstring fileExtension = directoryIterator.path().extension();
+        const std::wstring fileName = std::wstring(directoryIterator.path().filename());
+        const std::wstring fileExtension = std::wstring(directoryIterator.path().extension());
 
         if (fileExtension == paramFileExtension)
         {
-            lambda(fileName);
+            lambda(fileName.c_str());
         }
     }
+
+    WAITFORINPUT
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDirectory, T lambda, KR_STR paramFileExtension) noexcept
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDirectory, KR_STR paramFileExtension, T lambda) noexcept
 {
+    if (std::filesystem::exists(baseDirectory))
+    {
+        PROMPT_PATHFOUND
+    }
+    else
+    {
+        PROMPT_PATHNOTFOUND
+        return;
+    }
+
     for (const auto& directoryIterator : std::filesystem::recursive_directory_iterator(baseDirectory))
     {
-        const std::wstring fileName = directoryIterator.path().filename();
-        const std::wstring fileExtension = directoryIterator.path().extension();
+        const std::wstring fileName = std::wstring(directoryIterator.path().filename());
+        const std::wstring fileExtension = std::wstring(directoryIterator.path().extension());
 
         if (fileExtension == paramFileExtension)
         {
-            lambda(fileName);
+            lambda(fileName.c_str());
         }
     }
+
+    WAITFORINPUT
 }
