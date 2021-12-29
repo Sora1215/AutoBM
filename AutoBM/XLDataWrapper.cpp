@@ -25,7 +25,7 @@ XLDataWrapper& XLDataWrapper::Instance() noexcept
 	return instance;
 }
 
-void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
+void XLDataWrapper::CheckForFormula(KR_STR paramFileName) noexcept
 {
     PRINT_PROCEDURE;
 
@@ -40,24 +40,24 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
 
         PROMPT_SCANREADY;
 
-        Sheet* sheet = XLSX->getSheet(inputSheetIndex);
+        Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
 
-        if (sheet != nullptr)
+        if (XLSXsheet != nullptr)
         {
-            P_STRING("Checking for any formulas in the sheet", C_PROMPT);
+            P_STRING("Checking for any formulas in the specified sheet", C_PROMPT);
 
-            // [Sheet*] sheet -> trueLastColIndex
+            // [Sheet*] XLSXsheet -> trueLastColIndex
             LOGIC_FINDLASTCOL;
 
-            // Go through each cell of the entire sheet
-            for (int row = sheet->firstRow(); row < sheet->lastRow(); row++)
+            // Go through each cell of the entire XLSXsheet
+            for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
             {
-                for (int col = sheet->firstCol(); col < trueLastColIndex; col++)
+                for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
                 {
-                    if (sheet->isFormula(row, col))
+                    if (XLSXsheet->isFormula(row, col))
                     {
                         P_POSITION(row, col, C_PROCEDURE, false);
-                        P_STRING(sheet->readFormula(row, col), C_ERROR);
+                        P_STRING(XLSXsheet->readFormula(row, col), C_ERROR);
                     }
                 }
             }
@@ -79,7 +79,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName)
     PROMPT_ONFILEUNLOAD;
 }
 
-void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
+void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName) noexcept
 {
     PRINT_PROCEDURE;
 
@@ -94,52 +94,51 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
 
         PROMPT_SCANREADY;
 
-        Sheet* sheet = XLSX->getSheet(inputSheetIndex);
+        Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
 
-        if (sheet != nullptr)
+        if (XLSXsheet != nullptr)
         {
-            P_STRING("Checking for any zero-width spaces in the sheet", C_PROMPT);
+            P_STRING("Checking for any zero-width spaces in the XLSXsheet", C_PROMPT);
 
-            // sheet -> trueLastColIndex
+            // XLSXsheet -> trueLastColIndex
             LOGIC_FINDLASTCOL;
 
-            // Go through each cell of the entire sheet
-            for (int row = sheet->firstRow(); row < sheet->lastRow(); row++)
+            // Go through each cell of the entire XLSXsheet
+            for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
             {
-                for (int col = sheet->firstCol(); col < trueLastColIndex; col++)
+                for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
                 {
 
 
 
-                    CellType cellType = sheet->cellType(row, col);
+                    CellType cellType = XLSXsheet->cellType(row, col);
 
                     if (cellType != CELLTYPE_STRING)
                     {
                         continue;
                     }
                     
-                    std::wstring tempStringBuffer = sheet->readStr(row, col);
+                    std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
 
 
 
-                    if (tempStringBuffer.find(L'\u200b') != std::wstring::npos)
+                    std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+
+                    if (firstZeroWidthSpace != std::wstring::npos)
                     {
                         P_POSITION(row, col, C_PROCEDURE, false);
+                        P_STRING(tempStringBuffer, C_ERROR, false);
 
-                        for (auto it = tempStringBuffer.begin(); it < tempStringBuffer.end() - 1; it++)
+                        while (firstZeroWidthSpace != std::wstring::npos)
                         {
-                            if (*it == L'\u200b')
-                            {
-                                tempStringBuffer.erase(it);
-                            }
+                            tempStringBuffer.erase(firstZeroWidthSpace);
+                            firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
                         }
 
-                        std::string str(tempStringBuffer.length(), 0);
-                        std::transform(tempStringBuffer.begin(), tempStringBuffer.end(), str.begin(), [](wchar_t c) { return static_cast<char>(c); });
-                        P_STRING(str, C_ERROR);
+                        //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
 
-                        //sheet->writeStr(row, col, tempStringBuffer.c_str());
-                        //P_STRING("Successfully fixed!", C_PROCEDURE_PARAMETER);
+                        P_STRING(" was fixed as : ", C_PROCEDURE, false);
+                        P_STRING(tempStringBuffer, C_ERROR);
                     }
 
 
@@ -164,7 +163,7 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName)
     PROMPT_ONFILEUNLOAD;
 }
 
-void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
+void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
 {
     PRINT_PROCEDURE;
 
@@ -177,13 +176,13 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
 
         // Load the itemtable first, and here I am 'assuming' those sheets' indices to be correct
         Sheet* ItemTable = XLSX->getSheet(0);
-        P_STRING("~ ItemTable sheet 0 ~", C_PROMPT);
+        P_STRING("~ ItemTable XLSXsheet 0 ~", C_PROMPT);
 
         if (ItemTable != nullptr)
         {
             P_STRING("Making sure that all cell contains a number...", C_PROMPT);
 
-            // Go through each row of the entire sheet
+            // Go through each row of the entire XLSXsheet
             for (int row = ROW_ITEMTABLE_FIRST; row < ItemTable->lastRow(); row++)
             {
                 CellType cellType = ItemTable->cellType(row, COL_ITEMTABLE_ITEMINDEX);
@@ -209,13 +208,13 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
 
         // Now it's time for the LocalTable
         Sheet* LocalTable = XLSX->getSheet(1);
-        P_STRING("~ ItemTable sheet 1 ~", C_PROMPT);
+        P_STRING("~ ItemTable XLSXsheet 1 ~", C_PROMPT);
 
         if (LocalTable != nullptr)
         {
-            P_STRING("Checking for any non-string data in the sheet...", C_PROMPT);
+            P_STRING("Checking for any non-string data in the XLSXsheet...", C_PROMPT);
 
-            // Go through each row of the entire sheet
+            // Go through each row of the entire XLSXsheet
             for (int row = ROW_ITEMTABLE_FIRST; row < LocalTable->lastRow(); row++)
             {
                 CellType cellType = LocalTable->cellType(row, COL_LOCALTABLE_ITEMINDEX);
@@ -312,7 +311,7 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName)
 }
 
 template <class T>
-T XLDataWrapper::CreateXLSXBook()
+T XLDataWrapper::CreateXLSXBook() noexcept
 {
     Book* XLSX = xlCreateXMLBook(); // xlCreateXMLBook() is a method of LibXL library for loading a file of XLSX format (there's another for XLS)
     XLSX->setKey(L"SeungGeon Kim", L"windows-2f24290302cbeb016bbd6363a0wdlft8"); // Product Key, prefix is there in order to match argument type

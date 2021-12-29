@@ -10,6 +10,7 @@
 #include "ConsoleManager.h"
 
 #include <windows.h>
+#include <algorithm>
 #include <iostream>
 
 
@@ -51,6 +52,19 @@ void ConsoleManager::PrintString(std::string paramText, Color paramColor, bool p
     auto lambda = [=]()
     {
         std::wcout << paramText.c_str();
+    };
+
+    PrintHelper(lambda, paramColor, paramIsNewLine);
+}
+
+void ConsoleManager::PrintString(std::wstring paramText, Color paramColor, bool paramIsNewLine) noexcept
+{
+    auto lambda = [=]()
+    {
+        std::string tempStringBuffer(paramText.length(), 0);
+        std::transform(paramText.begin(), paramText.end(), tempStringBuffer.begin(), [](wchar_t c) { return static_cast<char>(c); });
+
+        std::wcout << tempStringBuffer.c_str();
     };
 
     PrintHelper(lambda, paramColor, paramIsNewLine);
@@ -116,13 +130,18 @@ int ConsoleManager::ReturnColor(Color paramColor) const noexcept
     return -1;
 }
 
+void ConsoleManager::ClearConsole() noexcept
+{
+    system("CLS");
+    mClearTimer = 0;
+}
+
 void ConsoleManager::CheckTimer() noexcept
 {
     mClearTimer += 1;
 
     if (mClearTimer >= REFRESH_RATE)
     {
-        system("CLS");
-        mClearTimer = 0;
+        ClearConsole();
     }
 }

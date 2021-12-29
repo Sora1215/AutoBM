@@ -87,11 +87,11 @@
                                 break;\
                             }
 
-// [Sheet*] sheet -> trueLastColIndex
+// [Sheet*] XLSXsheet -> trueLastColIndex
 #define LOGIC_FINDLASTCOL   int trueLastColIndex = 0;\
-                            for (int i = 0; i < sheet->lastCol(); i++)\
+                            for (int i = 0; i < XLSXsheet->lastCol(); i++)\
                             {\
-                                CellType cellType = sheet->cellType(0, i);\
+                                CellType cellType = XLSXsheet->cellType(0, i);\
                                 if (cellType == CELLTYPE_EMPTY)\
                                 {\
                                     break;\
