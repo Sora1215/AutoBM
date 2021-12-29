@@ -75,6 +75,6 @@ private:
 
 	void CheckTimer() noexcept;
 
-	int mClearTimer;
+	int mClearTimer = 0;
 
 };

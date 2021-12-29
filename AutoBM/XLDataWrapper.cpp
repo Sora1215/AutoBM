@@ -31,7 +31,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileE
     RepeatLambdaForAllFilesByExtension(baseDirectory, paramFileExtension, [&](KR_STR fileName)
         {
             const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
-            RepeatLambdaForAllCellsByTable(fullPath.c_str(), [](Sheet* XLSXsheet, int row, int col)
+            RepeatLambdaForAllCellsByTable(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
                 {
                     CellType cellType = XLSXsheet->cellType(row, col);
 
@@ -56,6 +56,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileE
                         }
 
                         //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
+                        mEditFlag = true;
 
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
@@ -74,7 +75,7 @@ T XLDataWrapper::CreateXLSXBook() noexcept
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, T lambda) noexcept
+void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool isEdit, T lambda) noexcept
 {
     PRINT_PROCEDURE;
 
@@ -104,7 +105,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, T lambd
         {
             P_STRING("Current sheet : ", C_PRINT, false);
             P_STRING(XLSX->getSheetName(inputSheetIndex), C_PRINT_PARAMETER);
-            PRINT_SCANREADY;
+            PRINT_SCANNING;
         }
         else
         {
@@ -129,6 +130,14 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, T lambd
 
 
         PRINT_SCANCOMPLETE;
+    }
+
+
+
+    if (isEdit == true && mEditFlag == true)
+    {
+        XLSX->save(paramFileName);
+        mEditFlag = false;
     }
 
 
@@ -206,7 +215,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName) noexcept
         // [Book*] XLSX -> totalSheetCount, inputSheetIndex
         LOGIC_PRINTSHEETS;
 
-        PRINT_SCANREADY;
+        PRINT_SCANNING;
 
         Sheet* XLSXsheet = XLSX->getSheet(inputSheetIndex);
 
@@ -256,7 +265,7 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
     if (XLSX->load(paramFileName) == true)
     {
         PRINT_ONFILELOAD;
-        PRINT_SCANREADY;
+        PRINT_SCANNING;
 
         // Load the itemtable first, and here I am 'assuming' those sheets' indices to be correct
         Sheet* ItemTable = XLSX->getSheet(0);
@@ -288,7 +297,7 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
 
         PRINT_SCANCOMPLETE;
         PRINT_MSG("All cell contains a number.");
-        PRINT_SCANREADY;
+        PRINT_SCANNING;
 
         // Now it's time for the LocalTable
         Sheet* LocalTable = XLSX->getSheet(1);

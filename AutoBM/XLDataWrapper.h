@@ -45,7 +45,7 @@ private:
 	[[nodiscard]] T CreateXLSXBook() noexcept;
 
 	template <class T>
-	void RepeatLambdaForAllCellsByTable(KR_STR, T) noexcept;
+	void RepeatLambdaForAllCellsByTable(KR_STR, bool, T) noexcept;
 
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension(KR_STR, KR_STR, T) noexcept;
@@ -53,6 +53,8 @@ private:
 	// Unused for now
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
+
+	bool mEditFlag = false;
 
 	// Maps used by MatchItemLocal function
 	std::unordered_map<int, int> mItemTable_ItemIndex_Row;
