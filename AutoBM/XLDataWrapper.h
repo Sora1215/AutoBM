@@ -31,10 +31,7 @@ public:
 	void CheckForFormula(KR_STR) noexcept;
 
 	// Deal with any zero width spaces
-	void CheckForZeroWidthSpace(KR_STR) noexcept;
-	void CheckForZeroWidthSpace_Recursive(KR_STR) noexcept;
 	void RemoveZeroWidthSpace(KR_STR, KR_STR) noexcept;
-	void RemoveZeroWidthSpace_Recursive(KR_STR, KR_STR) noexcept;
 
 	// Ensures that all the item keys has corresponding local keys
 	void CheckForItemLocal(KR_STR) noexcept;
@@ -48,8 +45,12 @@ private:
 	[[nodiscard]] T CreateXLSXBook() noexcept;
 
 	template <class T>
+	void RepeatLambdaForAllCellsByTable(KR_STR, T) noexcept;
+
+	template <class T>
 	void RepeatLambdaForAllFilesByExtension(KR_STR, KR_STR, T) noexcept;
 
+	// Unused for now
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
 

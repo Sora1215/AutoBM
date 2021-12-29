@@ -16,8 +16,8 @@
 #define P_STRING ConsoleManager::Instance().PrintString
 #define P_DOUBLE ConsoleManager::Instance().PrintDouble
 
-#define C_PROMPT ConsoleManager::Color::Green // For general prompting
-#define C_PROMPT_PARAMETER ConsoleManager::Color::Yellow // For general parameters
+#define C_PRINT ConsoleManager::Color::Green // For general prompting
+#define C_PRINT_PARAMETER ConsoleManager::Color::Yellow // For general parameters
 #define C_PROCEDURE ConsoleManager::Color::Blue // For procedure-related prompting
 #define C_PROCEDURE_PARAMETER ConsoleManager::Color::Skyblue // For procedure-related parameters
 #define C_ERROR ConsoleManager::Color::Red // For error messages
