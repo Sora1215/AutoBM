@@ -11,6 +11,7 @@
 
 #include "ConsoleManager.h"
 #include "PromptDefines.h"
+#include <filesystem>
 #include <algorithm>
 #include <iostream>
 #include "libxl.h"
@@ -49,7 +50,7 @@ void XLDataWrapper::CheckForFormula(KR_STR paramFileName) noexcept
             // [Sheet*] XLSXsheet -> trueLastColIndex
             LOGIC_FINDLASTCOL;
 
-            // Go through each cell of the entire XLSXsheet
+            // Go through each cell of the entire sheet
             for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
             {
                 for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
@@ -161,6 +162,16 @@ void XLDataWrapper::CheckForZeroWidthSpace(KR_STR paramFileName) noexcept
 
     XLSX->release();
     PROMPT_ONFILEUNLOAD;
+}
+
+void XLDataWrapper::RemoveZeroWidthSpace(KR_STR) noexcept
+{
+
+}
+
+void XLDataWrapper::RemoveZeroWidthSpace_Recursive(KR_STR) noexcept
+{
+
 }
 
 void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
@@ -317,4 +328,34 @@ T XLDataWrapper::CreateXLSXBook() noexcept
     XLSX->setKey(L"SeungGeon Kim", L"windows-2f24290302cbeb016bbd6363a0wdlft8"); // Product Key, prefix is there in order to match argument type
 
     return XLSX;
+}
+
+template<class T>
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, T lambda, KR_STR paramFileExtension) noexcept
+{
+    for (const auto& directoryIterator : std::filesystem::directory_iterator(baseDirectory))
+    {
+        const std::wstring fileName = directoryIterator.path().filename();
+        const std::wstring fileExtension = directoryIterator.path().extension();
+
+        if (fileExtension == paramFileExtension)
+        {
+            lambda(fileName);
+        }
+    }
+}
+
+template<class T>
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDirectory, T lambda, KR_STR paramFileExtension) noexcept
+{
+    for (const auto& directoryIterator : std::filesystem::recursive_directory_iterator(baseDirectory))
+    {
+        const std::wstring fileName = directoryIterator.path().filename();
+        const std::wstring fileExtension = directoryIterator.path().extension();
+
+        if (fileExtension == paramFileExtension)
+        {
+            lambda(fileName);
+        }
+    }
 }

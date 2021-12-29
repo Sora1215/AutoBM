@@ -27,11 +27,13 @@ public:
 	XLDataWrapper(const XLDataWrapper&) = delete;
 	void operator=(const XLDataWrapper&) = delete;
 
-	// Checks for any formlua inside the XLSXsheet.
+	// Deal with any formluas inside the XLSXsheet.
 	void CheckForFormula(KR_STR) noexcept;
 
 	// Ensures that all the item keys has corresponding local keys
 	void CheckForZeroWidthSpace(KR_STR) noexcept;
+	void RemoveZeroWidthSpace(KR_STR) noexcept;
+	void RemoveZeroWidthSpace_Recursive(KR_STR) noexcept;
 
 	// Ensures that all the item keys has corresponding local keys
 	void CheckForItemLocal(KR_STR) noexcept;
@@ -42,7 +44,13 @@ private:
 	XLDataWrapper() = default;
 
 	template <class T>
-	T CreateXLSXBook() noexcept;
+	[[nodiscard]] T CreateXLSXBook() noexcept;
+
+	template <class T>
+	void RepeatLambdaForAllFilesByExtension(KR_STR, T, KR_STR) noexcept;
+
+	template <class T>
+	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, T, KR_STR) noexcept;
 
 	// Maps used by MatchItemLocal function
 	std::unordered_map<int, int> mItemTable_ItemIndex_Row;
