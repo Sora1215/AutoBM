@@ -33,7 +33,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileE
             const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
             RepeatLambdaForAllCellsByTable(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
                 {
-                    CellType cellType = XLSXsheet->cellType(row, col);
+                    const CellType cellType = XLSXsheet->cellType(row, col);
 
                     if (cellType != CELLTYPE_STRING)
                     {
@@ -65,15 +65,6 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileE
                     P_STRING(tempStringBuffer, C_ERROR);
                 });
         });
-}
-
-template <class T>
-T XLDataWrapper::CreateXLSXBook() noexcept
-{
-    Book* XLSX = xlCreateXMLBook(); // xlCreateXMLBook() is a method of LibXL library for loading a file of XLSX (XLSM) format (there's another for XLS)
-    XLSX->setKey(L"SeungGeon Kim", L"windows-2f24290302cbeb016bbd6363a0wdlft8"); // Product Key, prefix is there in order to match argument type (wchar)
-
-    return XLSX;
 }
 
 template<class T>
@@ -117,8 +108,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
 
 
 
-        // XLSXsheet -> trueLastColIndex
-        LOGIC_FINDLASTCOL;
+        const int trueLastColIndex = FindLastCol<Sheet*>(XLSXsheet);
 
         // Go through each cell of the entire sheet
         for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
@@ -202,6 +192,114 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDire
     }
 
     WAITFORINPUT;
+}
+
+template <class T>
+T XLDataWrapper::CreateXLSXBook() noexcept
+{
+    Book* XLSX = xlCreateXMLBook(); // xlCreateXMLBook() is a method of LibXL library for loading a file of XLSX (XLSM) format (there's another for XLS)
+    XLSX->setKey(L"SeungGeon Kim", L"windows-2f24290302cbeb016bbd6363a0wdlft8"); // Product Key, prefix is there in order to match argument type (wchar)
+
+    return XLSX;
+}
+
+template<class T>
+void XLDataWrapper::PrintCellType(T) noexcept
+{
+    switch (T)
+    {
+    case CELLTYPE_EMPTY:
+        P_STRING("EMPTY!", C_ERROR); 
+        break; 
+    case CELLTYPE_NUMBER:
+        P_STRING("NUMBER!", C_ERROR); 
+        break; 
+    case CELLTYPE_STRING:
+        P_STRING("STRING!", C_ERROR); 
+        break; 
+    case CELLTYPE_BOOLEAN:
+        P_STRING("BOOLEAN!", C_ERROR); 
+        break; 
+    case CELLTYPE_BLANK:
+        P_STRING("BLANK!", C_ERROR); 
+        break; 
+    case CELLTYPE_ERROR:
+        P_STRING("ERROR!", C_ERROR); 
+        break; 
+    }
+}
+
+template<class T>
+int XLDataWrapper::FindLastCol(T XLSXsheet) noexcept
+{
+    for (int i = 0; i < XLSXsheet->lastCol(); i++)
+    {
+        CellType cellType = XLSXsheet->cellType(0, i);
+
+        if (cellType == CELLTYPE_EMPTY)
+        {
+            return i - 1;
+        }
+    }
+}
+
+template<class T>
+int XLDataWrapper::PromptSheets(T XLSX) noexcept
+{
+    int totalSheetCount = XLSX->sheetCount();
+
+    P_STRING("File has a total of : ", C_PRINT, false);
+    P_DOUBLE(totalSheetCount, C_PRINT_PARAMETER, false);
+    P_STRING(" sheets, each of them having indices and names of...", C_PRINT);
+
+    for (int i = 0; i < totalSheetCount; i++)
+    {
+        P_STRING("", C_PRINT);
+        P_DOUBLE(i, C_PRINT_PARAMETER, false);
+        P_STRING(") <-> ", C_PRINT, false);
+        P_STRING(XLSX->getSheetName(i), C_PRINT_PARAMETER);
+    }
+
+    P_STRING("", C_PRINT);
+    P_STRING("Please type in the index of the sheet to be scanned - ", C_PRINT, false);
+
+    int inputSheetIndex = 0;
+
+    while (true)
+    {
+        std::wstring tempStringBuffer = L"";
+        std::wcin >> tempStringBuffer;
+
+        try
+        {
+            inputSheetIndex = std::stoi(tempStringBuffer);
+        }
+        catch (std::invalid_argument msg)
+        {
+            P_STRING(msg.what(), C_ERROR);
+            P_STRING("ERROR!!! ", C_ERROR, false);
+            P_STRING("Please type in a number between : ", C_PRINT, false);
+            P_DOUBLE(0, C_PRINT_PARAMETER, false);
+            P_STRING(", and ", C_PRINT, false);
+            P_DOUBLE(totalSheetCount - 1, C_PRINT_PARAMETER, false);
+            P_STRING(" - ", C_PRINT, false);
+            continue;
+        }
+
+        if (inputSheetIndex >= 0 && inputSheetIndex < totalSheetCount)
+        {
+            return inputSheetIndex;
+        }
+        else
+        {
+            P_STRING("ERROR!!! ", C_ERROR, false);
+            P_STRING("Please type in a number between : ", C_PRINT, false);
+            P_DOUBLE(0, C_PRINT_PARAMETER, false);
+            P_STRING(", and ", C_PRINT, false);
+            P_DOUBLE(totalSheetCount - 1, C_PRINT_PARAMETER, false);
+            P_STRING(" - ", C_PRINT, false);
+        }
+    }
 }
 
 // --- Below are messy codes those are to be refactored ---

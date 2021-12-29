@@ -39,7 +39,7 @@ public:
 	ConsoleManager(const ConsoleManager&) = delete;
 	void operator=(const ConsoleManager&) = delete;
 
-	void SetupLocal() const noexcept;
+	void SetupLocal() noexcept;
 
 	enum class Color
 	{
@@ -69,11 +69,15 @@ private:
 	template <class T>
 	void PrintHelper(T&&, Color, bool) noexcept;
 
-	int ReturnColor(Color) const noexcept;
+
+
+	[[nodiscard]] int ReturnColor(Color) noexcept;
 
 	void ClearConsole() noexcept;
 
 	void CheckTimer() noexcept;
+
+
 
 	int mClearTimer = 0;
 

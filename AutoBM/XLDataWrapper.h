@@ -36,9 +36,6 @@ private:
 	XLDataWrapper() = default;
 
 	template <class T>
-	[[nodiscard]] T CreateXLSXBook() noexcept;
-
-	template <class T>
 	void RepeatLambdaForAllCellsByTable(KR_STR, bool, T) noexcept;
 
 	template <class T>
@@ -47,6 +44,22 @@ private:
 	// Unused for now
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
+
+
+
+	template <class T>
+	[[nodiscard]] T CreateXLSXBook() noexcept;
+
+	template <class T>
+	void PrintCellType(T) noexcept;
+
+	template <class T>
+	[[nodiscard]] int FindLastCol(T) noexcept;
+
+	template <class T>
+	[[nodiscard]] int PromptSheets(T) noexcept;
+
+
 
 	bool mEditFlag = false;
 

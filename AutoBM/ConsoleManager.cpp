@@ -21,9 +21,9 @@ ConsoleManager& ConsoleManager::Instance() noexcept
     return instance;
 }
 
-void ConsoleManager::SetupLocal() const noexcept
+void ConsoleManager::SetupLocal() noexcept
 {
-    std::locale mylocale("");
+    const std::locale mylocale("");
     std::wcout.imbue(mylocale);
 }
 
@@ -95,9 +95,7 @@ void ConsoleManager::PrintHelper(T&& lambda, ConsoleManager::Color paramColor, b
 {
     ConsoleManager::CheckTimer();
 
-    HANDLE hConsole;
-
-    hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    const HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     SetConsoleTextAttribute(hConsole, static_cast<WORD>(ConsoleManager::ReturnColor(paramColor)));
 
@@ -109,7 +107,7 @@ void ConsoleManager::PrintHelper(T&& lambda, ConsoleManager::Color paramColor, b
     }
 }
 
-int ConsoleManager::ReturnColor(Color paramColor) const noexcept
+int ConsoleManager::ReturnColor(Color paramColor) noexcept
 {
     switch (paramColor)
     {
