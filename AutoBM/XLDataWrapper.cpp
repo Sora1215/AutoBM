@@ -44,23 +44,25 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileE
 
                     std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
 
-                    if (firstZeroWidthSpace != std::wstring::npos)
+                    if (firstZeroWidthSpace == std::wstring::npos)
                     {
-                        P_POSITION(row, col, C_PROCEDURE, false);
-                        P_STRING(tempStringBuffer, C_ERROR, false);
-
-                        while (firstZeroWidthSpace != std::wstring::npos)
-                        {
-                            tempStringBuffer.erase(firstZeroWidthSpace);
-                            firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
-                        }
-
-                        //XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
-                        mEditFlag = true;
-
-                        P_STRING(" was fixed as : ", C_PROCEDURE, false);
-                        P_STRING(tempStringBuffer, C_ERROR);
+                        return;
                     }
+
+                    P_POSITION(row, col, C_PROCEDURE, false);
+                    P_STRING(tempStringBuffer, C_ERROR, false);
+
+                    while (firstZeroWidthSpace != std::wstring::npos)
+                    {
+                        tempStringBuffer.erase(firstZeroWidthSpace);
+                        firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                    }
+
+                    XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
+                    mEditFlag = true;
+
+                    P_STRING(" was fixed as : ", C_PROCEDURE, false);
+                    P_STRING(tempStringBuffer, C_ERROR);
                 });
         });
 }
@@ -136,8 +138,10 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
 
     if (isEdit == true && mEditFlag == true)
     {
+        PRINT_SAVING;
         XLSX->save(paramFileName);
         mEditFlag = false;
+        PRINT_SAVECOMPLETE;
     }
 
 
@@ -201,6 +205,8 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDire
 }
 
 // --- Below are messy codes those are to be refactored ---
+
+/*
 
 void XLDataWrapper::CheckForFormula(KR_STR paramFileName) noexcept
 {
@@ -402,3 +408,5 @@ void XLDataWrapper::CheckForItemLocal(KR_STR paramFileName) noexcept
     XLSX->release();
     PRINT_ONFILEUNLOAD;
 }
+
+*/

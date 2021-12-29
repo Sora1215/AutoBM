@@ -27,14 +27,8 @@ public:
 	XLDataWrapper(const XLDataWrapper&) = delete;
 	void operator=(const XLDataWrapper&) = delete;
 
-	// Deal with any formluas
-	void CheckForFormula(KR_STR) noexcept;
-
 	// Deal with any zero width spaces
 	void RemoveZeroWidthSpace(KR_STR, KR_STR) noexcept;
-
-	// Ensures that all the item keys has corresponding local keys
-	void CheckForItemLocal(KR_STR) noexcept;
 
 private:
 
@@ -55,11 +49,5 @@ private:
 	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
 
 	bool mEditFlag = false;
-
-	// Maps used by MatchItemLocal function
-	std::unordered_map<int, int> mItemTable_ItemIndex_Row;
-	std::unordered_map<int, KR_STR> mLocalTable_ItemIndex_Name;
-	std::unordered_map<int, KR_STR> mLocalTable_ItemIndex_Desc;
-	std::unordered_map<int, int> mLocalTable_ItemIndex_Count;
 
 };

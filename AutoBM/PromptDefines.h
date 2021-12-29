@@ -55,9 +55,6 @@
 // None
 #define PRINT_SAVECOMPLETE  P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
 
-// None
-#define PRINT_MSG(msg)      P_STRING(msg, C_PROCEDURE);
-
  // [KR_STR] paramFileName
 #define ERROR_FILENOTFOUND  P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                             P_STRING("File with the name of : ", C_PRINT, false);\

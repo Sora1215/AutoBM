@@ -41,7 +41,5 @@ int main()
     //XL_DW.CheckForZeroWidthSpace(L"ItemTable.xlsx");
     //XL_DW.CheckForItemLocal(L"ItemTable.xlsx");
 
-
-
     return 0;
 }
