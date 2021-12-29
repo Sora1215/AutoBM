@@ -41,22 +41,22 @@
                             P_STRING(" was not found.", C_PRINT);
 
 // None
-#define PRINT_RETRY        P_STRING("Please retry after fixing all issues. ", C_ERROR);
+#define PRINT_RETRY         P_STRING("Please retry after fixing all issues. ", C_ERROR);
 
 // None
-#define PRINT_SCANREADY    P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
+#define PRINT_SCANNING      P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
 
 // None
-#define PRINT_SCANCOMPLETE P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
+#define PRINT_SCANCOMPLETE  P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
 
 // None
-#define PRINT_EDITREADY    P_STRING("Edit is now ready.", C_PROCEDURE_PARAMETER);
+#define PRINT_SAVING        P_STRING("Saving modifications...", C_PROCEDURE_PARAMETER);
 
 // None
-#define PRINT_EDITCOMPLETE P_STRING("Edit complete.", C_PROCEDURE_PARAMETER);
+#define PRINT_SAVECOMPLETE  P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
 
 // None
-#define PRINT_MSG(msg)     P_STRING(msg, C_PROCEDURE);
+#define PRINT_MSG(msg)      P_STRING(msg, C_PROCEDURE);
 
  // [KR_STR] paramFileName
 #define ERROR_FILENOTFOUND  P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
