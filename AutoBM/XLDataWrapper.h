@@ -26,7 +26,7 @@ public:
 	XLDataWrapper(const XLDataWrapper&) = delete;
 	void operator=(const XLDataWrapper&) = delete;
 
-	// Deal with any zero width spaces
+	// Deal with any zero-width spaces
 	void RemoveZeroWidthSpace(KR_STR, std::initializer_list<KR_STR>) noexcept;
 
 private:
