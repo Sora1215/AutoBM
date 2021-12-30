@@ -58,5 +58,6 @@ private:
 
 
 	bool mEditFlag = false;
+	int mEditCount = 0;
 
 };

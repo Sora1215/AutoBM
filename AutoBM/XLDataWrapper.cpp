@@ -33,6 +33,8 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     std::unordered_map<KR_STR, int> EditedCellPerTable;
 
+    int editCount;
+
     for (const auto& extension : paramFileExtension)
     {
         RepeatLambdaForAllFilesByExtension(baseDirectory, extension, [&](KR_STR fileName)
@@ -68,6 +70,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
                         EditedCellPerTable[XLSXsheet->name()] += 1;
                         mEditFlag = true;
+                        editCount++;
 
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
@@ -79,9 +82,18 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     {
         P_STRING(editLog.first, C_PROCEDURE_PARAMETER, false);
         P_STRING(" : ", C_PROCEDURE, false);
-        P_STRING(editLog.first, C_PROCEDURE_PARAMETER, false);
-        P_STRING(" lines were edited.", C_PROCEDURE);
+        P_DOUBLE(editLog.second, C_PROCEDURE_PARAMETER, false);
+        P_STRING(" cells were edited.", C_PROCEDURE);
     }
+
+    NEWLINE;
+    P_STRING("A total of ", C_PROCEDURE_PARAMETER);
+    P_DOUBLE(editCount, C_PROCEDURE_PARAMETER, false);
+    P_STRING(" cells in ", C_PROCEDURE_PARAMETER);
+    P_DOUBLE(EditedCellPerTable.size(), C_PROCEDURE_PARAMETER, false);
+    P_STRING(" tables were edited.", C_PROCEDURE_PARAMETER);
+
+    WAITFORINPUT;
 }
 
 template<class T>
@@ -254,13 +266,13 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
 
     for (int i = 0; i < totalSheetCount; i++)
     {
-        P_STRING("", C_PRINT);
+        NEWLINE;
         P_DOUBLE(i, C_PRINT_PARAMETER, false);
         P_STRING(") -> ", C_PRINT, false);
         P_STRING(XLSX->getSheetName(i), C_PRINT_PARAMETER);
     }
 
-    P_STRING("", C_PRINT);
+    NEWLINE;
     P_STRING("Please type in the index of the sheet to be scanned - ", C_PRINT, false);
 
     int inputSheetIndex = 0;

@@ -59,6 +59,7 @@ public:
 
 	void PrintDouble(double, Color, bool = true) noexcept;
 	void PrintDouble(int, Color, bool = true) noexcept;
+	void PrintDouble(size_t, Color, bool = true) noexcept;
 
 private:
 

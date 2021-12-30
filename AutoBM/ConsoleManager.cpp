@@ -90,6 +90,16 @@ void ConsoleManager::PrintDouble(int paramInt, Color paramColor, bool paramIsNew
     PrintHelper(lambda, paramColor, paramIsNewLine);
 }
 
+void ConsoleManager::PrintDouble(size_t paramSize, Color paramColor, bool paramIsNewLine) noexcept
+{
+    auto lambda = [=]()
+    {
+        std::wcout << static_cast<int>(paramSize);
+    };
+
+    PrintHelper(lambda, paramColor, paramIsNewLine);
+}
+
 template <class T>
 void ConsoleManager::PrintHelper(T&& lambda, ConsoleManager::Color paramColor, bool paramIsNewLine) noexcept
 {

@@ -12,6 +12,8 @@
 // None
 #define WAITFORINPUT                    system("PAUSE");
 
+#define NEWLINE                         P_STRING("", C_PRINT);
+
 
 
 // None
