@@ -78,6 +78,8 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
             });
     }
 
+    NEWLINE;
+
     for (const auto& editLog : EditedCellPerTable)
     {
         P_STRING(editLog.first, C_PROCEDURE_PARAMETER, false);
