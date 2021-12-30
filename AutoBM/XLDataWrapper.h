@@ -11,9 +11,8 @@
 
 #define XL_DW XLDataWrapper::Instance()
 
+#include <initializer_list>
 #include "GlobalDefines.h"
-
-#include <unordered_map>
 
 
 
@@ -28,7 +27,7 @@ public:
 	void operator=(const XLDataWrapper&) = delete;
 
 	// Deal with any zero width spaces
-	void RemoveZeroWidthSpace(KR_STR, KR_STR) noexcept;
+	void RemoveZeroWidthSpace(KR_STR, std::initializer_list<KR_STR>) noexcept;
 
 private:
 
@@ -52,9 +51,6 @@ private:
 
 	template <class T>
 	void PrintCellType(T) noexcept;
-
-	template <class T>
-	[[nodiscard]] int FindLastCol(T) noexcept;
 
 	template <class T>
 	[[nodiscard]] int PromptSheets(T) noexcept;

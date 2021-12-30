@@ -24,7 +24,6 @@
 #define C_MEMORY ConsoleManager::Color::Purple // For memory-related prompting
 
 #include "GlobalDefines.h"
-
 #include <string>
 
 

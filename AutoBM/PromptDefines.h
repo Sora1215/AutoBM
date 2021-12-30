@@ -8,61 +8,73 @@
 */
 
 #pragma once
+                                        
+// None
+#define WAITFORINPUT                    system("PAUSE");
+
+
 
 // None
-#define WAITFORINPUT        system("PAUSE");
+#define PRINT_PROCEDURE                 P_STRING("Initiating ", C_PROCEDURE, false);\
+                                        P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING(" procedure...", C_PROCEDURE);
 
 // None
-#define PRINT_PROCEDURE     P_STRING("Initiating ", C_PROCEDURE, false);\
-                            P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
-                            P_STRING(" procedure...", C_PROCEDURE);
+#define PRINT_RETRY                     P_STRING("Please retry after fixing all issues. ", C_ERROR);
+
+// None                                 
+#define PRINT_SCANNING                  P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
+
+// None                                 
+#define PRINT_SCANCOMPLETE              P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
+
+// None                                 
+#define PRINT_SAVING                    P_STRING("Saving...", C_PROCEDURE_PARAMETER);
+
+// None                                 
+#define PRINT_SAVECOMPLETE              P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
+
+
 
 // [KR_STR] paramFileName
-#define PRINT_ONFILELOAD   P_STRING("File with the name of : ", C_PRINT, false);\
-                            P_STRING(paramFileName, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was successfully loaded.", C_PRINT);\
-                            P_STRING("Resource allocated.", C_MEMORY);
+#define PRINT_ONFILELOAD(fileName)      P_STRING("File with the name of : ", C_PRINT, false);\
+                                        P_STRING(fileName, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was successfully loaded.", C_PRINT);\
+                                        P_STRING("Resource allocated.", C_MEMORY);
 
 // [KR_STR] paramFileName
-#define PRINT_ONFILEUNLOAD P_STRING("File with the name of : ", C_PRINT, false);\
-                            P_STRING(paramFileName, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was successfully unloaded.", C_PRINT);\
-                            P_STRING("Resource deallocated.", C_MEMORY);
+#define PRINT_ONFILEUNLOAD(fileName)    P_STRING("File with the name of : ", C_PRINT, false);\
+                                        P_STRING(fileName, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was successfully unloaded.", C_PRINT);\
+                                        P_STRING("Resource deallocated.", C_MEMORY);
 
 // [KR_STR] baseDirectory
-#define PRINT_PATHFOUND    P_STRING("Path with the name of : ", C_PRINT, false);\
-                            P_STRING(baseDirectory, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was successfully located.", C_PRINT);
+#define PRINT_PATHFOUND(path)           P_STRING("Path with the name of : ", C_PRINT, false);\
+                                        P_STRING(path, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was successfully located.", C_PRINT);
 
 // [KR_STR] baseDirectory
-#define PRINT_PATHNOTFOUND P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
-                            P_STRING("Path with the name of : ", C_PRINT, false);\
-                            P_STRING(baseDirectory, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was not found.", C_PRINT);
-
-// None
-#define PRINT_RETRY         P_STRING("Please retry after fixing all issues. ", C_ERROR);
-
-// None
-#define PRINT_SCANNING      P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
-
-// None
-#define PRINT_SCANCOMPLETE  P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
-
-// None
-#define PRINT_SAVING        P_STRING("Saving modifications...", C_PROCEDURE_PARAMETER);
-
-// None
-#define PRINT_SAVECOMPLETE  P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
+#define PRINT_PATHNOTFOUND(path)        P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Path with the name of : ", C_PRINT, false);\
+                                        P_STRING(path, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was not found.", C_PRINT);
 
  // [KR_STR] paramFileName
-#define ERROR_FILENOTFOUND  P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
-                            P_STRING("File with the name of : ", C_PRINT, false);\
-                            P_STRING(paramFileName, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was not found.", C_PRINT);
+#define ERROR_FILENOTFOUND(fileName)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("File with the name of : ", C_PRINT, false);\
+                                        P_STRING(fileName, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was not found.", C_PRINT);
 
 // [int] inputSheetIndex
-#define ERROR_SHEETNOTFOUND P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
-                            P_STRING("Sheet with the index of : ", C_PRINT, false);\
-                            P_DOUBLE(inputSheetIndex, C_PRINT_PARAMETER, false);\
-                            P_STRING(" was not found.", C_PRINT);
+#define ERROR_SHEETNOTFOUND(index)      P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Sheet with the index of : ", C_PRINT, false);\
+                                        P_DOUBLE(index, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was not found.", C_PRINT);
+
+// [int, int] 0, lastCol - 1
+#define ERROR_OUTOFRANGE(begin, end)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Please type in a number between : ", C_PRINT, false);\
+                                        P_DOUBLE(begin, C_PRINT_PARAMETER, false);\
+                                        P_STRING(", and ", C_PRINT, false);\
+                                        P_DOUBLE(end, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" - ", C_PRINT, false);

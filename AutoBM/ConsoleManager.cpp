@@ -31,7 +31,7 @@ void ConsoleManager::PrintPosition(int row, int col, Color paramColor, bool para
 {
     auto lambda = [=]()
     {
-        std::wcout << "(" << row << ", " << col << ") -> ";
+        std::wcout << '(' << row << ', ' << col << ") -> ";
     };
 
     PrintHelper(lambda, paramColor, paramIsNewLine);

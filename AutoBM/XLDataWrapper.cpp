@@ -11,6 +11,7 @@
 
 #include "ConsoleManager.h"
 #include "PromptDefines.h"
+#include <unordered_map>
 #include <filesystem>
 #include <algorithm>
 #include <iostream>
@@ -26,67 +27,79 @@ XLDataWrapper& XLDataWrapper::Instance() noexcept
 	return instance;
 }
 
-void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, KR_STR paramFileExtension) noexcept
+void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_list<KR_STR> paramFileExtension) noexcept
 {
-    RepeatLambdaForAllFilesByExtension(baseDirectory, paramFileExtension, [&](KR_STR fileName)
-        {
-            const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
-            RepeatLambdaForAllCellsByTable(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
-                {
-                    const CellType cellType = XLSXsheet->cellType(row, col);
+    PRINT_PROCEDURE;
 
-                    if (cellType != CELLTYPE_STRING)
+    std::unordered_map<KR_STR, int> EditedCellPerTable;
+
+    for (const auto& extension : paramFileExtension)
+    {
+        RepeatLambdaForAllFilesByExtension(baseDirectory, extension, [&](KR_STR fileName)
+            {
+                const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
+                RepeatLambdaForAllCellsByTable(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
                     {
-                        return;
-                    }
+                        const CellType cellType = XLSXsheet->cellType(row, col);
 
-                    std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
+                        if (cellType != CELLTYPE_STRING)
+                        {
+                            return;
+                        }
 
-                    std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                        std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
 
-                    if (firstZeroWidthSpace == std::wstring::npos)
-                    {
-                        return;
-                    }
+                        std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
 
-                    P_POSITION(row, col, C_PROCEDURE, false);
-                    P_STRING(tempStringBuffer, C_ERROR, false);
+                        if (firstZeroWidthSpace == std::wstring::npos)
+                        {
+                            return;
+                        }
 
-                    while (firstZeroWidthSpace != std::wstring::npos)
-                    {
-                        tempStringBuffer.erase(firstZeroWidthSpace);
-                        firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
-                    }
+                        P_POSITION(row, col, C_PROCEDURE, false);
+                        P_STRING(tempStringBuffer, C_ERROR, false);
 
-                    XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
-                    mEditFlag = true;
+                        while (firstZeroWidthSpace != std::wstring::npos)
+                        {
+                            tempStringBuffer.erase(firstZeroWidthSpace);
+                            firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                        }
 
-                    P_STRING(" was fixed as : ", C_PROCEDURE, false);
-                    P_STRING(tempStringBuffer, C_ERROR);
-                });
-        });
+                        XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
+                        EditedCellPerTable[XLSXsheet->name()] += 1;
+                        mEditFlag = true;
+
+                        P_STRING(" was fixed as : ", C_PROCEDURE, false);
+                        P_STRING(tempStringBuffer, C_ERROR);
+                    });
+            });
+    }
+
+    for (const auto& editLog : EditedCellPerTable)
+    {
+        P_STRING(editLog.first, C_PROCEDURE_PARAMETER, false);
+        P_STRING(" : ", C_PROCEDURE, false);
+        P_STRING(editLog.first, C_PROCEDURE_PARAMETER, false);
+        P_STRING(" lines were edited.", C_PROCEDURE);
+    }
 }
 
 template<class T>
 void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool isEdit, T lambda) noexcept
 {
-    PRINT_PROCEDURE;
-
-
-
     Book* XLSX = CreateXLSXBook<Book*>();
 
     if (XLSX->load(paramFileName) == true)
     {
-        PRINT_ONFILELOAD;
+        PRINT_ONFILELOAD(paramFileName);
     }
     else
     {
-        ERROR_FILENOTFOUND;
+        ERROR_FILENOTFOUND(paramFileName);
         return;
     }
 
-
+    // ---
 
     const int totalSheetCount = XLSX->sheetCount();
 
@@ -102,29 +115,30 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
         }
         else
         {
-            ERROR_SHEETNOTFOUND;
+            ERROR_SHEETNOTFOUND(inputSheetIndex);
             return;
         }
 
+        // ---
 
-
-        const int trueLastColIndex = FindLastCol<Sheet*>(XLSXsheet);
+        const int lastRow = XLSXsheet->lastFilledRow();
+        const int lastCol = XLSXsheet->lastFilledCol();
 
         // Go through each cell of the entire sheet
-        for (int row = XLSXsheet->firstRow(); row < XLSXsheet->lastRow(); row++)
+        for (int row = XLSXsheet->firstRow(); row < lastRow; row++)
         {
-            for (int col = XLSXsheet->firstCol(); col < trueLastColIndex; col++)
+            for (int col = XLSXsheet->firstCol(); col < lastCol; col++)
             {
                 lambda(XLSXsheet, row, col);
             }
         }
 
-
+        // ---
 
         PRINT_SCANCOMPLETE;
     }
 
-
+    // ---
 
     if (isEdit == true && mEditFlag == true)
     {
@@ -134,10 +148,10 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
         PRINT_SAVECOMPLETE;
     }
 
-
+    // ---
 
     XLSX->release();
-    PRINT_ONFILEUNLOAD;
+    PRINT_ONFILEUNLOAD(paramFileName);
 }
 
 template<class T>
@@ -145,11 +159,11 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_
 {
     if (std::filesystem::exists(baseDirectory))
     {
-        PRINT_PATHFOUND;
+        PRINT_PATHFOUND(baseDirectory);
     }
     else
     {
-        PRINT_PATHNOTFOUND;
+        PRINT_PATHNOTFOUND(baseDirectory);
         return;
     }
 
@@ -172,11 +186,11 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDire
 {
     if (std::filesystem::exists(baseDirectory))
     {
-        PRINT_PATHFOUND;
+        PRINT_PATHFOUND(baseDirectory);
     }
     else
     {
-        PRINT_PATHNOTFOUND;
+        PRINT_PATHNOTFOUND(baseDirectory);
         return;
     }
 
@@ -230,23 +244,9 @@ void XLDataWrapper::PrintCellType(T) noexcept
 }
 
 template<class T>
-int XLDataWrapper::FindLastCol(T XLSXsheet) noexcept
-{
-    for (int i = 0; i < XLSXsheet->lastCol(); i++)
-    {
-        CellType cellType = XLSXsheet->cellType(0, i);
-
-        if (cellType == CELLTYPE_EMPTY)
-        {
-            return i - 1;
-        }
-    }
-}
-
-template<class T>
 int XLDataWrapper::PromptSheets(T XLSX) noexcept
 {
-    int totalSheetCount = XLSX->sheetCount();
+    const int totalSheetCount = XLSX->sheetCount();
 
     P_STRING("File has a total of : ", C_PRINT, false);
     P_DOUBLE(totalSheetCount, C_PRINT_PARAMETER, false);
@@ -256,7 +256,7 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
     {
         P_STRING("", C_PRINT);
         P_DOUBLE(i, C_PRINT_PARAMETER, false);
-        P_STRING(") <-> ", C_PRINT, false);
+        P_STRING(") -> ", C_PRINT, false);
         P_STRING(XLSX->getSheetName(i), C_PRINT_PARAMETER);
     }
 
@@ -277,12 +277,7 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
         catch (std::invalid_argument msg)
         {
             P_STRING(msg.what(), C_ERROR);
-            P_STRING("ERROR!!! ", C_ERROR, false);
-            P_STRING("Please type in a number between : ", C_PRINT, false);
-            P_DOUBLE(0, C_PRINT_PARAMETER, false);
-            P_STRING(", and ", C_PRINT, false);
-            P_DOUBLE(totalSheetCount - 1, C_PRINT_PARAMETER, false);
-            P_STRING(" - ", C_PRINT, false);
+            ERROR_OUTOFRANGE(0, totalSheetCount - 1);
             continue;
         }
 
@@ -292,12 +287,7 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
         }
         else
         {
-            P_STRING("ERROR!!! ", C_ERROR, false);
-            P_STRING("Please type in a number between : ", C_PRINT, false);
-            P_DOUBLE(0, C_PRINT_PARAMETER, false);
-            P_STRING(", and ", C_PRINT, false);
-            P_DOUBLE(totalSheetCount - 1, C_PRINT_PARAMETER, false);
-            P_STRING(" - ", C_PRINT, false);
+            ERROR_OUTOFRANGE(0, totalSheetCount - 1);
         }
     }
 }
