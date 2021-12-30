@@ -33,7 +33,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     std::unordered_map<KR_STR, int> EditedCellPerTable;
 
-    int editCount;
+    int editCount = 0;
 
     for (const auto& extension : paramFileExtension)
     {
@@ -68,7 +68,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         }
 
                         XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
-                        EditedCellPerTable[XLSXsheet->name()] += 1;
+                        EditedCellPerTable[fileName] += 1;
                         mEditFlag = true;
                         editCount++;
 
