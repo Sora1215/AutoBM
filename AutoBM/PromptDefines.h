@@ -51,9 +51,9 @@
                                         P_STRING("Resource deallocated.", C_MEMORY);
 
 // [KR_STR] baseDirectory
-#define PRINT_PATHFOUND(path)           P_STRING("Path with the name of : ", C_PRINT, false);\
-                                        P_STRING(path, C_PRINT_PARAMETER, false);\
-                                        P_STRING(" was successfully located.", C_PRINT);
+#define PRINT_PATHFOUND(path)           P_STRING("Path with the name of : ", C_PROCEDURE, false);\
+                                        P_STRING(path, C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING(" was successfully located.", C_PROCEDURE);
 
 // [KR_STR] baseDirectory
 #define PRINT_PATHNOTFOUND(path)        P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
