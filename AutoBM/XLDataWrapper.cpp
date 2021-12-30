@@ -189,8 +189,6 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_
             lambda(fileName.c_str());
         }
     }
-
-    WAITFORINPUT;
 }
 
 template<class T>
@@ -216,8 +214,6 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDire
             lambda(fileName.c_str());
         }
     }
-
-    WAITFORINPUT;
 }
 
 template <class T>
