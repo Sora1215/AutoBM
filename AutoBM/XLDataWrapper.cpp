@@ -31,7 +31,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 {
     PRINT_PROCEDURE;
 
-    std::unordered_map<KR_STR, int> EditedCellPerTable;
+    std::unordered_map<std::wstring, int> EditedCellPerTable;
 
     int editCount = 0;
 
@@ -68,7 +68,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         }
 
                         XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
-                        EditedCellPerTable[fileName] += 1;
+                        EditedCellPerTable[fullPath] += 1;
                         mEditFlag = true;
                         editCount++;
 
@@ -78,7 +78,10 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
             });
     }
 
-    NEWLINE;
+    if (EditedCellPerTable.empty() == false)
+    {
+        NEWLINE;
+    }
 
     for (const auto& editLog : EditedCellPerTable)
     {
@@ -89,11 +92,12 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     }
 
     NEWLINE;
-    P_STRING("A total of ", C_PROCEDURE_PARAMETER);
+    P_STRING("A total of ", C_PROCEDURE, false);
     P_DOUBLE(editCount, C_PROCEDURE_PARAMETER, false);
-    P_STRING(" cells in ", C_PROCEDURE_PARAMETER);
+    P_STRING(" cells in ", C_PROCEDURE, false);
     P_DOUBLE(EditedCellPerTable.size(), C_PROCEDURE_PARAMETER, false);
-    P_STRING(" tables were edited.", C_PROCEDURE_PARAMETER);
+    P_STRING(" tables were edited.", C_PROCEDURE);
+    NEWLINE;
 
     WAITFORINPUT;
 }
