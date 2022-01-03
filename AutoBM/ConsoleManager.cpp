@@ -27,16 +27,6 @@ void ConsoleManager::SetupLocal() noexcept
     std::wcout.imbue(mylocale);
 }
 
-void ConsoleManager::PrintPosition(int row, int col, Color paramColor, bool paramIsNewLine) noexcept
-{
-    auto lambda = [=]()
-    {
-        std::wcout << '(' << row << ', ' << col << ") -> ";
-    };
-
-    PrintHelper(lambda, paramColor, paramIsNewLine);
-}
-
 void ConsoleManager::PrintString(std::wstring paramText, Color paramColor, bool paramIsNewLine) noexcept
 {
     auto lambda = [=]()

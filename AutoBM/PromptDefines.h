@@ -12,6 +12,7 @@
 // None
 #define WAITFORINPUT                    system("PAUSE");
 
+// None
 #define NEWLINE                         P_STRING("", C_PRINT);
 
 
@@ -37,6 +38,12 @@
 #define PRINT_SAVECOMPLETE              P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
 
 
+// [int, int] row, col                             
+#define PRINT_CELLPOSITION(row, col)    P_STRING("(Row : ", C_PROCEDURE, false);\
+                                        P_DOUBLE(row, C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING(", Col : ", C_PROCEDURE, false);\
+                                        P_DOUBLE(col, C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING(") -> ", C_PROCEDURE);
 
 // [KR_STR] paramFileName
 #define PRINT_ONFILELOAD(fileName)      P_STRING("File with the name of : ", C_PRINT, false);\

@@ -11,8 +11,6 @@
 
 #define CONSOLE ConsoleManager::Instance()
 
-#define P_POSITION ConsoleManager::Instance().PrintPosition
-
 #define P_STRING ConsoleManager::Instance().PrintString
 #define P_DOUBLE ConsoleManager::Instance().PrintDouble
 

@@ -58,12 +58,12 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                             return;
                         }
 
-                        P_POSITION(row, col, C_PROCEDURE, false);
+                        PRINT_CELLPOSITION(row, col);
                         P_STRING(tempStringBuffer, C_ERROR, false);
 
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
-                            tempStringBuffer.erase(firstZeroWidthSpace);
+                            tempStringBuffer.erase(firstZeroWidthSpace, 1);
                             firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
                         }
 
