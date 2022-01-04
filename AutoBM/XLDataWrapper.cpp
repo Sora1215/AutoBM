@@ -212,9 +212,6 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
 
     // ---
 
-
-    XLSX->save(paramFileName);
-
     if (isEdit == true && mEditFlag == true)
     {
         PRINT_SAVING;
