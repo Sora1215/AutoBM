@@ -43,12 +43,17 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     Sheet* exportXLSXSheet = exportXLSX->addSheet(L"FixLog");
 
-    exportXLSXSheet->writeStr(0, 0, L"Before");
-    exportXLSXSheet->writeStr(0, 1, L"After");
-    exportXLSXSheet->writeStr(0, 2, L"Table");
-    exportXLSXSheet->writeStr(0, 3, L"Sheet");
-    exportXLSXSheet->writeStr(0, 4, L"Row");
-    exportXLSXSheet->writeStr(0, 5, L"Column");
+    Format* column = exportXLSX->addFormat();
+    column->setPatternBackgroundColor(COLOR_WHITE);
+    column->setPatternForegroundColor(COLOR_ORANGE);
+    column->setFillPattern(FILLPATTERN_SOLID);
+
+    exportXLSXSheet->writeStr(0, 0, L"Before", column);
+    exportXLSXSheet->writeStr(0, 1, L"After", column);
+    exportXLSXSheet->writeStr(0, 2, L"Table", column);
+    exportXLSXSheet->writeStr(0, 3, L"Sheet", column);
+    exportXLSXSheet->writeStr(0, 4, L"Row (0-based)", column);
+    exportXLSXSheet->writeStr(0, 5, L"Column (0-based)", column);
 
     Format* before = exportXLSX->addFormat();
     before->setPatternBackgroundColor(COLOR_WHITE);
@@ -141,7 +146,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     else
     {
         NEWLINE;
-        P_STRING("! Nothing have been changed. !", C_PRINT_PARAMETER);
+        P_STRING("!!! Nothing have been changed.", C_PRINT_PARAMETER);
         NEWLINE;
     }
 
