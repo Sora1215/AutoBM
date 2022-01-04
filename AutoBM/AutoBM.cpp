@@ -34,6 +34,11 @@ int main()
 {
     CONSOLE.SetupLocal();
 
+    P_STRING("ExcelZeroWidthSpaceRemover v1.0 by Sora.Kim", C_PRINT_PARAMETER);
+    P_STRING("", C_PRINT_PARAMETER);
+    P_STRING("Make sure that this executable is placed just outside the Table repo folder.", C_PROCEDURE_PARAMETER);
+    P_STRING("", C_PRINT_PARAMETER);
+
     XL_DW.RemoveZeroWidthSpace(L"Table/", { L".xlsx", L".xlsm" });
 
     return 0;
