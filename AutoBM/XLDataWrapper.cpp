@@ -139,7 +139,6 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
         NEWLINE;
 
         exportXLSX->save(L"FixLog.xlsx");
-        exportXLSX->release();
 
         P_STRING("Diff was exported as : ", C_PRINT, false);
         P_STRING(EXPORT_FILENAME, C_PRINT_PARAMETER);
@@ -151,6 +150,8 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
         P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
         NEWLINE;
     }
+
+    exportXLSX->release();
 
     WAITFORINPUT;
 }
