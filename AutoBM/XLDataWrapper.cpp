@@ -43,21 +43,21 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     Sheet* exportXLSXSheet = exportXLSX->addSheet(L"FixLog");
 
+    exportXLSXSheet->writeStr(0, 0, L"Before");
+    exportXLSXSheet->writeStr(0, 1, L"After");
+    exportXLSXSheet->writeStr(0, 2, L"Table");
+    exportXLSXSheet->writeStr(0, 3, L"Sheet");
+    exportXLSXSheet->writeStr(0, 4, L"Row");
+    exportXLSXSheet->writeStr(0, 5, L"Column");
+
     Format* before = exportXLSX->addFormat();
     before->setPatternBackgroundColor(COLOR_WHITE);
-    before->setPatternForegroundColor(COLOR_LIGHTGREEN);
+    before->setPatternForegroundColor(COLOR_ORANGE);
+    before->setFillPattern(FILLPATTERN_THINDIAGSTRIPE);
 
     Format* after = exportXLSX->addFormat();
     after->setPatternBackgroundColor(COLOR_WHITE);
-    after->setPatternForegroundColor(COLOR_ORANGE);
-
-    before->setFillPattern(FILLPATTERN_SOLID);
-    after->setFillPattern(FILLPATTERN_SOLID);
-
-    exportXLSXSheet->writeStr(0, 0, L"Before", before);
-    exportXLSXSheet->writeStr(0, 1, L"After", after);
-
-    before->setFillPattern(FILLPATTERN_THINDIAGSTRIPE);
+    after->setPatternForegroundColor(COLOR_LIGHTGREEN);
     after->setFillPattern(FILLPATTERN_THINDIAGSTRIPE);
 
     for (const auto& extension : paramFileExtension)
@@ -87,6 +87,10 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         P_STRING(tempStringBuffer, C_ERROR, false);
 
                         exportXLSXSheet->writeStr(editCount + 1, 0, tempStringBuffer.c_str(), before); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 2, fileName); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 3, XLSXsheet->name()); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 4, std::to_wstring(row).c_str()); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 5, std::to_wstring(col).c_str()); // Logging
 
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
