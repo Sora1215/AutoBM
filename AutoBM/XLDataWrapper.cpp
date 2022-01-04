@@ -31,9 +31,17 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 {
     PRINT_PROCEDURE;
 
+    // Temporary variables used for logging
+
     std::unordered_map<std::wstring, int> EditedCellPerTable;
 
     int editCount = 0;
+
+    // Temporary container used for log export
+
+    Book* exportXLSX = CreateXLSXBook<Book*>();
+
+    Sheet* exportXLSXSheet = exportXLSX->addSheet(L"FixLog");
 
     for (const auto& extension : paramFileExtension)
     {
@@ -61,6 +69,8 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         PRINT_CELLPOSITION(row, col);
                         P_STRING(tempStringBuffer, C_ERROR, false);
 
+                        exportXLSXSheet->writeStr(editCount, 0, tempStringBuffer.c_str()); // Logging
+
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
                             tempStringBuffer.erase(firstZeroWidthSpace, 1);
@@ -74,6 +84,8 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
+
+                        exportXLSXSheet->writeStr(editCount, 1, tempStringBuffer.c_str()); // Logging
                     });
             });
     }
@@ -98,6 +110,9 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     P_DOUBLE(EditedCellPerTable.size(), C_PROCEDURE_PARAMETER, false);
     P_STRING(" tables were edited.", C_PROCEDURE);
     NEWLINE;
+
+    exportXLSX->save(L"FixLog.xlsx");
+    exportXLSX->release();
 
     WAITFORINPUT;
 }
