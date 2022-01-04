@@ -13,6 +13,8 @@
 
 #define REFRESH_RATE INT_MAX
 
+#define EXPORT_FILENAME L"FixLog.xlsx"
+
 // ItemTable
 #define COL_ITEMTABLE_ITEMINDEX 1
 #define COL_ITEMTABLE_ITEMNAME 2
