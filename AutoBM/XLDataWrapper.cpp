@@ -47,6 +47,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     column->setPatternBackgroundColor(COLOR_WHITE);
     column->setPatternForegroundColor(COLOR_LIGHTORANGE);
     column->setFillPattern(FILLPATTERN_SOLID);
+    column->setBorder(BORDERSTYLE_THIN);
 
     exportXLSXSheet->writeStr(0, 0, L"Before", column);
     exportXLSXSheet->writeStr(0, 1, L"After", column);
@@ -54,6 +55,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     exportXLSXSheet->writeStr(0, 3, L"Sheet", column);
     exportXLSXSheet->writeStr(0, 4, L"Row (0-based)", column);
     exportXLSXSheet->writeStr(0, 5, L"Column (0-based)", column);
+    exportXLSXSheet->setCol(0, 5, 20);
 
     Format* before = exportXLSX->addFormat();
     before->setPatternBackgroundColor(COLOR_WHITE);
