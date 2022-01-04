@@ -51,6 +51,9 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     after->setPatternBackgroundColor(COLOR_WHITE);
     after->setPatternForegroundColor(COLOR_ORANGE);
 
+    before->setFillPattern(FILLPATTERN_SOLID);
+    after->setFillPattern(FILLPATTERN_SOLID);
+
     exportXLSXSheet->writeStr(0, 0, L"Before", before);
     exportXLSXSheet->writeStr(0, 1, L"After", after);
 
@@ -99,7 +102,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
 
-                        exportXLSXSheet->writeStr(editCount + 1, 1, tempStringBuffer.c_str(), after); // Logging
+                        exportXLSXSheet->writeStr(editCount, 1, tempStringBuffer.c_str(), after); // Logging
                     });
             });
     }
@@ -127,7 +130,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
         exportXLSX->save(L"FixLog.xlsx");
         exportXLSX->release();
 
-        P_STRING("Diff was exported as : ", C_PRINT);
+        P_STRING("Diff was exported as : ", C_PRINT, false);
         P_STRING(EXPORT_FILENAME, C_PRINT_PARAMETER);
         NEWLINE;
     }

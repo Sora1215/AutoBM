@@ -36,9 +36,5 @@ int main()
 
     XL_DW.RemoveZeroWidthSpace(L"Table/", { L".xlsx", L".xlsm" });
 
-    //XL_DW.CheckForFormula(L"ItemTable.xlsx");
-    //XL_DW.CheckForZeroWidthSpace(L"ItemTable.xlsx");
-    //XL_DW.CheckForItemLocal(L"ItemTable.xlsx");
-
     return 0;
 }
