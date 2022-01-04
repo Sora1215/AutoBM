@@ -37,11 +37,23 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     int editCount = 0;
 
-    // Temporary container used for log export
+    // Temporary containers used for log export
 
     Book* exportXLSX = CreateXLSXBook<Book*>();
 
     Sheet* exportXLSXSheet = exportXLSX->addSheet(L"FixLog");
+
+    Format* before = exportXLSX->addFormat();
+    before->setPatternBackgroundColor(COLOR_OLIVEGREEN);
+
+    Format* after = exportXLSX->addFormat();
+    after->setPatternBackgroundColor(COLOR_ORANGE);
+
+    exportXLSXSheet->writeStr(0, 0, L"Before", before);
+    exportXLSXSheet->writeStr(0, 1, L"After", after);
+
+    before->setFillPattern(FILLPATTERN_DIAGCROSSHATCH);
+    after->setFillPattern(FILLPATTERN_DIAGCROSSHATCH);
 
     for (const auto& extension : paramFileExtension)
     {
@@ -69,7 +81,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         PRINT_CELLPOSITION(row, col);
                         P_STRING(tempStringBuffer, C_ERROR, false);
 
-                        exportXLSXSheet->writeStr(editCount, 0, tempStringBuffer.c_str()); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 0, tempStringBuffer.c_str(), before); // Logging
 
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
@@ -85,7 +97,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
 
-                        exportXLSXSheet->writeStr(editCount, 1, tempStringBuffer.c_str()); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 1, tempStringBuffer.c_str(), after); // Logging
                     });
             });
     }
@@ -113,6 +125,9 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     exportXLSX->save(L"FixLog.xlsx");
     exportXLSX->release();
+
+    P_STRING("Diff was exported as FixLog.xlsx.", C_MEMORY);
+    NEWLINE;
 
     WAITFORINPUT;
 }
