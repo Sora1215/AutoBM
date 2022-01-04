@@ -45,7 +45,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     Format* column = exportXLSX->addFormat();
     column->setPatternBackgroundColor(COLOR_WHITE);
-    column->setPatternForegroundColor(COLOR_ORANGE);
+    column->setPatternForegroundColor(COLOR_LIGHTORANGE);
     column->setFillPattern(FILLPATTERN_SOLID);
 
     exportXLSXSheet->writeStr(0, 0, L"Before", column);
@@ -146,7 +146,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     else
     {
         NEWLINE;
-        P_STRING("!!! Nothing have been changed.", C_PRINT_PARAMETER);
+        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
         NEWLINE;
     }
 
