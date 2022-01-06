@@ -31,10 +31,7 @@ void ConsoleManager::PrintString(std::wstring paramText, Color paramColor, bool 
 {
     auto lambda = [=]()
     {
-        std::string tempStringBuffer(paramText.length(), 0);
-        std::transform(paramText.begin(), paramText.end(), tempStringBuffer.begin(), [](wchar_t c) { return static_cast<char>(c); });
-
-        std::wcout << tempStringBuffer.c_str();
+        std::wcout << ConvertWstringToString(paramText).c_str();
     };
 
     PrintHelper(lambda, paramColor, paramIsNewLine);
@@ -51,6 +48,16 @@ void ConsoleManager::PrintString(std::string paramText, Color paramColor, bool p
 }
 
 void ConsoleManager::PrintString(KR_STR paramText, Color paramColor, bool paramIsNewLine) noexcept
+{
+    auto lambda = [=]()
+    {
+        std::wcout << paramText;
+    };
+
+    PrintHelper(lambda, paramColor, paramIsNewLine);
+}
+
+void ConsoleManager::PrintString(EN_STR paramText, Color paramColor, bool paramIsNewLine) noexcept
 {
     auto lambda = [=]()
     {
@@ -88,6 +95,15 @@ void ConsoleManager::PrintDouble(size_t paramSize, Color paramColor, bool paramI
     };
 
     PrintHelper(lambda, paramColor, paramIsNewLine);
+}
+
+std::string ConsoleManager::ConvertWstringToString(std::wstring paramText) const noexcept
+{
+    std::string tempStringBuffer(paramText.length(), 0);
+
+    std::transform(paramText.begin(), paramText.end(), tempStringBuffer.begin(), [](wchar_t c) { return static_cast<char>(c); });
+
+    return tempStringBuffer;
 }
 
 template <class T>

@@ -13,6 +13,7 @@
 
 #include <initializer_list>
 #include "GlobalDefines.h"
+#include <unordered_map>
 
 
 
@@ -29,23 +30,26 @@ public:
 	// Deal with any zero-width spaces
 	void RemoveZeroWidthSpace(KR_STR, std::initializer_list<KR_STR>) noexcept;
 
+	[[nodiscard]] std::unordered_map<std::string, std::list<std::string>> MapItemCodeByXLSX(KR_STR) noexcept;
+
 private:
 
 	// Making it private to prevent multiple copies of this appearing
 	XLDataWrapper() = default;
 
 	template <class T>
-	void RepeatLambdaForAllCellsByTable(KR_STR, bool, T) noexcept;
+	void RepeatLambdaForAllCellsByXLSX(KR_STR, bool, T) noexcept;
 
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension(KR_STR, KR_STR, T) noexcept;
 
-	// Unused for now
+	// Folders inside folders inside folders...
 	template <class T>
 	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
 
 
 
+	// This guy cannot be treated as a const function due to internal library structure which I cannot reach...
 	template <class T>
 	[[nodiscard]] T CreateXLSXBook() noexcept;
 

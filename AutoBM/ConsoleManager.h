@@ -48,16 +48,17 @@ public:
 		Purple
 	};
 
-	void PrintPosition(int, int, Color, bool = true) noexcept;
-
 	// A safe version that works even for special characters without destroying the windows console
 	void PrintString(std::wstring, Color, bool = true) noexcept;
 	void PrintString(std::string, Color, bool = true) noexcept;
 	void PrintString(KR_STR, Color, bool = true) noexcept;
+	void PrintString(EN_STR, Color, bool = true) noexcept;
 
 	void PrintDouble(double, Color, bool = true) noexcept;
 	void PrintDouble(int, Color, bool = true) noexcept;
 	void PrintDouble(size_t, Color, bool = true) noexcept;
+
+	[[nodiscard]] std::string ConvertWstringToString(std::wstring) const noexcept;
 
 private:
 

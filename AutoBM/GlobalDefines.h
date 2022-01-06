@@ -10,20 +10,28 @@
 #pragma once
 
 #define KR_STR const wchar_t*
+#define EN_STR const char*
 
 #define REFRESH_RATE INT_MAX
 
 #define EXPORT_FILENAME L"FixLog.xlsx"
+#define IMPORT_FILENAME L"Input.xlsx"
+
+#define UNICODECHARACTER_ZEROWIDTHSPACE L'\u200b'
+
+//#define R1ASSET_PATH L"r1_asset/98. AssetBundle/ExportProject/Assets/Resources.Export/NguiAtlas/EditorJsonData/"
+#define R1ASSET_PATH L"EditorJsonData/"
+#define ICON_FILEHEADER L"NguiAtlas.Icon.Item."
 
 // ItemTable
-#define COL_ITEMTABLE_ITEMINDEX 1
+#define COL_ITEMTABLE_ITEMCODE 1
 #define COL_ITEMTABLE_ITEMNAME 2
 #define COL_ITEMTABLE_ITEMDESC 3
 #define ROW_ITEMTABLE_FIRST 2
 
 // LocalTable
-#define COL_LOCALTABLE_ITEMINDEX 0
-#define COL_LOCALTABLE_TEXTINDEX 1
+#define COL_LOCALTABLE_ITEMCODE 0
+#define COL_LOCALTABLE_LOCALTEXT 1
 #define ROW_LOCALTABLE_FIRST 1
 #define PREFIX_ITEMNAME L"ITEM_NAME_"
 #define PREFIX_ITEMDESC L"ITEM_DESC_"

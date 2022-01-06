@@ -118,9 +118,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp;$(SolutionDir)external\nlohmann</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <DisableSpecificWarnings>26812;26819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,8 +140,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp;$(SolutionDir)external\nlohmann</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>26812;26819</DisableSpecificWarnings>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -159,11 +159,13 @@
   <ItemGroup>
     <ClCompile Include="AutoBM.cpp" />
     <ClCompile Include="ConsoleManager.cpp" />
+    <ClCompile Include="JsonDataWrapper.cpp" />
     <ClCompile Include="XLDataWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleManager.h" />
     <ClInclude Include="GlobalDefines.h" />
+    <ClInclude Include="JsonDataWrapper.h" />
     <ClInclude Include="PromptDefines.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="UsefulLinks.txt" />

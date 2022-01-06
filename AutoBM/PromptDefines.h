@@ -8,12 +8,16 @@
 */
 
 #pragma once
-                                        
+             
 // None
 #define WAITFORINPUT                    system("PAUSE");
 
 // None
 #define NEWLINE                         P_STRING("", C_PRINT);
+
+
+
+// ---
 
 
 
@@ -39,49 +43,61 @@
 
 
 
-// [int, int] row, col                             
+// ---
+
+
+
+// [int, int]                           
 #define PRINT_CELLPOSITION(row, col)    P_STRING(">> Row : ", C_PROCEDURE, false);\
                                         P_DOUBLE(row, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(", Col : ", C_PROCEDURE, false);\
                                         P_DOUBLE(col, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(" <<", C_PROCEDURE);
 
-// [KR_STR] paramFileName
+// [KR_STR] 
 #define PRINT_ONFILELOAD(fileName)      P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was successfully loaded.", C_PRINT);\
                                         P_STRING("Resource allocated.", C_MEMORY);
 
-// [KR_STR] paramFileName
+// [KR_STR] 
 #define PRINT_ONFILEUNLOAD(fileName)    P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was successfully unloaded.", C_PRINT);\
                                         P_STRING("Resource deallocated.", C_MEMORY);
 
-// [KR_STR] baseDirectory
+// [KR_STR] 
 #define PRINT_PATHFOUND(path)           P_STRING("Path with the name of : ", C_PROCEDURE, false);\
                                         P_STRING(path, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(" was successfully located.", C_PROCEDURE);
 
-// [KR_STR] baseDirectory
+// [KR_STR] 
 #define PRINT_PATHNOTFOUND(path)        P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("Path with the name of : ", C_PRINT, false);\
                                         P_STRING(path, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was not found.", C_PRINT);
 
- // [KR_STR] paramFileName
+ // [KR_STR]
 #define ERROR_FILENOTFOUND(fileName)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was not found.", C_PRINT);
 
-// [int] inputSheetIndex
+// [int] 
 #define ERROR_SHEETNOTFOUND(index)      P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("Sheet with the index of : ", C_PRINT, false);\
                                         P_DOUBLE(index, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was not found.", C_PRINT);
 
-// [int, int] 0, lastCol - 1
+// [std::wstring] 
+#define ERROR_JSONPARSEFAIL(path)       P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Failed to parse json at : ", C_PRINT, false);\
+                                        P_STRING(path, C_PRINT_PARAMETER);
+
+#define ERROR_JSONFINDFAIL              P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Failed to locate required keys inside the file.", C_PRINT);
+
+// [int, int] 
 #define ERROR_OUTOFRANGE(begin, end)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("Please type in a number between : ", C_PRINT, false);\
                                         P_DOUBLE(begin, C_PRINT_PARAMETER, false);\

@@ -41,7 +41,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
     Book* exportXLSX = CreateXLSXBook<Book*>();
 
-    Sheet* exportXLSXSheet = exportXLSX->addSheet(L"FixLog");
+    Sheet* exportXLSXSheet = exportXLSX->addSheet(EXPORT_FILENAME);
 
     Format* column = exportXLSX->addFormat();
     column->setPatternBackgroundColor(COLOR_WHITE);
@@ -72,7 +72,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
         RepeatLambdaForAllFilesByExtension(baseDirectory, extension, [&](KR_STR fileName)
             {
                 const std::wstring fullPath = std::wstring(baseDirectory) + std::wstring(fileName);
-                RepeatLambdaForAllCellsByTable(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
+                RepeatLambdaForAllCellsByXLSX(fullPath.c_str(), true, [&](Sheet* XLSXsheet, int row, int col)
                     {
                         const CellType cellType = XLSXsheet->cellType(row, col);
 
@@ -83,7 +83,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
                         std::wstring tempStringBuffer = XLSXsheet->readStr(row, col);
 
-                        std::size_t firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                        std::size_t firstZeroWidthSpace = tempStringBuffer.find(UNICODECHARACTER_ZEROWIDTHSPACE);
 
                         if (firstZeroWidthSpace == std::wstring::npos)
                         {
@@ -102,7 +102,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
                             tempStringBuffer.erase(firstZeroWidthSpace, 1);
-                            firstZeroWidthSpace = tempStringBuffer.find(L'\u200b');
+                            firstZeroWidthSpace = tempStringBuffer.find(UNICODECHARACTER_ZEROWIDTHSPACE);
                         }
 
                         XLSXsheet->writeStr(row, col, tempStringBuffer.c_str());
@@ -156,18 +156,107 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     WAITFORINPUT;
 }
 
-template<class T>
-void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool isEdit, T lambda) noexcept
+std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCodeByXLSX(KR_STR fullPath) noexcept
 {
+    std::unordered_map<std::string, std::list<std::string>> tempItemCodeMap;
+
+    // ---
+
     Book* XLSX = CreateXLSXBook<Book*>();
 
-    if (XLSX->load(paramFileName) == true)
+    if (XLSX->load(fullPath) == true)
     {
-        PRINT_ONFILELOAD(paramFileName);
+        PRINT_ONFILELOAD(fullPath);
     }
     else
     {
-        ERROR_FILENOTFOUND(paramFileName);
+        ERROR_FILENOTFOUND(fullPath);
+
+        P_STRING("A new one will be created, please try again after filling it.", C_PROCEDURE, false); 
+
+        Book* exportXLSX = CreateXLSXBook<Book*>();
+
+        Sheet* exportXLSXSheet = exportXLSX->addSheet(IMPORT_FILENAME);
+
+        Format* column = exportXLSX->addFormat();
+        column->setPatternBackgroundColor(COLOR_WHITE);
+        column->setPatternForegroundColor(COLOR_LIGHTORANGE);
+        column->setFillPattern(FILLPATTERN_SOLID);
+        column->setBorder(BORDERSTYLE_THIN);
+
+        exportXLSXSheet->writeStr(0, 0, L"Reference ItemCode", column);
+        exportXLSXSheet->writeStr(0, 1, L"New ItemCode", column);
+        exportXLSXSheet->setCol(0, 5, 20);
+
+        exportXLSX->save(IMPORT_FILENAME);
+
+        exportXLSX->release();
+
+        return tempItemCodeMap;
+    }
+
+    // ---
+
+    Sheet* XLSXsheet = XLSX->getSheet(0);
+
+    if (XLSXsheet != nullptr)
+    {
+        P_STRING("Current sheet : ", C_PRINT, false);
+        P_STRING(XLSX->getSheetName(0), C_PRINT_PARAMETER);
+        PRINT_SCANNING;
+    }
+    else
+    {
+        ERROR_SHEETNOTFOUND(0);
+        return tempItemCodeMap;
+    }
+
+    // ---
+
+    const int lastRow = XLSXsheet->lastFilledRow();
+
+    for (int row = 1; row < lastRow; row++)
+    {
+        const std::string referenceCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 0)));
+        const std::string newCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 1)));
+
+        tempItemCodeMap[referenceCode].emplace_back(newCode);
+    }
+
+    PRINT_SCANCOMPLETE;
+
+    XLSX->release();
+    PRINT_ONFILEUNLOAD(fullPath);
+
+    // ---
+
+    for (const auto& referenceString : tempItemCodeMap)
+    {
+        for (const auto& newString : tempItemCodeMap[referenceString.first])
+        {
+            P_STRING(referenceString.first, C_PROCEDURE_PARAMETER, false);
+            P_STRING(" will refer to : ", C_PROCEDURE, false);
+            P_STRING(newString, C_PROCEDURE_PARAMETER);
+        }
+    }
+
+    // ---
+
+    return tempItemCodeMap;
+}
+
+template<class T>
+void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, T lambda) noexcept
+{
+    Book* XLSX = CreateXLSXBook<Book*>();
+
+    if (XLSX->load(fullPath) == true)
+    {
+        PRINT_ONFILELOAD(fullPath);
+    }
+    else
+    {
+        ERROR_FILENOTFOUND(fullPath);
         return;
     }
 
@@ -215,7 +304,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
     if (isEdit == true && mEditFlag == true)
     {
         PRINT_SAVING;
-        XLSX->save(paramFileName);
+        XLSX->save(fullPath);
         mEditFlag = false;
         PRINT_SAVECOMPLETE;
     }
@@ -223,7 +312,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByTable(KR_STR paramFileName, bool is
     // ---
 
     XLSX->release();
-    PRINT_ONFILEUNLOAD(paramFileName);
+    PRINT_ONFILEUNLOAD(fullPath);
 }
 
 template<class T>
@@ -342,7 +431,7 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
         {
             inputSheetIndex = std::stoi(tempStringBuffer);
         }
-        catch (std::invalid_argument msg)
+        catch (const std::invalid_argument& msg)
         {
             P_STRING(msg.what(), C_ERROR);
             ERROR_OUTOFRANGE(0, totalSheetCount - 1);
