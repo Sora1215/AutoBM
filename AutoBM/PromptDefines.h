@@ -26,9 +26,6 @@
                                         P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(" procedure...", C_PROCEDURE);
 
-// None
-#define PRINT_RETRY                     P_STRING("Please retry after fixing all issues. ", C_ERROR);
-
 // None                                 
 #define PRINT_SCANNING                  P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
 
@@ -71,16 +68,29 @@
                                         P_STRING(path, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(" was successfully located.", C_PROCEDURE);
 
-// [KR_STR] 
-#define PRINT_PATHNOTFOUND(path)        P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
-                                        P_STRING("Path with the name of : ", C_PRINT, false);\
-                                        P_STRING(path, C_PRINT_PARAMETER, false);\
-                                        P_STRING(" was not found.", C_PRINT);
+// [KR_STR]
+#define PRINT_JSONPARSESUCCESS(path)    P_STRING("Successfully parsed json at : ", C_PRINT, false);\
+                                        P_STRING(path, C_PRINT_PARAMETER);
+
+// [KR_STR]
+#define PRINT_JSONFINDSUCCESS           P_STRING("Successfully located required keys inside the file.", C_PRINT);
+
+
+
+// ---
+
+
 
  // [KR_STR]
 #define ERROR_FILENOTFOUND(fileName)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
+                                        P_STRING(" was not found.", C_PRINT);
+
+// [KR_STR] 
+#define ERROR_PATHNOTFOUND(path)        P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Path with the name of : ", C_PRINT, false);\
+                                        P_STRING(path, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was not found.", C_PRINT);
 
 // [int] 

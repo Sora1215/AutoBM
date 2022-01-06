@@ -39,6 +39,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         P_STRING("An empty container was returned. Aborting procedure.", C_PROCEDURE);
         NEWLINE;
 
+        WAITFORINPUT;
         return;
     }
 
@@ -50,7 +51,9 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     }
     else
     {
-        PRINT_PATHNOTFOUND(R1ASSET_PATH);
+        ERROR_PATHNOTFOUND(R1ASSET_PATH);
+
+        WAITFORINPUT;
         return;
     }
 
@@ -97,14 +100,18 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
-        // Print WIPWIP
+        PRINT_JSONPARSESUCCESS(fullPath);
+
+        // ---
 
         for (const auto& referenceCode : itemCodeMap)
         {
-            if (editorJson.contains(referenceCode.first) != true)
-            {
-                continue;
-            }
+            //if (editorJson.contains(referenceCode.first) != true)
+            //{
+            //    continue;
+            //}
+
+            // ---
 
             for (const auto& newCode : itemCodeMap[referenceCode.first])
             {
@@ -119,9 +126,18 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                     continue;
                 }
 
-                // Found them WIPWIP
+                PRINT_JSONFINDSUCCESS;
+
+                // ---
+
 
             }
         }
+
+        // ---
+
+        PRINT_ONFILEUNLOAD(fullPath);
     }
+
+    WAITFORINPUT;
 }

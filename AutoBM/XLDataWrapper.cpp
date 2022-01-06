@@ -217,16 +217,22 @@ std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCo
 
     for (int row = 1; row < lastRow; row++)
     {
+        const CellType referenceCellType = XLSXsheet->cellType(row, 0);
+        const CellType newCellType = XLSXsheet->cellType(row, 1);
+
+        if (referenceCellType != CELLTYPE_STRING || newCellType != CELLTYPE_STRING)
+        {
+            P_STRING("Row ", C_PRINT_PARAMETER, false);
+            P_DOUBLE(row, C_PRINT_PARAMETER, false);
+            P_STRING(" : one of the cell contains a non-string type data, and was ignored.", C_ERROR);
+            continue;
+        }
+
         const std::string referenceCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 0)));
         const std::string newCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 1)));
 
         tempItemCodeMap[referenceCode].emplace_back(newCode);
     }
-
-    PRINT_SCANCOMPLETE;
-
-    XLSX->release();
-    PRINT_ONFILEUNLOAD(fullPath);
 
     // ---
 
@@ -234,11 +240,18 @@ std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCo
     {
         for (const auto& newString : tempItemCodeMap[referenceString.first])
         {
-            P_STRING(referenceString.first, C_PROCEDURE_PARAMETER, false);
-            P_STRING(" will refer to : ", C_PROCEDURE, false);
-            P_STRING(newString, C_PROCEDURE_PARAMETER);
+            P_STRING(referenceString.first, C_ERROR, false);
+            P_STRING(" will be referenced by : ", C_PROCEDURE, false);
+            P_STRING(newString, C_ERROR);
         }
     }
+
+    PRINT_SCANCOMPLETE;
+
+    // ---
+
+    XLSX->release();
+    PRINT_ONFILEUNLOAD(fullPath);
 
     // ---
 
@@ -324,7 +337,7 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_
     }
     else
     {
-        PRINT_PATHNOTFOUND(baseDirectory);
+        ERROR_PATHNOTFOUND(baseDirectory);
         return;
     }
 
@@ -349,7 +362,7 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDire
     }
     else
     {
-        PRINT_PATHNOTFOUND(baseDirectory);
+        ERROR_PATHNOTFOUND(baseDirectory);
         return;
     }
 
