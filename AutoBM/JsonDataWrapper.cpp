@@ -36,7 +36,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     if (itemCodeMap.empty() == true)
     {
         NEWLINE;
-        P_STRING("An empty container was returned. Aborting procedure.", C_PROCEDURE, false);
+        P_STRING("An empty container was returned. Aborting procedure.", C_PROCEDURE);
         NEWLINE;
 
         return;

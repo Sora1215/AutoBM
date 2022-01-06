@@ -172,7 +172,7 @@ std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCo
     {
         ERROR_FILENOTFOUND(fullPath);
 
-        P_STRING("A new one will be created, please try again after filling it.", C_PROCEDURE, false); 
+        P_STRING("A new one will be created, please try again after filling it.", C_PROCEDURE); 
 
         Book* exportXLSX = CreateXLSXBook<Book*>();
 
