@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Summer_2021_1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1a548386797ca1c4bbc00f29757f4f10",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Summer_2021_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

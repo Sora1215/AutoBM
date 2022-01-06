@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prologue.ChapterIllust1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Prolodue/Chapter/Illust/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9be1dbe9f515c054394ca9101e0d3f66",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Prologue/Prologue_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

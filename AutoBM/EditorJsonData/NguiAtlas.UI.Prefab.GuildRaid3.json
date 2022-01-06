@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.GuildRaid3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "37add73356c73fa41928cf112d1279a9",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Raid/GuildRaid3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

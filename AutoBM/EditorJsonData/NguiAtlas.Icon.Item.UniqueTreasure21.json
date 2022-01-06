@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure21",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_EPIS",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_EPIS_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7fb729d5028cb8e478a5c057c4817ea9",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure21.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

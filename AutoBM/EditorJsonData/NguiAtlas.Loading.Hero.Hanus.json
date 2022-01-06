@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Hanus",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1c940e07811b7d240b410837f6211189",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Hanus.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Hero11",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Event/2021_HalloweenDungeon/Rephy_5",
+                "OrigName"   : "Battle/Portrait/Costume/Hero/Rephy_Rephy_Cos19Halloween"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Event/2021_HalloweenDungeon/Requina_5",
+                "OrigName"   : "Battle/Portrait/Costume/Hero/Requina_Requina_Cos19Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "fcb66c3727206b34b8ca05d7e4658a3f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Hero/BattlePortraitCoustumeHero11.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

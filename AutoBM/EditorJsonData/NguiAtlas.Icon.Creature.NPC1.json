@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Creature.NPC1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/NPC/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ac951e070152152409c050776250e800",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/NPC/NPC1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.RiheetRipine",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8c83489851cb68b4185ea0fb6819a7b1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_RiheetRipine.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

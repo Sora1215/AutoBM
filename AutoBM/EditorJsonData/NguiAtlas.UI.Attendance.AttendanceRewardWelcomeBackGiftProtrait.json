@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.AttendanceRewardWelcomeBackGiftProtrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "89a7290d5bbc40242899b52e2b446608",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceRewardWelcomeBackGiftProtrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

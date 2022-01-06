@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.HeroAchievement25",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "60e6b208ed715c24c97829aec4317cc1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull/HeroAchievement25Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

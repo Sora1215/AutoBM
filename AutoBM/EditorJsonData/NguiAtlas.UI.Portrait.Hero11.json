@@ -1,0 +1,70 @@
+
+{
+    "Code" : "UI.Portrait.Hero11",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Laudia",
+                "OrigName"   : "Portrait/Hero/Laudia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lilia",
+                "OrigName"   : "Portrait/Hero/Lilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Zafir",
+                "OrigName"   : "Portrait/Hero/Zafir_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Juno",
+                "OrigName"   : "Portrait/Hero/Juno_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Erze",
+                "OrigName"   : "Portrait/Hero/Erze_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Neraxis",
+                "OrigName"   : "Portrait/Hero/Neraxis_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Seria",
+                "OrigName"   : "Portrait/Hero/Seria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Laudia",
+                "OrigName"   : "Portrait/Hero/Laudia_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Neraxis",
+                "OrigName"   : "Portrait/Hero/Neraxis_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Zafir",
+                "OrigName"   : "Portrait/Hero/Zafir_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Laudia",
+                "OrigName"   : "Portrait/Hero/Laudia_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "46c1ee3ddd13ae0439010cbbaf6feada",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait11.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

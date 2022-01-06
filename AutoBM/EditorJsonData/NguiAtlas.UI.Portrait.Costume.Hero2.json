@@ -1,0 +1,30 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Luna_5",
+                "OrigName"   : "Portrait/Costume/Hero/Luna_Luna_Cos17Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "bacbd02a5bf33c04eba3cdca99dd9a49",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

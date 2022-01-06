@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero5",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9372444292e40ee44b04032d673e0cdd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero5Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

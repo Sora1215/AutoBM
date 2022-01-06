@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure15",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b02fd83b800b0d34c8c25ad7cbd07880",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Hero10",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2a3fd7160c4acee4c84b8c8a6c0bf31f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Hero/BattlePortraitCoustumeHero10.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

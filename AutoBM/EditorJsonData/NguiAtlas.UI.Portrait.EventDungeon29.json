@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.EventDungeon29",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/EventDungeon/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Taily",
+                "OrigName"   : "Portrait/EventDungeon/EVENT_21AUTUMNSPORTSDAY_STORY6"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/HalloweenTotem",
+                "OrigName"   : "Portrait/EventDungeon/EVENT_21AUTUMNSPORTSDAY_SPECIAL"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/PumpKin2",
+                "OrigName"   : "Portrait/EventDungeon/EVENT_21AUTUMNSPORTSDAY_SECRET"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3d6057c606794554a9a36012f13413b4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/EventDungeon/EventDungeon29.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.Monster10",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/IceMageElite",
+                "OrigName"   : "Portrait/Monster/Skeleton/MageElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Skeleton/Warrior",
+                "OrigName"   : "Portrait/Monster/Skeleton/Warrior"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_GodKing/MageElite",
+                "OrigName"   : "Portrait/Monster/Skeleton/MageElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4700ba5b8ffa83a41b1ef1ed0b3d6bf0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait10.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

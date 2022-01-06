@@ -1,0 +1,182 @@
+
+{
+    "Code" : "UI.Portrait.Monster18",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenArcher",
+                "OrigName"   : "Portrait/Monster/HalloweenArcher"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenHead",
+                "OrigName"   : "Portrait/Monster/HalloweenHead"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ent/HalloweenNut",
+                "OrigName"   : "Portrait/Monster/HalloweenNut"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/LivingWeapon/HalloweenShield",
+                "OrigName"   : "Portrait/Monster/HalloweenShield"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Nepenthes/HalloweenStem",
+                "OrigName"   : "Portrait/Monster/HalloweenStem"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenWarrior",
+                "OrigName"   : "Portrait/Monster/HalloweenWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArtemia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArtemia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArtemia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArtemia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArtemia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArtemia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Mimic/ChristmasPlatinum",
+                "OrigName"   : "Portrait/Monster/ChristmasPlatinum"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ent/ChristmasThorn",
+                "OrigName"   : "Portrait/Monster/ChristmasThorn"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Beast/ChristmasTiger",
+                "OrigName"   : "Portrait/Monster/ChristmasTiger"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMirianne",
+                "OrigName"   : "Portrait/Monster/DarkMirianne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMirianne_1",
+                "OrigName"   : "Portrait/Monster/DarkMirianne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMirianne_2",
+                "OrigName"   : "Portrait/Monster/DarkMirianne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Nicx",
+                "OrigName"   : "Portrait/Monster/Event/Nicx_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Ricardo",
+                "OrigName"   : "Portrait/Monster/Event/Ricardo_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Miruru",
+                "OrigName"   : "Portrait/Monster/Miruru_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Roi",
+                "OrigName"   : "Portrait/Monster/Roi_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Lewsia",
+                "OrigName"   : "Portrait/Monster/Lewisia_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Phillop",
+                "OrigName"   : "Portrait/Monster/Phillop_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Mediana",
+                "OrigName"   : "Portrait/Monster/Mediana_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Cassandra",
+                "OrigName"   : "Portrait/Monster/Cassandra_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Selene",
+                "OrigName"   : "Portrait/Monster/Selene_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Lorraine",
+                "OrigName"   : "Portrait/Monster/Lorraine_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Yanne",
+                "OrigName"   : "Portrait/Monster/RudolphYanne_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Rephy",
+                "OrigName"   : "Portrait/Monster/RudolphRephy_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Kaulah",
+                "OrigName"   : "Portrait/Monster/Kaulah_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Ricardo",
+                "OrigName"   : "Portrait/Monster/Ricardo_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Artemia",
+                "OrigName"   : "Portrait/Monster/Artemia_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/Aisha",
+                "OrigName"   : "Portrait/Monster/Aisha_Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Demia",
+                "OrigName"   : "Portrait/Monster/Demia_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Lorraine",
+                "OrigName"   : "Portrait/Monster/Lorraine_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Pavel",
+                "OrigName"   : "Portrait/Monster/Pavel_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Oddy",
+                "OrigName"   : "Portrait/Monster/Oddy_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Mediana",
+                "OrigName"   : "Portrait/Monster/Mediana_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Viska",
+                "OrigName"   : "Portrait/Monster/Viska_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Ophelia",
+                "OrigName"   : "Portrait/Monster/Ophelia_2019_Semester"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_School/Gau",
+                "OrigName"   : "Portrait/Monster/Gau_2019_Semester"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f963d6923994d934286a880fc6928ff7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait18.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

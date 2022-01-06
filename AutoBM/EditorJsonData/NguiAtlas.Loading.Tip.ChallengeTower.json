@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.ChallengeTower",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f4d8b39688e9902409cb680bff61015a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_ChallengeTower.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+
+{
+    "Code" : "UI.Portrait.Hero6",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Maria_1",
+                "OrigName"   : "Portrait/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Maria_2",
+                "OrigName"   : "Portrait/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Maya_1",
+                "OrigName"   : "Portrait/Hero/Maya_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Maya_2",
+                "OrigName"   : "Portrait/Hero/Maya_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Phillop_1",
+                "OrigName"   : "Portrait/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Phillop_2",
+                "OrigName"   : "Portrait/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Baudouin",
+                "OrigName"   : "Portrait/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Maria",
+                "OrigName"   : "Portrait/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Maya",
+                "OrigName"   : "Portrait/Hero/Maya_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Morrah",
+                "OrigName"   : "Portrait/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Naila",
+                "OrigName"   : "Portrait/Hero/Naila_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Pavel",
+                "OrigName"   : "Portrait/Hero/Pavel_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Phillop",
+                "OrigName"   : "Portrait/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Morrah_1",
+                "OrigName"   : "Portrait/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Baudouin",
+                "OrigName"   : "Portrait/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Phillop2",
+                "OrigName"   : "Portrait/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Maria",
+                "OrigName"   : "Portrait/Hero/Maria_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Baudouin",
+                "OrigName"   : "Portrait/Hero/Baudouin_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Morrah2",
+                "OrigName"   : "Portrait/Hero/Morrah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Morrah3",
+                "OrigName"   : "Portrait/Hero/Morrah_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6d4474934a7daf44a9b739f61c4a24b1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

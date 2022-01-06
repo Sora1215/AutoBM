@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portal.LastPosition1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portal/LastPosition/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b610384295526c7478f5cec19aed61ba",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/NewPortal/LastPosition/PortalLastPosition1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

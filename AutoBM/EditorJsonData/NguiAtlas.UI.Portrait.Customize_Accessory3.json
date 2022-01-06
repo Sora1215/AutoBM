@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Customize_Accessory3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Customize/Product/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a42d6d74038648f4ea5813a66a99afde",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Customize/Accessory/Customize_Accessory3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

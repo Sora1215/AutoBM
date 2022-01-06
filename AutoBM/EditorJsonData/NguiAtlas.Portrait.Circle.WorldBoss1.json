@@ -1,0 +1,46 @@
+
+{
+    "Code" : "Portrait.Circle.WorldBoss1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/WorldBoss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/MountainFortress_1",
+                "OrigName"   : "Portrait/Circle/WorldBoss/MountainFortress"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/Poseidon_1",
+                "OrigName"   : "Portrait/Circle/WorldBoss/Poseidon"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/EventPoseidon_1",
+                "OrigName"   : "Portrait/Circle/WorldBoss/EventPoseidon"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/EventMountain_1",
+                "OrigName"   : "Portrait/Circle/WorldBoss/Lulu"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/Xanadus_1",
+                "OrigName"   : "Portrait/Circle/WorldBoss/Xanadus"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6158e41bdc0d1634a8c53ddcff372655",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/WorldBoss.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

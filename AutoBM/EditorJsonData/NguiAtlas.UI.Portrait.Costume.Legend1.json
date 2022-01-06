@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Legend1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4686c3cb9049acd41b0358bbc5a8556e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Legend/Legend1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

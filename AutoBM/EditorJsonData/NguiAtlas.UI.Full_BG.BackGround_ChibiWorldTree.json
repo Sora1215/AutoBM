@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround_ChibiWorldTree",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/EventChibiWorldTree/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b3087030ac30d7449a101561af3bf05d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround_ChibiWorldTree.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.CutScene",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "86396d6ba663f394a9a9fe914800bc39",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/CutScene/CutScene.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

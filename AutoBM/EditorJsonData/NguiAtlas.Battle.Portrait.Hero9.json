@@ -1,0 +1,54 @@
+
+{
+    "Code" : "Battle.Portrait.Hero9",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Riheet",
+                "OrigName"   : "Battle/Portrait/Hero/Riheet_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Ripine",
+                "OrigName"   : "Battle/Portrait/Hero/Ripine_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/ZLucikiel",
+                "OrigName"   : "Battle/Portrait/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Shakmeh",
+                "OrigName"   : "Battle/Portrait/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Estelle",
+                "OrigName"   : "Battle/Portrait/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Isaiah",
+                "OrigName"   : "Battle/Portrait/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Valance",
+                "OrigName"   : "Battle/Portrait/Hero/Valance_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "613ea32747f6f9f41a10f67dad5720d3",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

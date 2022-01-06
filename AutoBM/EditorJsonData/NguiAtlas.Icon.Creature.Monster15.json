@@ -1,0 +1,902 @@
+
+{
+    "Code" : "Icon.Creature.Monster15",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_GodKing/Lakrak",
+                "OrigName"   : "Icon/Creature/Monster/Lakrak_2019_GodKing"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_GodKing/Miruru",
+                "OrigName"   : "Icon/Creature/Monster/Miruru_2019_GodKing"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCecilia_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCecilia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCecilia_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCecilia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCecilia_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCecilia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCecilia_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCecilia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCecilia_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCecilia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDakaris_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDakaris"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDakaris_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDakaris"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDakaris_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDakaris"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDakaris_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDakaris"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDakaris_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDakaris"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Draconic/Kallax",
+                "OrigName"   : "Icon/Creature/Monster/Kallax"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Rank/Draconic/Kallax",
+                "OrigName"   : "Icon/Creature/Monster/Kallax"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKirze_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKirze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKirze_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKirze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKirze_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKirze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKirze_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKirze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKirze_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKirze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHanus_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHanus"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHanus_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHanus"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHanus_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHanus"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHanus_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHanus"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHanus_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHanus"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Ore",
+                "OrigName"   : "Icon/Creature/Monster/Tortoise_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Baudouin",
+                "OrigName"   : "Icon/Creature/Monster/Baudoin_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Gau",
+                "OrigName"   : "Icon/Creature/Monster/Gau_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Esker",
+                "OrigName"   : "Icon/Creature/Monster/EskerDark_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Esker2",
+                "OrigName"   : "Icon/Creature/Monster/EskerDark_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Glenwys3",
+                "OrigName"   : "Icon/Creature/Monster/Glenwys_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Chrisha3",
+                "OrigName"   : "Icon/Creature/Monster/Chrisha_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Seria3",
+                "OrigName"   : "Icon/Creature/Monster/Seria_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Erze3",
+                "OrigName"   : "Icon/Creature/Monster/Erze__19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Laudia3",
+                "OrigName"   : "Icon/Creature/Monster/Laudia_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Zafir3",
+                "OrigName"   : "Icon/Creature/Monster/Zafir_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Dosarta3",
+                "OrigName"   : "Icon/Creature/Monster/Dojarta_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Lavril3",
+                "OrigName"   : "Icon/Creature/Monster/Lavril_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Gau3",
+                "OrigName"   : "Icon/Creature/Monster/Gau_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Bernheim3",
+                "OrigName"   : "Icon/Creature/Monster/Bernheim_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Summer/Esker3",
+                "OrigName"   : "Icon/Creature/Monster/EskerLight_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_JunoEvent/GiantSlime2",
+                "OrigName"   : "Icon/Creature/Monster/KingSlime_2019_CookingLord"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKain_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKain_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKain_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKain_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKain_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Boar/Wild",
+                "OrigName"   : "Icon/Creature/Monster/Boar_Wild"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/GiantWorm/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/GiantWorm_SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/HornedBear/Wild",
+                "OrigName"   : "Icon/Creature/Monster/HornedBear_Wild"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Scorpion/Desert",
+                "OrigName"   : "Icon/Creature/Monster/Scorpion_Desert"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Spider/Fire",
+                "OrigName"   : "Icon/Creature/Monster/Spider_Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Spider/Warrior",
+                "OrigName"   : "Icon/Creature/Monster/Spider_Warrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Wasp/Mandible",
+                "OrigName"   : "Icon/Creature/Monster/Wasp_Mandible"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Wasp/Scythe",
+                "OrigName"   : "Icon/Creature/Monster/Wasp_Scythe"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Wolf/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Wolf_SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/DragonEnt",
+                "OrigName"   : "Icon/Creature/Monster/DragonEnt_Eclipse"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Eclipse/Lich",
+                "OrigName"   : "Icon/Creature/Monster/Lich_Eclipse"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRehartna_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRehartna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRehartna_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRehartna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRehartna_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRehartna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRehartna_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRehartna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRehartna_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRehartna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Mitra",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_MITRA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Dosarta",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_DOSARTA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Bernheim",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_BERNHEIM"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Kara",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_KARA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Lewsia",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_LEWSIA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Mediana",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_MEDIANA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/Yuria",
+                "OrigName"   : "Icon/Creature/Monster/19Halloween_Boss_YURIA"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/DunnNemicia",
+                "OrigName"   : "Icon/Creature/Monster/DunnNemicia_Boss_19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/RabbitHunter",
+                "OrigName"   : "Icon/Creature/Monster/Rabbit_Hunter_Normal_19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/RabbitHunterElite",
+                "OrigName"   : "Icon/Creature/Monster/Rabbit_Hunter_Elite_19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/RabbitHunterSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Rabbit_Hunter_SuperElite_19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Halloween/GiantSlime2",
+                "OrigName"   : "Icon/Creature/Monster/KingSlime_2019_CookingLord"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/Gladi",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Gladi"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Jin",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Jin"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/Juno",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Juno"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/Loman",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Loman"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/May",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_May"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/Nicky",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Nicky"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_1000Days/Veronica",
+                "OrigName"   : "Icon/Creature/Monster/1000Days_Boss_Veronica"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/Chase",
+                "OrigName"   : "Icon/Creature/Monster/19DestinyLight_Chase"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/Clause",
+                "OrigName"   : "Icon/Creature/Monster/19DestinyLight_Clause"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/Demia",
+                "OrigName"   : "Icon/Creature/Monster/19DestinyLight_Demia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/Fluss",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkFluss_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/GunnerSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Empire/GunnerSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_DestinyLight/WraithofRegrets",
+                "OrigName"   : "Icon/Creature/Monster/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Dreadbringer",
+                "OrigName"   : "Icon/Creature/Monster/DreadBringer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPancironne_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPancironne"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPancironne_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPancironne"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPancironne_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPancironne"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPancironne_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPancironne"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPancironne_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPancironne"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Mysterious/Book/Normal",
+                "OrigName"   : "Icon/Creature/Monster/Mysterious book_Normal"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Mysterious/Book/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Mysterious book_SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/MysteriousBook/Normal",
+                "OrigName"   : "Icon/Creature/Monster/Mysterious book_Normal"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/MysteriousBook/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Mysterious book_SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Ophelia",
+                "OrigName"   : "Icon/Creature/Monster/Substory/Ophelia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTaily_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTaily"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTaily_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTaily"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTaily_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTaily"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTaily_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTaily"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTaily_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTaily"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Boar",
+                "OrigName"   : "Icon/Creature/Monster/BoarCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/GiantWorm",
+                "OrigName"   : "Icon/Creature/Monster/GiantWormCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/HydraFury",
+                "OrigName"   : "Icon/Creature/Monster/HydraFurySekireinel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/HydraRed",
+                "OrigName"   : "Icon/Creature/Monster/HydraRedSekireinel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/LizardmanMage",
+                "OrigName"   : "Icon/Creature/Monster/LizardmanMageSekireinel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Scorpion",
+                "OrigName"   : "Icon/Creature/Monster/ScorpionSekireinel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Spider",
+                "OrigName"   : "Icon/Creature/Monster/SpiderCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/TotemCorrupted",
+                "OrigName"   : "Icon/Creature/Monster/TotemCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Warrior",
+                "OrigName"   : "Icon/Creature/Monster/Warrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/WarriorCorrupted",
+                "OrigName"   : "Icon/Creature/Monster/WarriorCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/WarriorElite",
+                "OrigName"   : "Icon/Creature/Monster/WarriorElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/WarriorEliteCorrupted",
+                "OrigName"   : "Icon/Creature/Monster/WarriorEliteCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/WarriorSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/WarriorSuperEliteCorrupted",
+                "OrigName"   : "Icon/Creature/Monster/WarriorSuperEliteCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/TotemCorrupted2",
+                "OrigName"   : "Icon/Creature/Monster/TotemCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightXerah_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightXerah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightXerah_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightXerah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightXerah_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightXerah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightXerah_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightXerah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightXerah_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightXerah"
+            },
+            {
+                "SpriteName" : "Icon/Skill/7200252",
+                "OrigName"   : "Icon/Creature/Monster/TotemCorrupted"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEvan_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEvan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEvan_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEvan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEvan_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEvan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEvan_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEvan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEvan_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEvan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Penteonia/Soldier",
+                "OrigName"   : "Icon/Creature/Monster/Soldier"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lucias",
+                "OrigName"   : "Icon/Creature/Monster/FallenKF_Boss_Lucias"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Morrah",
+                "OrigName"   : "Icon/Creature/Monster/FallenKF_Boss_Morrah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Ricardo",
+                "OrigName"   : "Icon/Creature/Monster/FallenKF_Boss_Ricardo"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Scarlet",
+                "OrigName"   : "Icon/Creature/Monster/FallenKF_Boss_Scarlet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTalisha_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTalisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTalisha_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTalisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTalisha_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTalisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTalisha_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTalisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTalisha_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTalisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHilda_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHilda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHilda_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHilda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHilda_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHilda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHilda_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHilda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightHilda_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightHilda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/HildaDark",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkHilda_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Clause",
+                "OrigName"   : "Icon/Creature/Monster/Basic_PublicMonster"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Guardian/GolemMK2",
+                "OrigName"   : "Icon/Creature/Monster/GolemMK2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Guardian/MeginorMK2",
+                "OrigName"   : "Icon/Creature/Monster/MeginorMK2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Guardian/RemorMK2",
+                "OrigName"   : "Icon/Creature/Monster/RemorMK2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Ascalon3",
+                "OrigName"   : "Icon/Creature/Monster/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Tech/Ascalon",
+                "OrigName"   : "Icon/Creature/Monster/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Siegfried",
+                "OrigName"   : "Icon/Creature/Monster/Basic_PublicMonster"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Chapter10/ClauseTraitor",
+                "OrigName"   : "Icon/Creature/Monster/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Necromancer/Chaser",
+                "OrigName"   : "Icon/Creature/Monster/Chaser"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Necromancer/ChaserElite",
+                "OrigName"   : "Icon/Creature/Monster/ChaserElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Necromancer/Curse",
+                "OrigName"   : "Icon/Creature/Monster/Curse"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Necromancer/CurseElite",
+                "OrigName"   : "Icon/Creature/Monster/CurseElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/TattersClause",
+                "OrigName"   : "Icon/Creature/Monster/TattersClause"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/TattersClause_5",
+                "OrigName"   : "Icon/Creature/Monster/TattersClause"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGremory_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGremory"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGremory_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGremory"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGremory_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGremory"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGremory_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGremory"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGremory_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGremory"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRiheet_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRiheet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRiheet_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRiheet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRiheet_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRiheet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRiheet_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRiheet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRiheet_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRiheet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRipine_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRipine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRipine_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRipine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRipine_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRipine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRipine_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRipine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRipine_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRipine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/GoatMagician",
+                "OrigName"   : "Icon/Creature/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GoatMagician",
+                "OrigName"   : "Icon/Creature/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightZLucikiel_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightZLucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightZLucikiel_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightZLucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightZLucikiel_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightZLucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightZLucikiel_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightZLucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightZLucikiel_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightZLucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightShakmeh_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightShakmeh_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightShakmeh_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightShakmeh_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightShakmeh_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEstelle_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEstelle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEstelle_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEstelle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEstelle_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEstelle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEstelle_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEstelle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEstelle_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEstelle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsaiah_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsaiah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsaiah_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsaiah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsaiah_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsaiah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsaiah_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsaiah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsaiah_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsaiah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GoatMagician2",
+                "OrigName"   : "Icon/Creature/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Penteonia/SoldierElite",
+                "OrigName"   : "Icon/Creature/Monster/SoldierElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/OrvelCrusader",
+                "OrigName"   : "Icon/Creature/Monster/Crusader"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/GoblinBronze",
+                "OrigName"   : "Icon/Creature/Monster/GoblinBronze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/GoblinSilver",
+                "OrigName"   : "Icon/Creature/Monster/GoblinSilver"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/GoblinGold",
+                "OrigName"   : "Icon/Creature/Monster/GoblinGold"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/LizardmanBronze",
+                "OrigName"   : "Icon/Creature/Monster/LizardmanBronze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/LizardmanSilver",
+                "OrigName"   : "Icon/Creature/Monster/LizardmanSilver"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/LizardmanGold",
+                "OrigName"   : "Icon/Creature/Monster/LizardmanGold"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/MimicBronze",
+                "OrigName"   : "Icon/Creature/Monster/MimicBronze"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/MimicSilver",
+                "OrigName"   : "Icon/Creature/Monster/MimicSilver"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/TreasureHouse/MimicGold",
+                "OrigName"   : "Icon/Creature/Monster/MimicGold"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/LaughingMaskElite",
+                "OrigName"   : "Icon/Creature/Monster/LaughingMaskElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Constellation",
+                "OrigName"   : "Icon/Creature/Monster/Constellation"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Amrunda",
+                "OrigName"   : "Icon/Creature/Monster/Amrunda"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/PumpKin",
+                "OrigName"   : "Icon/Creature/Monster/Pumpkin"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/PumpKin2",
+                "OrigName"   : "Icon/Creature/Monster/Pumpkin"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightValance_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightValance"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightValance_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightValance"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightValance_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightValance"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightValance_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightValance"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightValance_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightValance"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "317e1399de70da1428b7a42616c1de55",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

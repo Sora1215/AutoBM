@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.RoyalShop",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "434da305d39736f40985b2a69d2ca4ab",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_RoyalShop.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

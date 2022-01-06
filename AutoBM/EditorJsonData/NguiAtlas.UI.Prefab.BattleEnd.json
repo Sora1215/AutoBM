@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.BattleEnd",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8e338961d581ad34791f66779eb1f0aa",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/BattleEnd/BattleEnd.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

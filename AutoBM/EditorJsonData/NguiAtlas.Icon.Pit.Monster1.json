@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Pit.Monster1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/CreatureLarge/Monster/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e6ed8e16ee226014eb3c30e6131f7dd5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/CreatureLarge/PitMonster1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

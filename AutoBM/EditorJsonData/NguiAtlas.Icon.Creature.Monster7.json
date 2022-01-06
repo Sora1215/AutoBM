@@ -1,0 +1,250 @@
+
+{
+    "Code" : "Icon.Creature.Monster7",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightAisha_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightAisha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightArch_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightArch"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightBaudouin_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightBaudouin"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightClause_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightClause"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightCleo_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightCleo"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDemia_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDemia"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightDimael_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightDimael"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEpis_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEpis"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightFluss_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightFluss"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightFrey_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightFrey"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightGau_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGau"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightJane_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightJane"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKasel_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKasel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightKaulah_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightKaulah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightLakrak_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightLakrak"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightLeo_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightLeo"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightLorraine_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightLorraine"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightLuna_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightLuna"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightMaria_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightMaria"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightMaya_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightMaya"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightMiruru_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightMiruru"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightMorrah_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightMorrah"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightNaila_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightNaila"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPavel_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPavel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightPhillop_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightPhillop"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightReina_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightReina"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRephy_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRephy"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRodina_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRodina"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightRoi_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightRoi"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightSelene_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightSelene"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightEll_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightEll"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightAnnette_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightAnnette"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightNicx_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightNicx"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightTanya_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightTanya"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Hatchling/Ice",
+                "OrigName"   : "Icon/Creature/Monster/Hatchling/Blue"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Ice/Pillar",
+                "OrigName"   : "Icon/Creature/Monster/Hatchling/Blue2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Ice",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Ice"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightMitra_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightMitra"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightViska_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightViska"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Poison",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Poison"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Ice_1",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Ice"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Poison_1",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Poison"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Ice/Pillar_1",
+                "OrigName"   : "Icon/Creature/Monster/Hatchling/Blue2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Ice_2",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Ice"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Poison_2",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Poison"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/Mummy/WarriorSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Mummy/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90002530",
+                "OrigName"   : "Icon/Creature/Monster/Mummy/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Lizardman/Treasure",
+                "OrigName"   : "Icon/Creature/Monster/Treasure"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Tower/Hero/Gau",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightGau"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightYuria_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightYuria"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_GodKing/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Lizardman/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GodKingTrial/Msama/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Lizardman/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Arch",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightArch"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Ice_Punishment",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Ice"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Poison_Punishment",
+                "OrigName"   : "Icon/Creature/Monster/Dragon/Poison"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Story/Arch",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightArch"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3e77757988e628442a36232c7cadb5f4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

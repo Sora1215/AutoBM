@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Shop7",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c992b40e4347a3a48806c03a5c734172",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Shop/Shop7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

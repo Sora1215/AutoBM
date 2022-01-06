@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Portal",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d3eee19be9caa6441866edaedcaebc59",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Portal/Portal.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

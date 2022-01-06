@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Valance",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ad40021c636d1344a9e5776312d49738",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Valance.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

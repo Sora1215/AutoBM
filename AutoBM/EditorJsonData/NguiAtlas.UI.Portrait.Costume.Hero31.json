@@ -1,0 +1,30 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero31",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Pancironne",
+                "OrigName"   : "Portrait/Costume/Hero/Pancironne_Pancironne_Cos21Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9266b53c151ecf34b953705c749c63c2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero31.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

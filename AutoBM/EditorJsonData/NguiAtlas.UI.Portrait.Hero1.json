@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Demia_1",
+                "OrigName"   : "Portrait/Hero/Demia_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Clause",
+                "OrigName"   : "Portrait/Hero/Clause_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Demia",
+                "OrigName"   : "Portrait/Hero/Demia_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Cleo",
+                "OrigName"   : "Portrait/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Jane",
+                "OrigName"   : "Portrait/Hero/Jane_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Rodina",
+                "OrigName"   : "Portrait/Hero/Rodina_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Cleo",
+                "OrigName"   : "Portrait/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Demia",
+                "OrigName"   : "Portrait/Hero/Demia_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Clause2",
+                "OrigName"   : "Portrait/Hero/Clause_5_2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "bc4bb9e5b3540e74bb24e72104682bd2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

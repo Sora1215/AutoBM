@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure26",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_ZAFIR",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_ZAFIR_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d91ed3d3ec097dc429bfc605e0609193",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure26.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.DPS",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3c37410f50383e14d96aeeda1cbf16c1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/DPS/DPS.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

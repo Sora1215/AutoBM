@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.HeroDark3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Ordeal/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "57e9c69d48fbaab42b74780f149ff9f7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Ordeal/BattlePortraitHeroDark3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

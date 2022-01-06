@@ -1,0 +1,66 @@
+
+{
+    "Code" : "Battle.Portrait.Hero3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Maria",
+                "OrigName"   : "Battle/Portrait/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Morrah",
+                "OrigName"   : "Battle/Portrait/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Naila",
+                "OrigName"   : "Battle/Portrait/Hero/Naila_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Pavel",
+                "OrigName"   : "Battle/Portrait/Hero/Pavel_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Rephy",
+                "OrigName"   : "Battle/Portrait/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Rodina",
+                "OrigName"   : "Battle/Portrait/Hero/Rodina_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Roi",
+                "OrigName"   : "Battle/Portrait/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Selene",
+                "OrigName"   : "Battle/Portrait/Hero/Selene_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Fluss",
+                "OrigName"   : "Battle/Portrait/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Leo",
+                "OrigName"   : "Battle/Portrait/Hero/Leo_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b32b56801b2770a4699a37a5d857c2f2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

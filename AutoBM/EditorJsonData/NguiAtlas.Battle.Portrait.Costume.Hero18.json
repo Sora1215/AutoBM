@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Hero18",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "741bd61181546694f8b54ed6546cfa3f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Hero/BattlePortraitCoustumeHero18.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

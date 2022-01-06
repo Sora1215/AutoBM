@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.WorldBoss",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e3f49168b53f2fb4d9e471df36d89cd0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/WorldBoss/WorldBoss.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

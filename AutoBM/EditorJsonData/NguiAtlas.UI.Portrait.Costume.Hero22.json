@@ -1,0 +1,30 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero22",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Rodina",
+                "OrigName"   : "Portrait/Costume/Hero/Rodina_Rodina_Cos19Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "64fcc299f5438ff4386b81c9c7b3c8de",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero22.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

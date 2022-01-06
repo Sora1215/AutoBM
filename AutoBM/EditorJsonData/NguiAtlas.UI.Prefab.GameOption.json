@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.GameOption",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "24a2cc95faa01954396aa5ecf87e6ae0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/GameOption/GameOption.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

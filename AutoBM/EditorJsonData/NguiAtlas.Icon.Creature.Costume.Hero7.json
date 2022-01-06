@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero7",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Aselica",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Aselica_Aselica_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Cassandra",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Cassandra_Cassandra_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Crow",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Crow_Crow_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Mediana",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Mediana_Mediana_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Requina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Requina_Requina_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Cassandra",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Cassandra_Cassandra_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Sonia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Sonia_Sonia_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Mirianne",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Mirianne_Mirianne_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Gau",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Gau_Gau_Cos18Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4d9fc1e9812cf1b49a9830f1eb06105a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero7Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

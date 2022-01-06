@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.TechnoMagic6",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "95546d10d3bf7f74db6f0cc66e5efff2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/TechnoMagic/TechnoMagic6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

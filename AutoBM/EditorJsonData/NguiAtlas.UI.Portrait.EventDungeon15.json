@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.EventDungeon15",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/EventDungeon/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "bdd814b586d081e43a694af803c9a542",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/EventDungeon/EventDungeon15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+
+{
+    "Code" : "UI.Attendance.Text3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Text/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : true,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7ed478fc3adf145489305135bbd4ef9d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Korean]/AttendanceText_KR3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "English",
+                "AtlasLink" : 
+                {
+                    "GUID" : "432969a606e61f0439ba594033bd4a82",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[English]/AttendanceText_EN3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "French",
+                "AtlasLink" : 
+                {
+                    "GUID" : "35996a588c6d7534382935465e69fb6b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[French]/AttendanceText_FR3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "German",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e0e2537c4098f094598d839398225bcb",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[German]/AttendanceText_GR3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Japanese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "133cc1711988f1f43abebead315e45dd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Japanese]/AttendanceText_JP3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Portuguese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "41ed3575770cee845bbe3b744000f61a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Portuguese]/AttendanceText_PORT3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Russian",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1bddf9f34d572744297d85472cd2edf8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Russian]/AttendanceText_RU3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Spanish",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e2a218da9236cbd4db0dc0b045b57308",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Spanish]/AttendanceText_SP3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Thai",
+                "AtlasLink" : 
+                {
+                    "GUID" : "79dd232c8fc74c04a87289d07bd5cdf1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Thai]/AttendanceText_TH3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Vietnamese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8acd3300c59170d4697b5a18f3fb987b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[Vietnamese]/AttendanceText_VT3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseSimplified",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b8ae8c2435b8c9a46942f88c6cca418b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[ChineseSimplified]/AttendanceText_ChineseSimplified3.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseTraditional",
+                "AtlasLink" : 
+                {
+                    "GUID" : "546aed69ff2fd614eb69880571b09005",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Text/[ChineseTraditional]/AttendanceText_ChineseTraditional3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

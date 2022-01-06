@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Portrait.CommingSoon1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/CommingSoon/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f7c8beae0988ae746ba4b4cda2ca84e7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/CommingSoon/CommingSoon1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

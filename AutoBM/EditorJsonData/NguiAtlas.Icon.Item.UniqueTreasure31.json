@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure31",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8117e4056d137e241999945adcda6d9c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure31.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero14",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Selene",
+                "OrigName"   : "Portrait/Costume/Hero/Selene_Selene_Cos18Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Lorraine",
+                "OrigName"   : "Portrait/Costume/Hero/Lorraine_Lorraine_Cos18Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1ef047eba5b09024abbac8a33f0e91b7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero14.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

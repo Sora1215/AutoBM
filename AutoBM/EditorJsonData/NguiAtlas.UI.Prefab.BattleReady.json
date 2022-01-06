@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.BattleReady",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ed7ba16752a51294193b320bd9ed0528",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/BattleReady/BattleReady.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

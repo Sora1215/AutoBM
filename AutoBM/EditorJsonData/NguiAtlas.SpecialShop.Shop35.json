@@ -1,0 +1,24 @@
+
+{
+    "Code" : "SpecialShop.Shop35",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "SpecialShop/Shop/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8ffcff6a7885f8a43a64537b367b526b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/SpecialShop/Shop35.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

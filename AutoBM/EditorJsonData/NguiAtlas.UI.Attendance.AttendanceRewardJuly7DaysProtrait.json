@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.AttendanceRewardJuly7DaysProtrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "02ca6901748147b429ba3918150ab75d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceRewardJuly7DaysProtrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Awaken",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "55c8e0548ded8764c8ad829ee46d79ab",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Awaken/Awaken.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

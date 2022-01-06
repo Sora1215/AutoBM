@@ -1,0 +1,278 @@
+
+{
+    "Code" : "UI.Portrait.Boss1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Boss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Maze/HarpyQueen",
+                "OrigName"   : "Portrait/Boss/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/GoblinRider",
+                "OrigName"   : "Portrait/Boss/GoblinRider"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Lich",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Lich2",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Fire",
+                "OrigName"   : "Portrait/Boss/Dragon_Red"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Temerer",
+                "OrigName"   : "Portrait/Boss/Dragon_Red"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/DragonEnt/Ice",
+                "OrigName"   : "Portrait/Boss/DragonEntIce"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/WarTroll",
+                "OrigName"   : "Portrait/Boss/Wartroll"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/WarTroll",
+                "OrigName"   : "Portrait/Boss/Wartroll"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/DarkElfCrescent",
+                "OrigName"   : "Portrait/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Black",
+                "OrigName"   : "Portrait/Boss/Dragon_Black"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Ice",
+                "OrigName"   : "Portrait/Boss/Dragon_Ice"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Poison",
+                "OrigName"   : "Portrait/Boss/Dragon_Poison"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/DragonEnt2",
+                "OrigName"   : "Portrait/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/DragonEnt3",
+                "OrigName"   : "Portrait/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Golem/SuperElite",
+                "OrigName"   : "Portrait/Boss/Golem_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/HellHound/SuperElite",
+                "OrigName"   : "Portrait/Boss/HellHound_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lich2",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lich3",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/MadAssassin2",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/MadAssassin3",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Nepenthes/SuperElite",
+                "OrigName"   : "Portrait/Boss/Nepenthes_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/OrcSword2",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/OrcSword2",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/OrcSword3",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Scorpion/SuperElite",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/SuperElite2",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/SuperElite3",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/MadAssassin2",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/DarkElfCrescent",
+                "OrigName"   : "Portrait/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/HarpyQueen",
+                "OrigName"   : "Portrait/Boss/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Infira",
+                "OrigName"   : "Portrait/Boss/Infira"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lich4",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/DragonEnt4",
+                "OrigName"   : "Portrait/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/MadAssassin4",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/OrcSword4",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/SuperElite4",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Chapter9/Lich",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/HardDragon/Fire_1",
+                "OrigName"   : "Portrait/Boss/Dragon_Red"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/HardDragon/Black_1",
+                "OrigName"   : "Portrait/Boss/Dragon_Black"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/HardDragon/Ice_1",
+                "OrigName"   : "Portrait/Boss/Dragon_Ice"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/HardDragon/Poison_1",
+                "OrigName"   : "Portrait/Boss/Dragon_Poison"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Lich3",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/DarkElfCrescent2",
+                "OrigName"   : "Portrait/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lich",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Golem/SuperElite",
+                "OrigName"   : "Portrait/Boss/Golem_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Infira",
+                "OrigName"   : "Portrait/Boss/Infira"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/KibehOd2",
+                "OrigName"   : "Portrait/Boss/KibehOd"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lich2",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lich5",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lich6",
+                "OrigName"   : "Portrait/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/DragonEnt5",
+                "OrigName"   : "Portrait/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/DragonEnt6",
+                "OrigName"   : "Portrait/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/MadAssassin5",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/MadAssassin6",
+                "OrigName"   : "Portrait/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/OrcSword5",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/OrcSword6",
+                "OrigName"   : "Portrait/Boss/OrcSword"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/SuperElite5",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/SuperElite6",
+                "OrigName"   : "Portrait/Boss/Scorpion_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Fire_Punishment",
+                "OrigName"   : "Portrait/Boss/Dragon_Red"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Black_Punishment",
+                "OrigName"   : "Portrait/Boss/Dragon_Black"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Ice_Punishment",
+                "OrigName"   : "Portrait/Boss/Dragon_Ice"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Poison_Punishment",
+                "OrigName"   : "Portrait/Boss/Dragon_Poison"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e5eb37d0ce3cd2b4d83bdf7d2a44f288",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Boss/BossPortait1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

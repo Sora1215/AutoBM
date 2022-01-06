@@ -1,0 +1,30 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero25",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Taily",
+                "OrigName"   : "Portrait/Costume/Hero/Taily_Taily_Cos20Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0283bf3913405574da2bdc6929f90863",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero25.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

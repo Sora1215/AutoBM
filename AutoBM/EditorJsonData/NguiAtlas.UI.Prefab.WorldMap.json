@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.WorldMap",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f43c357390601a349a4acfd4c62cd203",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/WorldMap/WorldMap.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

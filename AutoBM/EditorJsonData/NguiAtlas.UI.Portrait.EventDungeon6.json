@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.EventDungeon6",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/EventDungeon/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9bfc7829e6b276146baf5541e5fda930",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/EventDungeon/EventDungeon6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

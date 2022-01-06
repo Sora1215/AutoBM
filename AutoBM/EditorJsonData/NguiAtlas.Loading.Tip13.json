@@ -1,0 +1,123 @@
+
+{
+    "Code" : "Loading.Tip13",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : true,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "German",
+                "AtlasLink" : 
+                {
+                    "GUID" : "014e6b00a150c73478d27d2e883789c5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[German]/LoadingTip13_German.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Spanish",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e23c079acc840c04ba2cb8a88a047441",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Spanish]/LoadingTip13_Spanish.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Vietnamese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a6edb61040f77f141aac80fe71b2bfb8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Vietnamese]/LoadingTip13_Vietnamese.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Russian",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9797798193667454e82decc2d9c35f65",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Russian]/LoadingTip13_Russian.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseSimplified",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e1d0b95ef9e3ad74688d321cd7b7bd9c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[ChineseSimplified]/LoadingTip13_ChineseSimplified.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseTraditional",
+                "AtlasLink" : 
+                {
+                    "GUID" : "48875e7941bf9ae40b1312b601aff281",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[ChineseTraditional]/LoadingTip13_ChineseTraditional.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0ec8d32ce8bb9a945b2517c48f61e1e6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Korean]/LoadingTip13_Korean.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Japanese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8b3c5363463d0784f8a05a179d6280ec",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Japanese]/LoadingTip13_Japanese.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "English",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f9df394458c2daa48875d5fb98e948c6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[English]/LoadingTip13_English.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "French",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5e92370dbcd6c154089a295a61d5b777",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[French]/LoadingTip13_French.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Thai",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4b17f0187704dd34f8a6e99295808c50",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Thai]/LoadingTip13_Thai.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Portuguese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "87046e25d60d78a4f906e6482bcc322f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[Portuguese]/LoadingTip13_Portuguese.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

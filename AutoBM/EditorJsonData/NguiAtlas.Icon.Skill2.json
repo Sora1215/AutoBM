@@ -1,0 +1,626 @@
+
+{
+    "Code" : "Icon.Skill2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/1011",
+                "OrigName"   : "Icon/Skill/1010"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1012",
+                "OrigName"   : "Icon/Skill/1010"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1013",
+                "OrigName"   : "Icon/Skill/1010"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1021",
+                "OrigName"   : "Icon/Skill/1020"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1022",
+                "OrigName"   : "Icon/Skill/1020"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1023",
+                "OrigName"   : "Icon/Skill/1020"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1031",
+                "OrigName"   : "Icon/Skill/1030"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1032",
+                "OrigName"   : "Icon/Skill/1030"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1033",
+                "OrigName"   : "Icon/Skill/1030"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1041",
+                "OrigName"   : "Icon/Skill/1040"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1042",
+                "OrigName"   : "Icon/Skill/1040"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1043",
+                "OrigName"   : "Icon/Skill/1040"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1051",
+                "OrigName"   : "Icon/Skill/1050"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1052",
+                "OrigName"   : "Icon/Skill/1050"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1053",
+                "OrigName"   : "Icon/Skill/1050"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1111",
+                "OrigName"   : "Icon/Skill/1110"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1112",
+                "OrigName"   : "Icon/Skill/1110"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1113",
+                "OrigName"   : "Icon/Skill/1110"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1121",
+                "OrigName"   : "Icon/Skill/1120"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1122",
+                "OrigName"   : "Icon/Skill/1120"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1123",
+                "OrigName"   : "Icon/Skill/1120"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1131",
+                "OrigName"   : "Icon/Skill/1130"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1132",
+                "OrigName"   : "Icon/Skill/1130"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1133",
+                "OrigName"   : "Icon/Skill/1130"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1141",
+                "OrigName"   : "Icon/Skill/1140"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1142",
+                "OrigName"   : "Icon/Skill/1140"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1143",
+                "OrigName"   : "Icon/Skill/1140"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1151",
+                "OrigName"   : "Icon/Skill/1150"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1152",
+                "OrigName"   : "Icon/Skill/1150"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1153",
+                "OrigName"   : "Icon/Skill/1150"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1211",
+                "OrigName"   : "Icon/Skill/1210"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1212",
+                "OrigName"   : "Icon/Skill/1210"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1213",
+                "OrigName"   : "Icon/Skill/1210"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1221",
+                "OrigName"   : "Icon/Skill/1220"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1222",
+                "OrigName"   : "Icon/Skill/1220"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1223",
+                "OrigName"   : "Icon/Skill/1220"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1231",
+                "OrigName"   : "Icon/Skill/1230"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1232",
+                "OrigName"   : "Icon/Skill/1230"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1233",
+                "OrigName"   : "Icon/Skill/1230"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1241",
+                "OrigName"   : "Icon/Skill/1240"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1242",
+                "OrigName"   : "Icon/Skill/1240"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1243",
+                "OrigName"   : "Icon/Skill/1240"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1251",
+                "OrigName"   : "Icon/Skill/1250"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1252",
+                "OrigName"   : "Icon/Skill/1250"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1253",
+                "OrigName"   : "Icon/Skill/1250"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1311",
+                "OrigName"   : "Icon/Skill/1310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1312",
+                "OrigName"   : "Icon/Skill/1310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1313",
+                "OrigName"   : "Icon/Skill/1310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1321",
+                "OrigName"   : "Icon/Skill/1320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1322",
+                "OrigName"   : "Icon/Skill/1320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1323",
+                "OrigName"   : "Icon/Skill/1320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1331",
+                "OrigName"   : "Icon/Skill/1330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1332",
+                "OrigName"   : "Icon/Skill/1330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1333",
+                "OrigName"   : "Icon/Skill/1330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1341",
+                "OrigName"   : "Icon/Skill/1340"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1342",
+                "OrigName"   : "Icon/Skill/1340"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1343",
+                "OrigName"   : "Icon/Skill/1340"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1351",
+                "OrigName"   : "Icon/Skill/1350"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1352",
+                "OrigName"   : "Icon/Skill/1350"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1353",
+                "OrigName"   : "Icon/Skill/1350"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1411",
+                "OrigName"   : "Icon/Skill/1410"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1412",
+                "OrigName"   : "Icon/Skill/1410"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1413",
+                "OrigName"   : "Icon/Skill/1410"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1421",
+                "OrigName"   : "Icon/Skill/1420"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1422",
+                "OrigName"   : "Icon/Skill/1420"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1423",
+                "OrigName"   : "Icon/Skill/1420"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1431",
+                "OrigName"   : "Icon/Skill/1430"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1432",
+                "OrigName"   : "Icon/Skill/1430"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1433",
+                "OrigName"   : "Icon/Skill/1430"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1441",
+                "OrigName"   : "Icon/Skill/1440"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1442",
+                "OrigName"   : "Icon/Skill/1440"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1443",
+                "OrigName"   : "Icon/Skill/1440"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1451",
+                "OrigName"   : "Icon/Skill/1450"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1452",
+                "OrigName"   : "Icon/Skill/1450"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1453",
+                "OrigName"   : "Icon/Skill/1450"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1511",
+                "OrigName"   : "Icon/Skill/1510"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1512",
+                "OrigName"   : "Icon/Skill/1510"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1513",
+                "OrigName"   : "Icon/Skill/1510"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1521",
+                "OrigName"   : "Icon/Skill/1520"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1522",
+                "OrigName"   : "Icon/Skill/1520"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1523",
+                "OrigName"   : "Icon/Skill/1520"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1531",
+                "OrigName"   : "Icon/Skill/1530"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1532",
+                "OrigName"   : "Icon/Skill/1530"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1533",
+                "OrigName"   : "Icon/Skill/1530"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1541",
+                "OrigName"   : "Icon/Skill/1540"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1542",
+                "OrigName"   : "Icon/Skill/1540"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1543",
+                "OrigName"   : "Icon/Skill/1540"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1551",
+                "OrigName"   : "Icon/Skill/1550"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1552",
+                "OrigName"   : "Icon/Skill/1550"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1553",
+                "OrigName"   : "Icon/Skill/1550"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1711",
+                "OrigName"   : "Icon/Skill/1710"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1712",
+                "OrigName"   : "Icon/Skill/1710"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1713",
+                "OrigName"   : "Icon/Skill/1710"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1721",
+                "OrigName"   : "Icon/Skill/1720"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1722",
+                "OrigName"   : "Icon/Skill/1720"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1723",
+                "OrigName"   : "Icon/Skill/1720"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1731",
+                "OrigName"   : "Icon/Skill/1730"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1732",
+                "OrigName"   : "Icon/Skill/1730"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1733",
+                "OrigName"   : "Icon/Skill/1730"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1741",
+                "OrigName"   : "Icon/Skill/1740"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1742",
+                "OrigName"   : "Icon/Skill/1740"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1743",
+                "OrigName"   : "Icon/Skill/1740"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1611",
+                "OrigName"   : "Icon/Skill/1610"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1612",
+                "OrigName"   : "Icon/Skill/1610"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1613",
+                "OrigName"   : "Icon/Skill/1610"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1621",
+                "OrigName"   : "Icon/Skill/1620"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1622",
+                "OrigName"   : "Icon/Skill/1620"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1623",
+                "OrigName"   : "Icon/Skill/1620"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1631",
+                "OrigName"   : "Icon/Skill/1630"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1632",
+                "OrigName"   : "Icon/Skill/1630"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1633",
+                "OrigName"   : "Icon/Skill/1630"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1641",
+                "OrigName"   : "Icon/Skill/1640"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1642",
+                "OrigName"   : "Icon/Skill/1640"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1643",
+                "OrigName"   : "Icon/Skill/1640"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1811",
+                "OrigName"   : "Icon/Skill/1810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1812",
+                "OrigName"   : "Icon/Skill/1810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1813",
+                "OrigName"   : "Icon/Skill/1810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1821",
+                "OrigName"   : "Icon/Skill/1820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1822",
+                "OrigName"   : "Icon/Skill/1820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1823",
+                "OrigName"   : "Icon/Skill/1820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1831",
+                "OrigName"   : "Icon/Skill/1830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1832",
+                "OrigName"   : "Icon/Skill/1830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1833",
+                "OrigName"   : "Icon/Skill/1830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1841",
+                "OrigName"   : "Icon/Skill/1840"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1842",
+                "OrigName"   : "Icon/Skill/1840"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1843",
+                "OrigName"   : "Icon/Skill/1840"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1911",
+                "OrigName"   : "Icon/Skill/1910"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1912",
+                "OrigName"   : "Icon/Skill/1910"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1913",
+                "OrigName"   : "Icon/Skill/1910"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1921",
+                "OrigName"   : "Icon/Skill/1920"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1922",
+                "OrigName"   : "Icon/Skill/1920"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1923",
+                "OrigName"   : "Icon/Skill/1920"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1931",
+                "OrigName"   : "Icon/Skill/1930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1932",
+                "OrigName"   : "Icon/Skill/1930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1933",
+                "OrigName"   : "Icon/Skill/1930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1941",
+                "OrigName"   : "Icon/Skill/1940"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1942",
+                "OrigName"   : "Icon/Skill/1940"
+            },
+            {
+                "SpriteName" : "Icon/Skill/1943",
+                "OrigName"   : "Icon/Skill/1940"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3311",
+                "OrigName"   : "Icon/Skill/3310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3312",
+                "OrigName"   : "Icon/Skill/3310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3313",
+                "OrigName"   : "Icon/Skill/3310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3321",
+                "OrigName"   : "Icon/Skill/3320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3322",
+                "OrigName"   : "Icon/Skill/3320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3323",
+                "OrigName"   : "Icon/Skill/3320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3331",
+                "OrigName"   : "Icon/Skill/3330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3332",
+                "OrigName"   : "Icon/Skill/3330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3333",
+                "OrigName"   : "Icon/Skill/3330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3341",
+                "OrigName"   : "Icon/Skill/3340"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3342",
+                "OrigName"   : "Icon/Skill/3340"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3343",
+                "OrigName"   : "Icon/Skill/3340"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "965a8ac5ad611c340aa99f7c8de756e6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/HeroSkill2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

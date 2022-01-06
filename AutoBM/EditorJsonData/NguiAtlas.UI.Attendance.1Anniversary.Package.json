@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.1Anniversary.Package",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "686f9ef869cdbdb41b766fa804489a2c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/Attendance1AnniversaryPakegePortrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

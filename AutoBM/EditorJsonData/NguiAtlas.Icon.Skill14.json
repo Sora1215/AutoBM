@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Skill14",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2cb02bdfe72936549bddfba9bd4c5161",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/MonsterSkill4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

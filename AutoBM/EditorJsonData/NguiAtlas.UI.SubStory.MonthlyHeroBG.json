@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.SubStory.MonthlyHeroBG",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/SubStory/BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2f33be6aeb02a74408ce23998ce7ed78",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/SubStory/Monthly_Hero_BG.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

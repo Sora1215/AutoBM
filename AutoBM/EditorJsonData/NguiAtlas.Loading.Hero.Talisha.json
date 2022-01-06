@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Talisha",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "bdf6c3d3eb5efac4b97089d11eb8744a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Talisha.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

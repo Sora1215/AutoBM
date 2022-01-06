@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Battle4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "62f944e93c7214240acaa5593d075e2c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Battle4/Battle4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

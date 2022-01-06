@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Evan",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0f3a5cb5852be2d4cb11408d71228cca",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Evan.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

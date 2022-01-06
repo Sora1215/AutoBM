@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.TechnoMagic2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "85bd94e101c4ac74081feb6fa41a440a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/TechnoMagic/TechnoMagic2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

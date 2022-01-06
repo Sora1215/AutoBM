@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.HeroAchievement3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "615ba37dba2a32d438d939bf5f195fa9",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull/HeroAchievement3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

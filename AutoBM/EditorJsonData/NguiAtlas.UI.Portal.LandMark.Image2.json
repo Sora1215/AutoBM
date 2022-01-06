@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portal.LandMark.Image2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portal/LandMark/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a4037cc0395fb2a4da9f9c6772a6dc6e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/NewPortal/LandMark/PortalLandMark2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

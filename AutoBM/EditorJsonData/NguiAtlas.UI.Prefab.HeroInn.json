@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.HeroInn",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2874b066dc2fa3c4094952f89a3918bb",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/HeroInn/HeroInn.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

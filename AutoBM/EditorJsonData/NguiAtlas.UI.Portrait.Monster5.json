@@ -1,0 +1,30 @@
+
+{
+    "Code" : "UI.Portrait.Monster5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Orc/Totem",
+                "OrigName"   : "Portrait/Monster/Orc/Totem"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "98980d15fb9d0734794fc1c726ed695c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

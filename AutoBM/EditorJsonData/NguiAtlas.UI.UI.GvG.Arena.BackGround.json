@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.GvG.Arena.BackGround",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/GvG/Background/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "af5b8233fff698c40a7ad009f6cf5928",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/GVG/BackGround/GvGArenaBackground.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

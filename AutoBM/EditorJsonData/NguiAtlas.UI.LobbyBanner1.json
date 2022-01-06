@@ -1,0 +1,123 @@
+
+{
+    "Code" : "UI.LobbyBanner1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "LobbyBanner1/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : true,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "260a2117a8883504ea29e9286c207606",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Korean]/LobbyBanner_Korean.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "English",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f4f77b900af13484d89f53361db8a80c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[English]/LobbyBanner_English.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "French",
+                "AtlasLink" : 
+                {
+                    "GUID" : "211e3975633c65749a93e1e0f7f63281",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[French]/LobbyBanner_French.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "German",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a28f9d9885c21cd46a9eb188b77e29d8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[German]/LobbyBanner_German.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Portuguese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5502fed0e6a9c4f4da7a025b2591664c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Portuguese]/LobbyBanner_Portuguese.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Russian",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2ea6fb210ea0da4409ed56c1bcac6337",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Russian]/LobbyBanner_Russian.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Spanish",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1199f2b9ea9fd544b98b4c6a2afaeb7c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Spanish]/LobbyBanner_Spanish.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Thai",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4142fae7005952242bd4ae9be1e39755",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Thai]/LobbyBanner_Thai.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Vietnamese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "449a13ef14387524ebe8a63cbd80fef6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Vietnamese]/LobbyBanner_Vietnamese.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Japanese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f2172f40cf940b1419fda09702559c3f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[Japanese]/LobbyBanner_Japanese.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseTraditional",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5b9dba656eccdc74cb6c837fc74d7434",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[ChineseTraditional]/LobbyBanner_ChineseTraditional.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseSimplified",
+                "AtlasLink" : 
+                {
+                    "GUID" : "372422f009126a2488fc7f3ca9c434bd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LobbyBanner/[ChineseSimplified]/LobbyBanner_ChineseSimplified.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

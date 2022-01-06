@@ -1,0 +1,254 @@
+
+{
+    "Code" : "Portrait.Circle.Party1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/PartyPlay/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoblinRider"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_2",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_6",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Izakerr"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_7",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Tarkas"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_2",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Parus"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_3",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Argo"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_4",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Favios"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_7",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Gelopazta"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoblinPlunderChief"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_2",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HarpyArcherSquadLeader"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_3",
+                "OrigName"   : "Portrait/Circle/PartyPlay/ChiefOrcPriest"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_4",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GiantHeavyArmoredSkeleton"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/MasterDarkElfWizard"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_6",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoldenwandLizardmanArchmage"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_7",
+                "OrigName"   : "Portrait/Circle/PartyPlay/FrostwindArchmage"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/GoblinRider_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoblinRider"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/HarpyQueen_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/DarkElfCrescent_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Izakerr_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Izakerr"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Tarkas_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Tarkas"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Golem/SuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Parus"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/WarTroll_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Argo"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Nepenthes/SuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Favios"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/DragonEnt/Ice_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Gelopazta"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/IceTortoise_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/WorldBoss/Valok_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Valok"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/HellHound/SuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HellHoundSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Infira_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Infira"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_8",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Infira"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_8",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HellHoundSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_8",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DraconicMageSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/WarTroll_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Argo"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Maze/DarkElfCrescent_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/DarkElfCrescent_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Tower/HarpyQueen_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Tower/Infira_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Infira"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Rephy/DarkElfCrescent_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Lizardman/Lakreil2_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/IceTortoise4_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Lizardman/Lakreil_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel1_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel1_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/DarkElfCrescent2_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Orc/ArmorElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/ChallengeTower_25"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel2_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lucikiel2_2",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/IceTortoise5_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/IceTortoise6_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/IceTortoise7_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/IceTortoise8_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lakreil3_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lakreil4_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lakreil5_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lakreil6_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Larkreil"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "83cea35892e21d34b884ff12991a29eb",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/Party.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

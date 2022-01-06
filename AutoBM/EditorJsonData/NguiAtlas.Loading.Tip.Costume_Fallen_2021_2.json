@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Fallen_2021_2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f0179f89443d54c49bfc3b59cea1aa6d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Fallen_2021_2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

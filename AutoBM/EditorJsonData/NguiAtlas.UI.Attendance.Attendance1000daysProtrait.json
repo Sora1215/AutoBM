@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.Attendance1000daysProtrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "28c45cd7ecfb4c44a9a3fb67096a8518",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/1000THANNIVERSARYATTENDANCE_2019Portrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

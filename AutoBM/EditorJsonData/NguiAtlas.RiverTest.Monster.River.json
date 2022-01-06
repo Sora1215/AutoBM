@@ -1,0 +1,38 @@
+
+{
+    "Code" : "RiverTest.Monster.River",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Substory/LaughingMaskElite",
+                "OrigName"   : "Portrait/Monster/LaughingMaskElite"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Constellation",
+                "OrigName"   : "Portrait/Monster/Constellation"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Amrunda",
+                "OrigName"   : "Portrait/Monster/Amrunda"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "52f152870080c3042be625ae33643628",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait30.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.DarkLordKasel",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c55dcef5c02cd314b93dd68f96cfd9c8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_DarkLordKasel.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

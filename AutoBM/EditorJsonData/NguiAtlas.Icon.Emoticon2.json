@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Emoticon2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Emoticon/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "dd928dbc8d3bbd54fb48ef585b490cde",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Emoticon/Emoticon2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

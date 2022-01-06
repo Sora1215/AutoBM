@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Prison.Main.Image2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Dungeon/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0f0eaaca28cb64d46b5edac1ec148b28",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Dungeon/PrisonMainImage2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+
+{
+    "Code" : "UI.Portrait.Monster17",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCassandra",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCassandra_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCassandra_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCassandra_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCassandra_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCassandra_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOddy",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOddy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOddy_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOddy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOddy_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOddy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYanne",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYanne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYanne_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYanne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYanne_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYanne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGladi",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGladi_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGladi_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGladi_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGladi_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGladi_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMediana",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMediana_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMediana_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMediana_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMediana_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMediana_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkTheo",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTheo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkTheo_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTheo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkTheo_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTheo_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8b3cab4e1e3a26941be5a611144bd91e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait17.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

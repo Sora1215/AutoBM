@@ -1,0 +1,78 @@
+
+{
+    "Code" : "Battle.Portrait.Hero6",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Ezekiel",
+                "OrigName"   : "Battle/Portrait/Hero/Ezekiel_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Ophelia",
+                "OrigName"   : "Battle/Portrait/Hero/Ophelia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Aselica",
+                "OrigName"   : "Battle/Portrait/Hero/Aselica_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Crow",
+                "OrigName"   : "Battle/Portrait/Hero/Crow_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Shea",
+                "OrigName"   : "Battle/Portrait/Hero/Shea_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Veronica",
+                "OrigName"   : "Battle/Portrait/Hero/Veronica_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Chase",
+                "OrigName"   : "Battle/Portrait/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Shamilla",
+                "OrigName"   : "Battle/Portrait/Hero/Shamilla_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kara",
+                "OrigName"   : "Battle/Portrait/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Loman",
+                "OrigName"   : "Battle/Portrait/Hero/Loman_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lilia",
+                "OrigName"   : "Battle/Portrait/Hero/Lilia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Zafir",
+                "OrigName"   : "Battle/Portrait/Hero/Zafir_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Gremory",
+                "OrigName"   : "Battle/Portrait/Hero/Gremory_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d816b871bc9f32b46847fa51f666b8bd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

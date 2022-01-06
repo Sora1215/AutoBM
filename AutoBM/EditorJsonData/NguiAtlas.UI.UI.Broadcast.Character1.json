@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.Broadcast.Character1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/Broadcast/Character/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0bd3e3e1dc4b6d3438f2d28a2aa1e4fc",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Broadcast/Character/BroadcastChar1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

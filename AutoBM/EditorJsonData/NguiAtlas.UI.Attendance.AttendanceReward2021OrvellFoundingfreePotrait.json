@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.AttendanceReward2021OrvellFoundingfreePotrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b8f6e46cb7735a642bf3200dc7d937e4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceReward2021OrvellFoundingfreePotrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

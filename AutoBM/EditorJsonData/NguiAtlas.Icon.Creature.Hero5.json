@@ -1,0 +1,366 @@
+
+{
+    "Code" : "Icon.Creature.Hero5",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Hero/Yuria",
+                "OrigName"   : "Icon/Creature/Hero/Yuria_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_YURIA",
+                "OrigName"   : "Icon/Creature/Hero/Yuria_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_YURIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Yuria_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Cecilia",
+                "OrigName"   : "Icon/Creature/Hero/Cecilia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CECILIA",
+                "OrigName"   : "Icon/Creature/Hero/Cecilia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CECILIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Cecilia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Dakaris",
+                "OrigName"   : "Icon/Creature/Hero/Dakaris_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DAKARIS",
+                "OrigName"   : "Icon/Creature/Hero/Dakaris_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DAKARIS_6",
+                "OrigName"   : "Icon/Creature/Hero/Dakaris_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kirze",
+                "OrigName"   : "Icon/Creature/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KIRZE",
+                "OrigName"   : "Icon/Creature/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KIRZE_6",
+                "OrigName"   : "Icon/Creature/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KIRZE_5",
+                "OrigName"   : "Icon/Creature/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Hanus",
+                "OrigName"   : "Icon/Creature/Hero/Hanus_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_HANUS",
+                "OrigName"   : "Icon/Creature/Hero/Hanus_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_HANUS_6",
+                "OrigName"   : "Icon/Creature/Hero/Hanus_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kain",
+                "OrigName"   : "Icon/Creature/Hero/Kain_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KAIN",
+                "OrigName"   : "Icon/Creature/Hero/Kain_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KAIN_6",
+                "OrigName"   : "Icon/Creature/Hero/Kain_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Rehartna",
+                "OrigName"   : "Icon/Creature/Hero/Rehartna_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REHARTNA",
+                "OrigName"   : "Icon/Creature/Hero/Rehartna_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REHARTNA_6",
+                "OrigName"   : "Icon/Creature/Hero/Rehartna_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Pancironne",
+                "OrigName"   : "Icon/Creature/Hero/Pancironne_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_PANCIRONNE",
+                "OrigName"   : "Icon/Creature/Hero/Pancironne_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_PANCIRONNE_6",
+                "OrigName"   : "Icon/Creature/Hero/Pancironne_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kibera",
+                "OrigName"   : "Icon/Creature/Hero/Kibera_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KIBERA",
+                "OrigName"   : "Icon/Creature/Hero/Kibera_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KIBERA_6",
+                "OrigName"   : "Icon/Creature/Hero/Kibera_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Taily",
+                "OrigName"   : "Icon/Creature/Hero/Taily_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_TAILY",
+                "OrigName"   : "Icon/Creature/Hero/Taily_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_TAILY_6",
+                "OrigName"   : "Icon/Creature/Hero/Taily_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Xerah",
+                "OrigName"   : "Icon/Creature/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_XERAH",
+                "OrigName"   : "Icon/Creature/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_XERAH_6",
+                "OrigName"   : "Icon/Creature/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Evan",
+                "OrigName"   : "Icon/Creature/Hero/Evan_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_EVAN",
+                "OrigName"   : "Icon/Creature/Hero/Evan_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_EVAN_6",
+                "OrigName"   : "Icon/Creature/Hero/Evan_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_SUPPORTER_REHARTNA",
+                "OrigName"   : "Icon/Creature/Hero/Rehartna_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_FALLENFREY_10_50",
+                "OrigName"   : "Icon/Creature/Hero/FallenFrey_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DARKLORDKASEL_10_50",
+                "OrigName"   : "Icon/Creature/Hero/DarkLordKasel_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_TALISHA",
+                "OrigName"   : "Icon/Creature/Hero/Talisha_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_TALISHA_6",
+                "OrigName"   : "Icon/Creature/Hero/Talisha_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Talisha",
+                "OrigName"   : "Icon/Creature/Hero/Talisha_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_HILDA",
+                "OrigName"   : "Icon/Creature/Hero/Hilda_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_HILDA_6",
+                "OrigName"   : "Icon/Creature/Hero/Hilda_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Hilda",
+                "OrigName"   : "Icon/Creature/Hero/Hilda_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Isolet",
+                "OrigName"   : "Icon/Creature/Hero/Isolet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISOLET",
+                "OrigName"   : "Icon/Creature/Hero/Isolet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISOLET_6",
+                "OrigName"   : "Icon/Creature/Hero/Isolet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REBELCLAUSE_10_50",
+                "OrigName"   : "Icon/Creature/Hero/ClauseTraitor_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_XERAH_10_50",
+                "OrigName"   : "Icon/Creature/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/ClauseTraitor",
+                "OrigName"   : "Icon/Creature/Hero/ClauseTraitor_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GREMORY",
+                "OrigName"   : "Icon/Creature/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GREMORY_6",
+                "OrigName"   : "Icon/Creature/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Gremory",
+                "OrigName"   : "Icon/Creature/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Riheet",
+                "OrigName"   : "Icon/Creature/Hero/Riheet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RIHEET",
+                "OrigName"   : "Icon/Creature/Hero/Riheet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RIHEET_6",
+                "OrigName"   : "Icon/Creature/Hero/Riheet_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Ripine",
+                "OrigName"   : "Icon/Creature/Hero/Ripine_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RIPINE",
+                "OrigName"   : "Icon/Creature/Hero/Ripine_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RIPINE_6",
+                "OrigName"   : "Icon/Creature/Hero/Ripine_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/ZLucikiel",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ZLUCIKIEL",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ZLUCIKIEL_6",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Shakmeh",
+                "OrigName"   : "Icon/Creature/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHAKMEH",
+                "OrigName"   : "Icon/Creature/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHAKMEH_6",
+                "OrigName"   : "Icon/Creature/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHAKMEH_5_50",
+                "OrigName"   : "Icon/Creature/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Estelle",
+                "OrigName"   : "Icon/Creature/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ESTELLE",
+                "OrigName"   : "Icon/Creature/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ESTELLE_6",
+                "OrigName"   : "Icon/Creature/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ESTELLE_10_50",
+                "OrigName"   : "Icon/Creature/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/Gremory",
+                "OrigName"   : "Icon/Creature/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/Zlucikiel",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/ZLucikiel",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Isaiah",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISAIAH",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISAIAH_6",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISAIAH_10_50",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Isaiah",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ISAIAH_5_50",
+                "OrigName"   : "Icon/Creature/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/DarkLordKasel",
+                "OrigName"   : "Icon/Creature/Hero/DarkLordKasel_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/ZLucikiel",
+                "OrigName"   : "Icon/Creature/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_VALANCE",
+                "OrigName"   : "Icon/Creature/Hero/Valance_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_VALANCE_6",
+                "OrigName"   : "Icon/Creature/Hero/Valance_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "759705aa36fb36c4cb242577145f3750",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Hero/Hero5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

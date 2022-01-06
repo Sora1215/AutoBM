@@ -1,0 +1,154 @@
+
+{
+    "Code" : "UI.Portrait.Monster29",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lucias",
+                "OrigName"   : "Portrait/Monster/FallenKF_Boss_Lucias"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Morrah",
+                "OrigName"   : "Portrait/Monster/FallenKF_Boss_Morrah"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Ricardo",
+                "OrigName"   : "Portrait/Monster/FallenKF_Boss_Ricardo"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/HildaDark",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkHilda_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Arch",
+                "OrigName"   : "Portrait/Monster/Ordeal/LightArch"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Aselica",
+                "OrigName"   : "Portrait/Monster/Ordeal/LightAselica"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Guardian/GolemMK2",
+                "OrigName"   : "Portrait/Monster/GolemMK2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Guardian/MeginorMK2",
+                "OrigName"   : "Portrait/Monster/MeginorMK2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Guardian/RemorMK2",
+                "OrigName"   : "Portrait/Monster/RemorMK2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Necromancer/Chaser",
+                "OrigName"   : "Portrait/Monster/Chaser"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Necromancer/ChaserElite",
+                "OrigName"   : "Portrait/Monster/ChaserElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Necromancer/Curse",
+                "OrigName"   : "Portrait/Monster/Curse"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Necromancer/CurseElite",
+                "OrigName"   : "Portrait/Monster/CurseElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/Elite",
+                "OrigName"   : "Portrait/Monster/Elite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Automata/HKDIV",
+                "OrigName"   : "Portrait/Monster/HKDIV"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Automata/LKDIV",
+                "OrigName"   : "Portrait/Monster/LKDIV"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/Normal",
+                "OrigName"   : "Portrait/Monster/Normal"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/SuperElite1",
+                "OrigName"   : "Portrait/Monster/SuperElite1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/SuperElite1",
+                "OrigName"   : "Portrait/Monster/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/RaidNormal",
+                "OrigName"   : "Portrait/Monster/Normal"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/RaidNormal2",
+                "OrigName"   : "Portrait/Monster/Normal"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/Elite",
+                "OrigName"   : "Portrait/Monster/Elite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/SuperElite1",
+                "OrigName"   : "Portrait/Monster/SuperElite1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chimera/SuperElite2",
+                "OrigName"   : "Portrait/Monster/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GoatMagician",
+                "OrigName"   : "Portrait/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/GoatMagician",
+                "OrigName"   : "Portrait/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GoatMagician2",
+                "OrigName"   : "Portrait/Monster/GoatMagician"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Penteonia/SoldierElite",
+                "OrigName"   : "Portrait/Monster/SoldierElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/OrvelCrusader",
+                "OrigName"   : "Portrait/Monster/Crusader"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/RemorMK2",
+                "OrigName"   : "Portrait/Monster/RemorMK2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Story/Arch",
+                "OrigName"   : "Portrait/Monster/Ordeal/LightArch"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Story/Aselica",
+                "OrigName"   : "Portrait/Monster/Ordeal/LightAselica"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e43a121ac4efab94d9f8d9a7b183707c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait29.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero18",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Mitra",
+                "OrigName"   : "Portrait/Costume/Hero/Mitra_Mitra_Cos19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Rephy_5",
+                "OrigName"   : "Portrait/Costume/Hero/Rephy_Rephy_Cos19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Requina_5",
+                "OrigName"   : "Portrait/Costume/Hero/Requina_Requina_Cos19Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "fbdd589cf88013f419b6edd9c1c87f3f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero18.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

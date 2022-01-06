@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero16",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Neraxis",
+                "OrigName"   : "Portrait/Costume/Hero/Neraxis_Neraxis_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Neraxis2",
+                "OrigName"   : "Portrait/Costume/Hero/Neraxis_Neraxis_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Shea",
+                "OrigName"   : "Portrait/Costume/Hero/Shea_Shea_Cos19Job"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0a6b00685fc7f104da6a99f608fb6fb2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero16.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

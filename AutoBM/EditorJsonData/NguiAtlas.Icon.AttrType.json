@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Icon.AttrType",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/AttrType/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Booster/Hero_Get_Nicky_Icon",
+                "OrigName"   : "Icon/AttrType/Hero_Get_Nicky_Icon"
+            },
+            {
+                "SpriteName" : "Booster/Hero_Get_DOSARTA_Icon",
+                "OrigName"   : "Icon/AttrType/Hero_Get_DOSARTA_Icon"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6196bd5d06d40524fa3aec0ddcb42c25",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/AttrType/AttrType.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.EntryMenu1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2e8783970a1cc09428740465e930db62",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/EntryMenu/EntryMenu1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Wedding_2021_3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7db6184b6d02ea34b8a1fc3e688729ed",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Wedding_2021_3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

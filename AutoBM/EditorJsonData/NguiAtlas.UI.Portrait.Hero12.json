@@ -1,0 +1,58 @@
+
+{
+    "Code" : "UI.Portrait.Hero12",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Chrisha",
+                "OrigName"   : "Portrait/Hero/Chrisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lucias",
+                "OrigName"   : "Portrait/Hero/Lucias_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Nicky",
+                "OrigName"   : "Portrait/Hero/Nicky_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Nia",
+                "OrigName"   : "Portrait/Hero/Nia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Esker",
+                "OrigName"   : "Portrait/Hero/Esker_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lavril",
+                "OrigName"   : "Portrait/Hero/Lavril_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Glenwys",
+                "OrigName"   : "Portrait/Hero/Glenwys_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lucias2",
+                "OrigName"   : "Portrait/Hero/Lucias_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9b1f24d923f9dec44bb5af5caf4ba7b8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait12.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

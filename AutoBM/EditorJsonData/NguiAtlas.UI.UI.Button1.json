@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.Button1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/Button/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "23546e28c81c6924f9b6ceb20a446d9a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Button/Button1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

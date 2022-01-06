@@ -1,0 +1,78 @@
+
+{
+    "Code" : "UI.Portrait.Hero10",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Aselica",
+                "OrigName"   : "Portrait/Hero/Aselica_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Crow",
+                "OrigName"   : "Portrait/Hero/Crow_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Shea",
+                "OrigName"   : "Portrait/Hero/Shea_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Chase",
+                "OrigName"   : "Portrait/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kara",
+                "OrigName"   : "Portrait/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Shamilla",
+                "OrigName"   : "Portrait/Hero/Shamilla_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Loman",
+                "OrigName"   : "Portrait/Hero/Loman_4"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Chase",
+                "OrigName"   : "Portrait/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Chase",
+                "OrigName"   : "Portrait/Hero/Chase_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Kara",
+                "OrigName"   : "Portrait/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Chase2",
+                "OrigName"   : "Portrait/Hero/Chase_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Shamilla",
+                "OrigName"   : "Portrait/Hero/Shamilla_5"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Shamilla",
+                "OrigName"   : "Portrait/Hero/Shamilla_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "46e822b915b647342a80274d30db63dd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait10.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.OrvelGuild",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9c9d97cd0d0f13a479f6f7570897cbed",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_OrvelGuild.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

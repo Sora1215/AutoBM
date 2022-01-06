@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Tower3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1116c565912d9d644ad5c9320b5619df",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Tower2/Tower3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

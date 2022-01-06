@@ -1,0 +1,110 @@
+
+{
+    "Code" : "Icon.Item.Item1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/40101",
+                "OrigName"   : "Icon/Item/RUBYFLASK_EMPTY_11"
+            },
+            {
+                "SpriteName" : "Icon/Skill/40102",
+                "OrigName"   : "Icon/Item/RUBYFLASK_EMPTY_12"
+            },
+            {
+                "SpriteName" : "Icon/Skill/40103",
+                "OrigName"   : "Icon/Item/RUBYFLASK_EMPTY_13"
+            },
+            {
+                "SpriteName" : "Icon/Item/BOOSTER_ONETIME_ITEM",
+                "OrigName"   : "Icon/Item/BOOSTER_ITEM_TEST"
+            },
+            {
+                "SpriteName" : "Icon/Item/BOOSTER_EXP_TEST_MISSION",
+                "OrigName"   : "Icon/Item/BOOSTER_EXP_TEST"
+            },
+            {
+                "SpriteName" : "Icon/Item/BOOSTER_GOLD_TEST_MISSION",
+                "OrigName"   : "Icon/Item/BOOSTER_GOLD_TEST"
+            },
+            {
+                "SpriteName" : "Icon/Item/BOOSTER_STAMINA_1H",
+                "OrigName"   : "Icon/Item/BOOSTER_STAMINA_MISSION"
+            },
+            {
+                "SpriteName" : "Icon/Item/BOOSTER_STAMINA_1H_2",
+                "OrigName"   : "Icon/Item/BOOSTER_STAMINA_MISSION"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_GOLD_BOOSTER",
+                "OrigName"   : "Icon/Item/PACKAGE_PAY_GOLD_BOOSTER_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_HANUS_1",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_HANUS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_HANUS_2",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_HANUS_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_HANUS_3",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_HANUS_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/SOULSTONE_FRAGMENT_SELECT_ITEM_CLASS",
+                "OrigName"   : "Icon/Item/SOULSTONE_FRAGMENT_SELECT_ITEM_ALL"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_TALISHA_1",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_TALISHA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_TALISHA_2",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_TALISHA_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/MATERIAL_PRESENT_TALISHA_3",
+                "OrigName"   : "Icon/Item/MATERIAL_NPC_TALISHA_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_FEED_POTION",
+                "OrigName"   : "Icon/Item/Feed_Icon"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_PET_FEED_POTION",
+                "OrigName"   : "Icon/Item/Feed_Icon"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_HERO_210511_STEPUP_FINAL_REWARD",
+                "OrigName"   : "Icon/Item/PACKAGE_PAY_BALANCE_210427_STEPUP_FINAL_REWARD"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_HOTDEAL_STAMINA_210817",
+                "OrigName"   : "Icon/Item/STAMINA_POTION_L"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL3_2",
+                "OrigName"   : "Icon/Item/SOULSTONE_FRAGMENT_SELECT_ITEM_ALL"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f5e17d7c02d1a0d498eb344bd71dd3ae",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Item/Item1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

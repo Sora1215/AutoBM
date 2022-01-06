@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.BrokenOrvel",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ab235232f73d6984885280f24e1415e2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_BrokenOrvel.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

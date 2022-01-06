@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Christmas_2020_4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5898fe5dd5e3eb54bae29c50ed4484e3",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Christmas_2020_4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+
+{
+    "Code" : "UI.Portrait.Monster25",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkBernheim",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkBernheim_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkBernheim_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkBernheim_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkBernheim_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkBernheim_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYuria",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYuria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYuria_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYuria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkYuria_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkYuria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_GodKing/Miruru",
+                "OrigName"   : "Portrait/Monster/Miruru_2019_GodKing"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_GodKing/Lakrak",
+                "OrigName"   : "Portrait/Monster/Lakrak_2019_GodKing"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCecilia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCecilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCecilia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCecilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCecilia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCecilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDakaris",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDakaris_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDakaris_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDakaris_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDakaris_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDakaris_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKirze",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKirze_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKirze_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKirze_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKirze_4",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkHanus",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkHanus_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkHanus_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkHanus_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkHanus_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkHanus_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkHanus_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkHanus_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKain",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKain_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKain_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKain_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKain_4",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkReharta",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkReharta_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkReharta_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkReharta_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkReharta_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkReharta_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5e1a578c4063c99418c59f80ccd85887",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait25.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

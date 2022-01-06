@@ -1,0 +1,38 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_ARTEMIA",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_NICX",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_THEO",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_THEO_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1dd45fb8d8160884e9d5b1b6d9b56385",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

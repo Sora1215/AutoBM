@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UpgradeBook2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UpgradeBook/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9a4cfc7ff6ca1de4ca48b26d96693be8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UpgradeBook/UpgradeBook2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

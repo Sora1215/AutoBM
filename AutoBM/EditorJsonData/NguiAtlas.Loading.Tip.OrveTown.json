@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.OrveTown",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5db35207947389b459b2dddc86e48908",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_OrvelTown.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

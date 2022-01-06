@@ -1,0 +1,54 @@
+
+{
+    "Code" : "SpecialShop.Shop6",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "SpecialShop/Shop/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_premium_enchant_package",
+                "OrigName"   : "SpecialShop/Shop/Enchant_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero1_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero1_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero2_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero2_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero3_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero3_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_start_package_1",
+                "OrigName"   : "SpecialShop/Shop/Package_Starter_1"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_start_package_2",
+                "OrigName"   : "SpecialShop/Shop/Package_Starter_2"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_unique_weapon_package",
+                "OrigName"   : "SpecialShop/Shop/RandomWeapon_Package"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "93196e2f9de4f844c9e54317f5a41740",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/SpecialShop/Shop6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

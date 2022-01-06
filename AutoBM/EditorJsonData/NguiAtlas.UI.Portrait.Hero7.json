@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero7",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Annette",
+                "OrigName"   : "Portrait/Hero/Annette_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Nicx",
+                "OrigName"   : "Portrait/Hero/Nicx_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Tanya",
+                "OrigName"   : "Portrait/Hero/Tanya_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Mitra",
+                "OrigName"   : "Portrait/Hero/Mitra_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Gladi",
+                "OrigName"   : "Portrait/Hero/Gladi_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Theo",
+                "OrigName"   : "Portrait/Hero/Theo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Mediana",
+                "OrigName"   : "Portrait/Hero/Mediana_3"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Chapter9/Mitra",
+                "OrigName"   : "Portrait/Hero/Mitra_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Nicx",
+                "OrigName"   : "Portrait/Hero/Nicx_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "959a3e597f1968f42974260592db3161",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

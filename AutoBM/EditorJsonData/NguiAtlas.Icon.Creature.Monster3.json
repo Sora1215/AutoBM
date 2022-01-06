@@ -1,0 +1,78 @@
+
+{
+    "Code" : "Icon.Creature.Monster3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Skeleton/IceMageElite",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/MageElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Skeleton/Head1",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/Head3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/WarriorSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GiantSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/GiantSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Skeleton/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Skeleton/Totem2",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Skeleton/Warrior",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/Warrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Orc/Drummer",
+                "OrigName"   : "Icon/Creature/Monster/Orc/Drummer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Orc/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Orc/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Orc/Totem",
+                "OrigName"   : "Icon/Creature/Monster/Orc/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Orc/ShamanSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Orc/ShamanSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Rephy/GiantSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/GiantSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_GodKing/MageElite",
+                "OrigName"   : "Icon/Creature/Monster/Skeleton/MageElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b0ffea03375796845a87713ae4caa1c2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

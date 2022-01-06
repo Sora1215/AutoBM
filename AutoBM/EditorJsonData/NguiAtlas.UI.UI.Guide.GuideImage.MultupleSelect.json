@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.Guide.GuideImage1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/Guide/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5724dcd236ce26048b0034e4be6330ce",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Guide/GuideImage1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

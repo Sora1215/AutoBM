@@ -1,0 +1,170 @@
+
+{
+    "Code" : "Portrait.Circle.Raid1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/Raid/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Black_1_1",
+                "OrigName"   : "Portrait/Circle/Raid/Black_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Fire_1_1",
+                "OrigName"   : "Portrait/Circle/Raid/Fire_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Ice_1_1",
+                "OrigName"   : "Portrait/Circle/Raid/Ice_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Poison_1_1",
+                "OrigName"   : "Portrait/Circle/Raid/Poison_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Goblin/Urkak_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Urkak"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Harpy/Satria_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Satria"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Skeleton/Obrigard_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Obrigard"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Orc/Kerberen_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Kerberen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Black_2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Black_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Fire_2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Fire_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Ice_2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Ice_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/HardDragon/Poison_2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Poison_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/DarkElf/Sithrael_1",
+                "OrigName"   : "Portrait/Circle/Raid/Sithrael"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Goblin/Urkak_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Urkak"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Harpy/Satria_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Satria"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Lizardman/Garrow_1",
+                "OrigName"   : "Portrait/Circle/Raid/Garrow"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/FrostGiant/Thorpe_1",
+                "OrigName"   : "Portrait/Circle/Raid/Thorpe"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Orc/Kerberen_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Kerberen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Temerer_1",
+                "OrigName"   : "Portrait/Circle/Raid/Dragon/Fire_1"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/DarkElf/Sithrael_1",
+                "OrigName"   : "Portrait/Circle/Raid/Sithrael"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Lizardman/Garrow_1",
+                "OrigName"   : "Portrait/Circle/Raid/Garrow"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/FrostGiant/Thorpe_1",
+                "OrigName"   : "Portrait/Circle/Raid/Thorpe"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Draconic/Kallax_1",
+                "OrigName"   : "Portrait/Circle/Raid/Kallax"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Draconic/Kallax_1",
+                "OrigName"   : "Portrait/Circle/Raid/Kallax"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/DarkLordKasel_1",
+                "OrigName"   : "Portrait/Circle/Raid/Kasel_Frey_Fallen_Mana"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/DarkLordKasel_1",
+                "OrigName"   : "Portrait/Circle/Raid/Kasel_Frey_Fallen_Mana"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2020_Summer/Taily_1",
+                "OrigName"   : "Portrait/Circle/Raid/BASIC_BOSS_CC"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2020_Summer/Reina_1",
+                "OrigName"   : "Portrait/Circle/Raid/BASIC_BOSS_CC"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2020_Summer/Neraxis_1",
+                "OrigName"   : "Portrait/Circle/Raid/BASIC_BOSS_CC"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2020_Summer/Lilia_1",
+                "OrigName"   : "Portrait/Circle/Raid/BASIC_BOSS_CC"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2020_SpecialDungeon/Ophelia_5",
+                "OrigName"   : "Portrait/Circle/Raid/BASIC_BOSS_MANA_CC"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Rank/Skeleton/Obrigard_1",
+                "OrigName"   : "Portrait/Circle/Raid/Group4/Obrigard"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Punishment/Black_Punishment_1",
+                "OrigName"   : "Portrait/Circle/Raid/Black_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Punishment/Fire_Punishment_1",
+                "OrigName"   : "Portrait/Circle/Raid/Fire_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Punishment/Ice_Punishment_1",
+                "OrigName"   : "Portrait/Circle/Raid/Ice_2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Punishment/Poison_Punishment_1",
+                "OrigName"   : "Portrait/Circle/Raid/Poison_2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3dff0b05b54a2a74e8a7439f3e8b2723",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/Dragon.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Trial1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "baacb56661b8f3f428cf227906456b91",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Trial/Trial1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.Portrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "43c7e244bc8c14b4bbb2ec6513039cc0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendancePortrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

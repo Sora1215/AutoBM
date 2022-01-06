@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Gremory",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "01d979fd16f9b664bb46b1aec14eee2b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Gremory.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

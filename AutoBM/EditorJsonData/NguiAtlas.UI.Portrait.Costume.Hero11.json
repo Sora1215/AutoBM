@@ -1,0 +1,46 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero11",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Lilia",
+                "OrigName"   : "Portrait/Costume/Hero/Lilia_Lilia_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Lilia2",
+                "OrigName"   : "Portrait/Costume/Hero/Lilia_Lilia_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Loman",
+                "OrigName"   : "Portrait/Costume/Hero/Loman_Loman_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Oddy",
+                "OrigName"   : "Portrait/Costume/Hero/Oddy_Oddy_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Rephy",
+                "OrigName"   : "Portrait/Costume/Hero/Rephy_Rephy_Cos18Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "429272e4521b5e149b421265e3ba0884",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero11.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

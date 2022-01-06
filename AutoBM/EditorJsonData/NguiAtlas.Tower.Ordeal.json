@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Tower.Ordeal",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Tower/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e4d1b531594abdd4eb9b15ae184e92a4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Tower/OrdealTower.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

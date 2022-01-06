@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Attendance",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "41045e59414549047bf2bbd63b3665d0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Attendance/Attendance.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

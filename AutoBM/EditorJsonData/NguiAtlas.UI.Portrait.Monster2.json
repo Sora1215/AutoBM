@@ -1,0 +1,78 @@
+
+{
+    "Code" : "UI.Portrait.Monster2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Maze/GoblinShieldSuperElite",
+                "OrigName"   : "Portrait/Monster/Goblin/ShieldSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/GoblinDemolition",
+                "OrigName"   : "Portrait/Monster/Goblin/Demolition"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpringFestival/EntNut",
+                "OrigName"   : "Portrait/Monster/Ent/Thorn"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpringFestival/EntNut2",
+                "OrigName"   : "Portrait/Monster/Ent/Thorn"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Goblin/Cannon2",
+                "OrigName"   : "Portrait/Monster/Goblin/Cannon"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/WatchTower",
+                "OrigName"   : "Portrait/Monster/Goblin/WatchTower"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/Bow",
+                "OrigName"   : "Portrait/Monster/Goblin/Bow"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/BowElite",
+                "OrigName"   : "Portrait/Monster/Goblin/BowElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/Bomb",
+                "OrigName"   : "Portrait/Monster/Goblin/Bomb"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/Fire",
+                "OrigName"   : "Portrait/Monster/Goblin/Fire"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/BombElite",
+                "OrigName"   : "Portrait/Monster/Goblin/BombElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/Shield",
+                "OrigName"   : "Portrait/Monster/Goblin/Shield"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_ThanksGiving/ShieldElite",
+                "OrigName"   : "Portrait/Monster/Goblin/ShieldElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "63ad371abf2b399459e67fae604d7062",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

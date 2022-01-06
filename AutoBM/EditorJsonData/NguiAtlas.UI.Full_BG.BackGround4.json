@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround4",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/EventOrbell/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e95b5f464caa03540b2bfea75a3979ea",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

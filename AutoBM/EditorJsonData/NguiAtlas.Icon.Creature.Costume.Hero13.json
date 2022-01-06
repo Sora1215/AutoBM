@@ -1,0 +1,38 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero13",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Taily",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Taily_Taily_Cos20Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Taily2",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Taily_Taily_Cos20Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Taily",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Taily_Taily_Cos20Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1b52244d414cfdf43a51b756f0fbcc18",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero13Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

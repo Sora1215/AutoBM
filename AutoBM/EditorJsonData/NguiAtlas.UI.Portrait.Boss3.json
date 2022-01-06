@@ -1,0 +1,122 @@
+
+{
+    "Code" : "UI.Portrait.Boss3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Boss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Boss/Eclipse/Hellfire",
+                "OrigName"   : "Portrait/Boss/Hellfire_Eclipse"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GodKingTrial/Imet",
+                "OrigName"   : "Portrait/Boss/Imet"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GodKingTrial/Msama",
+                "OrigName"   : "Portrait/Boss/Msama"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GodKingTrial/Sekmaha",
+                "OrigName"   : "Portrait/Boss/Sekmaha"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Ascalon3",
+                "OrigName"   : "Portrait/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Ascalon4",
+                "OrigName"   : "Portrait/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Tech/Ascalon",
+                "OrigName"   : "Portrait/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Tech/Gargoria",
+                "OrigName"   : "Portrait/Boss/Gargoria"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Tech/SiegFried",
+                "OrigName"   : "Portrait/Boss/SiegFried"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Gremory",
+                "OrigName"   : "Portrait/Boss/GREMORY"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Hellfire",
+                "OrigName"   : "Portrait/Boss/Hellfire_Eclipse"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chapter10/ClauseTraitor",
+                "OrigName"   : "Portrait/Boss/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Chapter10/ClauseTraitor_5",
+                "OrigName"   : "Portrait/Boss/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/ClauseTraitor",
+                "OrigName"   : "Portrait/Boss/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Goblin/Gilded",
+                "OrigName"   : "Portrait/Boss/GoblinGilded"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Orc/Totem1",
+                "OrigName"   : "Portrait/Boss/RaidDummy"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/PredatorMK-X_Warrior",
+                "OrigName"   : "Portrait/Boss/ArcdimX_Delta"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/PredatorMK-X_Magician",
+                "OrigName"   : "Portrait/Boss/ArcdimX_Zeta"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/PredatorMK-X_Warrior_N",
+                "OrigName"   : "Portrait/Boss/Arcdim_Delta"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/PredatorMK-X_Magician_N",
+                "OrigName"   : "Portrait/Boss/Arcdim_Zeta"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Apocalypsion",
+                "OrigName"   : "Portrait/Boss/Apocalypsion"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Punishment/Tersio",
+                "OrigName"   : "Portrait/Boss/Tersio"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Sekmaha",
+                "OrigName"   : "Portrait/Boss/Sekmaha"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Story/Tersio",
+                "OrigName"   : "Portrait/Boss/Tersio"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "fa019e61a719b4043bfedcff1e132510",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Boss/BossPortait3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

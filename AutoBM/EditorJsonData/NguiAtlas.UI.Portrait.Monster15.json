@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Monster15",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkScarlet",
+                "OrigName"   : "Portrait/Monster/DarkScarlet_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkScarlet_1",
+                "OrigName"   : "Portrait/Monster/DarkScarlet_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkScarlet_2",
+                "OrigName"   : "Portrait/Monster/DarkScarlet_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSonia",
+                "OrigName"   : "Portrait/Monster/DarkSonia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSonia_1",
+                "OrigName"   : "Portrait/Monster/DarkSonia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSonia_2",
+                "OrigName"   : "Portrait/Monster/DarkSonia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/Mummy/WarriorSuperElite",
+                "OrigName"   : "Portrait/Monster/Mummy/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Lizardman/Treasure",
+                "OrigName"   : "Portrait/Monster/Treasure"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_GodKing/Totem",
+                "OrigName"   : "Portrait/Monster/Lizardman/Totem"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5f4f8d4caa1ebf040aeee102243a4c05",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

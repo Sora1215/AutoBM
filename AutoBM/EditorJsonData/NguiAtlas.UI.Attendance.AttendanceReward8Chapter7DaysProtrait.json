@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.AttendanceReward8Chapter7DaysProtrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f069f1c07cd56734d83db2e21aab8f36",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceReward8Chapter7DaysProtrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

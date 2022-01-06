@@ -1,0 +1,134 @@
+
+{
+    "Code" : "Icon.Creature.Monster6",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Fire",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Black",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Black"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkFluss",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkFluss_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkLeo",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkLeo_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkLuna",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkLuna_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkAisha",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkAisha_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkArch",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkArch_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkAnnette",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkAnnette_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkNicx",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkNicx_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkTanya",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkTanya_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/DarkViska",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkViska_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Fire_1",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Black_1",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Black"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Fire_2",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/HardDragon/Black_2",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Black"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/Muhroom/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Muhroom/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/DarkElfBowSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/BowSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/DarkElfMageSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/MageSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/DarkElfSwordSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/SwordSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Temerer",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkElf/Ballista",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/Ballista"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkElf/Totem",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/Totem"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkElf/Siel",
+                "OrigName"   : "Icon/Creature/Monster/DarkElf/SwordElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Muhroom/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Muhroom/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Muhroom/SuperElite2",
+                "OrigName"   : "Icon/Creature/Monster/Muhroom/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Black_Punishment",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Black"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Fire_Punishment",
+                "OrigName"   : "Icon/Creature/Monster/Raid/Dragon/Fire"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "71f749216711e0f47aa9de725955d829",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

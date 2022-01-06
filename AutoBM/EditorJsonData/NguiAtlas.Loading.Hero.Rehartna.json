@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Rehartna",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "00a07e7c756b3144b8557ea03b07d100",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Rehartna.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

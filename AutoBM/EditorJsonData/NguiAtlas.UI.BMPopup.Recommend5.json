@@ -1,0 +1,123 @@
+
+{
+    "Code" : "UI.BMPopup.Recommend5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BMPopup/Recommend/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : true,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4aabd961e99457b4182392d1278d8357",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Korean/BMPopup_Recommend_Korean5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "English",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f21d8a9f6c5c3ed4fab2ca284cfa888f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/English/BMPopup_Recommend_English5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "French",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1facad50d8e3ac04db990b8833066aef",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/French/BMPopup_Recommend_French5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "German",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a7a11e2ff32d2dc438fb5d34bb54f196",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/German/BMPopup_Recommend_German5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Japanese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "421b9373c9a860547935853241d5966f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Japanese/BMPopup_Recommend_Japanese5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Portuguese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4b5cd23ba5cf6064b9f4f52b8c62aa4d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Portuguese/BMPopup_Recommend_Portuguese5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Russian",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6d01c5d9a0f86fe41a033d5285716ad5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Russian/BMPopup_Recommend_Russian5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Spanish",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3c4ddd23e8e0c924185adda8966e1f12",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Spanish/BMPopup_Recommend_Spanish5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Thai",
+                "AtlasLink" : 
+                {
+                    "GUID" : "48296c1f3ee41fb4f8e3a5edf24bfea2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Thai/BMPopup_Recommend_Thai5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "Vietnamese",
+                "AtlasLink" : 
+                {
+                    "GUID" : "23fd993fe69a33644a8771b875ca6ff1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/Vietnamese/BMPopup_Recommend_Vietnamese5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseSimplified",
+                "AtlasLink" : 
+                {
+                    "GUID" : "bb14b077412bad641b583d81a048278c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/ChineseSimplified/BMPopup_Recommend_ChineseSimplified5.prefab",
+                    "IsSubAsset"    : false
+                }
+            },
+            {
+                "Language" : "ChineseTraditional",
+                "AtlasLink" : 
+                {
+                    "GUID" : "12a4c2808d9e5a847812f03f1622b3ed",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/Recommend/ChineseTraditional/BMPopup_Recommend_ChineseTraditional5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

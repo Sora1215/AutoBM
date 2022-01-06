@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Quest",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "727ff5e073340384caa19cc72cbdfea4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Quest/Quest.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

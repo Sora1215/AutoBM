@@ -1,0 +1,310 @@
+
+{
+    "Code" : "Icon.Creature.Boss1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Boss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Boss/DragonEnt/Ice",
+                "OrigName"   : "Icon/Creature/Boss/DragonEntIce"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GoatWarrior",
+                "OrigName"   : "Icon/Creature/Boss/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/HarpyQueen",
+                "OrigName"   : "Icon/Creature/Boss/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GoblinRider",
+                "OrigName"   : "Icon/Creature/Boss/GoblinRider"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/DarkElfCrescent",
+                "OrigName"   : "Icon/Creature/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Icon/Skill/9002210",
+                "OrigName"   : "Icon/Creature/Boss/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Icon/Skill/9002350",
+                "OrigName"   : "Icon/Creature/Boss/GoblinRider"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/WarTroll",
+                "OrigName"   : "Icon/Creature/Boss/WarTroll"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Lich",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Lich2",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Boss/MadAssassin",
+                "OrigName"   : "Icon/Creature/Boss/MadAssassin"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkElfCrescent",
+                "OrigName"   : "Icon/Creature/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/GoatWarrior",
+                "OrigName"   : "Icon/Creature/Boss/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Tower/HarpyQueen",
+                "OrigName"   : "Icon/Creature/Boss/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Tower/Infira",
+                "OrigName"   : "Icon/Creature/Boss/Infira"
+            },
+            {
+                "SpriteName" : "Icon/Skill/73001",
+                "OrigName"   : "Icon/Creature/Boss/HarpyQueen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Rephy/DarkElfCrescent",
+                "OrigName"   : "Icon/Creature/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Rephy/GoatWarrior",
+                "OrigName"   : "Icon/Creature/Boss/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DragonEnt",
+                "OrigName"   : "Icon/Creature/Boss/DragonEnt"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/BlackKnightKyle1",
+                "OrigName"   : "Icon/Creature/Boss/BlackKnightKyle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Lucikiel1",
+                "OrigName"   : "Icon/Creature/Boss/Lucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Chapter9/Lich",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Status/Kyle",
+                "OrigName"   : "Icon/Creature/Boss/BlackKnightKyle"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Frey/Fallen",
+                "OrigName"   : "Icon/Creature/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Frey/Fallen2",
+                "OrigName"   : "Icon/Creature/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Kasel/Fallen",
+                "OrigName"   : "Icon/Creature/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Kasel/Fallen2",
+                "OrigName"   : "Icon/Creature/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Lich3",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/DarkElfCrescent2",
+                "OrigName"   : "Icon/Creature/Boss/DarkElfCrescent"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Lucikiel2",
+                "OrigName"   : "Icon/Creature/Boss/Lucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Eclipse/Hellfire",
+                "OrigName"   : "Icon/Creature/Boss/Hellfire_Eclipse"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Eclipse/Dullahan",
+                "OrigName"   : "Icon/Creature/Boss/Dullahan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Eclipse/Catapolyps",
+                "OrigName"   : "Icon/Creature/Boss/Catapolyps"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Eclipse/Scavir",
+                "OrigName"   : "Icon/Creature/Boss/Scavir"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GodKingTrial/Imet",
+                "OrigName"   : "Icon/Creature/Boss/Imet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GodKingTrial/Msama",
+                "OrigName"   : "Icon/Creature/Boss/Msama"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/GodKingTrial/Sekmaha",
+                "OrigName"   : "Icon/Creature/Boss/Sekmaha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Infira",
+                "OrigName"   : "Icon/Creature/Boss/Infira"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lich",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Skill/7200173",
+                "OrigName"   : "Icon/Creature/Boss/AwakenShakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Skill/7200242",
+                "OrigName"   : "Icon/Creature/Boss/Shakmeh"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669840",
+                "OrigName"   : "Icon/Creature/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/DarkLordKasel",
+                "OrigName"   : "Icon/Creature/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/FallenFrey",
+                "OrigName"   : "Icon/Creature/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Rank/DarkLordKasel",
+                "OrigName"   : "Icon/Creature/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Rank/FallenFrey",
+                "OrigName"   : "Icon/Creature/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lucikiel",
+                "OrigName"   : "Icon/Creature/Boss/Lucikiel"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Ascalon3",
+                "OrigName"   : "Icon/Creature/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Tech/Ascalon",
+                "OrigName"   : "Icon/Creature/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ascalon",
+                "OrigName"   : "Icon/Creature/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Tech/Gargoria",
+                "OrigName"   : "Icon/Creature/Boss/Gargoria"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Ascalon4",
+                "OrigName"   : "Icon/Creature/Boss/Ascalon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/KibehOd2",
+                "OrigName"   : "Icon/Creature/Boss/KibehOd"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Tech/SiegFried",
+                "OrigName"   : "Icon/Creature/Boss/SiegFried"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Gremory",
+                "OrigName"   : "Icon/Creature/Boss/GREMORY"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/GoatWarrior",
+                "OrigName"   : "Icon/Creature/Boss/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lich2",
+                "OrigName"   : "Icon/Creature/Boss/Lich"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dullahan",
+                "OrigName"   : "Icon/Creature/Boss/Dullahan"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Hellfire",
+                "OrigName"   : "Icon/Creature/Boss/Hellfire_Eclipse"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Catapolyps2",
+                "OrigName"   : "Icon/Creature/Boss/Catapolyps"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Goblin/Gilded",
+                "OrigName"   : "Icon/Creature/Boss/GoblinGilded"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Orc/Totem1",
+                "OrigName"   : "Icon/Creature/Boss/RaidDummy"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/PredatorMK-X_Warrior",
+                "OrigName"   : "Icon/Creature/Boss/ArcdimDelta"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/PredatorMK-X_Magician",
+                "OrigName"   : "Icon/Creature/Boss/ArcdimZeta"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/PredatorMK-X_Warrior_N",
+                "OrigName"   : "Icon/Creature/Boss/ArcdimDelta"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/PredatorMK-X_Magician_N",
+                "OrigName"   : "Icon/Creature/Boss/ArcdimZeta"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Apocalypsion",
+                "OrigName"   : "Icon/Creature/Boss/Apocalypsion"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Punishment/Tersio",
+                "OrigName"   : "Icon/Creature/Boss/Tersio"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Sekmaha",
+                "OrigName"   : "Icon/Creature/Boss/Sekmaha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Sekmaha2",
+                "OrigName"   : "Icon/Creature/Boss/Sekmaha"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Story/Tersio",
+                "OrigName"   : "Icon/Creature/Boss/Tersio"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "08dcc0e84dfb655478a500bb4b301ca2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Boss/Boss1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

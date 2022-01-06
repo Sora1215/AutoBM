@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.GuildRaid.BossInfo1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "GuildRaid/BossInfo/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "26eafbfc6d0f3ba45a96ceb286392663",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/GuildRaid/BossInfo/GuildRaidInfoImage1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

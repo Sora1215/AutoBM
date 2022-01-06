@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.Attendance2020AdieuPortrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ca68ddd04bed4ac46aedbe3aef460023",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/Attendance2020AdieuPortrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

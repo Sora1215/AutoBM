@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Common2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "075dcf7afe01e5a4da642cc34fe1596b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Common2/Common2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

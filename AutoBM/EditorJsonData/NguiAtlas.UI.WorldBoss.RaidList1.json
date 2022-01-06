@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.WorldBoss.RaidList1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "WorldBoss/BossInfo/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "96cc77ee5a494ce4e9dddbad09b7fc68",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/WorldBoss/RaidList1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

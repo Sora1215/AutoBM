@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero6",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Pavel",
+                "OrigName"   : "Portrait/Costume/Hero/Pavel_Pavel_Cos17Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Phillop",
+                "OrigName"   : "Portrait/Costume/Hero/Phillop_Phillop_Cos17Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Rephy",
+                "OrigName"   : "Portrait/Costume/Hero/Rephy_Rephy_Cos17Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "39619cde1bdca1c4c87bf7abbe673404",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

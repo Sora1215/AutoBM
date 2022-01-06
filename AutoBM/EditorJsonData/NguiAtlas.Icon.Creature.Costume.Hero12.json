@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero12",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Chrisha",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Chrisha_Chrisha_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Fluss",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Fluss_Fluss_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Naila",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Naila_Naila_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Cecilia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Cecilia_Cecilia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Crow",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Crow_Crow_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Oddy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Oddy_Oddy_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Rodina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rodina_Rodina_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Nia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Nia_Nia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Rehartna",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rehartna_Rehartna_Cos19Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cf17a234b78f43e4b832062c2e9ec389",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero12Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+
+{
+    "Code" : "UI.Portrait.Monster13",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Maze/DarkElfBowSuperElite",
+                "OrigName"   : "Portrait/Monster/DarkElf/BowSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/DarkElfMageSuperElite",
+                "OrigName"   : "Portrait/Monster/DarkElf/MageSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/DarkElfSwordSuperElite",
+                "OrigName"   : "Portrait/Monster/DarkElf/SwordSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/DarkElf/Totem",
+                "OrigName"   : "Portrait/Monster/DarkElf/Totem"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "05715fa76a78f9341921668d6756790d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait13.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

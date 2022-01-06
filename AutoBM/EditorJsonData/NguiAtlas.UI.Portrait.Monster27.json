@@ -1,0 +1,178 @@
+
+{
+    "Code" : "UI.Portrait.Monster27",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Mitra",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_MITRA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Dosarta",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_DOSARTA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Bernheim",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_BERNHEIM"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Kara",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_KARA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Lewsia",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_LEWSIA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Mediana",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_MEDIANA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/Yuria",
+                "OrigName"   : "Portrait/Monster/19Halloween_Boss_YURIA"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/DunnNemicia",
+                "OrigName"   : "Portrait/Monster/DunnNemicia_Boss_19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/RabbitHunter",
+                "OrigName"   : "Portrait/Monster/Rabbit_Hunter_Normal_19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/RabbitHunterElite",
+                "OrigName"   : "Portrait/Monster/Rabbit_Hunter_Elite_19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/RabbitHunterSuperElite",
+                "OrigName"   : "Portrait/Monster/Rabbit_Hunter_SuperElite_19Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/Gladi",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Gladi"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Jin",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Jin"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/Juno",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Juno"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/Loman",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Loman"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/May",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_May"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/Nicky",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Nicky"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_1000Days/Veronica",
+                "OrigName"   : "Portrait/Monster/1000Days_Boss_Veronica"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Dreadbringer",
+                "OrigName"   : "Portrait/Monster/DreadBringer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/Chase",
+                "OrigName"   : "Portrait/Monster/19DestinyLight_Chase"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/Clause",
+                "OrigName"   : "Portrait/Monster/19DestinyLight_Clause"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/Demia",
+                "OrigName"   : "Portrait/Monster/19DestinyLight_Demia"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/Fluss",
+                "OrigName"   : "Portrait/Costume/Hero/Fluss_Fluss_Trial"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/Chrisha",
+                "OrigName"   : "Portrait/Costume/Hero/Chrisha_Chrisha_Trial"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/GunnerSuperElite",
+                "OrigName"   : "Portrait/Monster/Empire/GunnerSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_DestinyLight/WraithofRegrets",
+                "OrigName"   : "Portrait/Monster/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPancironne",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPancironne_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPancironne_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPancironne_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/BundleGifts",
+                "OrigName"   : "Portrait/Monster/19CHRISTMAS_BOSS_PACK"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera",
+                "OrigName"   : "Portrait/Monster/DarkKibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_1",
+                "OrigName"   : "Portrait/Monster/DarkKibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_2",
+                "OrigName"   : "Portrait/Monster/DarkKibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_3",
+                "OrigName"   : "Portrait/Monster/DarkKibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_4",
+                "OrigName"   : "Portrait/Monster/DarkKibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/LightKibera",
+                "OrigName"   : "Portrait/Monster/LightKibera"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Dreadbringer",
+                "OrigName"   : "Portrait/Monster/DreadBringer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "619018182cd71e14a8704393053b98ab",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait27.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

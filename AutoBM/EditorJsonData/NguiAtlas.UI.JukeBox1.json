@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.JukeBox1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "JukeBox/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "68a172aef033d94499d84bd54b1b5b59",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/JukeBox/JukeBox1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

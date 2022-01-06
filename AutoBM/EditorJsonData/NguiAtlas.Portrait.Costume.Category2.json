@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Portrait.Costume.Category2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Category/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "533188a785b9b474e9fddf54ad9ef274",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Category/Category2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

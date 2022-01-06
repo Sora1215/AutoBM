@@ -1,0 +1,46 @@
+
+{
+    "Code" : "UI.Portrait.Monster20",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Boss/FireGoatWarrior",
+                "OrigName"   : "Portrait/Monster/FireGoatWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Draconian/Totem",
+                "OrigName"   : "Portrait/Monster/Draconian/Totem"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/LavaStone",
+                "OrigName"   : "Portrait/Monster/LavaStone"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/LavaGolem/SuperElite",
+                "OrigName"   : "Portrait/Monster/LavaGolem/SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Totem",
+                "OrigName"   : "Portrait/Monster/Draconian/Totem"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "97cc5565585bc8f419cd12cec5260671",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait20.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

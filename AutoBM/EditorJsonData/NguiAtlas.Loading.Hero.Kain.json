@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Kain",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "74d26134a9b0f6641a0715fcd9751391",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Kain.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

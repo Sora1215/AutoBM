@@ -1,0 +1,142 @@
+
+{
+    "Code" : "UI.Portrait.Monster26",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Ore",
+                "OrigName"   : "Portrait/Monster/Tortoise_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Baudouin",
+                "OrigName"   : "Portrait/Monster/Baudoin_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Gau",
+                "OrigName"   : "Portrait/Monster/Gau_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Esker",
+                "OrigName"   : "Portrait/Monster/EskerDark_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Esker2",
+                "OrigName"   : "Portrait/Monster/EskerDark_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Glenwys3",
+                "OrigName"   : "Portrait/Monster/Glenwys_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Chrisha3",
+                "OrigName"   : "Portrait/Monster/Chrisha_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Seria3",
+                "OrigName"   : "Portrait/Monster/Seria_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Erze3",
+                "OrigName"   : "Portrait/Monster/Erze__19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Laudia3",
+                "OrigName"   : "Portrait/Monster/Laudia_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Zafir3",
+                "OrigName"   : "Portrait/Monster/Zafir_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Dosarta3",
+                "OrigName"   : "Portrait/Monster/Dojarta_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Lavril3",
+                "OrigName"   : "Portrait/Monster/Lavril_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Gau3",
+                "OrigName"   : "Portrait/Monster/Gau_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Bernheim3",
+                "OrigName"   : "Portrait/Monster/Bernheim_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Summer/Esker3",
+                "OrigName"   : "Portrait/Monster/EskerLight_19Summer_Event"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_JunoEvent/GiantSlime2",
+                "OrigName"   : "Portrait/Monster/KingSlime_2019_CookingLord"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Boar/Wild",
+                "OrigName"   : "Portrait/Monster/Boar_Wild"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/GiantWorm/SuperElite",
+                "OrigName"   : "Portrait/Monster/GiantWorm_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/HornedBear/Wild",
+                "OrigName"   : "Portrait/Monster/HornedBear_Wild"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Scorpion/Desert",
+                "OrigName"   : "Portrait/Monster/Scorpion_Desert"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Spider/Fire",
+                "OrigName"   : "Portrait/Monster/Spider_Fire"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Spider/Warrior",
+                "OrigName"   : "Portrait/Monster/Spider_Warrior"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Wasp/Mandible",
+                "OrigName"   : "Portrait/Monster/Wasp_Mandible"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Wasp/Scythe",
+                "OrigName"   : "Portrait/Monster/Wasp_Scythe"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Wolf/SuperElite",
+                "OrigName"   : "Portrait/Monster/Wolf_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/DragonEnt",
+                "OrigName"   : "Portrait/Monster/DragonEnt_Eclipse"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Eclipse/Lich",
+                "OrigName"   : "Portrait/Monster/Lich_Eclipse"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Halloween/GiantSlime2",
+                "OrigName"   : "Portrait/Monster/KingSlime_2019_CookingLord"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7b3bf62bba844214e80fafc422a98695",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait26.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

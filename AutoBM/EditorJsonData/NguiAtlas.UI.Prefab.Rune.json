@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Rune",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2dceff0859d9d084aae5f1b9e6cfd3b8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Rune/Rune.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

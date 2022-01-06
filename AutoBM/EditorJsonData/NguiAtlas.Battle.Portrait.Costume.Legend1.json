@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Legend1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8cafa5237324c7b4cbc90393f78c2f91",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Legend/BattlePortraitCoustumeLegend1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

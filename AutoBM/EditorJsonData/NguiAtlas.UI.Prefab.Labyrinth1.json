@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Labyrinth1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9d8ff31567081744ab2c22abbc75f689",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Labyrinth/Labyrinth1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

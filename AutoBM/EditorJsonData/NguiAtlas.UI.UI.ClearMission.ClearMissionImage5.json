@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.ClearMission.ClearMissionImage5",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/ClearMission/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4276c3edd9b063b4188f028e56243415",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/ClearMission/ClearMission05.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+
+{
+    "Code" : "Icon.Item.Normal5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/WEAPON_WARRIOR_8_2_2",
+                "OrigName"   : "Icon/Item/WEAPON_WARRIOR_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARMOR_HEAVY_8_3_2",
+                "OrigName"   : "Icon/Item/ARMOR_HEAVY_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARMOR_LIGHT_8_3_2",
+                "OrigName"   : "Icon/Item/ARMOR_LIGHT_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ACCESSORY_EARRING_8_3_2",
+                "OrigName"   : "Icon/Item/ACCESSORY_EARRING_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ASSASSIN_8_4_2",
+                "OrigName"   : "Icon/Item/WEAPON_ASSASSIN_5_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ASSASSIN_8_5_2",
+                "OrigName"   : "Icon/Item/WEAPON_ASSASSIN_5_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ASSASSIN_8_2_3",
+                "OrigName"   : "Icon/Item/WEAPON_ASSASSIN_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ARCHER_8_2_3",
+                "OrigName"   : "Icon/Item/WEAPON_ARCHER_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARMOR_LIGHT_8_2_3",
+                "OrigName"   : "Icon/Item/ARMOR_LIGHT_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARMOR_ROBE_8_2_3",
+                "OrigName"   : "Icon/Item/ARMOR_ROBE_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/GEAR_HEAVY_8_2_3",
+                "OrigName"   : "Icon/Item/GEAR_HEAVY_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/GEAR_ROBE_8_2_3",
+                "OrigName"   : "Icon/Item/GEAR_ROBE_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ACCESSORY_RING_8_2_3",
+                "OrigName"   : "Icon/Item/ACCESSORY_RING_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ACCESSORY_EARRING_8_2_3",
+                "OrigName"   : "Icon/Item/ACCESSORY_EARRING_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ACCESSORY_NECKLACE_8_2_3",
+                "OrigName"   : "Icon/Item/ACCESSORY_NECKLACE_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_WARRIOR_8_3_3",
+                "OrigName"   : "Icon/Item/WEAPON_WARRIOR_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ASSASSIN_8_3_3",
+                "OrigName"   : "Icon/Item/WEAPON_ASSASSIN_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_ARCHER_8_3_3",
+                "OrigName"   : "Icon/Item/WEAPON_ARCHER_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ACCESSORY_BRACELET_8_3_3",
+                "OrigName"   : "Icon/Item/ACCESSORY_BRACELET_5_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_WARRIOR_8_4_3",
+                "OrigName"   : "Icon/Item/WEAPON_WARRIOR_5_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/WEAPON_WARRIOR_8_5_3",
+                "OrigName"   : "Icon/Item/WEAPON_WARRIOR_5_4_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a80ae8f376b77ef4dbd45dfde431cf0f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/Normal/Normal5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

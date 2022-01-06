@@ -1,0 +1,42 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero9",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Cassandra",
+                "OrigName"   : "Portrait/Costume/Hero/Cassandra_Cassandra_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Crow",
+                "OrigName"   : "Portrait/Costume/Hero/Crow_Crow_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Mediana",
+                "OrigName"   : "Portrait/Costume/Hero/Mediana_Mediana_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Cassandra",
+                "OrigName"   : "Portrait/Costume/Hero/Cassandra_Cassandra_Cos18Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "07f9251ef71dacf4f87afa475dee1363",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

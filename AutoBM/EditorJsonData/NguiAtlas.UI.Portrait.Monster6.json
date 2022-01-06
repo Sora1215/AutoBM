@@ -1,0 +1,58 @@
+
+{
+    "Code" : "UI.Portrait.Monster6",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMaria_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMaria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMaria_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMaria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkClause",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkClause_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMaria",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMaria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkClause_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkClause_2"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/Spider/Egg",
+                "OrigName"   : "Portrait/Monster/Spider/Egg"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/Spider/SuperElite",
+                "OrigName"   : "Portrait/Monster/Spider/SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/Spider/Small",
+                "OrigName"   : "Portrait/Monster/Spider/Small"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "60e1de15be7373648a11d0d9f12e89a8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait6.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

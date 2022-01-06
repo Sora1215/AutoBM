@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portal.ContentImage.Single2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "PortalRenewal/Image/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0fc1726cce5727b49be90d6bbc3a0106",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/NewPortal/PortalContentImage/PortalContentImage_Single02.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

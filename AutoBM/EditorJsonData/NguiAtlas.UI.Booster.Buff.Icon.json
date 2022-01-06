@@ -1,0 +1,130 @@
+
+{
+    "Code" : "UI.Booster.Buff.Icon",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Booster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Booster/DAILY_RUBY_COUNT",
+                "OrigName"   : "Booster/BOOSTER_DAILYRUBY_FIRST"
+            },
+            {
+                "SpriteName" : "Booster/DAILY_RUBY_COUNT2",
+                "OrigName"   : "Booster/BOOSTER_DAILYRUBY_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_TEST",
+                "OrigName"   : "Booster/BOOSTER_EXP_FIRST"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_TEST_1",
+                "OrigName"   : "Booster/BOOSTER_EXP_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_7DAY",
+                "OrigName"   : "Booster/BOOSTER_EXP_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_TEST_7",
+                "OrigName"   : "Booster/BOOSTER_EXP_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_TEST",
+                "OrigName"   : "Booster/BOOSTER_GOLD_FIRST"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_TEST_1",
+                "OrigName"   : "Booster/BOOSTER_GOLD_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_TEST_7",
+                "OrigName"   : "Booster/BOOSTER_GOLD_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_7DAY",
+                "OrigName"   : "Booster/BOOSTER_GOLD_SECOND"
+            },
+            {
+                "SpriteName" : "Booster/EventBonusType_KeepRuneFree",
+                "OrigName"   : "Booster/EventBonusType_RuneEvent"
+            },
+            {
+                "SpriteName" : "Booster/EventBonusType_DiscountKeepRune",
+                "OrigName"   : "Booster/EventBonusType_RuneEvent"
+            },
+            {
+                "SpriteName" : "Booster/EventBonusType_RubyPayBack",
+                "OrigName"   : "Booster/EventBonusType_PaybackGem"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_30M",
+                "OrigName"   : "Booster/BOOSTER_EXP_1H"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_1H",
+                "OrigName"   : "Booster/BOOSTER_EXP_1H"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_30M",
+                "OrigName"   : "Booster/BOOSTER_GOLD_1H"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_1H",
+                "OrigName"   : "Booster/BOOSTER_GOLD_1H"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_ONETIME_ITEM",
+                "OrigName"   : "Booster/BOOSTER_ITEM_TEST"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EXP_TEST_MISSION",
+                "OrigName"   : "Booster/EventBonusType_BonusExp"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_GOLD_TEST_MISSION",
+                "OrigName"   : "Booster/EventBonusType_BonusGold"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EVENT_COOKIE_STICK_EXP",
+                "OrigName"   : "Booster/BOOSTER_COOKIE_STICK_CHOCOLATE"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EVENT_COOKIE_STICK_GOLD",
+                "OrigName"   : "Booster/BOOSTER_COOKIE_STICK_CHOCOLATE"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_EVENT_COOKIE_STICK_ITEM",
+                "OrigName"   : "Booster/BOOSTER_COOKIE_STICK_STRAWBERRY"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_BONUS_DAILY_MISSION_14DAY",
+                "OrigName"   : "Booster/BOOSTER_BONUS_DAILY_MISSION"
+            },
+            {
+                "SpriteName" : "Booster/BOOSTER_STAMINA_1H",
+                "OrigName"   : "Booster/BOOSTER_STAMINA_BUFF"
+            },
+            {
+                "SpriteName" : "Booster/DAILY_RUBY_COUNT3",
+                "OrigName"   : "Booster/DailyRuby3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "21d822fc1f6e1cf439272583949fe9ce",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Booster/BoosterBuffIcon.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

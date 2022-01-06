@@ -1,0 +1,94 @@
+
+{
+    "Code" : "Battle.Portrait.Hero8",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Bernheim",
+                "OrigName"   : "Battle/Portrait/Hero/Bernheim_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Cecilia",
+                "OrigName"   : "Battle/Portrait/Hero/Cecilia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Dakaris",
+                "OrigName"   : "Battle/Portrait/Hero/Dakaris_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kirze",
+                "OrigName"   : "Battle/Portrait/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Hanus",
+                "OrigName"   : "Battle/Portrait/Hero/Hanus_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kain",
+                "OrigName"   : "Battle/Portrait/Hero/Kain_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Rehartna",
+                "OrigName"   : "Battle/Portrait/Hero/Rehartna_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Pancironne",
+                "OrigName"   : "Battle/Portrait/Hero/Pancironne_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kibera",
+                "OrigName"   : "Battle/Portrait/Hero/Kibera_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Taily",
+                "OrigName"   : "Battle/Portrait/Hero/Taily_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Xerah",
+                "OrigName"   : "Battle/Portrait/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Evan",
+                "OrigName"   : "Battle/Portrait/Hero/Evan_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Talisha",
+                "OrigName"   : "Battle/Portrait/Hero/Talisha_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Hilda",
+                "OrigName"   : "Battle/Portrait/Hero/Hilda_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Isolet",
+                "OrigName"   : "Battle/Portrait/Hero/Isolet_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/ClauseTraitor",
+                "OrigName"   : "Battle/Portrait/Hero/ClauseTraitor_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/TattersClause_5",
+                "OrigName"   : "Battle/Portrait/Hero/TattersClause"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3628360594987a045aa00a5df8b7e762",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero8.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

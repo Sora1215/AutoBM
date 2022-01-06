@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Shakmeh",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c38658637a18fb645ad2aac11d757e79",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_Shakmeh.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

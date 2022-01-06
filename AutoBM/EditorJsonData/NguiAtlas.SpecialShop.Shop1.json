@@ -1,0 +1,42 @@
+
+{
+    "Code" : "SpecialShop.Shop1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "SpecialShop/Shop/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_premium_enchant_package",
+                "OrigName"   : "SpecialShop/Shop/Enchant_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero1_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero1_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero2_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero2_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_new_hero3_package",
+                "OrigName"   : "SpecialShop/Shop/New_Hero3_Package"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ab01a5bedc24cdd4395c25a08f2ac8ed",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/SpecialShop/Shop1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

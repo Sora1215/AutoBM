@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.Broadcast.Background1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/Broadcast/Background/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f61ba70f6e0ba574ea6c35bcf3a12e0b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Broadcast/BackGround/BroadcastBG1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

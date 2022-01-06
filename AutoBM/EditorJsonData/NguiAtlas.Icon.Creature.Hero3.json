@@ -1,0 +1,262 @@
+
+{
+    "Code" : "Icon.Creature.Hero3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Hero/Annette",
+                "OrigName"   : "Icon/Creature/Hero/Annette_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Nicx",
+                "OrigName"   : "Icon/Creature/Hero/Nicx_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Tanya",
+                "OrigName"   : "Icon/Creature/Hero/Tanya_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Mitra",
+                "OrigName"   : "Icon/Creature/Hero/Mitra_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ANNETTE",
+                "OrigName"   : "Icon/Creature/Hero/Annette_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NICX",
+                "OrigName"   : "Icon/Creature/Hero/Nicx_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_TANYA",
+                "OrigName"   : "Icon/Creature/Hero/Tanya_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MITRA",
+                "OrigName"   : "Icon/Creature/Hero/Mitra_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lewsia",
+                "OrigName"   : "Icon/Creature/Hero/Lewsia_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Ricardo",
+                "OrigName"   : "Icon/Creature/Hero/Ricardo_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/May",
+                "OrigName"   : "Icon/Creature/Hero/May_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Priscilla",
+                "OrigName"   : "Icon/Creature/Hero/Priscilla_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LEWSIA",
+                "OrigName"   : "Icon/Creature/Hero/Lewsia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RICARDO",
+                "OrigName"   : "Icon/Creature/Hero/Ricardo_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MAY",
+                "OrigName"   : "Icon/Creature/Hero/May_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_PRISCILLA",
+                "OrigName"   : "Icon/Creature/Hero/Priscilla_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Cassandra",
+                "OrigName"   : "Icon/Creature/Hero/Cassandra_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Oddy",
+                "OrigName"   : "Icon/Creature/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Yanne",
+                "OrigName"   : "Icon/Creature/Hero/Yanne_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CASSANDRA",
+                "OrigName"   : "Icon/Creature/Hero/Cassandra_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ODDY",
+                "OrigName"   : "Icon/Creature/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_YANNE",
+                "OrigName"   : "Icon/Creature/Hero/Yanne_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GLADI",
+                "OrigName"   : "Icon/Creature/Hero/Gladi_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Gladi",
+                "OrigName"   : "Icon/Creature/Hero/Gladi_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_THEO",
+                "OrigName"   : "Icon/Creature/Hero/Theo_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Theo",
+                "OrigName"   : "Icon/Creature/Hero/Theo_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MEDIANA",
+                "OrigName"   : "Icon/Creature/Hero/Mediana_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Mediana",
+                "OrigName"   : "Icon/Creature/Hero/Mediana_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ARTEMIA",
+                "OrigName"   : "Icon/Creature/Hero/Artemia_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Artemia",
+                "OrigName"   : "Icon/Creature/Hero/Artemia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRIANNE",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Mirianne",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SCARLET",
+                "OrigName"   : "Icon/Creature/Hero/Scarlet_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Scarlet",
+                "OrigName"   : "Icon/Creature/Hero/Scarlet_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SONIA",
+                "OrigName"   : "Icon/Creature/Hero/Sonia_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Sonia",
+                "OrigName"   : "Icon/Creature/Hero/Sonia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_EZEKIEL",
+                "OrigName"   : "Icon/Creature/Hero/Ezekiel_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Ezekiel",
+                "OrigName"   : "Icon/Creature/Hero/Ezekiel_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_OPHELIA",
+                "OrigName"   : "Icon/Creature/Hero/Ophelia_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Ophelia",
+                "OrigName"   : "Icon/Creature/Hero/Ophelia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REQUINA",
+                "OrigName"   : "Icon/Creature/Hero/Requina_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Requina",
+                "OrigName"   : "Icon/Creature/Hero/Requina_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRIANNE_4",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRIANNE_5",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LEWSIA_4",
+                "OrigName"   : "Icon/Creature/Hero/Lewsia_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LEWSIA_5",
+                "OrigName"   : "Icon/Creature/Hero/Lewsia_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRIANNE_3",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Chapter9/Scarlet",
+                "OrigName"   : "Icon/Creature/Hero/Mitra_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Chapter9/Mitra",
+                "OrigName"   : "Icon/Creature/Hero/Scarlet_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_OPHELIA_5",
+                "OrigName"   : "Icon/Creature/Hero/Ophelia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Nicx_3",
+                "OrigName"   : "Icon/Creature/Hero/Nicx_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Oddy_3",
+                "OrigName"   : "Icon/Creature/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRIANNE_3_40",
+                "OrigName"   : "Icon/Creature/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_SUPPORTER_ANNETTE",
+                "OrigName"   : "Icon/Creature/Hero/Annette_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Ophelia",
+                "OrigName"   : "Icon/Creature/Hero/Ophelia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Nicx",
+                "OrigName"   : "Icon/Creature/Hero/Nicx_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Oddy",
+                "OrigName"   : "Icon/Creature/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Priscilla",
+                "OrigName"   : "Icon/Creature/Hero/Priscilla_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_BALANCE_211109_STEPUP_ANNETTE_REWARD",
+                "OrigName"   : "Icon/Creature/Hero/Annette_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cae83f6d0ad44a846ae54c0452dbd794",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Hero/Hero3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

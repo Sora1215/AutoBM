@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/Arena2/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4d683122ddac4084a91591a9bef6165f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

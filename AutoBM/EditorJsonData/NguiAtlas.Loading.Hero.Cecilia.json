@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Cecilia",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "166d75cc59f07304590d3a1889b8a6d4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Cecilia.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

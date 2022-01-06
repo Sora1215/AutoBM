@@ -1,0 +1,54 @@
+
+{
+    "Code" : "Icon.Creature.Monster5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Poison/Slime",
+                "OrigName"   : "Icon/Creature/Monster/SlimeNomal/Green"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkRephy_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkRephy_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsolet_1",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsolet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsolet_2",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsolet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsolet_3",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsolet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsolet_4",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsolet"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Ordeal/LightIsolet_5",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/LightIsolet"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "40328e733d0af934783298dec9152bd1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

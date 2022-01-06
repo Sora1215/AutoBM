@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Pet3",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Pet/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "10f16fafabeefcd469b943988658e958",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Pet/PetPortrait3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

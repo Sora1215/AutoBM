@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero7",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0d457a4189008be4480dcb0fdd72af4f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

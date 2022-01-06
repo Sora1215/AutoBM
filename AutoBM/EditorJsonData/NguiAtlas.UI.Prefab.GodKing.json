@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.GodKing",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8e7027633fa9af941a213833de30c3c3",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/SoulWeapon/GodKing.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

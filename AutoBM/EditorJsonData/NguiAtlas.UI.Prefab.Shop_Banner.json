@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Shop_Banner",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5d64b84c7d8440a49af78563fe8b1b50",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Shop/Shop_Banner.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

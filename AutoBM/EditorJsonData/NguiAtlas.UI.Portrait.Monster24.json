@@ -1,0 +1,90 @@
+
+{
+    "Code" : "UI.Portrait.Monster24",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Slime/WarriorRotten",
+                "OrigName"   : "Portrait/Monster/Slime/Swamp"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/StinkyGoblin/Normal",
+                "OrigName"   : "Portrait/Monster/StinkyGoblin"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/StinkyGoblin/Elite",
+                "OrigName"   : "Portrait/Monster/StinkyGoblinElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/ArcherCosEvilSpirit",
+                "OrigName"   : "Portrait/Monster/SwampArcher"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/GuardCosEvilSpirit",
+                "OrigName"   : "Portrait/Monster/SwampGuard"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/WraithofRegrets/Normal",
+                "OrigName"   : "Portrait/Monster/WraithofRegrets"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/WraithofRegrets/Elite",
+                "OrigName"   : "Portrait/Monster/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/WraithofRegrets/Elite1",
+                "OrigName"   : "Portrait/Monster/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/SwordsmanElite",
+                "OrigName"   : "Portrait/Monster/Empire/SwordsmanElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/EraserSuperElite",
+                "OrigName"   : "Portrait/Monster/Guardian/EraserSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/GolemSuperElite",
+                "OrigName"   : "Portrait/Monster/Guardian/GolemSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/MeginorSuperElite",
+                "OrigName"   : "Portrait/Monster/Guardian/MeginorSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/RemorSuperElite",
+                "OrigName"   : "Portrait/Monster/Guardian/RemorSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/WraithofRegrets/Elite2",
+                "OrigName"   : "Portrait/Monster/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Gunner",
+                "OrigName"   : "Portrait/Monster/Empire/Gunner"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/KnightSuperElite",
+                "OrigName"   : "Portrait/Monster/Empire/KnightSuperElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "45c788107aa4e6b41a9e2a0c78a9934c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait24.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

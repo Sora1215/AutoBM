@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.MonthlyHero",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/MonthlyHero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0fc76bb509e378543868878fc746c1ce",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/MonthlyHero/MonthlyHero.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

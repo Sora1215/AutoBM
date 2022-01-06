@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prologue.HerodungeonIllust1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Scene/Herodungeon/Illust/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2b63c32c39884bf45b3d40074356dd33",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Prologue/HerodungeonIllust1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

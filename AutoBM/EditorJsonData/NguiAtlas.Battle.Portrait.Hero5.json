@@ -1,0 +1,74 @@
+
+{
+    "Code" : "Battle.Portrait.Hero5",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/May",
+                "OrigName"   : "Battle/Portrait/Hero/May_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Cassandra",
+                "OrigName"   : "Battle/Portrait/Hero/Cassandra_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Oddy",
+                "OrigName"   : "Battle/Portrait/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Yanne",
+                "OrigName"   : "Battle/Portrait/Hero/Yanne_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Gladi",
+                "OrigName"   : "Battle/Portrait/Hero/Gladi_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Artemia",
+                "OrigName"   : "Battle/Portrait/Hero/Artemia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Mediana",
+                "OrigName"   : "Battle/Portrait/Hero/Mediana_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Theo",
+                "OrigName"   : "Battle/Portrait/Hero/Theo_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Mirianne",
+                "OrigName"   : "Battle/Portrait/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Scarlet",
+                "OrigName"   : "Battle/Portrait/Hero/Scarlet_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Sonia",
+                "OrigName"   : "Battle/Portrait/Hero/Sonia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Requina",
+                "OrigName"   : "Battle/Portrait/Hero/Requina_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "55d62698865a9a247bbe4323c6e98932",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+
+{
+    "Code" : "Icon.Item.Rune3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/RUNE_SWIFTNESS_40",
+                "OrigName"   : "Icon/Item/RUNE_SWIFTNESS_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_THIRST_40",
+                "OrigName"   : "Icon/Item/RUNE_THIRST_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_TOUGHNESS_40",
+                "OrigName"   : "Icon/Item/RUNE_TOUGHNESS_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_WILLPOWER_40",
+                "OrigName"   : "Icon/Item/RUNE_WILLPOWER_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_WISDOM_40",
+                "OrigName"   : "Icon/Item/RUNE_WISDOM_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_RUNE_VELKAZAR_5_SEASON6",
+                "OrigName"   : "Icon/Item/PACKAGE_RUNE_VELKAZAR_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cb3dd19769cb60847b1c0b66a0a73700",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Rune/Rune3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

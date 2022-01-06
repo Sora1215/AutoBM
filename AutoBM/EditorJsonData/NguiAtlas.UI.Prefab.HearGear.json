@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.HearGear",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "152904b437601ba4ea5aacdb2312c69e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/HeroGear/HearGear.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

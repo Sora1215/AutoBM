@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prologue.SubstoryIllust1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Scene/Substory/Illust/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "498f34ef29f51ab48965ecce8283a5dc",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Prologue/SubstoryIllust_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

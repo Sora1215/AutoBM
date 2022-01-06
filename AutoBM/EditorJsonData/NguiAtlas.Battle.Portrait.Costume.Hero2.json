@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Hero2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Event/2021_HalloweenDungeon/Oddy_5",
+                "OrigName"   : "Battle/Portrait/Costume/Hero/Oddy_Oddy_Cos17Halloween"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Event/2021_HalloweenDungeon/Luna_5",
+                "OrigName"   : "Battle/Portrait/Costume/Hero/Luna_Luna_Cos17Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4c0201871d702d84992fd96bc828478d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Hero/BattlePortraitCoustumeHero2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

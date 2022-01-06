@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.UniqueWeapon7",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7880e64d530919648b48d3533d37fb99",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueWeapon/UniqueWeapon7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

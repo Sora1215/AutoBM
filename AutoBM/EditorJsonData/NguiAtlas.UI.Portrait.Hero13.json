@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero13",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Bernheim",
+                "OrigName"   : "Portrait/Hero/Bernheim_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Yuria",
+                "OrigName"   : "Portrait/Hero/Yuria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Leo",
+                "OrigName"   : "Portrait/Hero/Leo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Cecilia",
+                "OrigName"   : "Portrait/Hero/Cecilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Dakaris",
+                "OrigName"   : "Portrait/Hero/Dakaris_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kirze",
+                "OrigName"   : "Portrait/Hero/Kirze_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Hanus",
+                "OrigName"   : "Portrait/Hero/Hanus_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Riheet",
+                "OrigName"   : "Portrait/Hero/Riheet_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Ripine",
+                "OrigName"   : "Portrait/Hero/Ripine_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c0d6d8aaaa031534ca32c3b4dba4daf5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait13.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

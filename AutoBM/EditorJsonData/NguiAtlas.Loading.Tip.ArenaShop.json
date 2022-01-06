@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.ArenaShop",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e736b85e83892a14ca5b76b395732097",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_ArenaShop.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

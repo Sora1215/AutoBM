@@ -1,0 +1,50 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Arch",
+                "OrigName"   : "Portrait/Costume/Hero/Arch_Arch_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Miruru",
+                "OrigName"   : "Portrait/Costume/Hero/Miruru_Miruru_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Morrah",
+                "OrigName"   : "Portrait/Costume/Hero/Morrah_Morrah_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Mitra",
+                "OrigName"   : "Portrait/Costume/Hero/Mitra_Mitra_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Rodina",
+                "OrigName"   : "Portrait/Costume/Hero/Rodina_Rodina_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Viska",
+                "OrigName"   : "Portrait/Costume/Hero/Viska_Viska_Cos17Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "fb1b3c218070d8643992d1dd1401a000",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

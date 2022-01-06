@@ -1,0 +1,34 @@
+
+{
+    "Code" : "UI.Portrait.EventDungeon30",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/EventDungeon/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Sekmaha2",
+                "OrigName"   : "Portrait/EventDungeon/EVENT_21AUTUMNSPORTSDAY_SPECIAL1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Dakaris",
+                "OrigName"   : "Portrait/EventDungeon/EVENT_21AUTUMNSPORTSDAY_SPECIAL2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0b8cd327a90db9d4ea9356f9618b3ee4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/EventDungeon/EventDungeon30.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

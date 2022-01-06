@@ -1,0 +1,282 @@
+
+{
+    "Code" : "Icon.Skill13",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/880153",
+                "OrigName"   : "Icon/Skill/880150"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770710",
+                "OrigName"   : "Icon/Skill/660710"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770720",
+                "OrigName"   : "Icon/Skill/660720"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770730",
+                "OrigName"   : "Icon/Skill/660730"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770740",
+                "OrigName"   : "Icon/Skill/660740"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770750",
+                "OrigName"   : "Icon/Skill/660750"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770751",
+                "OrigName"   : "Icon/Skill/660751"
+            },
+            {
+                "SpriteName" : "Icon/Skill/342910",
+                "OrigName"   : "Icon/Skill/1130110"
+            },
+            {
+                "SpriteName" : "Icon/Skill/342920",
+                "OrigName"   : "Icon/Skill/1130120"
+            },
+            {
+                "SpriteName" : "Icon/Skill/342930",
+                "OrigName"   : "Icon/Skill/1130130"
+            },
+            {
+                "SpriteName" : "Icon/Skill/342940",
+                "OrigName"   : "Icon/Skill/1130140"
+            },
+            {
+                "SpriteName" : "Icon/Skill/342950",
+                "OrigName"   : "Icon/Skill/1130150"
+            },
+            {
+                "SpriteName" : "Icon/Skill/",
+                "OrigName"   : "Icon/Skill/1130151"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880310",
+                "OrigName"   : "Icon/Skill/341810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880320",
+                "OrigName"   : "Icon/Skill/341820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880330",
+                "OrigName"   : "Icon/Skill/341830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880340",
+                "OrigName"   : "Icon/Skill/341840"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880350",
+                "OrigName"   : "Icon/Skill/341850"
+            },
+            {
+                "SpriteName" : "Icon/Skill/880360",
+                "OrigName"   : "Icon/Skill/341860"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304010",
+                "OrigName"   : "Icon/Skill/3303810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304020",
+                "OrigName"   : "Icon/Skill/3303820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304030",
+                "OrigName"   : "Icon/Skill/3303830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304110",
+                "OrigName"   : "Icon/Skill/3303910"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304120",
+                "OrigName"   : "Icon/Skill/3303920"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304130",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3303931",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3303932",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304131",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3304132",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/660811",
+                "OrigName"   : "Icon/Skill/660851"
+            },
+            {
+                "SpriteName" : "Icon/Skill/660831",
+                "OrigName"   : "Icon/Skill/660834"
+            },
+            {
+                "SpriteName" : "Icon/Skill/660861",
+                "OrigName"   : "Icon/Skill/660850"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770810",
+                "OrigName"   : "Icon/Skill/660810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770812",
+                "OrigName"   : "Icon/Skill/660812"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770820",
+                "OrigName"   : "Icon/Skill/660820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770821",
+                "OrigName"   : "Icon/Skill/660821"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770830",
+                "OrigName"   : "Icon/Skill/660830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770834",
+                "OrigName"   : "Icon/Skill/660834"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770850",
+                "OrigName"   : "Icon/Skill/660850"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770851",
+                "OrigName"   : "Icon/Skill/660851"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770860",
+                "OrigName"   : "Icon/Skill/660860"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770811",
+                "OrigName"   : "Icon/Skill/660851"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770831",
+                "OrigName"   : "Icon/Skill/660834"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770861",
+                "OrigName"   : "Icon/Skill/660850"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669810",
+                "OrigName"   : "Icon/Skill/3303810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669811",
+                "OrigName"   : "Icon/Skill/3303810"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669820",
+                "OrigName"   : "Icon/Skill/3303820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669821",
+                "OrigName"   : "Icon/Skill/3303820"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669830",
+                "OrigName"   : "Icon/Skill/3303830"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669910",
+                "OrigName"   : "Icon/Skill/3303910"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669920",
+                "OrigName"   : "Icon/Skill/3303920"
+            },
+            {
+                "SpriteName" : "Icon/Skill/669930",
+                "OrigName"   : "Icon/Skill/3303930"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024410",
+                "OrigName"   : "Icon/Skill/4024310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024510",
+                "OrigName"   : "Icon/Skill/4024310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024610",
+                "OrigName"   : "Icon/Skill/4024310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024710",
+                "OrigName"   : "Icon/Skill/4024310"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024420",
+                "OrigName"   : "Icon/Skill/4024320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024520",
+                "OrigName"   : "Icon/Skill/4024320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024620",
+                "OrigName"   : "Icon/Skill/4024320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024720",
+                "OrigName"   : "Icon/Skill/4024320"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024430",
+                "OrigName"   : "Icon/Skill/4024330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024530",
+                "OrigName"   : "Icon/Skill/4024330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024630",
+                "OrigName"   : "Icon/Skill/4024330"
+            },
+            {
+                "SpriteName" : "Icon/Skill/4024730",
+                "OrigName"   : "Icon/Skill/4024330"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4144deddfe636154e95c9db5dca8ec54",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/MonsterSkill3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

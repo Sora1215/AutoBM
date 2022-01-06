@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.BroadCast",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a2e3e6f1a2a462241983f9dea0d27f50",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/BroadCast/BroadCast.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

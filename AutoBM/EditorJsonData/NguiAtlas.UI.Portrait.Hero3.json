@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Gau_1",
+                "OrigName"   : "Portrait/Hero/Gau_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kaulah_1",
+                "OrigName"   : "Portrait/Hero/Kaulah_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Gau",
+                "OrigName"   : "Portrait/Hero/Gau_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kasel",
+                "OrigName"   : "Portrait/Hero/Kasel_1"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kaulah",
+                "OrigName"   : "Portrait/Hero/Kaulah_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Aisha",
+                "OrigName"   : "Portrait/Hero/Aisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Arch",
+                "OrigName"   : "Portrait/Hero/Arch_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Aisha",
+                "OrigName"   : "Portrait/Hero/Aisha_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Gau",
+                "OrigName"   : "Portrait/Hero/Gau_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4b663b47385ebed469603e6720f74c38",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

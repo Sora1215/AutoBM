@@ -1,0 +1,218 @@
+
+{
+    "Code" : "Icon.Creature.Hero1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Hero/Baudouin",
+                "OrigName"   : "Icon/Creature/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Clause",
+                "OrigName"   : "Icon/Creature/Hero/Clause_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Cleo",
+                "OrigName"   : "Icon/Creature/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Demia",
+                "OrigName"   : "Icon/Creature/Hero/Demia_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Dimael",
+                "OrigName"   : "Icon/Creature/Hero/Dimael_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Epis",
+                "OrigName"   : "Icon/Creature/Hero/Epis_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Frey",
+                "OrigName"   : "Icon/Creature/Hero/Frey_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Gau",
+                "OrigName"   : "Icon/Creature/Hero/Gau_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Jane",
+                "OrigName"   : "Icon/Creature/Hero/Jane_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kasel",
+                "OrigName"   : "Icon/Creature/Hero/Kasel_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kaulah",
+                "OrigName"   : "Icon/Creature/Hero/Kaulah_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/KylePast",
+                "OrigName"   : "Icon/Creature/Hero/KylePast_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lakrak",
+                "OrigName"   : "Icon/Creature/Hero/Lakrak_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lorraine",
+                "OrigName"   : "Icon/Creature/Hero/Lorraine_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Maria",
+                "OrigName"   : "Icon/Creature/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/MariaPast",
+                "OrigName"   : "Icon/Creature/Hero/MariaPast_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Maya",
+                "OrigName"   : "Icon/Creature/Hero/Maya_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_BAUDOUIN",
+                "OrigName"   : "Icon/Creature/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CLAUSE",
+                "OrigName"   : "Icon/Creature/Hero/Clause_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CLEO",
+                "OrigName"   : "Icon/Creature/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DEMIA",
+                "OrigName"   : "Icon/Creature/Hero/Demia_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DIMAEL",
+                "OrigName"   : "Icon/Creature/Hero/Dimael_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_EPIS",
+                "OrigName"   : "Icon/Creature/Hero/Epis_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_FREY",
+                "OrigName"   : "Icon/Creature/Hero/Frey_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GAU",
+                "OrigName"   : "Icon/Creature/Hero/Gau_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_JANE",
+                "OrigName"   : "Icon/Creature/Hero/Jane_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KASEL",
+                "OrigName"   : "Icon/Creature/Hero/Kasel_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KAULAH",
+                "OrigName"   : "Icon/Creature/Hero/Kaulah_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LAKRAK",
+                "OrigName"   : "Icon/Creature/Hero/Lakrak_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LORRAINE",
+                "OrigName"   : "Icon/Creature/Hero/Lorraine_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MARIA",
+                "OrigName"   : "Icon/Creature/Hero/Maria_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MAYA",
+                "OrigName"   : "Icon/Creature/Hero/Maya_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CLAUSE_2",
+                "OrigName"   : "Icon/Creature/Hero/Clause_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Baudouin",
+                "OrigName"   : "Icon/Creature/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dimael_2",
+                "OrigName"   : "Icon/Creature/Hero/Dimael_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lorraine_2",
+                "OrigName"   : "Icon/Creature/Hero/Lorraine_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dimael_5",
+                "OrigName"   : "Icon/Creature/Hero/Dimael_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_TANKER_JANE",
+                "OrigName"   : "Icon/Creature/Hero/Jane_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Cleo_1",
+                "OrigName"   : "Icon/Creature/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Maria_5",
+                "OrigName"   : "Icon/Creature/Hero/Maria_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Cleo",
+                "OrigName"   : "Icon/Creature/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Maria",
+                "OrigName"   : "Icon/Creature/Hero/Maria_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Demia",
+                "OrigName"   : "Icon/Creature/Hero/Demia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Baudouin",
+                "OrigName"   : "Icon/Creature/Hero/Baudouin_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Clause2",
+                "OrigName"   : "Icon/Creature/Hero/Clause_5_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dimael",
+                "OrigName"   : "Icon/Creature/Hero/Dimael_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lorraine",
+                "OrigName"   : "Icon/Creature/Hero/Lorraine_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Gau",
+                "OrigName"   : "Icon/Creature/Hero/Gau_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3fe1164203137bc4ba45446a34ec271b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Hero/Hero1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

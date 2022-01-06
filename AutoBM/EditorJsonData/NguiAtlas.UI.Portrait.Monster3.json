@@ -1,0 +1,66 @@
+
+{
+    "Code" : "UI.Portrait.Monster3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Harpy/IceArcher",
+                "OrigName"   : "Portrait/Monster/Harpy/Archer3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Harpy/IceMage",
+                "OrigName"   : "Portrait/Monster/Harpy/Mage3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Harpy/IceMageElite",
+                "OrigName"   : "Portrait/Monster/Harpy/MageElite3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Harpy/IceSpearElite",
+                "OrigName"   : "Portrait/Monster/Harpy/SpearElite3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Harpy/IceSpear",
+                "OrigName"   : "Portrait/Monster/Harpy/Spear3"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/GoatWarrior",
+                "OrigName"   : "Portrait/Monster/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/GoatWarrior",
+                "OrigName"   : "Portrait/Monster/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpringFestival/GolemGuard",
+                "OrigName"   : "Portrait/Monster/Golem/Guard"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpringFestival/GolemGuard2",
+                "OrigName"   : "Portrait/Monster/Golem/Guard"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/GoatWarrior",
+                "OrigName"   : "Portrait/Monster/GoatWarrior"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "37af51e96383c5d49a0dd7ab4d7c143e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

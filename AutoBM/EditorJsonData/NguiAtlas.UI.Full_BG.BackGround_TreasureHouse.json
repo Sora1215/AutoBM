@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround_TreasureHouse",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/TreasureHouse/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ae7a730a19d0b604885fe12dfb9a5bb2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround_TreasureHouse.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

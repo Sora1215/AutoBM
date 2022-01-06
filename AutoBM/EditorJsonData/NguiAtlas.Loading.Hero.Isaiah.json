@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Isaiah",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "68998b727d4d5ae4dafb5ee403e2c9bf",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Isaiah.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

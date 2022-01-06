@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Dailylook_2021_1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c22c2f217df05fc47946c90712a56d52",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Dailylook_2021_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

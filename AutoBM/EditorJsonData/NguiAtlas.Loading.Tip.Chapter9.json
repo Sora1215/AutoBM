@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Chapter9",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f469fa1fc37bd784c960dbe47e5ea401",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_Chapter9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

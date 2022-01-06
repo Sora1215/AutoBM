@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.Glory1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b7526b365cee71a4a91b210451d9cb51",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Glory/Glory1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

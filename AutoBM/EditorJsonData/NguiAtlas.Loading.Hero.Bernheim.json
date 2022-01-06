@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Bernheim",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d3f513e74969f0d4788efb9120151838",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Bernheim.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

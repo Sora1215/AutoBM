@@ -1,0 +1,98 @@
+
+{
+    "Code" : "UI.Status.Buff.Debuff",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Status/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/441193",
+                "OrigName"   : "Icon/Status/RedFire1"
+            },
+            {
+                "SpriteName" : "Icon/Skill/441492",
+                "OrigName"   : "Icon/Status/BlackBall"
+            },
+            {
+                "SpriteName" : "Icon/Skill/441295",
+                "OrigName"   : "Icon/Status/Bluesnow"
+            },
+            {
+                "SpriteName" : "Icon/Skill/441494",
+                "OrigName"   : "Icon/Status/Tornado"
+            },
+            {
+                "SpriteName" : "Icon/Skill/441197",
+                "OrigName"   : "Icon/Status/RedFire2"
+            },
+            {
+                "SpriteName" : "Icon/Skill/80000001",
+                "OrigName"   : "Icon/Status/ArenaPowerUp"
+            },
+            {
+                "SpriteName" : "Icon/Skill/80000002",
+                "OrigName"   : "Icon/Status/ArenaPowerUp"
+            },
+            {
+                "SpriteName" : "Icon/Skill/80000003",
+                "OrigName"   : "Icon/Status/ArenaPowerUp"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90008",
+                "OrigName"   : "Icon/Status/AttackUp"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90017",
+                "OrigName"   : "Icon/Status/SpeedDown"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90015",
+                "OrigName"   : "Icon/Status/AttackDown"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90022",
+                "OrigName"   : "Icon/Status/Burn"
+            },
+            {
+                "SpriteName" : "Icon/Skill/80000007",
+                "OrigName"   : "Icon/Status/ArenaPowerUp"
+            },
+            {
+                "SpriteName" : "Icon/Skill/440450",
+                "OrigName"   : "Icon/Status/Tornado"
+            },
+            {
+                "SpriteName" : "Icon/Skill/6000302",
+                "OrigName"   : "Icon/Status/RedFire1"
+            },
+            {
+                "SpriteName" : "Icon/Skill/6000602",
+                "OrigName"   : "Icon/Status/Tornado"
+            },
+            {
+                "SpriteName" : "Icon/Skill/6000401",
+                "OrigName"   : "Icon/Status/Bluesnow"
+            },
+            {
+                "SpriteName" : "Icon/Skill/6000503",
+                "OrigName"   : "Icon/Status/CriticalPoison"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "98954747d22428a43a6270a8624f0fd1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Status/Status1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

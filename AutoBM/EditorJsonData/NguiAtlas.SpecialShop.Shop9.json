@@ -1,0 +1,98 @@
+
+{
+    "Code" : "SpecialShop.Shop9",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "SpecialShop/Shop/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_exp_package_item_event",
+                "OrigName"   : "SpecialShop/Shop/Event_Package_Exp"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_gold_package_item_event",
+                "OrigName"   : "SpecialShop/Shop/Event_Package_Gold"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/all_fragment_100",
+                "OrigName"   : "SpecialShop/Shop/Package_Fragment_100"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_transcendence_package_1",
+                "OrigName"   : "SpecialShop/Shop/Trans_Package_1"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_transcendence_package_2",
+                "OrigName"   : "SpecialShop/Shop/Trans_Package_2"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_transcendence_package_3",
+                "OrigName"   : "SpecialShop/Shop/Trans_Package_3"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_start_package_1",
+                "OrigName"   : "SpecialShop/Shop/Package_Starter_1"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_start_package_2",
+                "OrigName"   : "SpecialShop/Shop/Package_Starter_2"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_premium_enchant_package",
+                "OrigName"   : "SpecialShop/Shop/Enchant_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_unique_weapon_package",
+                "OrigName"   : "SpecialShop/Shop/RandomWeapon_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_premium_enchant_package_1",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_premium_enchant_package_2",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_500_fragments_of_infinity",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_full_stamina_package",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_piece_duo_package",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_3_booster_package",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_fragment_and_essence_ticket",
+                "OrigName"   : "SpecialShop/Shop/Veronica_Package"
+            },
+            {
+                "SpriteName" : "SpecialShop/Shop/iab_summon_special_item_10",
+                "OrigName"   : "SpecialShop/Shop/Event_Package_Summon"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9866e36e60193994bbe93dafa411c29d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/SpecialShop/Shop9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

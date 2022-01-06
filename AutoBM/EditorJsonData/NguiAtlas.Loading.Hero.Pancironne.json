@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Pancironne",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "aac66061b220c8847800718983af3507",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Pancironne.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

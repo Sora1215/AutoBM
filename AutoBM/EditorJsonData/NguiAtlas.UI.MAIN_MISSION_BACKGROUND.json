@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.MAIN_MISSION_BACKGROUND",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/MAIN_MISSION_BACKGROUND/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "da5054423732b0c4587ddb2bb037b446",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Mission/MAIN_MISSION_BACKGROUND.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

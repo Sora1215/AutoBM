@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.PetEgg1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PET_MISTERIOUS_EGG",
+                "OrigName"   : "Icon/Item/PET_RARE_EGG"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e6a3d3da93509d14b9601f8d1a519f27",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/PetEgg/PetEgg1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

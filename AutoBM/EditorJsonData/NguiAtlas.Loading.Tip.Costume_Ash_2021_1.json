@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Ash_2021_1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "60d70d5bd355c7040b5ef7bb80697150",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Ash_2021_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

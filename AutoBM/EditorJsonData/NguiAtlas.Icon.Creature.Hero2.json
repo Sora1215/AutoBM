@@ -1,0 +1,290 @@
+
+{
+    "Code" : "Icon.Creature.Hero2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Hero/Miruru",
+                "OrigName"   : "Icon/Creature/Hero/Miruru_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Morrah",
+                "OrigName"   : "Icon/Creature/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Naila",
+                "OrigName"   : "Icon/Creature/Hero/Naila_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Pavel",
+                "OrigName"   : "Icon/Creature/Hero/Pavel_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Phillop",
+                "OrigName"   : "Icon/Creature/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Reina",
+                "OrigName"   : "Icon/Creature/Hero/Reina_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Rephy",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Rodina",
+                "OrigName"   : "Icon/Creature/Hero/Rodina_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Roi",
+                "OrigName"   : "Icon/Creature/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Selene",
+                "OrigName"   : "Icon/Creature/Hero/Selene_2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/TarkasPast",
+                "OrigName"   : "Icon/Creature/Hero/TarkasPast_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Fluss",
+                "OrigName"   : "Icon/Creature/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Leo",
+                "OrigName"   : "Icon/Creature/Hero/Leo_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Luna",
+                "OrigName"   : "Icon/Creature/Hero/Luna_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Arch",
+                "OrigName"   : "Icon/Creature/Hero/Arch_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Aisha",
+                "OrigName"   : "Icon/Creature/Hero/Aisha_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Ell",
+                "OrigName"   : "Icon/Creature/Hero/Ell_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MIRURU",
+                "OrigName"   : "Icon/Creature/Hero/Miruru_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_MORRAH",
+                "OrigName"   : "Icon/Creature/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NAILA",
+                "OrigName"   : "Icon/Creature/Hero/Naila_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_PAVEL",
+                "OrigName"   : "Icon/Creature/Hero/Pavel_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_PHILLOP",
+                "OrigName"   : "Icon/Creature/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REINA",
+                "OrigName"   : "Icon/Creature/Hero/Reina_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_REPHY",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_RODINA",
+                "OrigName"   : "Icon/Creature/Hero/Rodina_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ROI",
+                "OrigName"   : "Icon/Creature/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SELENE",
+                "OrigName"   : "Icon/Creature/Hero/Selene_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_FLUSS",
+                "OrigName"   : "Icon/Creature/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LEO",
+                "OrigName"   : "Icon/Creature/Hero/Leo_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LUNA",
+                "OrigName"   : "Icon/Creature/Hero/Luna_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ARCH",
+                "OrigName"   : "Icon/Creature/Hero/Arch_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_AISHA",
+                "OrigName"   : "Icon/Creature/Hero/Aisha_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ELL",
+                "OrigName"   : "Icon/Creature/Hero/Ell_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_VISKA",
+                "OrigName"   : "Icon/Creature/Hero/Viska_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/Luna_Halloween",
+                "OrigName"   : "Icon/Creature/Hero/Luna_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Morrah_1",
+                "OrigName"   : "Icon/Creature/Hero/Morrah_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SELENE_5",
+                "OrigName"   : "Icon/Creature/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Glenwys",
+                "OrigName"   : "Icon/Creature/Hero/Glenwys_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GLENWYS",
+                "OrigName"   : "Icon/Creature/Hero/Glenwys_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_GLENWYS_6",
+                "OrigName"   : "Icon/Creature/Hero/Glenwys_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Dosarta",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DOSARTA",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_DOSARTA_6",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_SpecialDungeon/Fluss_3",
+                "OrigName"   : "Icon/Creature/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Phillop2",
+                "OrigName"   : "Icon/Creature/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Rephy_3",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Selene_2",
+                "OrigName"   : "Icon/Creature/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dosarta_4",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Selene_5",
+                "OrigName"   : "Icon/Creature/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SELENE_5_60",
+                "OrigName"   : "Icon/Creature/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_TANKER_PHILLOP",
+                "OrigName"   : "Icon/Creature/Hero/Phillop_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_TANKER_GLENWYS",
+                "OrigName"   : "Icon/Creature/Hero/Glenwys_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_SUPPORTER_ELL",
+                "OrigName"   : "Icon/Creature/Hero/Ell_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_SUPPORTER_REPHY",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Roi_1",
+                "OrigName"   : "Icon/Creature/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Roi",
+                "OrigName"   : "Icon/Creature/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_SpecialDungeon/Fluss",
+                "OrigName"   : "Icon/Creature/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Rephy2",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Morrah2",
+                "OrigName"   : "Icon/Creature/Hero/Morrah_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Rephy",
+                "OrigName"   : "Icon/Creature/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Dosarta",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Selene",
+                "OrigName"   : "Icon/Creature/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Aisha",
+                "OrigName"   : "Icon/Creature/Hero/Aisha_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Ell",
+                "OrigName"   : "Icon/Creature/Hero/Ell_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Morrah3",
+                "OrigName"   : "Icon/Creature/Hero/Morrah_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_BALANCE_211109_STEPUP_DOSARTA_REWARD",
+                "OrigName"   : "Icon/Creature/Hero/Dosarta_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e8c8e38bc7d9d094a9a0b744400b0f74",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Hero/Hero2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero23",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Taily",
+                "OrigName"   : "Portrait/Costume/Hero/Taily_Taily_Cos20Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Taily2",
+                "OrigName"   : "Portrait/Costume/Hero/Taily_Taily_Cos20Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "460f0df2b254e7344b9b0894f25f37e7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero23.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

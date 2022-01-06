@@ -1,0 +1,23 @@
+
+{
+    "Code" : "BackGround/EventHalloween/",
+    "SplitSpecType" : "SplitHighHighMid",
+    "Atlas"         : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "49570381cca1c83439530798c00635c5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

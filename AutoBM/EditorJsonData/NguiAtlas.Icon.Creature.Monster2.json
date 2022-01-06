@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Icon.Creature.Monster2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Harpy/IceArcher",
+                "OrigName"   : "Icon/Creature/Monster/Harpy/Archer3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Harpy/IceMage",
+                "OrigName"   : "Icon/Creature/Monster/Harpy/Mage3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Harpy/IceMageElite",
+                "OrigName"   : "Icon/Creature/Monster/Harpy/MageElite3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Harpy/IceSpear",
+                "OrigName"   : "Icon/Creature/Monster/Harpy/Spear3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Harpy/IceSpearElite",
+                "OrigName"   : "Icon/Creature/Monster/Harpy/SpearElite3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/Spider/Egg",
+                "OrigName"   : "Icon/Creature/Monster/Spider/Egg"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/Spider/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Spider/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/Spider/Small",
+                "OrigName"   : "Icon/Creature/Monster/Spider/Small"
+            },
+            {
+                "SpriteName" : "Icon/Skill/9002610",
+                "OrigName"   : "Icon/Creature/Monster/Spider/Egg"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "244984d119a3a3b4b95a5b80282cc50b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

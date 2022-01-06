@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.TechnoMagic5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8b2240821381c7143bc2504dab65b4ac",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/TechnoMagic/TechnoMagic5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

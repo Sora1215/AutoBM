@@ -1,0 +1,50 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero8",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Lakrak",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Lakrak_Lakrak_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Oddy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Oddy_Oddy_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Rephy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rephy_Rephy_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Loman",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Loman_Loman_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Lilia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Lilia_Lilia_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Lilia2",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Lilia_Lilia_Cos18Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c2a43009b29a63b46ba92cf939953e23",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero8Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

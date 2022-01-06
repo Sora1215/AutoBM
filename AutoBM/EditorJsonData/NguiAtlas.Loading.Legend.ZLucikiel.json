@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Legend.ZLucikiel",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6fe22292b0e2be6459aceba2668bc708",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Legend_ZLucikiel.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

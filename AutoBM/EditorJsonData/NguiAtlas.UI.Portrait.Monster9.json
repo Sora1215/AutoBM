@@ -1,0 +1,66 @@
+
+{
+    "Code" : "UI.Portrait.Monster9",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMiruru_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMiruru_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPhillop_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPhillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPhillop_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPhillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkMiruru",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkMiruru_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkPhillop",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkPhillop_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkReina",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkReina_2"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/GiantSuperElite",
+                "OrigName"   : "Portrait/Monster/Skeleton/GiantSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Skeleton/Totem",
+                "OrigName"   : "Portrait/Monster/Skeleton/Totem"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Skeleton/Totem2",
+                "OrigName"   : "Portrait/Monster/Skeleton/Totem"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Rephy/GiantSuperElite",
+                "OrigName"   : "Portrait/Monster/Skeleton/GiantSuperElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "425011ed2ec59ac4db093ea9febff879",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.UndergroundPrison",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7afa58d77af35964d90809124cbe44d1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/UndergroundPrison/UndergroundPrison.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

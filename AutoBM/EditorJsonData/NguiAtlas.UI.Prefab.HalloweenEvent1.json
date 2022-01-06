@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.HalloweenEvent1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "75f8e1ddd8447074a8821c4b3be29581",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/HalloweenEvent/HalloweenEvent1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

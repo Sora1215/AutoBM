@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Battle.Portrait.Hero1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Baudouin",
+                "OrigName"   : "Battle/Portrait/Hero/Baudouin_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Clause",
+                "OrigName"   : "Battle/Portrait/Hero/Clause_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Cleo",
+                "OrigName"   : "Battle/Portrait/Hero/Cleo_1"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Epis",
+                "OrigName"   : "Battle/Portrait/Hero/Epis_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Frey",
+                "OrigName"   : "Battle/Portrait/Hero/Frey_1"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Gau",
+                "OrigName"   : "Battle/Portrait/Hero/Gau_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Jane",
+                "OrigName"   : "Battle/Portrait/Hero/Jane_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kasel",
+                "OrigName"   : "Battle/Portrait/Hero/Kasel_1"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Maya",
+                "OrigName"   : "Battle/Portrait/Hero/Maya_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d11a41c20a741b544beee661a56bd665",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

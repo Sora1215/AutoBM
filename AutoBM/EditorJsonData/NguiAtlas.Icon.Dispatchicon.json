@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Dispatchicon",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "40ff1f4dfcc150b448f5ce90f529de35",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Booster/Dispatchicon.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

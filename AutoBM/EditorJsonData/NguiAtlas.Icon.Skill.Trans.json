@@ -1,0 +1,46 @@
+
+{
+    "Code" : "Icon.Skill.Trans",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/90014",
+                "OrigName"   : "Icon/Skill/60000016"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90020",
+                "OrigName"   : "Icon/Skill/60000019"
+            },
+            {
+                "SpriteName" : "Icon/Skill/90003",
+                "OrigName"   : "Icon/Skill/60000004"
+            },
+            {
+                "SpriteName" : "Icon/Skill/70000121",
+                "OrigName"   : "Icon/Skill/60000001"
+            },
+            {
+                "SpriteName" : "Icon/Skill/70000123",
+                "OrigName"   : "Icon/Skill/60000004"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5c99ac3865cab394c9e9fb15b030bf24",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/Altlas_Trans.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Raid2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9d6f866fdc21ad54ca92dbd1c9cb9b26",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Raid/Raid2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

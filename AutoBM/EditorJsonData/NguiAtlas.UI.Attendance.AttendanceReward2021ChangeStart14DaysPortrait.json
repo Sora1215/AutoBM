@@ -1,0 +1,23 @@
+
+{
+    "Code" : "UI.Attendance.AttendanceReward2021ChangeStart14DaysPortrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "Atlas"         : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c2a29f7f40e0f7a4abbb304a49183535",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceReward2021ChangeStart14DaysPortrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

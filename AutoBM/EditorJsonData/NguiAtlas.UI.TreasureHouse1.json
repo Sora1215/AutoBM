@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.TreasureHouse1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/TreasureHouse/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a6c2f224bd36bb743bf5cb1cdbf3816a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/TreasureHouse/TreasureHouse1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

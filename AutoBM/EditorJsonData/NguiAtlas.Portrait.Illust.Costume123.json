@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Portrait.Illust.Costume123",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Illust/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2c8ea2c28b0853f4da42cd5e618cb5ee",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroIllust/Costume/CostumeIllust123.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

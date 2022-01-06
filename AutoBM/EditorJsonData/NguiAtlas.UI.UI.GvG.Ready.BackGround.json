@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.UI.GvG.Ready.BackGround",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/GvG/Background/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "43d8beaf600b6c840b9da7e4bd11416d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/GVG/BackGround/GvGReadyBackground.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Dictionary.Field1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Dictionary/Field/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c9eb45166fa176a4cb65169c8ae9e717",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Dictionary/Field/Field1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

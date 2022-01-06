@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Glenwys",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c280d8bd01d4a2b4f9923d9c8e38f5ea",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Glenwys.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+
+{
+    "Code" : "UI.Portrait.Monster11",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkAisha",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkAisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkAisha_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkAisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkAisha_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkAisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArch",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArch_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArch_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArch_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkArch_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkArch_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEll",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEll_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEll_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEll_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEll_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEll_3"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Poison/Slime",
+                "OrigName"   : "Portrait/Monster/SlimeNomal/Green"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ce73c2cf9d966aa469fed779e00fe680",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait11.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

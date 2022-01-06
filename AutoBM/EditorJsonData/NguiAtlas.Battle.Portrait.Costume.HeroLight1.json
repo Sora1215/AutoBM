@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Battle.Portrait.Costume.HeroLight1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Costume/Ordeal/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "fd93dbb0e108abb4cb35a39a1e871939",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Costume/Ordeal/BattlePortraitHeroLight1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

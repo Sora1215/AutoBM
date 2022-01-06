@@ -1,0 +1,150 @@
+
+{
+    "Code" : "Icon.Item.Orb1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/ORB_5_40_1",
+                "OrigName"   : "Icon/Item/ORB_7_40_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_6_40_1",
+                "OrigName"   : "Icon/Item/ORB_7_40_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_7_40_1",
+                "OrigName"   : "Icon/Item/ORB_7_40_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_5_5_1",
+                "OrigName"   : "Icon/Item/ORB_6_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_7_5_1",
+                "OrigName"   : "Icon/Item/ORB_6_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_5_5_2",
+                "OrigName"   : "Icon/Item/ORB_6_5_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_7_5_2",
+                "OrigName"   : "Icon/Item/ORB_6_5_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_5_5_3",
+                "OrigName"   : "Icon/Item/ORB_6_5_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_7_5_3",
+                "OrigName"   : "Icon/Item/ORB_6_5_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_5_5_4",
+                "OrigName"   : "Icon/Item/ORB_6_5_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_7_5_4",
+                "OrigName"   : "Icon/Item/ORB_6_5_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_36_5_1",
+                "OrigName"   : "Icon/Item/ORB_35_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_35_40_1",
+                "OrigName"   : "Icon/Item/ORB_35_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_36_40_1",
+                "OrigName"   : "Icon/Item/ORB_35_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_6_1",
+                "OrigName"   : "Icon/Item/ORB_6_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_6_2",
+                "OrigName"   : "Icon/Item/ORB_6_5_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_6_3",
+                "OrigName"   : "Icon/Item/ORB_6_5_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_6_4",
+                "OrigName"   : "Icon/Item/ORB_6_5_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_37_5_1",
+                "OrigName"   : "Icon/Item/ORB_35_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_37_6_1",
+                "OrigName"   : "Icon/Item/ORB_35_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_5_1",
+                "OrigName"   : "Icon/Item/ORB_8_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_6_6",
+                "OrigName"   : "Icon/Item/ORB_8_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/TREASURE_8_6_1",
+                "OrigName"   : "Icon/Item/TREASURE_7_5_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_2_2",
+                "OrigName"   : "Icon/Item/ORB_5_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_3_2",
+                "OrigName"   : "Icon/Item/ORB_7_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_4_2",
+                "OrigName"   : "Icon/Item/ORB_6_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_5_2",
+                "OrigName"   : "Icon/Item/ORB_7_40_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_2_3",
+                "OrigName"   : "Icon/Item/ORB_7_2_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_3_3",
+                "OrigName"   : "Icon/Item/ORB_6_3_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_4_3",
+                "OrigName"   : "Icon/Item/ORB_5_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/ORB_8_5_3",
+                "OrigName"   : "Icon/Item/ORB_5_4_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "17956f4ef72a9ae4db11c58a47369c64",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/Orb/Orb1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Thanks_2021_1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "77f810b503752fb478099de20e0b1304",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Thanks_2021_1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+
+{
+    "Code" : "UI.Portrait.Monster1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Dryad/IceArcher",
+                "OrigName"   : "Portrait/Monster/Dryad/Archer3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Dryad/IceBard",
+                "OrigName"   : "Portrait/Monster/Dryad/Bard3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Dryad/IceBardElite",
+                "OrigName"   : "Portrait/Monster/Dryad/BardElite3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Dryad/IceSpear",
+                "OrigName"   : "Portrait/Monster/Dryad/Spear3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Dryad/IceSpearElite",
+                "OrigName"   : "Portrait/Monster/Dryad/SpearElite3"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/GiantWormSuperElite",
+                "OrigName"   : "Portrait/Monster/GiantWorm/SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Poison/Grass",
+                "OrigName"   : "Portrait/Monster/GiantWorm/Grass"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Dragon/Poison/Grass2",
+                "OrigName"   : "Portrait/Monster/GiantWorm/Grass"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/DryadSpear",
+                "OrigName"   : "Portrait/Monster/Dryad/SpearElite3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/DryadBard",
+                "OrigName"   : "Portrait/Monster/Dryad/Bard3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d9857a1c02857fd40824baae20fc1302",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

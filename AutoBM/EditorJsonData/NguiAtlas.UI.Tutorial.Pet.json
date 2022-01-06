@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Tutorial.Pet",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Tutorial/Pet/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cd9c536229412534ba98be143ba5eeae",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Tutorial/TutorialPet.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

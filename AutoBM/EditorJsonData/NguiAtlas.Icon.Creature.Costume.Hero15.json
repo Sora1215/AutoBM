@@ -1,0 +1,38 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero15",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Taily",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Taily_Taily_Cos20Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Dakaris",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Dakaris_Dakaris_Cos21Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Pancironne",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Pancironne_Pancironne_Cos21Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3221fee3cd83a45489055dc04a49834b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero15Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

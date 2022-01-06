@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.PayShop",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a2967acd8727e8242a176c335adbaa83",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/PayShop/PayShop.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

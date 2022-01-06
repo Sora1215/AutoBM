@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.BackGround.1Anniversary",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/BackGround/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "29002b653fc9125469d7e5ad47fb0c3e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Background/AttendanceBG1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

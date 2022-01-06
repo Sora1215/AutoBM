@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Portrait.Illust.Basic15",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Illust/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3cbe12c910a85c343acbfec0f55c2d63",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroIllust/Basic/BasicIllust15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

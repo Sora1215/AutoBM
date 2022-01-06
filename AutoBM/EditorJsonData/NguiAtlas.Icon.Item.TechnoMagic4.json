@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.TechnoMagic4",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c1ad6d8c11ae8394e8bc7a5bd78e55b6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/TechnoMagic/TechnoMagic4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,178 @@
+
+{
+    "Code" : "UI.Portrait.Monster28",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Substory/MysteriousBook/Normal",
+                "OrigName"   : "Portrait/Monster/Mysterious book_Normal"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/MysteriousBook/SuperElite",
+                "OrigName"   : "Portrait/Monster/Mysterious book_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Mysterious/Book/Normal",
+                "OrigName"   : "Portrait/Monster/Mysterious book_Normal"
+            },
+            {
+                "SpriteName" : "Portrait/Mysterious/Book/SuperElite",
+                "OrigName"   : "Portrait/Monster/Mysterious book_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Ophelia",
+                "OrigName"   : "Portrait/Monster/Substory/Ophelia"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTaily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTaily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTaily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTaily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKibera_4",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkTaily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Boar",
+                "OrigName"   : "Portrait/Monster/BoarCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/GiantWorm",
+                "OrigName"   : "Portrait/Monster/GiantWormCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/HydraFury",
+                "OrigName"   : "Portrait/Monster/HydraFurySekireinel"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/HydraRed",
+                "OrigName"   : "Portrait/Monster/HydraRedSekireinel"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/LizardmanMage",
+                "OrigName"   : "Portrait/Monster/LizardmanMageSekireinel"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Scorpion",
+                "OrigName"   : "Portrait/Monster/ScorpionSekireinel"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Spider",
+                "OrigName"   : "Portrait/Monster/SpiderCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Totem",
+                "OrigName"   : "Portrait/Monster/Totem"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/TotemCorrupted",
+                "OrigName"   : "Portrait/Monster/TotemCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/Warrior",
+                "OrigName"   : "Portrait/Monster/Warrior"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/WarriorCorrupted",
+                "OrigName"   : "Portrait/Monster/WarriorCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/WarriorElite",
+                "OrigName"   : "Portrait/Monster/WarriorElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/WarriorEliteCorrupted",
+                "OrigName"   : "Portrait/Monster/WarriorEliteCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/WarriorSuperElite",
+                "OrigName"   : "Portrait/Monster/WarriorSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/WarriorSuperEliteCorrupted",
+                "OrigName"   : "Portrait/Monster/WarriorSuperEliteCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Sekireinel/TotemCorrupted2",
+                "OrigName"   : "Portrait/Monster/TotemCorrupted"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkXerah",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkXerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkXerah_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkXerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkXerah_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkXerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkXerah_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkXerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkXerah_4",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkXerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEvan",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEvan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEvan_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEvan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEvan_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEvan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEvan_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEvan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEvan_4",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEvan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Penteonia/Soldier",
+                "OrigName"   : "Portrait/Monster/Soldier"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Scarlet",
+                "OrigName"   : "Portrait/Monster/FallenKF_Boss_Scarlet"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "016e7b8e8b64a484da86ed7a1e98a1d2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait28.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

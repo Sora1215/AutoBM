@@ -1,0 +1,50 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero10",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Aselica",
+                "OrigName"   : "Portrait/Costume/Hero/Aselica_Aselica_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Lakrak",
+                "OrigName"   : "Portrait/Costume/Hero/Lakrak_Lakrak_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Requina",
+                "OrigName"   : "Portrait/Costume/Hero/Requina_Requina_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Mirianne",
+                "OrigName"   : "Portrait/Costume/Hero/Mirianne_Mirianne_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Sonia",
+                "OrigName"   : "Portrait/Costume/Hero/Sonia_Sonia_Cos18Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_HalloweenDungeon/Gau",
+                "OrigName"   : "Portrait/Costume/Hero/Gau_Gau_Cos18Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "40e4f6f6c4d5bac4bab73b1755b62508",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero10.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

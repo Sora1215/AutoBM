@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Monster4",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "32d63eedb44aeb940a72fe99b88c7084",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.ExpPotion",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6f19fb88fc52d8b4fb35df0fefe35056",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/ExpPotion/ExpPotion.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

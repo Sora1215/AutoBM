@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround_PayShop",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/PayShop/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f5ed2ff2ace052d4793263f08c869200",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround_PaysShop.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

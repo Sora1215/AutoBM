@@ -1,0 +1,24 @@
+
+{
+    "Code" : "NguiAtlas.Icon.Guild.Flag01",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/GuildFlag/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7df5a2d2caede9a40ae045b8e7889b44",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/GuildFlag/GuildFlag01.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

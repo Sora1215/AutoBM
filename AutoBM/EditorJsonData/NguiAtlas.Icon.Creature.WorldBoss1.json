@@ -1,0 +1,42 @@
+
+{
+    "Code" : "Icon.Creature.WorldBoss1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/Poseidon",
+                "OrigName"   : "Icon/Creature/WorldBoss2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/EventPoseidon",
+                "OrigName"   : "Icon/Creature/EventPoseidon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/EventMountain",
+                "OrigName"   : "Icon/Creature/EventMountain"
+            },
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/Xanadus",
+                "OrigName"   : "Icon/Creature/Xanadus"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7c06b28f999b06649a2a4d2cf0727ef8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/WorldBoss/WorldBoss1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround7",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/GuildAttendance/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "68f10ff979b97e1489b0773f359d4431",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

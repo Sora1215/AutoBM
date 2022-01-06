@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.ClassTag",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b6d8d1ed2439ffd459812865acb72b83",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/ClassTag/ClassTag.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

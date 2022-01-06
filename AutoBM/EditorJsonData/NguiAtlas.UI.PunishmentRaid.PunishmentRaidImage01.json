@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.PunishmentRaid.PunishmentRaidImage01",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/PunishmentRaid/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d3af3b9cb8dd7a0408c8614d92a934e2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/PunishmentRaid/PunishmentRaidImage01.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

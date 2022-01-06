@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.MainLobby1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8317cadaf40dfe24ba1fe9ebbfa20e5f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/MainLobby/MainLobby1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

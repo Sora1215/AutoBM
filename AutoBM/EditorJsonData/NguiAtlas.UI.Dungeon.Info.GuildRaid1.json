@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Dungeon.Info.GuildRaid1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Dungeon/Info/GuildRaid/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7c6be3055850cb8489b570b855dba590",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/GuildRaid/GuildRaid1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,222 @@
+
+{
+    "Code" : "Portrait.Circle.Guild1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/Raid/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/DragonEnt2_1",
+                "OrigName"   : "Portrait/Circle/Raid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lich2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/MadAssassin2_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/OrcSword2_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/SuperElite2_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/DragonEnt3_1",
+                "OrigName"   : "Portrait/Circle/Raid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lich3_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/MadAssassin3_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore3_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/OrcSword3_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/SuperElite3_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_3",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_4",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_5",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_6",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lich_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/OrcSword_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Scorpion/SuperElite_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/MadAssassin_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Raid/Manticore",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Lich_5",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Lich2_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Boss/Manticore_5",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Lich_5",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/OrcSword2_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Tower/Manticore_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore4_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/OrcSword4_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lich4_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/MadAssassin4_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/SuperElite4_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/DragonEnt4_1",
+                "OrigName"   : "Portrait/Circle/Raid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Chapter9/Lich_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Chapter9/Lich_5",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Eclipse/Lich_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore5_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Boss/Manticore6_1",
+                "OrigName"   : "Portrait/Circle/Raid/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lich5_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/Lich6_1",
+                "OrigName"   : "Portrait/Circle/Raid/Lich2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/DragonEnt5_1",
+                "OrigName"   : "Portrait/Circle/Raid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/DragonEnt6_1",
+                "OrigName"   : "Portrait/Circle/Raid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/MadAssassin5_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/MadAssassin6_1",
+                "OrigName"   : "Portrait/Circle/Raid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/SuperElite5_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/SuperElite6_1",
+                "OrigName"   : "Portrait/Circle/Raid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/OrcSword5_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/GuildRaid/OrcSword6_1",
+                "OrigName"   : "Portrait/Circle/Raid/OrcSword2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f4f94f4c9ad9ac34e89dc9ab3e1e3814",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/Guild.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

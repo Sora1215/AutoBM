@@ -1,0 +1,70 @@
+
+{
+    "Code" : "Battle.Portrait.Hero2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Demia",
+                "OrigName"   : "Battle/Portrait/Hero/Demia_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Dimael",
+                "OrigName"   : "Battle/Portrait/Hero/Dimael_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Kaulah",
+                "OrigName"   : "Battle/Portrait/Hero/Kaulah_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/KylePast",
+                "OrigName"   : "Battle/Portrait/Hero/KylePast_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lakrak",
+                "OrigName"   : "Battle/Portrait/Hero/Lakrak_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lorraine",
+                "OrigName"   : "Battle/Portrait/Hero/Lorraine_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/MariaPast",
+                "OrigName"   : "Battle/Portrait/Hero/MariaPast_5"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Miruru",
+                "OrigName"   : "Battle/Portrait/Hero/Miruru_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Phillop",
+                "OrigName"   : "Battle/Portrait/Hero/Phillop_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Reina",
+                "OrigName"   : "Battle/Portrait/Hero/Reina_2"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/TarkasPast",
+                "OrigName"   : "Battle/Portrait/Hero/TarkasPast_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e87c7b1903b7d9f45a3abbae36343c97",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

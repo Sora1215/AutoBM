@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Language1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Language/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "624f2b2eb5fdcb048a0a24ab6034704b",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Language/Language1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

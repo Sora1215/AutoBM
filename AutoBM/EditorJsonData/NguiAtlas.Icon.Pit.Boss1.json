@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Pit.Boss1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/CreatureLarge/Boss/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "da4c40463b4828b4caf7c164d73d62f3",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/CreatureLarge/PitBoss1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

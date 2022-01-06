@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Raid3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1f42c3e6b7c9f454eac53a88792660cc",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Raid/Raid3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

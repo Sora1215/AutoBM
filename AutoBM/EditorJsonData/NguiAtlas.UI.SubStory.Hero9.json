@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.SubStory.Hero9",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/SubStory/Hero",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b4bcdb341d227104fa30aa8dee1ac80f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/SubStory/SubStory_Hero9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

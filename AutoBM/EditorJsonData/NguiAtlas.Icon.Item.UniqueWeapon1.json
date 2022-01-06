@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Icon.Item.UniqueWeapon1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_EPIS",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_EPIS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_MIRURU",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_MIRURU_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4ad5d13641138a04ba17a05c02b64f9e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueWeapon/UniqueWeapon1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

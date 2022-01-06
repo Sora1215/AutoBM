@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Loading_Minigame",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f66e62f84f935c042a89ea9a60958a9f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Loading_Minigame/Loading_Minigame.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

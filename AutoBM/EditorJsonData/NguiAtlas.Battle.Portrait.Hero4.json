@@ -1,0 +1,74 @@
+
+{
+    "Code" : "Battle.Portrait.Hero4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Luna",
+                "OrigName"   : "Battle/Portrait/Hero/Luna_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Aisha",
+                "OrigName"   : "Battle/Portrait/Hero/Aisha_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Arch",
+                "OrigName"   : "Battle/Portrait/Hero/Arch_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Ell",
+                "OrigName"   : "Battle/Portrait/Hero/Ell_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Annette",
+                "OrigName"   : "Battle/Portrait/Hero/Annette_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Nicx",
+                "OrigName"   : "Battle/Portrait/Hero/Nicx_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Tanya",
+                "OrigName"   : "Battle/Portrait/Hero/Tanya_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Mitra",
+                "OrigName"   : "Battle/Portrait/Hero/Mitra_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Viska",
+                "OrigName"   : "Battle/Portrait/Hero/Viska_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lewsia",
+                "OrigName"   : "Battle/Portrait/Hero/Lewsia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Ricardo",
+                "OrigName"   : "Battle/Portrait/Hero/Ricardo_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Priscilla",
+                "OrigName"   : "Battle/Portrait/Hero/Priscilla_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b4e337a9b981e954abc36e00a94de9e3",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

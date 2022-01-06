@@ -1,0 +1,24 @@
+
+{
+    "Code" : "SpecialShop.LongCrad1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "SpecialShop/Shop/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e64050d1a9f73d84996efc7adc7dd087",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/SpecialShop/Shop_LongCard1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

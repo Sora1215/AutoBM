@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Login",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "841bb18b52e54014b99db74883e9cc73",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Login/Login.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

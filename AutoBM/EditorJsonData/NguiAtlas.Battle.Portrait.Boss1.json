@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Battle.Portrait.Boss1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Boss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Frey/Fallen",
+                "OrigName"   : "Battle/Portrait/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Kasel/Fallen",
+                "OrigName"   : "Battle/Portrait/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Frey/Fallen_1",
+                "OrigName"   : "Battle/Portrait/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Kasel/Fallen_1",
+                "OrigName"   : "Battle/Portrait/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Frey/Fallen_5",
+                "OrigName"   : "Battle/Portrait/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Boss/Kasel/Fallen_5",
+                "OrigName"   : "Battle/Portrait/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Chapter10/ClauseTraitor",
+                "OrigName"   : "Battle/Portrait/Boss/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Chapter10/ClauseTraitor_1",
+                "OrigName"   : "Battle/Portrait/Boss/ClauseTraitor"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Monster/Chapter10/ClauseTraitor_5",
+                "OrigName"   : "Battle/Portrait/Boss/ClauseTraitor"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0f878e3753ef2a240ae5e7dab0621286",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Boss/BattlePortraitBoss1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

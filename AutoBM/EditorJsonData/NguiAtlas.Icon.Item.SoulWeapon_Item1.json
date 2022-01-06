@@ -1,0 +1,58 @@
+
+{
+    "Code" : "Icon.Item.SoulWeapon_Item1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_SPECIAL_ETHER_2_500",
+                "OrigName"   : "Icon/Item/SOULWEAPON_ETHER_2"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_SPECIAL_ETHER_3_300",
+                "OrigName"   : "Icon/Item/SOULWEAPON_ETHER_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_SPECIAL_ETHER_4_150",
+                "OrigName"   : "Icon/Item/SOULWEAPON_ETHER_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/MIDDLEBOSTT_SHAKMEH_REWARD_GRADE_1_MAGIC_SOULWEAPON_RANDOM_FRAGMENT",
+                "OrigName"   : "Icon/Item/SOULWEAPON_RANDOM_FRAGMENT"
+            },
+            {
+                "SpriteName" : "Icon/Item/MIDDLEBOSTT_SHAKMEH_REWARD_GRADE_2_MAGIC_SOULWEAPON_RANDOM_FRAGMENT",
+                "OrigName"   : "Icon/Item/SOULWEAPON_RANDOM_FRAGMENT"
+            },
+            {
+                "SpriteName" : "Icon/Item/MIDDLEBOSTT_SHAKMEH_REWARD_GRADE_3_MAGIC_SOULWEAPON_RANDOM_FRAGMENT",
+                "OrigName"   : "Icon/Item/SOULWEAPON_RANDOM_FRAGMENT"
+            },
+            {
+                "SpriteName" : "Icon/Item/MIDDLEBOSTT_SHAKMEH_REWARD_GRADE_4_MAGIC_SOULWEAPON_RANDOM_FRAGMENT",
+                "OrigName"   : "Icon/Item/SOULWEAPON_RANDOM_FRAGMENT"
+            },
+            {
+                "SpriteName" : "Icon/Item/MIDDLEBOSTT_SHAKMEH_REWARD_GRADE_5_MAGIC_SOULWEAPON_RANDOM_FRAGMENT",
+                "OrigName"   : "Icon/Item/SOULWEAPON_RANDOM_FRAGMENT"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8329a1853c2326a4ea30483c62e9c6cf",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/SoulWeapon/SoulWeapon_Item1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

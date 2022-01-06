@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Yuria",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "dd2f9146178e46b4c9ab30f56ab7fedd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Yuria.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

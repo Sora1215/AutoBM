@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Dungeon.Info.GuildSuppress",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Dungeon/Info/GuildSuppress/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f0952495f63d37141a5fed1632229f13",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/GuildSuppress/GuildSuppress.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

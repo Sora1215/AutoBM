@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Tutorial",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3f1132564623cf84188d86cc0263017a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Tutorial/Tutorial.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

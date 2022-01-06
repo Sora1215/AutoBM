@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Loading",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ad5aa8f8d2fd4cf42bb4e56f33a7bbeb",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Loading/Loading.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

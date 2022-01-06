@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.UniqueWeapon5",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_ZAFIR",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_ZAFIR_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c06e45adb3ada2d4ea776f9dc7ae8fc4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueWeapon/UniqueWeapon5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

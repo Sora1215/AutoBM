@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.MainStoryBG3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Full_BG/MainStoryBG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1d9dfd2ddc1ce1c479c0c6f21613e090",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/MainStoryBG/MainStoryBG3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

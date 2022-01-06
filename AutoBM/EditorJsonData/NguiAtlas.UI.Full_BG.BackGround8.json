@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround8",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/EventHalloween/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e606a18a961923b4dbe231426c28ef0f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround8.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

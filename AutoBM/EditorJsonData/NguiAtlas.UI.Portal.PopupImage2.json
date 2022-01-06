@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portal.PopupImage2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portal/PopupImage/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "56d5eee7c584ca147aa049f4aba7219f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/NewPortal/PopupTitleImage/PortalPopupImage2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

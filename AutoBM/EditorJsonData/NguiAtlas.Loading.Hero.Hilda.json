@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Hilda",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "210b7a0d34527f64eaa0a34e165fe993",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Hilda.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

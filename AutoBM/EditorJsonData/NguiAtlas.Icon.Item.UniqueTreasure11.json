@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.UniqueTreasure11",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_TREASURE_MIRURU",
+                "OrigName"   : "Icon/Item/TREASURE_UNIQUE_MIRURU_2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "03edd13ad50105b42a58bc1912f43483",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueTreasure/UniqueTreasure11.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.GoddessHoly",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2bb6d47e9bee2084faac43986c8db0d6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_GoddessHoly.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

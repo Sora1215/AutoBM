@@ -1,0 +1,38 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero28",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Taily",
+                "OrigName"   : "Portrait/Costume/Hero/Taily_Taily_Cos20Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/LightKasel",
+                "OrigName"   : "Portrait/Costume/Hero/Kasel_Kasel_Trans"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/LightFrey",
+                "OrigName"   : "Portrait/Costume/Hero/Frey_Frey_Trans"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "992f1e8ec70d7cf46be4cbf4d80620ab",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero28.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.SubStory.BG",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/SubStory/BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "19d1b4f9a7448af40948a6c750ed1ee8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/SubStory/SubStory_BG.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

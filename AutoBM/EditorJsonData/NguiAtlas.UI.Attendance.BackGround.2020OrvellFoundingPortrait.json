@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.BackGround.2020OrvellFoundingPortrait",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cacad9f22901eb34999ecf6e6a965fc0",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Portrait/AttendanceReward2020OrvellFoundingPotrait.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

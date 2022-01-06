@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Costume_Halloween_2020_3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "e37590dc4474d37418dd7b30b4024c73",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/HeroCostume/LoadingTip_Costume_Halloween_2020_3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

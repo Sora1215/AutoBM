@@ -1,0 +1,38 @@
+
+{
+    "Code" : "Icon.Item.UniqueWeapon3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_ARTEMIA",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_NICX",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_UNIQUE_WEAPON_THEO",
+                "OrigName"   : "Icon/Item/WEAPON_UNIQUE_THEO_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c258983bfa07b2441899e8bfe923b005",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/UniqueWeapon/UniqueWeapon3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

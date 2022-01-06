@@ -1,0 +1,42 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Fluss",
+                "OrigName"   : "Portrait/Costume/Hero/Fluss_Fluss_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Summer/Luna",
+                "OrigName"   : "Portrait/Costume/Hero/Luna_Luna_Cos17Summer2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Tanya",
+                "OrigName"   : "Portrait/Costume/Hero/Tanya_Tanya_Cos17Summer2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Nicx",
+                "OrigName"   : "Portrait/Costume/Hero/Nicx_Nicx_Cos17Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "78f51cbc20a16f543ad857f7d88b91a1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

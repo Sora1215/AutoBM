@@ -1,0 +1,338 @@
+
+{
+    "Code" : "Icon.Creature.Hero4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Hero/Aselica",
+                "OrigName"   : "Icon/Creature/Hero/Aselica_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ASELICA",
+                "OrigName"   : "Icon/Creature/Hero/Aselica_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Crow",
+                "OrigName"   : "Icon/Creature/Hero/Crow_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CROW",
+                "OrigName"   : "Icon/Creature/Hero/Crow_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Shea",
+                "OrigName"   : "Icon/Creature/Hero/Shea_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHEA",
+                "OrigName"   : "Icon/Creature/Hero/Shea_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Veronica",
+                "OrigName"   : "Icon/Creature/Hero/Veronica_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_VERONICA",
+                "OrigName"   : "Icon/Creature/Hero/Veronica_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ASELICA_6",
+                "OrigName"   : "Icon/Creature/Hero/Aselica_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CROW_6",
+                "OrigName"   : "Icon/Creature/Hero/Crow_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHEA_6",
+                "OrigName"   : "Icon/Creature/Hero/Shea_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Chase",
+                "OrigName"   : "Icon/Creature/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CHASE",
+                "OrigName"   : "Icon/Creature/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CHASE_6",
+                "OrigName"   : "Icon/Creature/Hero/Chase_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Kara",
+                "OrigName"   : "Icon/Creature/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KARA",
+                "OrigName"   : "Icon/Creature/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_KARA_6",
+                "OrigName"   : "Icon/Creature/Hero/Kara_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Shamilla",
+                "OrigName"   : "Icon/Creature/Hero/Shamilla_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHAMILLA",
+                "OrigName"   : "Icon/Creature/Hero/Shamilla_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SHAMILLA_6",
+                "OrigName"   : "Icon/Creature/Hero/Shamilla_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LOMAN",
+                "OrigName"   : "Icon/Creature/Hero/Loman_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LOMAN_6",
+                "OrigName"   : "Icon/Creature/Hero/Loman_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Laudia",
+                "OrigName"   : "Icon/Creature/Hero/Laudia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LAUDIA",
+                "OrigName"   : "Icon/Creature/Hero/Laudia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LAUDIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Laudia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lilia",
+                "OrigName"   : "Icon/Creature/Hero/Lilia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LILIA",
+                "OrigName"   : "Icon/Creature/Hero/Lilia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LILIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Lilia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Zafir",
+                "OrigName"   : "Icon/Creature/Hero/Zafir_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ZAFIR",
+                "OrigName"   : "Icon/Creature/Hero/Zafir_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ZAFIR_6",
+                "OrigName"   : "Icon/Creature/Hero/Zafir_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Juno",
+                "OrigName"   : "Icon/Creature/Hero/Juno_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_JUNO",
+                "OrigName"   : "Icon/Creature/Hero/Juno_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Erze",
+                "OrigName"   : "Icon/Creature/Hero/Erze_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ERZE",
+                "OrigName"   : "Icon/Creature/Hero/Erze_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ERZE_6",
+                "OrigName"   : "Icon/Creature/Hero/Erze_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Neraxis",
+                "OrigName"   : "Icon/Creature/Hero/Neraxis_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NERAXIS",
+                "OrigName"   : "Icon/Creature/Hero/Neraxis_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NERAXIS_6",
+                "OrigName"   : "Icon/Creature/Hero/Neraxis_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Seria",
+                "OrigName"   : "Icon/Creature/Hero/Seria_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SERIA",
+                "OrigName"   : "Icon/Creature/Hero/Seria_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_SERIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Seria_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Chrisha",
+                "OrigName"   : "Icon/Creature/Hero/Chrisha_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CHRISHA",
+                "OrigName"   : "Icon/Creature/Hero/Chrisha_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_CHRISHA_6",
+                "OrigName"   : "Icon/Creature/Hero/Chrisha_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lucias",
+                "OrigName"   : "Icon/Creature/Hero/Lucias_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LUCIAS",
+                "OrigName"   : "Icon/Creature/Hero/Lucias_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LUCIAS_6",
+                "OrigName"   : "Icon/Creature/Hero/Lucias_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NICKY",
+                "OrigName"   : "Icon/Creature/Hero/Nicky_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Nicky",
+                "OrigName"   : "Icon/Creature/Hero/Nicky_4"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NICKY_6",
+                "OrigName"   : "Icon/Creature/Hero/Nicky_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Chase_3",
+                "OrigName"   : "Icon/Creature/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Chase",
+                "OrigName"   : "Icon/Creature/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Chase_5",
+                "OrigName"   : "Icon/Creature/Hero/Chase_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Nia",
+                "OrigName"   : "Icon/Creature/Hero/Nia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NIA",
+                "OrigName"   : "Icon/Creature/Hero/Nia_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_NIA_6",
+                "OrigName"   : "Icon/Creature/Hero/Nia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Esker",
+                "OrigName"   : "Icon/Creature/Hero/Esker_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ESKER",
+                "OrigName"   : "Icon/Creature/Hero/Esker_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_ESKER_6",
+                "OrigName"   : "Icon/Creature/Hero/Esker_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Lavril_3",
+                "OrigName"   : "Icon/Creature/Hero/Lavril_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LAVRIL",
+                "OrigName"   : "Icon/Creature/Hero/Lavril_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_LAVRIL_6",
+                "OrigName"   : "Icon/Creature/Hero/Lavril_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Hero/Bernheim_3",
+                "OrigName"   : "Icon/Creature/Hero/Bernheim_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_BERNHEIM",
+                "OrigName"   : "Icon/Creature/Hero/Bernheim_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/HERO_BERNHEIM_6",
+                "OrigName"   : "Icon/Creature/Hero/Bernheim_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Sekireinel/Laudia_5",
+                "OrigName"   : "Icon/Creature/Hero/Laudia_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_BOX_UNIQUE_ALL_GEAR_TANKER_NERAXIS",
+                "OrigName"   : "Icon/Creature/Hero/Neraxis_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Lucias2",
+                "OrigName"   : "Icon/Creature/Hero/Lucias_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Chase",
+                "OrigName"   : "Icon/Creature/Hero/Chase_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Kara",
+                "OrigName"   : "Icon/Creature/Hero/Kara_3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Chase2",
+                "OrigName"   : "Icon/Creature/Hero/Chase_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Neraxis",
+                "OrigName"   : "Icon/Creature/Hero/Neraxis_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/Zafir",
+                "OrigName"   : "Icon/Creature/Hero/Zafir_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/Laudia",
+                "OrigName"   : "Icon/Creature/Hero/Laudia_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_SpecialDungeon/Shamilla",
+                "OrigName"   : "Icon/Creature/Hero/Shamilla_5"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/Shamilla",
+                "OrigName"   : "Icon/Creature/Hero/Shamilla_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_BALANCE_211109_STEPUP_LAVRIL_REWARD",
+                "OrigName"   : "Icon/Creature/Hero/Lavril_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "989368afffe96ad4aa28e0e727f17e28",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Hero/Hero4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

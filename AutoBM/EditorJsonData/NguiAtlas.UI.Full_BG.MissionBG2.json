@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.MissionBG2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Full_BG/MissionBG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "25552547ad2ce8f49b66f3d8a2208304",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/MissionBG/Mission_BG2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

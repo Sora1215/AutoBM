@@ -1,0 +1,194 @@
+
+{
+    "Code" : "UI.Portrait.Boss2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Boss/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/WorldBoss/MountainFortress",
+                "OrigName"   : "Portrait/Boss/MountainFortress"
+            },
+            {
+                "SpriteName" : "Portrait/WorldBoss/Poseidon",
+                "OrigName"   : "Portrait/Boss/Poseidon"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Goblin/Urkak",
+                "OrigName"   : "Portrait/Boss/Urkak"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Harpy/Satria",
+                "OrigName"   : "Portrait/Boss/Satria"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Orc/Kerberen",
+                "OrigName"   : "Portrait/Boss/Kerberen"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Skeleton/Obrigard",
+                "OrigName"   : "Portrait/Boss/Obrigard"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/DarkElf/Sithrael",
+                "OrigName"   : "Portrait/Boss/Sithrael"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Lizardman/Garrow",
+                "OrigName"   : "Portrait/Boss/Garrow"
+            },
+            {
+                "SpriteName" : "Portrait/WorldBoss/Valok",
+                "OrigName"   : "Portrait/Boss/Valok"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/FrostGiant/Thorpe",
+                "OrigName"   : "Portrait/Boss/Thorpe"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore2",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore3",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Boss/Manticore",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Manticore",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore4",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Lizardman/Lakreil",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/IceTortoise4",
+                "OrigName"   : "Portrait/Boss/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/WorldBoss/Xanadus",
+                "OrigName"   : "Portrait/Boss/Xanadus"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Spider/SuperEliteSwamp",
+                "OrigName"   : "Portrait/Boss/SwampElite"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Frey/Fallen",
+                "OrigName"   : "Portrait/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Frey/Fallen2",
+                "OrigName"   : "Portrait/Boss/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Kasel/Fallen",
+                "OrigName"   : "Portrait/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Kasel/Fallen2",
+                "OrigName"   : "Portrait/Boss/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Lizardman/Lakreil2",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/Raid/Draconic/Kallax",
+                "OrigName"   : "Portrait/Boss/Kallax"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Eclipse/Catapolyps",
+                "OrigName"   : "Portrait/Boss/Catapolyps"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Eclipse/Dullahan",
+                "OrigName"   : "Portrait/Boss/Dullahan"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Eclipse/Scavir",
+                "OrigName"   : "Portrait/Boss/Scavir"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Catapolyps",
+                "OrigName"   : "Portrait/Boss/Catapolyps"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Dullahan",
+                "OrigName"   : "Portrait/Boss/Dullahan"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Catapolyps2",
+                "OrigName"   : "Portrait/Boss/Catapolyps"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/IceTortoise5",
+                "OrigName"   : "Portrait/Boss/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/IceTortoise6",
+                "OrigName"   : "Portrait/Boss/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/IceTortoise7",
+                "OrigName"   : "Portrait/Boss/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/IceTortoise8",
+                "OrigName"   : "Portrait/Boss/IceTortoise"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore5",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Boss/Manticore6",
+                "OrigName"   : "Portrait/Boss/Manticore"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lakreil3",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lakreil4",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lakreil5",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            },
+            {
+                "SpriteName" : "Portrait/GuildRaid/Lakreil6",
+                "OrigName"   : "Portrait/Boss/Larkreil"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "97793f1a326d1fb4192a8815a7076da2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Boss/BossPortait2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

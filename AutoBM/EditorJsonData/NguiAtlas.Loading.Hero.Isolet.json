@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Isolet",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "274be796eb9eba84f801e18fd9455b4f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Isolet.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

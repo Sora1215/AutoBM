@@ -1,0 +1,86 @@
+
+{
+    "Code" : "UI.Portrait.Monster19",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEzekiel",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEzekiel_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEzekiel_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEzekiel_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEzekiel_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEzekiel_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOphelia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOphelia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOphelia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOphelia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkOphelia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkOphelia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkRequina",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkRequina_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkRequina_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkRequina_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkRequina_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkRequina_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKara",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKara_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKara_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKara_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkKara_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkKara_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChase",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChase_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChase_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChase_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChase_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChase_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "55f7eafbd86f24a4ca19e4d8fe124f74",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait19.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

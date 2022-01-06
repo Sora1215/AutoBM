@@ -1,0 +1,78 @@
+
+{
+    "Code" : "Battle.Portrait.Hero7",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Battle/Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Laudia",
+                "OrigName"   : "Battle/Portrait/Hero/Laudia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Juno",
+                "OrigName"   : "Battle/Portrait/Hero/Juno_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Erze",
+                "OrigName"   : "Battle/Portrait/Hero/Erze_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Neraxis",
+                "OrigName"   : "Battle/Portrait/Hero/Neraxis_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Seria",
+                "OrigName"   : "Battle/Portrait/Hero/Seria_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Chrisha",
+                "OrigName"   : "Battle/Portrait/Hero/Chrisha_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lucias",
+                "OrigName"   : "Battle/Portrait/Hero/Lucias_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Nicky",
+                "OrigName"   : "Battle/Portrait/Hero/Nicky_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Nia",
+                "OrigName"   : "Battle/Portrait/Hero/Nia_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Esker",
+                "OrigName"   : "Battle/Portrait/Hero/Esker_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Lavril",
+                "OrigName"   : "Battle/Portrait/Hero/Lavril_3"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Dosarta",
+                "OrigName"   : "Battle/Portrait/Hero/Dosarta_4"
+            },
+            {
+                "SpriteName" : "Battle/Portrait/Hero/Glenwys",
+                "OrigName"   : "Battle/Portrait/Hero/Glenwys_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2d202e1ddec5a724986861a08713eace",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Battle/Portrait/Hero/BattlePortraitHero7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

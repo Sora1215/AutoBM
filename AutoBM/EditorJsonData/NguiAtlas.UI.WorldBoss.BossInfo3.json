@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.WorldBoss.BossInfo3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "WorldBoss/BossInfo/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "638c69d2cebb3f448bea56d2e0715627",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/WorldBoss/WorldBoss3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Shop_Costume",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d2bbf4e4bad6e1245b8b28a836810148",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Shop/Shop_Costume.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

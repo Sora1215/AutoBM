@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Icon.Creature.Monster4",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Substory/DarkDimael",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkDimael_4"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/DarkDimael",
+                "OrigName"   : "Icon/Creature/Monster/Ordeal/DarkDimael_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "eea568b35667ddd4d86f08a5322cf60a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

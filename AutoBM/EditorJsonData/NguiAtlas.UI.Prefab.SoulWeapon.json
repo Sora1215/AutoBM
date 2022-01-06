@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.SoulWeapon",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f0b11e9275685294280dfdeffb48aa79",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/SoulWeapon/SoulWeapon.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

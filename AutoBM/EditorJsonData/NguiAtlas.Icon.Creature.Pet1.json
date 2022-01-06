@@ -1,0 +1,754 @@
+
+{
+    "Code" : "Icon.Creature.Pet1",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Pet/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_BROWN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_BROWN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_CHOCO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CHOCO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_CONY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CONY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_MOON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_MOON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_HERO_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_BROWN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_BROWN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_CHOCO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CHOCO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_CONY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CONY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_MOON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_MOON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_PETITFORTRESS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITFORTRESS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_PETITPROTIANUS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITPROTIANUS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_PETITSHAKMEH",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITSHAKMEH_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_PETITVELKAZAR",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITVELKAZAR_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_PETITXANADUS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITXANADUS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_RARE_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_BROWN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_BROWN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_CHOCO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CHOCO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_CONY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CONY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_MOON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_MOON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_HERO_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_HERO_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_BROWN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_BROWN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_CHOCO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CHOCO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_CONY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CONY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_MOON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_MOON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_PETITFORTRESS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITFORTRESS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_PETITPROTIANUS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITPROTIANUS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_PETITSHAKMEH",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITSHAKMEH_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_PETITVELKAZAR",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITVELKAZAR_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_PETITXANADUS",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_PETITXANADUS_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_ABEIL",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ABEIL_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_APERON",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_APERON_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_ARTIA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ARTIA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_ASASHI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_ASASHI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_BIBI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_BIBI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_CREAM",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_CREAM_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_CUPI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_CUPI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_DESERTGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_DESERTGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_DRACONICKIDMOALA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_DRACONICKIDMOALA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_EDDY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_EDDY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_GANADA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_GANADA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_HOMEGUARDIAN",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_HOMEGUARDIAN_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_JACKIE",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_JACKIE_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_LADI",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_LADI_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_OWLTEACHER",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_OWLTEACHER_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_PKDIV",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_PKDIV_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_SELINA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SELINA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_SHELKY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SHELKY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_SKIDOO",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_SKIDOO_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_RARE_TARP",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_RARE_TARP_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_SALLY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SALLY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_SALLY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_SALLY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_LEONARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_LEONARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_LEONARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_LEONARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_EDWARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_EDWARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_EDWARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_EDWARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_LEGEND_JESSICA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_JESSICA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_LEGEND_JESSICA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_LEGEND_JESSICA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_SALLY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SALLY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_SALLY",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_SALLY_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_LEONARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_LEONARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_LEONARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_LEONARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_EDWARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_EDWARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_EDWARD",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_EDWARD_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Pet/PET_ANCIENT_JESSICA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_JESSICA_MINI"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ANCIENT_JESSICA",
+                "OrigName"   : "Icon/Creature/Pet/CREATURE_PET_ANCIENT_JESSICA_MINI"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "569c7714def10f34d8acefe8c32a4140",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Pet/PetCreatureMini1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

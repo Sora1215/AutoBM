@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.MileageShop",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "255b0e7114dabbc43b8aaad6028b6798",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Shop/MileageShop.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

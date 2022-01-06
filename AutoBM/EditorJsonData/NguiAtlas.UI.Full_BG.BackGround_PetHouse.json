@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround_PetHouse",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/PetHouse/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b535879c957a95c42a1b96493f34a211",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround_PetHouse.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

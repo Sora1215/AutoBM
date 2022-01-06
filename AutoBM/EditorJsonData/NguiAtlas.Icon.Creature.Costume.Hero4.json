@@ -1,0 +1,58 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Morrah",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Morrah_Morrah_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Luna",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Luna_Luna_Cos17Summer2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Fluss",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Fluss_Fluss_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Pavel",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Pavel_Pavel_Cos17Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Phillop",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Phillop_Phillop_Cos17Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Rephy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rephy_Rephy_Cos17Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Nicx",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Nicx_Nicx_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Tanya",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Tanya_Tanya_Cos17Summer2"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c5cfde96da3fd3a41872caad3fed47fe",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero4Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

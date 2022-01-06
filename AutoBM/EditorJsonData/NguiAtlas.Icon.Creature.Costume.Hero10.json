@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero10",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Neraxis",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Neraxis_Neraxis_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Neraxis2",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Neraxis_Neraxis_Cos19Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d6cc638df2fc91e47b12658a30fc9392",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero10Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

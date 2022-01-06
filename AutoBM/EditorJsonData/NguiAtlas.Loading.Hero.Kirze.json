@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.Kirze",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6912077172a4d464aabffd68734d81d6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_Kirze.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

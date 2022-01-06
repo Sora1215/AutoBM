@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.WordTree",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "cccd588cdf522a644bee455e2fdc07d4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_WordTree.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

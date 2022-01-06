@@ -1,0 +1,90 @@
+
+{
+    "Code" : "UI.Portrait.Hero2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Dimael_1",
+                "OrigName"   : "Portrait/Hero/Dimael_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Epis_1",
+                "OrigName"   : "Portrait/Hero/Epis_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Dimael",
+                "OrigName"   : "Portrait/Hero/Dimael_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Epis",
+                "OrigName"   : "Portrait/Hero/Epis_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Frey",
+                "OrigName"   : "Portrait/Hero/Frey_1"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Rephy",
+                "OrigName"   : "Portrait/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Rephy_1",
+                "OrigName"   : "Portrait/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Rephy_2",
+                "OrigName"   : "Portrait/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Ell",
+                "OrigName"   : "Portrait/Hero/Ell_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Ell_2",
+                "OrigName"   : "Portrait/Hero/Ell_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Dosarta",
+                "OrigName"   : "Portrait/Hero/Dosarta_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Dimael",
+                "OrigName"   : "Portrait/Hero/Dimael_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Rephy",
+                "OrigName"   : "Portrait/Hero/Rephy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Dosarta",
+                "OrigName"   : "Portrait/Hero/Dosarta_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Rephy2",
+                "OrigName"   : "Portrait/Hero/Rephy_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Ell",
+                "OrigName"   : "Portrait/Hero/Ell_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "25872197ec5a86a499a82bd557533b78",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+
+{
+    "Code" : "UI.Portrait.Hero14",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Kain",
+                "OrigName"   : "Portrait/Hero/Kain_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Rehartna",
+                "OrigName"   : "Portrait/Hero/Rehartna_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Pancironne",
+                "OrigName"   : "Portrait/Hero/Pancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Kibera",
+                "OrigName"   : "Portrait/Hero/Kibera_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Taily",
+                "OrigName"   : "Portrait/Hero/Taily_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Xerah",
+                "OrigName"   : "Portrait/Hero/Xerah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Evan",
+                "OrigName"   : "Portrait/Hero/Evan_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/DarkLordKasel",
+                "OrigName"   : "Portrait/Hero/DarkLordKasel_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/FallenFrey",
+                "OrigName"   : "Portrait/Hero/FallenFrey_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Talisha",
+                "OrigName"   : "Portrait/Hero/Talisha_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Hilda",
+                "OrigName"   : "Portrait/Hero/Hilda_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Isolet",
+                "OrigName"   : "Portrait/Hero/Isolet_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/ClauseTraitor",
+                "OrigName"   : "Portrait/Hero/ClauseTraitor_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/TattersClause",
+                "OrigName"   : "Portrait/Hero/RebelClause_TattersClause"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/TattersClause_5",
+                "OrigName"   : "Portrait/Hero/RebelClause_TattersClause"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/ClauseTraitor",
+                "OrigName"   : "Portrait/Hero/ClauseTraitor_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Gremory",
+                "OrigName"   : "Portrait/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/Gremory",
+                "OrigName"   : "Portrait/Hero/Gremory_5"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Pancironne",
+                "OrigName"   : "Portrait/Hero/Pancironne_4"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/DarkLordKasel",
+                "OrigName"   : "Portrait/Hero/DarkLordKasel_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4e672529e72878a4da952ca818a6fb1d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait14.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

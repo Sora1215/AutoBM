@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Attendance.Reward1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Attendance/Reward/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9a0b7a13a17bace498fa320d13ea332e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Attendance/Reward/Attendance_Reward1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

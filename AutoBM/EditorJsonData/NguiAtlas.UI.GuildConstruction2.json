@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.GuildConstruction2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighMidMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "UI/GuildConstruction/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1b205b893130ef44da8f6459206000bb",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/GuildConstruction/GuildConstruction2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

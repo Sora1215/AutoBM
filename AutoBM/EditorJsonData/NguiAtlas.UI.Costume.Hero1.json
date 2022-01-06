@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Costume.Hero1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Costume/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "65b7a648719aafa4aa2388c8ff8932b5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Costume/Hero1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

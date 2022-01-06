@@ -1,0 +1,170 @@
+
+{
+    "Code" : "UI.Portrait.Monster22",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLaudia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLaudia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLaudia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLaudia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLaudia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLaudia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChrisha",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChrisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChrisha_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChrisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkChrisha_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkChrisha_3"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Gau",
+                "OrigName"   : "Portrait/Monster/LightGau"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Neraxis",
+                "OrigName"   : "Portrait/Monster/LightNeraxis"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Erze",
+                "OrigName"   : "Portrait/Monster/LightErze"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkErze",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkErze_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkErze_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkErze_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkErze_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkErze_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkJuno",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkJuno_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkJuno_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkJuno_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkJuno_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkJuno_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkJuno_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkJuno_4"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Chrisha",
+                "OrigName"   : "Portrait/Monster/LightChrisha"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Lucias",
+                "OrigName"   : "Portrait/Monster/LightLucias"
+            },
+            {
+                "SpriteName" : "Portrait/Tower/Hero/Seria",
+                "OrigName"   : "Portrait/Monster/LightSeria"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLilia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLilia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLilia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLilia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLucias",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLucias_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLucias_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLucias_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLucias_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLucias_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNeraxis",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNeraxis_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNeraxis_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNeraxis_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNeraxis_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNeraxis_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSeria",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkSeria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSeria_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkSeria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkSeria_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkSeria_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkZafir",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkZafir_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkZafir_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkZafir_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkZafir_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkZafir_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/LiliaDark",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLilia_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/NeraxisDark",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNeraxis_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "55641c57c9420a64f85929c4495c41a5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait22.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

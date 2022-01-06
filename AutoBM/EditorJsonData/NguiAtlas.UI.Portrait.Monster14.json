@@ -1,0 +1,86 @@
+
+{
+    "Code" : "UI.Portrait.Monster14",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkFluss",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkFluss_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkFluss_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkFluss_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkFluss_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkFluss_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLeo",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLeo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLeo_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLeo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLeo_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLeo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLuna",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLuna_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLuna_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLuna_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLuna_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLuna_3"
+            },
+            {
+                "SpriteName" : "Portrait/Maze/Muhroom/SuperElite",
+                "OrigName"   : "Portrait/Monster/Muhroom/SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkShamilla",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkShamilla_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkShamilla_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkShamilla_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkShamilla_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkShamilla_3"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Muhroom/SuperElite",
+                "OrigName"   : "Portrait/Monster/Muhroom/SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Substory/Muhroom/SuperElite2",
+                "OrigName"   : "Portrait/Monster/Muhroom/SuperElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "2455497d6244c5041b73ca89ec1a968e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait14.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

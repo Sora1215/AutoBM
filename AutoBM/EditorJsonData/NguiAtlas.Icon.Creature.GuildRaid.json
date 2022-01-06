@@ -1,0 +1,198 @@
+
+{
+    "Code" : "Icon.Creature.GuildRaid",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/GuildRaid/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore2",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore3",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/DragonEnt3",
+                "OrigName"   : "Icon/Creature/GuildRaid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lich3",
+                "OrigName"   : "Icon/Creature/GuildRaid/Lich2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/MadAssassin3",
+                "OrigName"   : "Icon/Creature/GuildRaid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/OrcSword3",
+                "OrigName"   : "Icon/Creature/GuildRaid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/SuperElite3",
+                "OrigName"   : "Icon/Creature/GuildRaid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/Valok",
+                "OrigName"   : "Icon/Creature/GuildRaid/Valok2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Boss/IceTortoise",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARCHIVE_VALOG",
+                "OrigName"   : "Icon/Creature/GuildRaid/Valok2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Boss/Manticore",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/MadAssassin2",
+                "OrigName"   : "Icon/Creature/GuildRaid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Tower/Manticore",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore4",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/DragonEnt4",
+                "OrigName"   : "Icon/Creature/GuildRaid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lich4",
+                "OrigName"   : "Icon/Creature/GuildRaid/Lich2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/MadAssassin4",
+                "OrigName"   : "Icon/Creature/GuildRaid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/OrcSword4",
+                "OrigName"   : "Icon/Creature/GuildRaid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/SuperElite4",
+                "OrigName"   : "Icon/Creature/GuildRaid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/IceTortoise4",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Lizardman/Lakreil",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Lizardman/Lakreil2",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/IceTortoise5",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/IceTortoise6",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/IceTortoise7",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/IceTortoise8",
+                "OrigName"   : "Icon/Creature/GuildRaid/IceTortoise2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore5",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Boss/Manticore6",
+                "OrigName"   : "Icon/Creature/GuildRaid/Manticore"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lich5",
+                "OrigName"   : "Icon/Creature/GuildRaid/Lich2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lich6",
+                "OrigName"   : "Icon/Creature/GuildRaid/Lich2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/DragonEnt5",
+                "OrigName"   : "Icon/Creature/GuildRaid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/DragonEnt6",
+                "OrigName"   : "Icon/Creature/GuildRaid/DragonEnt2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/MadAssassin5",
+                "OrigName"   : "Icon/Creature/GuildRaid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/MadAssassin6",
+                "OrigName"   : "Icon/Creature/GuildRaid/MadAssassin2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/SuperElite5",
+                "OrigName"   : "Icon/Creature/GuildRaid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/SuperElite6",
+                "OrigName"   : "Icon/Creature/GuildRaid/SuperElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/OrcSword5",
+                "OrigName"   : "Icon/Creature/GuildRaid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/OrcSword6",
+                "OrigName"   : "Icon/Creature/GuildRaid/OrcSword2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lakreil3",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lakreil4",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lakreil5",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            },
+            {
+                "SpriteName" : "Icon/Creature/GuildRaid/Lakreil6",
+                "OrigName"   : "Icon/Creature/GuildRaid/Larkreil"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "27e1e57271e588648942bfbcfe89e647",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/GuildRaid/GuildRaid.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+
+{
+    "Code" : "Icon.Item.Atrifact1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/ARTIFACT_UNIQUE_998",
+                "OrigName"   : "Icon/Item/ARTIFACT_UNIQUE_59"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARTIFACT_UNIQUE_999",
+                "OrigName"   : "Icon/Item/ARTIFACT_UNIQUE_60"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARTIFACT_SELECT_PUNISHMENT_RAID_1",
+                "OrigName"   : "Icon/Item/ARTIFACT_UNIQUE_1000"
+            },
+            {
+                "SpriteName" : "Icon/Item/ARTIFACT_SELECT_PUNISHMENT_RAID_2",
+                "OrigName"   : "Icon/Item/ARTIFACT_UNIQUE_1001"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "925885602244ba14993c2f5bd9e1fc78",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Artifact/Artifact1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Legend.Jane",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f87c58b988434e744840ba29fa12c8da",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Legend_Jane.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

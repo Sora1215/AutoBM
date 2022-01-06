@@ -1,0 +1,1054 @@
+
+{
+    "Code" : "Icon.Item.Transcendence1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_BAUDOUIN_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_BAUDOUIN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_BAUDOUIN_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_BAUDOUIN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_BAUDOUIN_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_BAUDOUIN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_BAUDOUIN_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_BAUDOUIN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLAUSE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLAUSE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLAUSE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLAUSE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLAUSE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLAUSE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLAUSE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLAUSE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLEO_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLEO_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLEO_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CLEO_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CLEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DEMIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DEMIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DEMIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DEMIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DIMAEL_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DIMAEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DIMAEL_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DIMAEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DIMAEL_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DIMAEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_DIMAEL_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_DIMAEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EPIS_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EPIS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EPIS_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EPIS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EPIS_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EPIS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EPIS_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EPIS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FLUSS_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FLUSS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FLUSS_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FLUSS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FLUSS_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FLUSS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FLUSS_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FLUSS_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FREY_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FREY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FREY_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FREY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FREY_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FREY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_FREY_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_FREY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GAU_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GAU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GAU_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GAU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GAU_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GAU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GAU_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GAU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JANE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JANE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JANE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JANE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JANE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JANE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JANE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JANE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KASEL_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KASEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KASEL_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KASEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KASEL_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KASEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KASEL_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KASEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KAULAH_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KAULAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KAULAH_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KAULAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KAULAH_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KAULAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KAULAH_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KAULAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAKRAK_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAKRAK_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAKRAK_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAKRAK_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAKRAK_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAKRAK_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAKRAK_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAKRAK_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEO_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEO_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEO_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEO_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LORRAINE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LORRAINE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LORRAINE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LORRAINE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LORRAINE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LORRAINE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LORRAINE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LORRAINE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LUNA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LUNA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LUNA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LUNA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LUNA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LUNA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LUNA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LUNA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MARIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MARIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MARIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MARIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MARIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MARIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MARIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MARIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRURU_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRURU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRURU_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRURU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRURU_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRURU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRURU_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRURU_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MORRAH_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MORRAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MORRAH_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MORRAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MORRAH_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MORRAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MORRAH_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MORRAH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NAILA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NAILA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NAILA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NAILA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NAILA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NAILA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NAILA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NAILA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PAVEL_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PAVEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PAVEL_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PAVEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PAVEL_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PAVEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PAVEL_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PAVEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PHILLOP_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PHILLOP_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PHILLOP_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PHILLOP_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PHILLOP_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PHILLOP_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PHILLOP_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PHILLOP_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REINA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REINA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REINA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REINA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REPHY_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REPHY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REPHY_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REPHY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REPHY_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REPHY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REPHY_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REPHY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RODINA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RODINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RODINA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RODINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RODINA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RODINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RODINA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RODINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ROI_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ROI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ROI_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ROI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ROI_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ROI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ROI_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ROI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SELENE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SELENE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SELENE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SELENE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SELENE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SELENE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SELENE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SELENE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_AISHA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_AISHA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_AISHA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_AISHA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_AISHA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_AISHA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_AISHA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_AISHA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARCH_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARCH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARCH_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARCH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARCH_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARCH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARCH_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARCH_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ELL_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ELL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ELL_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ELL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ELL_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ELL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ELL_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ELL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ANNETTE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ANNETTE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ANNETTE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ANNETTE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ANNETTE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ANNETTE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ANNETTE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ANNETTE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NICX_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NICX_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NICX_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_NICX_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_NICX_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_TANYA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_TANYA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_TANYA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_TANYA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_TANYA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_TANYA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_TANYA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_TANYA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MITRA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MITRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MITRA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MITRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MITRA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MITRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MITRA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MITRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VISKA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VISKA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VISKA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VISKA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VISKA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VISKA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VISKA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VISKA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEWSIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEWSIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEWSIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEWSIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEWSIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEWSIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LEWSIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LEWSIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RICARDO_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RICARDO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RICARDO_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RICARDO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RICARDO_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RICARDO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_RICARDO_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_RICARDO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MAY_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MAY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MAY_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MAY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MAY_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MAY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MAY_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MAY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PRISCILLA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PRISCILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PRISCILLA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PRISCILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PRISCILLA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PRISCILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_PRISCILLA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_PRISCILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CASSANDRA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CASSANDRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CASSANDRA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CASSANDRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CASSANDRA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CASSANDRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CASSANDRA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CASSANDRA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ODDY_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ODDY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ODDY_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ODDY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ODDY_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ODDY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ODDY_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ODDY_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_YANNE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_YANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_YANNE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_YANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_YANNE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_YANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_YANNE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_YANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GLADI_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GLADI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GLADI_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GLADI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GLADI_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GLADI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_GLADI_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_GLADI_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_THEO_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_THEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_THEO_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_THEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_THEO_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_THEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_THEO_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_THEO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MEDIANA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MEDIANA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MEDIANA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MEDIANA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MEDIANA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MEDIANA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MEDIANA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MEDIANA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARTEMIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARTEMIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARTEMIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ARTEMIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ARTEMIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRIANNE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRIANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRIANNE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRIANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRIANNE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRIANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_MIRIANNE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_MIRIANNE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SCARLET_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SCARLET_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SCARLET_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SCARLET_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SCARLET_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SCARLET_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SCARLET_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SCARLET_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SONIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SONIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SONIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SONIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SONIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SONIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SONIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SONIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EZEKIEL_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EZEKIEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EZEKIEL_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EZEKIEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EZEKIEL_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EZEKIEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_EZEKIEL_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_EZEKIEL_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_OPHELIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_OPHELIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_OPHELIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_OPHELIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_OPHELIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_OPHELIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_OPHELIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_OPHELIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REQUINA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REQUINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REQUINA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REQUINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REQUINA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REQUINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_REQUINA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_REQUINA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ASELICA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ASELICA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ASELICA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ASELICA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ASELICA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ASELICA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ASELICA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ASELICA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CROW_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CROW_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CROW_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CROW_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CROW_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CROW_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CROW_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CROW_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHEA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHEA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHEA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHEA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHEA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHEA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHEA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHEA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VERONICA_1",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VERONICA"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VERONICA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VERONICA"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VERONICA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VERONICA"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VERONICA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VERONICA"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_VERONICA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_VERONICA"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CHASE_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CHASE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CHASE_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CHASE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CHASE_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CHASE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_CHASE_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_CHASE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KARA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KARA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KARA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KARA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KARA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KARA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_KARA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_KARA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHAMILLA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHAMILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHAMILLA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHAMILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHAMILLA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHAMILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_SHAMILLA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_SHAMILLA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LOMAN_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LOMAN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LOMAN_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LOMAN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LOMAN_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LOMAN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LOMAN_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LOMAN_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAUDIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAUDIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAUDIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAUDIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAUDIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAUDIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LAUDIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LAUDIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LILIA_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LILIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LILIA_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LILIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LILIA_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LILIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_LILIA_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_LILIA_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ZAFIR_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ZAFIR_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ZAFIR_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ZAFIR_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ZAFIR_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ZAFIR_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_ZAFIR_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_ZAFIR_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JUNO_2",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JUNO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JUNO_3",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JUNO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JUNO_4",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JUNO_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/LIGHTNESS_JUNO_5",
+                "OrigName"   : "Icon/Item/LIGHTNESS_JUNO_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "b945c851ba012494ba200e047ea93b4a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Transcendence/Transcendence1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

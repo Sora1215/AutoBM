@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Pet",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5ee96c421325a0b42b983b75f2dbd340",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Pet/Pet.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

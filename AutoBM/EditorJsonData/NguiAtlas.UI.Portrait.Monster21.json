@@ -1,0 +1,110 @@
+
+{
+    "Code" : "UI.Portrait.Monster21",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenGuard",
+                "OrigName"   : "Portrait/Monster/HalloweenGuard"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenMage",
+                "OrigName"   : "Portrait/Monster/HalloweenMage"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/DarkElf/HalloweenMageElite",
+                "OrigName"   : "Portrait/Monster/HalloweenMageElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/DarkElf/HalloweenSwordElite",
+                "OrigName"   : "Portrait/Monster/HalloweenSwordElite"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Skeleton/HalloweenTotem",
+                "OrigName"   : "Portrait/Monster/HalloweenTotem"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/DarkElf/HalloweenTotem",
+                "OrigName"   : "Portrait/Monster/HalloweenTotem3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Annette",
+                "OrigName"   : "Portrait/Monster/Annette_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Arch",
+                "OrigName"   : "Portrait/Monster/Arch_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Artemia",
+                "OrigName"   : "Portrait/Monster/Artemia_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Aselica",
+                "OrigName"   : "Portrait/Monster/Aselica_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Chase",
+                "OrigName"   : "Portrait/Monster/Chase_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Cleo",
+                "OrigName"   : "Portrait/Monster/Cleo_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Frey",
+                "OrigName"   : "Portrait/Monster/Frey_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Lilia",
+                "OrigName"   : "Portrait/Monster/Lilia_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Oddy",
+                "OrigName"   : "Portrait/Monster/Oddy_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Phillop",
+                "OrigName"   : "Portrait/Monster/Phillop_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Halloween/Shea",
+                "OrigName"   : "Portrait/Monster/Shea_Halloween"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Spring/Arch",
+                "OrigName"   : "Portrait/Monster/Arch_2019_Picnic"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Spring/Jane",
+                "OrigName"   : "Portrait/Monster/Jane_2019_Picnic"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Spring/Sonia",
+                "OrigName"   : "Portrait/Monster/Sonia_2019_Picnic"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Spring/Seria",
+                "OrigName"   : "Portrait/Monster/Seria_2019_Picnic"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "f596e126ec3b29a4ca0593f93f248bb8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait21.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+
+{
+    "Code" : "UI.Portrait.Monster7",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDemia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDemia_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDimael_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDimael_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEpis_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEpis_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGau_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGau_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkCleo",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkCleo_1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkEpis",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkEpis_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkFrey",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkFrey_1"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDemia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDemia_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDimael",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDimael_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGau",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGau_2"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLoman_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLoman_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkLoman",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkLoman_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/DarkDimael",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDimael_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a02d29ec97765b9448d604521da6c352",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait7.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

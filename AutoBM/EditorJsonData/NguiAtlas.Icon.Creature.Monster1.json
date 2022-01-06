@@ -1,0 +1,166 @@
+
+{
+    "Code" : "Icon.Creature.Monster1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Poison/Grass",
+                "OrigName"   : "Icon/Creature/Monster/GiantWorm/Sand"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Dragon/Poison/Grass2",
+                "OrigName"   : "Icon/Creature/Monster/GiantWorm/Sand"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Dryad/IceSpear",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/Spear3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Dryad/IceBard",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/Bard3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Dryad/IceArcher",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/Archer3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Dryad/IceBardElite",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/BardElite2"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Dryad/IceSpearElite",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/SpearElite3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/WorldBoss/Dryad",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/SpearElite3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Goblin/ShieldElite",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/ShieldElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Goblin/Bow",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Bow"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Goblin/Cannon",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Cannon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Raid/Goblin/Tower",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/WatchTower"
+            },
+            {
+                "SpriteName" : "Icon/Skill/660170",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/WatchTower"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GiantWormSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/GiantWorm/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GoblinShieldSuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/ShieldSuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Maze/GoblinDemolition",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Demolition"
+            },
+            {
+                "SpriteName" : "Icon/Skill/770170",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/WatchTower"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Dryad/Archer",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/Archer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Substory/Barricade/Thorn",
+                "OrigName"   : "Icon/Creature/Monster/Barricade/Thorn"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpringFestival/EntNut",
+                "OrigName"   : "Icon/Creature/Monster/Ent/Thorn"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpringFestival/GolemGuard",
+                "OrigName"   : "Icon/Creature/Monster/Golem/Guard"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpringFestival/EntNut2",
+                "OrigName"   : "Icon/Creature/Monster/Ent/Thorn"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpringFestival/GolemGuard2",
+                "OrigName"   : "Icon/Creature/Monster/Golem/Guard"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/Golem/SuperElite",
+                "OrigName"   : "Icon/Creature/Monster/Golem/SuperElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Goblin/Cannon2",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Cannon"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/DryadSpear",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/SpearElite3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_SpecialDungeon/DryadBard",
+                "OrigName"   : "Icon/Creature/Monster/Dryad/Bard3"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/WatchTower",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/WatchTower"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/Bow",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Bow"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/BowElite",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/BowElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/Bomb",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Bomb"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/Fire",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Fire"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/BombElite",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/BombElite"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/Shield",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/Shield"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_ThanksGiving/ShieldElite",
+                "OrigName"   : "Icon/Creature/Monster/Goblin/ShieldElite"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "391c53f180cfd2c4e85db46bfac19b5a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Monster/Monster1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

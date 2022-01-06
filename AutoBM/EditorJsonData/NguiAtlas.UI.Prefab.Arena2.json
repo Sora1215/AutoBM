@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Arena2",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ef45e6e10d1d8864596d8c868cd7a878",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Arena2/Arena2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

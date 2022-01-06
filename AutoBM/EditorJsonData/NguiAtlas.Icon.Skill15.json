@@ -1,0 +1,70 @@
+
+{
+    "Code" : "Icon.Skill15",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Skill/7200196",
+                "OrigName"   : "Icon/Skill/7200195"
+            },
+            {
+                "SpriteName" : "Icon/Skill/7200198",
+                "OrigName"   : "Icon/Skill/7200197"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3596010",
+                "OrigName"   : "Icon/Skill/3594010"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3596020",
+                "OrigName"   : "Icon/Skill/3594020"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3596021",
+                "OrigName"   : "Icon/Skill/3594021"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3596022",
+                "OrigName"   : "Icon/Skill/3594022"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3596040",
+                "OrigName"   : "Icon/Skill/3594043"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3595010",
+                "OrigName"   : "Icon/Skill/3593010"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3595020",
+                "OrigName"   : "Icon/Skill/3593020"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3595021",
+                "OrigName"   : "Icon/Skill/3593021"
+            },
+            {
+                "SpriteName" : "Icon/Skill/3595040",
+                "OrigName"   : "Icon/Skill/3593043"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "9259e1846c830ad498b4abeb73d6f537",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/MonsterSkill5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

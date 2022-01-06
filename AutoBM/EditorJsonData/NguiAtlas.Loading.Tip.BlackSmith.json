@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.BlackSmith",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "37c43c8c423c84143b7992d44f607e32",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_BlackSmith.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

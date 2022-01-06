@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.Customize_Hair_Weapon2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Customize/Product/Portrait/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6c3afa13f0e19e945bd1c05df8b98796",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Customize/Hair_Weapon/Customize_Hair_Weapon2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

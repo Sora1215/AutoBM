@@ -1,0 +1,130 @@
+
+{
+    "Code" : "UI.Portrait.Monster23",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Monster/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNicky",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNicky_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNicky_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNicky_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNicky_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNicky_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNicky_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNicky_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNia",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNia_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkNia_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkNia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2018_Christmas/DragonEnt",
+                "OrigName"   : "Portrait/Monster/ChristmasIceDragonEnt"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/BlackKnightKyle",
+                "OrigName"   : "Portrait/Monster/BlackKnightKyle"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/BlackKnightKyle1",
+                "OrigName"   : "Portrait/Monster/BlackKnightKyle"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Lucikiel",
+                "OrigName"   : "Portrait/Monster/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Lucikiel1",
+                "OrigName"   : "Portrait/Monster/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Pancironne",
+                "OrigName"   : "Portrait/Monster/Pancironne"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Spider/FireSwamp",
+                "OrigName"   : "Portrait/Monster/Swamp"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDosarta",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDosarta_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDosarta_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDosarta_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDosarta_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDosarta_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkDosarta_3",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkDosarta_4"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGlenwys",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGlenwys_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGlenwys_1",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGlenwys_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Ordeal/DarkGlenwys_2",
+                "OrigName"   : "Portrait/Monster/Ordeal/DarkGlenwys_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Rotten/Totem1",
+                "OrigName"   : "Portrait/Monster/RottenTotem"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Rotten/Totem",
+                "OrigName"   : "Portrait/Monster/RottenTotem"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Spider/EggSwamp",
+                "OrigName"   : "Portrait/Monster/SwampEgg"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Lucikiel2",
+                "OrigName"   : "Portrait/Monster/Lucikiel"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lucikiel",
+                "OrigName"   : "Portrait/Monster/Lucikiel"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "8be078ff1d368574d9a71bd9f73bfead",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Monster/MonsterPortrait23.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero3",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Arch",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Arch_Arch_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Viska",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Viska_Viska_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Miruru",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Miruru_Miruru_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Rodina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rodina_Rodina_Cos17Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2018_Summer/Mitra",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Mitra_Mitra_Cos17Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4733fbbfd839bda41a11b31c0894abd7",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero3Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

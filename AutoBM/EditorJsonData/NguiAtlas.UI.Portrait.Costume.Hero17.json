@@ -1,0 +1,34 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero17",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Reina",
+                "OrigName"   : "Portrait/Costume/Hero/Reina_Reina_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_Summer/Reina2",
+                "OrigName"   : "Portrait/Costume/Hero/Reina_Reina_Cos19Summer"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "3e1bc8db7605e444e9a59c963e2e0641",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero17.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

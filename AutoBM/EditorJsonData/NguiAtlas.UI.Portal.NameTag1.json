@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portal.NameTag1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portal/NameTag/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1167556cfc4f9514b802e4810d56de71",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/NewPortal/LandMarkNameTag/PortalNameTag1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

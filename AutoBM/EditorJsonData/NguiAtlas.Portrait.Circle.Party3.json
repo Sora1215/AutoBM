@@ -1,0 +1,178 @@
+
+{
+    "Code" : "Portrait.Circle.Party3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/PartyPlay/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/Boss/BlackKnightKyle_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/kyle"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/BlackKnightKyle1_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/kyle"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/BlackKnightKyle_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/kyle"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/BlackKnightKyle1_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/kyle"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Party/Chapter_9",
+                "OrigName"   : "Portrait/Circle/PartyPlay/kyle"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Empire/GunnerSuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GunnerSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Empire/GunnerSuperElite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GunnerSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/StinkyGoblin/Elite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/StinkyGoblinElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/StinkyGoblin/Elite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/StinkyGoblinElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Empire/SwordsmanElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/SwordsmanElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Empire/SwordsmanElite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/SwordsmanElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/WraithofRegrets/Elite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/WraithofRegrets/Elite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/WraithofRegrets/Elite1_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/WraithofRegrets/Elite1_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/WraithofRegretsElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Frey/Fallen_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Frey/Fallen2_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Frey_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Kasel/Fallen_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Kasel/Fallen2_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Kasel_Fallen"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Clause_3",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Clause"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Clause_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Clause"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Ricardo_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Ricardo_5"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Chase_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Chase_5"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Scarlet_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Scarlet_5"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2019_Summer/Ore_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/19Summer_Ore"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/GodKingTrial/Imet_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Imet"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/GodKingTrial/Msama_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Msama"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/GodKingTrial/Sekmaha_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Sekmaha"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Eclipse/Hellfire_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/ChildOfHellfire"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Eclipse/Catapolyps_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Catapolyps"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Eclipse/Dullahan_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Dullahan"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Eclipse/Scavir_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Scavir"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2019_Halloween/Mediana_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/19Halloween_Mediana"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2019_Halloween/Mediana_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/19Halloween_Mediana"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Jin_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/1000Days_Jin"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2019_DestinyLight/Chrisha_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Chrisha_dark5"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Dreadbringer_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/DreadBringer"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2019_DestinyLight/Chase_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Chase_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "642092f1977e8f8488e09bd00a306207",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/Party3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Eclipse",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a9b8600f44b0e794da17f8506b0328cf",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_Eclipse.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

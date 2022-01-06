@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.PunishmentRaid",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "35956501e52bd264d9494b771f87fb2a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_PunishmentRaid.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.LoseGuide",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "6778de8684f59a64393def238242adf5",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/LoseGuide/LoseGuide.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

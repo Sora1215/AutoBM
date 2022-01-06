@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Full_BG.BackGround2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BackGround/EventSummerBG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "64e1530c27b250741af135cd4bb22b0f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Full_BG/BackGround/BackGround2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

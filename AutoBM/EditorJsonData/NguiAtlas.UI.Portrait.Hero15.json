@@ -1,0 +1,58 @@
+
+{
+    "Code" : "UI.Portrait.Hero15",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/ZLucikiel",
+                "OrigName"   : "Portrait/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Shakmeh",
+                "OrigName"   : "Portrait/Hero/Shakmeh_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Estelle",
+                "OrigName"   : "Portrait/Hero/Estelle_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2021_SpecialDungeon/ZLucikiel",
+                "OrigName"   : "Portrait/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Isaiah",
+                "OrigName"   : "Portrait/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Isaiah",
+                "OrigName"   : "Portrait/Hero/Isaiah_5"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/ZLucikiel",
+                "OrigName"   : "Portrait/Hero/ZLucikiel_5"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Valance",
+                "OrigName"   : "Portrait/Hero/Valance_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "1ad292367cde9874994a9c152d121cdc",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait15.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

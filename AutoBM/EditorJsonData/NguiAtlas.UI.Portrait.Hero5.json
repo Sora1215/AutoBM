@@ -1,0 +1,54 @@
+
+{
+    "Code" : "UI.Portrait.Hero5",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Miruru_1",
+                "OrigName"   : "Portrait/Hero/Miruru_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lakrak",
+                "OrigName"   : "Portrait/Hero/Lakrak_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Miruru",
+                "OrigName"   : "Portrait/Hero/Miruru_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Reina",
+                "OrigName"   : "Portrait/Hero/Reina_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Luna",
+                "OrigName"   : "Portrait/Hero/Luna_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lewsia",
+                "OrigName"   : "Portrait/Hero/Lewsia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Artemia",
+                "OrigName"   : "Portrait/Hero/Artemia_3"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7e20373224b349c458cf89772fc8a43f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait5.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

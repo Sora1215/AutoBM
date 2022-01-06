@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.BMPopup1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "BMPopup/Img/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "009aa441d96b9334f9a8acb39ec3c463",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/BMPopupImage/BMPopup1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

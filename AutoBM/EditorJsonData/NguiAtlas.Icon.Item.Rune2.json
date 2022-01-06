@@ -1,0 +1,74 @@
+
+{
+    "Code" : "Icon.Item.Rune2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/RUNE_INTELLIGENCE_40",
+                "OrigName"   : "Icon/Item/RUNE_INTELLIGENCE_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_IRONWALL_40",
+                "OrigName"   : "Icon/Item/RUNE_IRONWALL_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_MEDITATION_40",
+                "OrigName"   : "Icon/Item/RUNE_MEDITATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_PATIENCE_40",
+                "OrigName"   : "Icon/Item/RUNE_PATIENCE_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_POTENTIAL_40",
+                "OrigName"   : "Icon/Item/RUNE_POTENTIAL_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_PRECISION_40",
+                "OrigName"   : "Icon/Item/RUNE_PRECISION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_PROTECTION_40",
+                "OrigName"   : "Icon/Item/RUNE_PROTECTION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_PURIFICATION_40",
+                "OrigName"   : "Icon/Item/RUNE_PURIFICATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_RESISTANCE_40",
+                "OrigName"   : "Icon/Item/RUNE_RESISTANCE_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_SHARPNESS_40",
+                "OrigName"   : "Icon/Item/RUNE_SHARPNESS_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_STAMINA_40",
+                "OrigName"   : "Icon/Item/RUNE_STAMINA_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_STEEL_40",
+                "OrigName"   : "Icon/Item/RUNE_STEEL_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d80d5071a14da0f4b953dac04a219858",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Rune/Rune2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

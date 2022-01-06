@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Guild.FlagBg3D_Group04",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighMidLow",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/GuildFlagBg3D/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7c5e1fdda19268d4891cc05953f4433c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/GuildFlagBg3D/GuildFlagBg3D_Group4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero9",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Lorraine",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Lorraine_Lorraine_Cos18Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Selene",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Selene_Selene_Cos18Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "c60585d0cd4569b4381fe36d7a42be9d",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero9Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

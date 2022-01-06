@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero9",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Ezekiel",
+                "OrigName"   : "Portrait/Hero/Ezekiel_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Mirianne",
+                "OrigName"   : "Portrait/Hero/Mirianne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Ophelia",
+                "OrigName"   : "Portrait/Hero/Ophelia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Requina",
+                "OrigName"   : "Portrait/Hero/Requina_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Scarlet",
+                "OrigName"   : "Portrait/Hero/Scarlet_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Sonia",
+                "OrigName"   : "Portrait/Hero/Sonia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Veronica",
+                "OrigName"   : "Portrait/Hero/Veronica_3"
+            },
+            {
+                "SpriteName" : "Portrait/Boss/Chapter9/Scarlet",
+                "OrigName"   : "Portrait/Hero/Scarlet_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Ophelia",
+                "OrigName"   : "Portrait/Hero/Ophelia_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "4ad4df212d05ac743b474d82a137249c",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

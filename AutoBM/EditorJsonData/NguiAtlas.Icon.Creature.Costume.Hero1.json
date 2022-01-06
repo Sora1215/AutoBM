@@ -1,0 +1,42 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero1",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/May_Halloween",
+                "OrigName"   : "Icon/Creature/Costume/Hero/May_May_Cos17Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/Luna_Halloween_1",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Luna_Luna_Cos17Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Luna",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Luna_Luna_Cos17Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Oddy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Oddy_Oddy_Cos17Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "34a999d56465c3941bde80898df59fe8",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero1Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

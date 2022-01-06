@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Prefab.Smithy",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "69997f07acfb51d4892cabd86bd96766",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/UI/Prefab/Smithy/Smithy.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

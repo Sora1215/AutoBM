@@ -1,0 +1,24 @@
+
+{
+    "Code" : "UI.Portrait.NpcShop1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Npc",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "96b9376fbeb4c5c459159484e023f9fd",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Npc/NpcShop1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

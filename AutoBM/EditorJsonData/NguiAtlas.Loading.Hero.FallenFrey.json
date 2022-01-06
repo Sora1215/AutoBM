@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Hero.FallenFrey",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/HeroFull_BG/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "5ef997f144ed73f41abdfcbd12a0aac2",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/HeroFull_BG/Atlas_FallenFrey.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

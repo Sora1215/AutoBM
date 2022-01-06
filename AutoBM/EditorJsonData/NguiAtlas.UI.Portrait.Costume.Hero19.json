@@ -1,0 +1,58 @@
+
+{
+    "Code" : "UI.Portrait.Costume.Hero19",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Chrisha",
+                "OrigName"   : "Portrait/Costume/Hero/Chrisha_Chrisha_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Fluss",
+                "OrigName"   : "Portrait/Costume/Hero/Fluss_Fluss_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Naila",
+                "OrigName"   : "Portrait/Costume/Hero/Naila_Naila_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Cecilia",
+                "OrigName"   : "Portrait/Costume/Hero/Cecilia_Cecilia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Crow",
+                "OrigName"   : "Portrait/Costume/Hero/Crow_Crow_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Nia",
+                "OrigName"   : "Portrait/Costume/Hero/Nia_Nia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Rehartna",
+                "OrigName"   : "Portrait/Costume/Hero/Rehartna_Rehartna_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_Christmas/Oddy",
+                "OrigName"   : "Portrait/Costume/Hero/Oddy_Oddy_Cos19Christmas"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "d9e7d57b9c8b29c43a6ebef747f4336f",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Costume/Hero/Hero19.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

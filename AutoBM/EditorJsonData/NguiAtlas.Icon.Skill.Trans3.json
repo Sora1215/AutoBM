@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Skill.Trans3",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Skill/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "a194d136fb638ff44a468f4c01401503",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Skill/Altlas_Trans3.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

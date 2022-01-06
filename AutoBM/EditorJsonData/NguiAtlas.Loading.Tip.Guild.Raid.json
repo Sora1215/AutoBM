@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Loading.Tip.Guild.Raid",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "LoadingTip/GamePlayTip/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "ba12553edf6e95045bca583624e1e9c1",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/LoadingTip/GamePlayTip/[AllLanguage]/LoadingTip_Guild_Raid.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

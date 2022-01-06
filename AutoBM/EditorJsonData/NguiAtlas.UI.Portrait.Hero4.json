@@ -1,0 +1,66 @@
+
+{
+    "Code" : "UI.Portrait.Hero4",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Lorraine_1",
+                "OrigName"   : "Portrait/Hero/Lorraine_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Lorraine",
+                "OrigName"   : "Portrait/Hero/Lorraine_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Roi",
+                "OrigName"   : "Portrait/Hero/Roi_1"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Selene",
+                "OrigName"   : "Portrait/Hero/Selene_2"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Fluss",
+                "OrigName"   : "Portrait/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Viska",
+                "OrigName"   : "Portrait/Hero/Viska_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2019_SpecialDungeon/Fluss",
+                "OrigName"   : "Portrait/Hero/Fluss_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Selene",
+                "OrigName"   : "Portrait/Hero/Selene_5"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Lorraine",
+                "OrigName"   : "Portrait/Hero/Lorraine_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Roi",
+                "OrigName"   : "Portrait/Hero/Roi_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "7bbc3b3a831520546bce88ba15038381",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait4.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,130 @@
+
+{
+    "Code" : "Portrait.Circle.Party2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Circle/PartyPlay/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Ezekiel_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Ezekiel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Pavel_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Pavel"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Maze/GoatWarrior_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Maze/GiantSuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Skeleton_GiantSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Hero/Naila_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Naila"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Skeleton/GuardElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Skeleton_GuardElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/DarkDimael_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Heltanios"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Dimael_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Dimael_sub"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/SubStory/GoatWarrior_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/GoatWarrior"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Event/2018_Summer/Aselica_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Aselica"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Rephy/GiantSuperElite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Skeleton_GiantSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Muhroom/SuperElite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Muhroom_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Muhroom/SuperElite2_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Muhroom_SuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Chase_3",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Chase"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Substory/Chase_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Chase"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Guardian/GolemSuperElite_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Guardian_GolemSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Guardian/GolemSuperElite_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Guardian_GolemSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/KibehOd_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/KibehOd"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/KibehOd_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/KibehOd"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Pancironne_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/pancironne"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Boss/Pancironne_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/pancironne"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Spider/SuperEliteSwamp_1",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Spider_SuperEliteSwamp"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/Monster/Spider/SuperEliteSwamp_5",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Spider_SuperEliteSwamp"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Exp/Chapter_9",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Spider_SuperEliteSwamp"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Upper/Chapter_9",
+                "OrigName"   : "Portrait/Circle/PartyPlay/Guardian_GolemSuperElite"
+            },
+            {
+                "SpriteName" : "Portrait/Circle/PartyPlay/Chapter_9",
+                "OrigName"   : "Portrait/Circle/PartyPlay/KibehOd"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "456010c46fece0c40ad5a375da54677a",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Raid/Party2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

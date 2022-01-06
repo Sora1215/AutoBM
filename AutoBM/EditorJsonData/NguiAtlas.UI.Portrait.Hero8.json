@@ -1,0 +1,62 @@
+
+{
+    "Code" : "UI.Portrait.Hero8",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "NguiAtlas_HighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Portrait/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Portrait/Hero/Lewsia",
+                "OrigName"   : "Portrait/Hero/Lewsia_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/May",
+                "OrigName"   : "Portrait/Hero/May_4"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Ricardo",
+                "OrigName"   : "Portrait/Hero/Ricardo_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Priscilla",
+                "OrigName"   : "Portrait/Hero/Priscilla_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Cassandra",
+                "OrigName"   : "Portrait/Hero/Cassandra_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Oddy",
+                "OrigName"   : "Portrait/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Hero/Yanne",
+                "OrigName"   : "Portrait/Hero/Yanne_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Oddy",
+                "OrigName"   : "Portrait/Hero/Oddy_3"
+            },
+            {
+                "SpriteName" : "Portrait/Monster/Event/2020_SpecialDungeon/Priscilla",
+                "OrigName"   : "Portrait/Hero/Priscilla_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "34f5f33a44ae85541af314d8b425f6e4",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Portrait/Hero/HeroPortrait8.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

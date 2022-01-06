@@ -1,0 +1,86 @@
+
+{
+    "Code" : "Icon.Creature.Costume.Hero11",
+    "SplitSpecType" : "Single",
+    "TextureBuildPreset" : "Single",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Creature/Costume/Hero/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Chrisha",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Chrisha_Chrisha_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Fluss",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Fluss_Fluss_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Naila",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Naila_Naila_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Cecilia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Cecilia_Cecilia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Crow",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Crow_Crow_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Oddy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Oddy_Oddy_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Rodina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rodina_Rodina_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Nia",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Nia_Nia_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2019_Christmas/Rehartna",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rehartna_Rehartna_Cos19Christmas"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Reina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Reina_Reina_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2020_Summer/Reina2",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Reina_Reina_Cos19Summer"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Mitra",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Mitra_Mitra_Cos19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Shea",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Shea_Shea_Cos19Job"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Rephy",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Rephy_Rephy_Cos19Halloween"
+            },
+            {
+                "SpriteName" : "Icon/Creature/Monster/Event/2021_HalloweenDungeon/Requina",
+                "OrigName"   : "Icon/Creature/Costume/Hero/Requina_Requina_Cos19Halloween"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "da89719a162592f438baf813fabad0d9",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Creature/Costume/Hero/Hero11Atlas.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}
