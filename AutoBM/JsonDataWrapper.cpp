@@ -106,12 +106,27 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         for (const auto& referenceCode : itemCodeMap)
         {
-            //if (editorJson.contains(referenceCode.first) != true)
-            //{
-            //    continue;
-            //}
+            try
+            {
+                json::array_t connections = editorJson.at("Atlas").at("ReferenceSpriteList");
+
+                // 여기다가 작업
+            }
+            catch (const json::type_error& msg)
+            {
+                P_STRING(msg.what(), C_ERROR);
+                ERROR_JSONFINDFAIL;
+                break;
+            }
+
+            if (editorJson.contains(referenceCode.first) != true)
+            {
+                //continue;
+            }
 
             // ---
+
+
 
             for (const auto& newCode : itemCodeMap[referenceCode.first])
             {
@@ -119,11 +134,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                 {
                     json::array_t connections = editorJson.at("Atlas").at("ReferenceSpriteList");
                 }
-                catch (const json::basic_json::out_of_range& msg)
+                catch (const json::type_error& msg)
                 {
                     P_STRING(msg.what(), C_ERROR);
                     ERROR_JSONFINDFAIL;
-                    continue;
+                    break;
                 }
 
                 PRINT_JSONFINDSUCCESS;
