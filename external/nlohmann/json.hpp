@@ -16297,7 +16297,6 @@ class serializer
 
                     // last element
                     JSON_ASSERT(!val.m_value.array->empty());
-                    o->write_characters(indent_string.c_str(), new_indent);
                     dump(val.m_value.array->back(), true, ensure_ascii, indent_step, new_indent);
 
                     o->write_character('\n');
