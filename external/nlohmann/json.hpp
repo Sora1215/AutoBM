@@ -16200,6 +16200,7 @@ class serializer
                     o->write_characters(indent_string.c_str(), new_indent);
                     o->write_character('\"');
                     dump_escaped(i->first, ensure_ascii);
+                    o->write_character('\"');
 
                     o->write_character(' ');
 
