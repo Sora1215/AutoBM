@@ -63,6 +63,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
     // ---
 
+    int totalEditCount = 0;
     int editCount = 0;
     std::vector<std::string> locatedRefKeys;
 
@@ -184,6 +185,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
                         editorJson.at("Atlas").at("ReferenceSpriteList").emplace_back(jsonExportObject);
 
+                        totalEditCount++;
                         editCount++;
                     }
 
@@ -226,6 +228,8 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
+
+        editCount = 0;
     }
 
     // ---
@@ -241,11 +245,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         }
     }
 
-    if (editCount > 0)
+    if (totalEditCount > 0)
     {
         NEWLINE;
         P_STRING("A total of ", C_PROCEDURE, false);
-        P_DOUBLE(editCount, C_PROCEDURE_PARAMETER, false);
+        P_DOUBLE(totalEditCount, C_PROCEDURE_PARAMETER, false);
         P_STRING(" reference pairs were added.", C_PROCEDURE);
     }
 

@@ -19,6 +19,10 @@
             {
                 "SpriteName" : "Icon/Item/TEST1",
                 "OrigName"   : "Icon/Item/INFINITYSTONE_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST1",
+                "OrigName"   : "Icon/Item/INFINITYSTONE_1"
             }
         ],
         "SplitLanguage"       : false,

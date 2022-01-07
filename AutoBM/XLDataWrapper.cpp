@@ -244,6 +244,15 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
 
     // ---
 
+    PRINT_SCANCOMPLETE;
+
+    // ---
+
+    XLSX->release();
+    PRINT_ONFILEUNLOAD(fullPath);
+
+    // ---
+
     for (const auto& referenceString : tempItemCodeMap)
     {
         for (const auto& newString : tempItemCodeMap[referenceString.first])
@@ -253,13 +262,6 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
             P_STRING(newString, C_ERROR);
         }
     }
-
-    PRINT_SCANCOMPLETE;
-
-    // ---
-
-    XLSX->release();
-    PRINT_ONFILEUNLOAD(fullPath);
 
     // ---
 
