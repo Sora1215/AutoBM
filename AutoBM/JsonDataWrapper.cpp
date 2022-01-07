@@ -198,7 +198,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         }
 
         PRINT_SAVING;
-        fileOutput << '\n' << std::setw(4) << std::setfill(' ') << editorJson;
+        fileOutput << std::setw(4) << std::setfill(' ') << editorJson;
         PRINT_SAVECOMPLETE;
 
         fileOutput.close();

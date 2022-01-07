@@ -16156,14 +16156,21 @@ class serializer
 
                 if (pretty_print)
                 {
-                    o->write_characters("{\n", 2);
-
                     // variable to hold indentation for recursive calls
                     const auto new_indent = current_indent + indent_step;
                     if (JSON_HEDLEY_UNLIKELY(indent_string.size() < new_indent))
                     {
                         indent_string.resize(indent_string.size() * 2, ' ');
                     }
+
+                    o->write_character('\n');
+                    
+                    for (unsigned int jk = 0; jk < current_indent; jk++)
+                    {
+                        o->write_character(' ');
+                    }
+
+                    o->write_characters("{\n", 2);
 
                     // first n-1 elements
                     auto i = val.m_value.object->cbegin();
