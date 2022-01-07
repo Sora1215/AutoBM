@@ -238,9 +238,18 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             P_STRING("Reference key of : ", C_ERROR, false);
             P_STRING(itemCodePair.first, C_PRINT_PARAMETER, false);
             P_STRING(" was not found.", C_ERROR);
-            NEWLINE;
         }
     }
+
+    if (editCount > 0)
+    {
+        NEWLINE;
+        P_STRING("A total of ", C_PROCEDURE, false);
+        P_DOUBLE(editCount, C_PROCEDURE_PARAMETER, false);
+        P_STRING(" reference pairs were added.", C_PROCEDURE);
+    }
+
+    NEWLINE;
 
     // ---
 
