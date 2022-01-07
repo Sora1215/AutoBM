@@ -35,7 +35,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
     // ---
 
-    std::unordered_map<std::string, std::list<std::string>> itemCodeMap = std::move(XL_DW.MapItemCodeByXLSX(IMPORT_FILENAME));
+    std::unordered_map<std::string, std::vector<std::string>> itemCodeMap = std::move(XL_DW.MapItemCodeByXLSX(IMPORT_FILENAME));
 
     if (itemCodeMap.empty() == true)
     {
@@ -60,6 +60,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         WAITFORINPUT;
         return;
     }
+
+    // ---
+
+    int editCount = 0;
+    std::vector<std::string> locatedRefKeys;
 
     // ---
 
@@ -109,10 +114,6 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         fileInput.close();
         PRINT_ONFILEUNLOAD(fullPath);
-
-        // ---
-
-        int editCount = 0;
 
         // ---
 
@@ -179,6 +180,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
                         editCount++;
                     }
+
+                    // ---
+
+                    locatedRefKeys.emplace_back(referenceCode.first);
+                    break;
                 }
             }
             catch (const std::exception& msg)
@@ -214,6 +220,18 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
+    }
+
+    // ---
+
+    for (const auto& itemCodePair : itemCodeMap)
+    {
+        if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), itemCodePair.first) == locatedRefKeys.end())
+        {
+            P_STRING("Reference key of : ", C_ERROR, false);
+            P_STRING(itemCodePair.first, C_PRINT_PARAMETER, false);
+            P_STRING(" was not found.", C_ERROR);
+        }
     }
 
     // ---

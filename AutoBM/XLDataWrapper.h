@@ -30,7 +30,7 @@ public:
 	// Deal with any zero-width spaces
 	void RemoveZeroWidthSpace(KR_STR, std::initializer_list<KR_STR>) noexcept;
 
-	[[nodiscard]] std::unordered_map<std::string, std::list<std::string>> MapItemCodeByXLSX(KR_STR) noexcept;
+	[[nodiscard]] std::unordered_map<std::string, std::vector<std::string>> MapItemCodeByXLSX(KR_STR) noexcept;
 
 private:
 

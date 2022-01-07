@@ -156,9 +156,9 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     WAITFORINPUT;
 }
 
-std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCodeByXLSX(KR_STR fullPath) noexcept
+std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItemCodeByXLSX(KR_STR fullPath) noexcept
 {
-    std::unordered_map<std::string, std::list<std::string>> tempItemCodeMap;
+    std::unordered_map<std::string, std::vector<std::string>> tempItemCodeMap;
 
     // ---
 
