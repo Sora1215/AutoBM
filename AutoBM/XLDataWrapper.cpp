@@ -452,7 +452,7 @@ int XLDataWrapper::PromptSheets(T XLSX) noexcept
         {
             inputSheetIndex = std::stoi(tempStringBuffer);
         }
-        catch (const std::invalid_argument& msg)
+        catch (const std::exception& msg)
         {
             P_STRING(msg.what(), C_ERROR);
             ERROR_OUTOFRANGE(0, totalSheetCount - 1);

@@ -112,6 +112,10 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         // ---
 
+        int editCount = 0;
+
+        // ---
+
         for (const auto& referenceCode : itemCodeMap)
         {
             try
@@ -172,10 +176,12 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                         P_STRING(jsonExportObject.dump(), C_PROCEDURE);
 
                         editorJson.at("Atlas").at("ReferenceSpriteList").emplace_back(jsonExportObject);
+
+                        editCount++;
                     }
                 }
             }
-            catch (const json::out_of_range& msg)
+            catch (const std::exception& msg)
             {
                 P_STRING(msg.what(), C_ERROR);
                 ERROR_JSONREFLISTNOTFOUND;
@@ -184,6 +190,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         }
 
         // ---
+
+        if (editCount == 0)
+        {
+            continue;
+        }
 
         std::ofstream fileOutput(fullPath);
 
@@ -203,7 +214,6 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
-
     }
 
     // ---
