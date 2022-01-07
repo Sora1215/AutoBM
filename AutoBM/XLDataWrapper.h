@@ -38,14 +38,14 @@ private:
 	XLDataWrapper() = default;
 
 	template <class T>
-	void RepeatLambdaForAllCellsByXLSX(KR_STR, bool, T) noexcept;
+	void RepeatLambdaForAllCellsByXLSX(KR_STR, bool, T&&) noexcept;
 
 	template <class T>
-	void RepeatLambdaForAllFilesByExtension(KR_STR, KR_STR, T) noexcept;
+	void RepeatLambdaForAllFilesByExtension(KR_STR, KR_STR, T&&) noexcept;
 
 	// Folders inside folders inside folders...
 	template <class T>
-	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T) noexcept;
+	void RepeatLambdaForAllFilesByExtension_Recursive(KR_STR, KR_STR, T&&) noexcept;
 
 
 

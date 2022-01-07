@@ -269,7 +269,7 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, T lambda) noexcept
+void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, T&& lambda) noexcept
 {
     Book* XLSX = CreateXLSXBook<Book*>();
 
@@ -339,7 +339,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, 
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_STR paramFileExtension, T lambda) noexcept
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_STR paramFileExtension, T&& lambda) noexcept
 {
     if (std::filesystem::exists(baseDirectory))
     {
@@ -364,7 +364,7 @@ void XLDataWrapper::RepeatLambdaForAllFilesByExtension(KR_STR baseDirectory, KR_
 }
 
 template<class T>
-void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDirectory, KR_STR paramFileExtension, T lambda) noexcept
+void XLDataWrapper::RepeatLambdaForAllFilesByExtension_Recursive(KR_STR baseDirectory, KR_STR paramFileExtension, T&& lambda) noexcept
 {
     if (std::filesystem::exists(baseDirectory))
     {

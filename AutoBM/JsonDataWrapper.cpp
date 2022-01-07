@@ -43,6 +43,10 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         P_STRING("An empty container was returned. Aborting procedure.", C_PROCEDURE);
         NEWLINE;
 
+        NEWLINE;
+        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
+        NEWLINE;
+
         WAITFORINPUT;
         return;
     }
@@ -56,6 +60,10 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     else
     {
         ERROR_PATHNOTFOUND(R1ASSET_PATH);
+
+        NEWLINE;
+        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
+        NEWLINE;
 
         WAITFORINPUT;
         return;
