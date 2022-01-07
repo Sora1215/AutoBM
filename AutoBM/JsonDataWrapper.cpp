@@ -166,11 +166,10 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
                         const json jsonReferenceCode = { JSON_REFERENCECODE, newCodeWithHeader };
                         const json jsonNewCode = { JSON_ORIGINALCODE, originalCodeWithHeader };
-
-                        P_STRING(jsonReferenceCode.dump(), C_PROCEDURE); // TEST
-                        P_STRING(jsonNewCode.dump(), C_PROCEDURE); // TEST
-
                         const json jsonExportObject = { jsonReferenceCode, jsonNewCode };
+
+                        P_STRING("Added : ", C_PRINT_PARAMETER, false); 
+                        P_STRING(jsonExportObject.dump(), C_PROCEDURE);
 
                         editorJson.at("Atlas").at("ReferenceSpriteList").emplace_back(jsonExportObject);
                     }
@@ -198,7 +197,9 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
+        PRINT_SAVING;
         fileOutput << std::setw(1) << std::setfill('\t') << editorJson;
+        PRINT_SAVECOMPLETE;
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
