@@ -196,7 +196,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
-        fileOutput << std::setw(4) << editorJson;
+        fileOutput << std::setw(4) << std::setfill('\t') << editorJson;
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
