@@ -51,6 +51,14 @@
             {
                 "SpriteName" : "Icon/Item/ARMOR_LIGHT_8_5_3",
                 "OrigName"   : "Icon/Item/ARMOR_LIGHT_2_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST5",
+                "OrigName"   : "Icon/Item/WEAPON_KNIGHT_2_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST5",
+                "OrigName"   : "Icon/Item/WEAPON_KNIGHT_2_4_1"
             }
         ],
         "SplitLanguage"       : false,

@@ -25,7 +25,8 @@
 #define UNICODECHARACTER_ZEROWIDTHSPACE L'\u200b'
 
 //#define R1ASSET_PATH L"r1_asset/98. AssetBundle/ExportProject/Assets/Resources.Export/NguiAtlas/EditorJsonData/"
-#define R1ASSET_PATH L"EditorJsonData/"
+#define R1ASSET_PATH L"98. AssetBundle/ExportProject/Assets/Resources.Export/NguiAtlas/EditorJsonData/"
+//#define R1ASSET_PATH L"EditorJsonData/"
 #define ICON_FILEHEADER L"NguiAtlas.Icon.Item."
 
 // ItemTable
