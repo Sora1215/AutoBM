@@ -1,0 +1,30 @@
+
+{
+    "Code" : "Icon.Item.Awaken1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PACKAGE_PAY_INFINITYSTONE_SUMMER",
+                "OrigName"   : "Icon/Item/INFINITYSTONE_1"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "87ed895c025514f409b80dbc8ccc378e",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Awaken/Awaken1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

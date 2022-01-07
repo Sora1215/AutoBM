@@ -1,0 +1,24 @@
+
+{
+    "Code" : "Icon.Item.Ancient2",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : null,
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "45f88b3492e7af941b100b27ead59f14",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Equip/Ancient/Ancient2.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

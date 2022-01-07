@@ -1,0 +1,74 @@
+
+{
+    "Code" : "Icon.Item.Rune1",
+    "SplitSpecType" : "SplitHighHighMid",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/RUNE_AGILITY_40",
+                "OrigName"   : "Icon/Item/RUNE_AGILITY_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_AGITATION_40",
+                "OrigName"   : "Icon/Item/RUNE_AGITATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_BERSERK_40",
+                "OrigName"   : "Icon/Item/RUNE_BERSERK_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_CHALLENGE_40",
+                "OrigName"   : "Icon/Item/RUNE_CHALLENGE_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_CONCENTRATION_40",
+                "OrigName"   : "Icon/Item/RUNE_CONCENTRATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_CONTEMPLATION_40",
+                "OrigName"   : "Icon/Item/RUNE_CONTEMPLATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_DENIAL_40",
+                "OrigName"   : "Icon/Item/RUNE_DENIAL_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_EXCLUSION_40",
+                "OrigName"   : "Icon/Item/RUNE_EXCLUSION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_FIERCE_40",
+                "OrigName"   : "Icon/Item/RUNE_FIERCE_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_FLEXIBILITY_40",
+                "OrigName"   : "Icon/Item/RUNE_FLEXIBILITY_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_FRENZY_40",
+                "OrigName"   : "Icon/Item/RUNE_FRENZY_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/RUNE_HEARTLESS_40",
+                "OrigName"   : "Icon/Item/RUNE_HEARTLESS_5"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Unknown",
+                "AtlasLink" : 
+                {
+                    "GUID" : "456e6dd9e18e3364aa5d05c921a08696",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Rune/Rune1.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}

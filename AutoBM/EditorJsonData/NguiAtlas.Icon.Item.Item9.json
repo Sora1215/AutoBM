@@ -1,0 +1,62 @@
+
+{
+    "Code" : "Icon.Item.Item9",
+    "SplitSpecType" : "SplitHighMidLow",
+    "TextureBuildPreset" : "SplitHighHighMid",
+    "Atlas"              : 
+    {
+        "Prefix" : "Icon/Item/",
+        "ReferenceSpriteList" : 
+        [
+            {
+                "SpriteName" : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL2",
+                "OrigName"   : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL3",
+                "OrigName"   : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL"
+            },
+            {
+                "SpriteName" : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL4",
+                "OrigName"   : "Icon/Item/PET_ADVENTURE_EXPLORE_NORMAL"
+            },
+            {
+                "SpriteName" : "Icon/Item/COSTUME_SELECT_ITEM_CHAMPION_2021_9",
+                "OrigName"   : "Icon/Item/COSTUME_SELECT_ITEM_CHAMPION_2021_9"
+            },
+            {
+                "SpriteName" : "Icon/Item/COSTUME_SELECT_ITEM_CHAMPION_2021_10",
+                "OrigName"   : "Icon/Item/COSTUME_SELECT_ITEM_CHAMPION_2021_9"
+            },
+            {
+                "SpriteName" : "Icon/Item/COSTUME_SELECT_ITEM_139_LEGEND_LUCIKIEL",
+                "OrigName"   : "Icon/Item/COSTUME_SELECT_ITEM_139_LEGEND_LUCIKIEL"
+            },
+            {
+                "SpriteName" : "Icon/Item/COSTUME_SELECT_ITEM_140_LEGEND_JANE",
+                "OrigName"   : "Icon/Item/COSTUME_SELECT_ITEM_139_LEGEND_LUCIKIEL"
+            },
+            {
+                "SpriteName" : "Icon/Item/COSTUME_SELECT_ITEM_141_LEGEND_MARIA",
+                "OrigName"   : "Icon/Item/COSTUME_SELECT_ITEM_139_LEGEND_LUCIKIEL"
+            },
+            {
+                "SpriteName" : "Icon/Item/PACKAGE1_HERO_GROWTH_TRANS_5_LV100_SUPERPASS_2",
+                "OrigName"   : "Icon/Item/PACKAGE1_HERO_GROWTH_LV100_SUPERPASS"
+            }
+        ],
+        "SplitLanguage"       : false,
+        "AtlasList"           : 
+        [
+            {
+                "Language" : "Korean",
+                "AtlasLink" : 
+                {
+                    "GUID" : "0efb6bf8596191b419865133bdb1a3a6",
+                    "OrigAssetPath" : "Assets/Resources.Export/NguiAtlas/ResourceData/Icon/Item/Item/Item9.prefab",
+                    "IsSubAsset"    : false
+                }
+            }
+        ]
+    }
+}
