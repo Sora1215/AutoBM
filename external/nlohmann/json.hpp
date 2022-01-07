@@ -16174,6 +16174,8 @@ class serializer
                         dump_escaped(i->first, ensure_ascii);
                         o->write_character('\"');
 
+                        o->write_character(' ');
+
                         std::string tempStringBuffer = i->first;
                         if (tempStringBuffer.size() > longest_string_length)
                         {
