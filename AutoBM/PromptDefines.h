@@ -80,7 +80,7 @@
                                         P_STRING(path, C_PRINT_PARAMETER);
 
 // [KR_STR]
-#define PRINT_JSONREFKEYFOUND(key)      P_STRING("Found reference key of : ", C_PRINT);\
+#define PRINT_JSONREFKEYFOUND(key)      P_STRING("Found reference key of : ", C_PRINT, false);\
                                         P_STRING(key, C_PRINT_PARAMETER);
 
 
