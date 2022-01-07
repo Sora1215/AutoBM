@@ -52,7 +52,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "C:\\Users\\sora.kim\\Desktop\\AutoBM\\morpeko.ico"
+IDI_ICON1               ICON                    "C:\\Users\\sora.kim\\Desktop\\AutoBM\\target.ico"
 
 #endif    // 한국어(대한민국) resources
 /////////////////////////////////////////////////////////////////////////////
