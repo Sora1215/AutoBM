@@ -38,9 +38,6 @@
     <ClInclude Include="GlobalDefines.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="UsefulLinks.txt">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="PromptDefines.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>

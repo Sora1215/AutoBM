@@ -168,7 +168,6 @@
     <ClInclude Include="JsonDataWrapper.h" />
     <ClInclude Include="PromptDefines.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="UsefulLinks.txt" />
     <ClInclude Include="XLDataWrapper.h" />
   </ItemGroup>
   <ItemGroup>
