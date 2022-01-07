@@ -16147,6 +16147,8 @@ class serializer
         {
             case value_t::object:
             {
+                size_t longest_string_length = 0;
+
                 if (val.m_value.object->empty())
                 {
                     o->write_characters("{}", 2);
@@ -16171,7 +16173,21 @@ class serializer
                         o->write_characters(indent_string.c_str(), new_indent);
                         o->write_character('\"');
                         dump_escaped(i->first, ensure_ascii);
-                        o->write_characters("\": ", 3);
+                        o->write_character('\"');
+
+                        std::string tempStringBuffer = i->first;
+                        if (tempStringBuffer.size() > longest_string_length)
+                        {
+                            longest_string_length = tempStringBuffer.size();
+                        }
+
+                        unsigned int manual_spaces = static_cast<unsigned int>(longest_string_length - tempStringBuffer.size());
+                        for (unsigned int jk = 0; jk < manual_spaces; jk++)
+                        {
+                            o->write_character(' ');
+                        }
+
+                        o->write_characters(": ", 2);
                         dump(i->second, true, ensure_ascii, indent_step, new_indent);
                         o->write_characters(",\n", 2);
                     }
@@ -16182,7 +16198,7 @@ class serializer
                     o->write_characters(indent_string.c_str(), new_indent);
                     o->write_character('\"');
                     dump_escaped(i->first, ensure_ascii);
-                    o->write_characters("\": ", 3);
+                    o->write_characters("\" : ", 4);
                     dump(i->second, true, ensure_ascii, indent_step, new_indent);
 
                     o->write_character('\n');
