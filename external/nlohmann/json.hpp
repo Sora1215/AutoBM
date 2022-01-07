@@ -16141,14 +16141,13 @@ class serializer
               const bool pretty_print,
               const bool ensure_ascii,
               const unsigned int indent_step,
-              const unsigned int current_indent = 0)
+              const unsigned int current_indent = 0,
+              size_t longest_string_length = 0)
     {
         switch (val.m_type)
         {
             case value_t::object:
             {
-                size_t longest_string_length = 0;
-
                 if (val.m_value.object->empty())
                 {
                     o->write_characters("{}", 2);
