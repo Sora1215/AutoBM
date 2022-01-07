@@ -184,7 +184,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             }
         }
 
-
+        // ---
 
         std::ofstream fileOutput(fullPath);
 
@@ -202,8 +202,6 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
-
-
 
     }
 
