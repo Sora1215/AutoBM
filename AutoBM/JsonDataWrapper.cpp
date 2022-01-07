@@ -83,7 +83,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         const std::wstring fullPath = std::wstring(R1ASSET_PATH) + fileName;
 
-        std::ifstream fileInput(fullPath, std::ios_base::binary);
+        std::ifstream fileInput(fullPath);
 
         if (fileInput.fail() != true)
         {
@@ -208,7 +208,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
-        std::ofstream fileOutput(fullPath);
+        std::ofstream fileOutput(fullPath, std::ios_base::binary);
 
         if (fileOutput.fail() != true)
         {
