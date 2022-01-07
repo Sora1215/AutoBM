@@ -17,6 +17,8 @@
 #include "json.hpp"
 #include <fstream>
 
+#include <iostream> // TEST
+
 using json = nlohmann::ordered_json;
 
 
@@ -196,7 +198,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
-        fileOutput << std::setw(4) << std::setfill('\t') << editorJson;
+        fileOutput << std::setw(1) << std::setfill('\t') << editorJson;
 
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
