@@ -14,8 +14,13 @@
 
 #define REFRESH_RATE INT_MAX
 
-#define EXPORT_FILENAME L"FixLog.xlsx"
+#define EXPORT_FILENAME L"Log_Export.xlsx"
 #define IMPORT_FILENAME L"Input.xlsx"
+
+#define JSON_REFERENCECODE "SpriteName"
+#define JSON_ORIGINALCODE "OrigName"
+#define JSON_NULLCODE "NULL"
+#define JSON_ICONHEADER "Icon/Item/"
 
 #define UNICODECHARACTER_ZEROWIDTHSPACE L'\u200b'
 

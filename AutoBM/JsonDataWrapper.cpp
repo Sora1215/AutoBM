@@ -66,6 +66,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         if (fileName.find(ICON_FILEHEADER) == std::wstring::npos || fileExtension != L".json")
         {
+            // File extension is not .json
             continue;
         }
 
@@ -108,51 +109,77 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         {
             try
             {
-                json::array_t connections = editorJson.at("Atlas").at("ReferenceSpriteList");
+                const json::array_t& connections = editorJson.at("Atlas").at("ReferenceSpriteList");
 
-                // 여기다가 작업
+                for (const auto& jsonObject : connections)
+                {
+                    std::string tempStringBuffer = jsonObject.value(JSON_REFERENCECODE, JSON_NULLCODE);
+
+                    if (tempStringBuffer == JSON_NULLCODE)
+                    {
+                        // Reference code is null
+                        continue;
+                    }
+
+                    if (tempStringBuffer.find(JSON_ICONHEADER) != std::string::npos)
+                    {
+                        tempStringBuffer.erase(0, std::string(JSON_ICONHEADER).length());
+                    }
+                    else
+                    {
+                        // String header is not in format of item/icon
+                        continue;
+                    }
+
+                    // A version of the reference code having its header removed
+                    //P_STRING(tempStringBuffer, C_PRINT_PARAMETER); ~ Uncomment this line for future debug ~
+
+                    if (tempStringBuffer == referenceCode.first)
+                    {
+                        PRINT_JSONREFKEYFOUND(referenceCode.first);
+                    }
+                    else
+                    {
+                        // Reference code mismatch
+                        continue;
+                    }
+
+                    const std::string originalCodeWithHeader = jsonObject.value(JSON_ORIGINALCODE, JSON_NULLCODE);
+
+                    if (originalCodeWithHeader == JSON_NULLCODE)
+                    {
+                        // Original code is null
+                        continue;
+                    }
+
+                    for (const auto& newCode : itemCodeMap[referenceCode.first])
+                    {
+                        const std::string newCodeWithHeader = std::string(JSON_ICONHEADER) + newCode;
+
+                        const json jsonReferenceCode = { JSON_REFERENCECODE, newCodeWithHeader };
+                        const json jsonNewCode = { JSON_ORIGINALCODE, originalCodeWithHeader };
+
+                        P_STRING(jsonReferenceCode.dump(), C_PROCEDURE); // TEST
+                        P_STRING(jsonNewCode.dump(), C_PROCEDURE); // TEST
+
+                        const json jsonExportObject = { jsonReferenceCode, jsonNewCode };
+
+                        editorJson.at("Atlas").at("ReferenceSpriteList").emplace_back(jsonExportObject);
+                    }
+                }
             }
-            catch (const json::type_error& msg)
+            catch (const json::out_of_range& msg)
             {
                 P_STRING(msg.what(), C_ERROR);
                 ERROR_JSONFINDFAIL;
                 break;
             }
-
-            if (editorJson.contains(referenceCode.first) != true)
-            {
-                //continue;
-            }
-
-            // ---
-
-
-
-            for (const auto& newCode : itemCodeMap[referenceCode.first])
-            {
-                try
-                {
-                    json::array_t connections = editorJson.at("Atlas").at("ReferenceSpriteList");
-                }
-                catch (const json::type_error& msg)
-                {
-                    P_STRING(msg.what(), C_ERROR);
-                    ERROR_JSONFINDFAIL;
-                    break;
-                }
-
-                PRINT_JSONFINDSUCCESS;
-
-                // ---
-
-
-            }
         }
-
-        // ---
 
         PRINT_ONFILEUNLOAD(fullPath);
     }
+
+    // ---
 
     WAITFORINPUT;
 }

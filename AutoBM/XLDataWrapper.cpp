@@ -138,7 +138,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
         P_STRING(" tables were edited.", C_PROCEDURE);
         NEWLINE;
 
-        exportXLSX->save(L"FixLog.xlsx");
+        exportXLSX->save(EXPORT_FILENAME);
 
         P_STRING("Diff was exported as : ", C_PRINT, false);
         P_STRING(EXPORT_FILENAME, C_PRINT_PARAMETER);
@@ -217,17 +217,25 @@ std::unordered_map<std::string, std::list<std::string>> XLDataWrapper::MapItemCo
 
     for (int row = 1; row < lastRow; row++)
     {
-        const CellType referenceCellType = XLSXsheet->cellType(row, 0);
-        const CellType newCellType = XLSXsheet->cellType(row, 1);
+        bool skipLineFlag = false;
 
-        if (referenceCellType != CELLTYPE_STRING || newCellType != CELLTYPE_STRING)
+        for (int col = 0; col < 2; col++)
         {
-            P_STRING("Row ", C_PRINT_PARAMETER, false);
-            P_DOUBLE(row, C_PRINT_PARAMETER, false);
-            P_STRING(" : one of the cell contains a non-string type data, and was ignored.", C_ERROR);
-            continue;
+            const CellType cellType = XLSXsheet->cellType(row, col);
+
+            if (cellType != CELLTYPE_STRING)
+            {
+                PRINT_CELLPOSITION(row, col);
+                ERROR_BADCELLTYPE;
+                skipLineFlag = true;
+            }
         }
 
+        if (skipLineFlag == true)
+        {
+            continue;
+        }
+        
         const std::string referenceCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 0)));
         const std::string newCode = CONSOLE.ConvertWstringToString(std::wstring(XLSXsheet->readStr(row, 1)));
 

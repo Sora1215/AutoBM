@@ -22,21 +22,26 @@
 
 
 // None
-#define PRINT_PROCEDURE                 P_STRING("Initiating ", C_PROCEDURE, false);\
+#define PRINT_PROCEDURE                 P_STRING("[PROCEDURE] ", C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING("Initiating ", C_PROCEDURE, false);\
                                         P_STRING(__func__, C_PROCEDURE_PARAMETER, false);\
                                         P_STRING(" procedure...", C_PROCEDURE);
 
 // None                                 
-#define PRINT_SCANNING                  P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
+#define PRINT_SCANNING                  P_STRING("[PROCEDURE] ", C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING("Scanning...", C_PROCEDURE_PARAMETER);
 
 // None                                 
-#define PRINT_SCANCOMPLETE              P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
+#define PRINT_SCANCOMPLETE              P_STRING("[PROCEDURE] ", C_PROCEDURE_PARAMETER, false);\
+                                        P_STRING("Scan complete.", C_PROCEDURE_PARAMETER);
 
 // None                                 
-#define PRINT_SAVING                    P_STRING("Saving...", C_PROCEDURE_PARAMETER);
+#define PRINT_SAVING                    P_STRING("[EXPORT] ", C_PRINT_PARAMETER, false);\
+                                        P_STRING("Saving...", C_PROCEDURE_PARAMETER);
 
 // None                                 
-#define PRINT_SAVECOMPLETE              P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
+#define PRINT_SAVECOMPLETE              P_STRING("[EXPORT] ", C_PRINT_PARAMETER, false);\
+                                        P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
 
 
 
@@ -52,13 +57,15 @@
                                         P_STRING(" <<", C_PROCEDURE);
 
 // [KR_STR] 
-#define PRINT_ONFILELOAD(fileName)      P_STRING("File with the name of : ", C_PRINT, false);\
+#define PRINT_ONFILELOAD(fileName)      P_STRING("[ALLOC] ", C_MEMORY, false);\
+                                        P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was successfully loaded.", C_PRINT);\
                                         P_STRING("Resource allocated.", C_MEMORY);
 
 // [KR_STR] 
-#define PRINT_ONFILEUNLOAD(fileName)    P_STRING("File with the name of : ", C_PRINT, false);\
+#define PRINT_ONFILEUNLOAD(fileName)    P_STRING("[DEALLOC] ", C_MEMORY, false);\
+                                        P_STRING("File with the name of : ", C_PRINT, false);\
                                         P_STRING(fileName, C_PRINT_PARAMETER, false);\
                                         P_STRING(" was successfully unloaded.", C_PRINT);\
                                         P_STRING("Resource deallocated.", C_MEMORY);
@@ -73,7 +80,8 @@
                                         P_STRING(path, C_PRINT_PARAMETER);
 
 // [KR_STR]
-#define PRINT_JSONFINDSUCCESS           P_STRING("Successfully located required keys inside the file.", C_PRINT);
+#define PRINT_JSONREFKEYFOUND(key)      P_STRING("Found reference key of : ", C_PRINT);\
+                                        P_STRING(key, C_PRINT_PARAMETER);
 
 
 
@@ -106,6 +114,9 @@
 
 #define ERROR_JSONFINDFAIL              P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("Failed to locate required keys inside the file.", C_PRINT);
+
+#define ERROR_BADCELLTYPE               P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("One of the cell contains a non-string type data, and was ignored.", C_PRINT);
 
 // [int, int] 
 #define ERROR_OUTOFRANGE(begin, end)    P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
