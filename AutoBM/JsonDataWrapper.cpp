@@ -144,6 +144,12 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                         continue;
                     }
 
+                    if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), referenceCode.first) != locatedRefKeys.end())
+                    {
+                        // The key was already located
+                        continue;
+                    }
+
                     // A version of the reference code having its header removed
                     //P_STRING(tempStringBuffer, C_PRINT_PARAMETER); ~ Uncomment this line for future debug ~
 
@@ -228,9 +234,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     {
         if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), itemCodePair.first) == locatedRefKeys.end())
         {
+            NEWLINE;
             P_STRING("Reference key of : ", C_ERROR, false);
             P_STRING(itemCodePair.first, C_PRINT_PARAMETER, false);
             P_STRING(" was not found.", C_ERROR);
+            NEWLINE;
         }
     }
 
