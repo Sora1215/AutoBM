@@ -16142,7 +16142,6 @@ class serializer
               const bool ensure_ascii,
               const unsigned int indent_step,
               const unsigned int current_indent = 0,
-              const bool skip_indent = false,
               size_t longest_string_length = 0)
     {
         switch (val.m_type)
