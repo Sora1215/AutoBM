@@ -112,8 +112,8 @@
                                         P_STRING("Failed to parse json at : ", C_PRINT, false);\
                                         P_STRING(path, C_PRINT_PARAMETER);
 
-#define ERROR_JSONFINDFAIL              P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
-                                        P_STRING("Failed to locate required keys inside the file.", C_PRINT);
+#define ERROR_JSONREFLISTNOTFOUND       P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
+                                        P_STRING("Failed to locate reference list inside the file.", C_PRINT);
 
 #define ERROR_BADCELLTYPE               P_STRING("$$ ERROR!!! $$ ", C_ERROR, false);\
                                         P_STRING("One of the cell contains a non-string type data, and was ignored.", C_PRINT);

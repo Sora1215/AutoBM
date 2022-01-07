@@ -31,6 +31,8 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 {
     PRINT_PROCEDURE;
 
+    // ---
+
     std::unordered_map<std::string, std::list<std::string>> itemCodeMap = std::move(XL_DW.MapItemCodeByXLSX(IMPORT_FILENAME));
 
     if (itemCodeMap.empty() == true)
@@ -103,12 +105,16 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         PRINT_JSONPARSESUCCESS(fullPath);
 
+        fileInput.close();
+        PRINT_ONFILEUNLOAD(fullPath);
+
         // ---
 
         for (const auto& referenceCode : itemCodeMap)
         {
             try
             {
+                // I am doing this because this specific function's return type is limited to references
                 const json::array_t& connections = editorJson.at("Atlas").at("ReferenceSpriteList");
 
                 for (const auto& jsonObject : connections)
@@ -171,12 +177,32 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             catch (const json::out_of_range& msg)
             {
                 P_STRING(msg.what(), C_ERROR);
-                ERROR_JSONFINDFAIL;
+                ERROR_JSONREFLISTNOTFOUND;
                 break;
             }
         }
 
+
+
+        std::ofstream fileOutput(fullPath);
+
+        if (fileOutput.fail() != true)
+        {
+            PRINT_ONFILELOAD(fullPath);
+        }
+        else
+        {
+            ERROR_FILENOTFOUND(fullPath);
+            continue;
+        }
+
+        fileOutput << std::setw(4) << editorJson;
+
+        fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
+
+
+
     }
 
     // ---
