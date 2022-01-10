@@ -17,8 +17,6 @@
 #include "json.hpp"
 #include <fstream>
 
-#include <iostream> // TEST
-
 using json = nlohmann::ordered_json;
 
 
