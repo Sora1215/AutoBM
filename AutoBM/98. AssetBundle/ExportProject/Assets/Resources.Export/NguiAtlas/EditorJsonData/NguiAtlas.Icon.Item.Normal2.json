@@ -79,6 +79,10 @@
             {
                 "SpriteName" : "Icon/Item/TEST5",
                 "OrigName"   : "Icon/Item/WEAPON_KNIGHT_2_4_1"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST5",
+                "OrigName"   : "Icon/Item/WEAPON_KNIGHT_2_4_1"
             }
         ],
         "SplitLanguage"       : false,

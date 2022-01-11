@@ -29,6 +29,8 @@
 #include "ConsoleManager.h"
 #include "XLDataWrapper.h"
 
+#include "PromptDefines.h"
+
 
 
 int main()
@@ -48,6 +50,8 @@ int main()
     //P_STRING("", C_PRINT_PARAMETER);
 
     //XL_DW.RemoveZeroWidthSpace(L"Table/", { L".xlsx", L".xlsm" });
+
+    WAITFORINPUT;
 
     return 0;
 }

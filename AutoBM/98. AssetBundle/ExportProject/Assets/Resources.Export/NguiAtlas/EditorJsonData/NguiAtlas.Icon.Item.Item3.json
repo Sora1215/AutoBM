@@ -871,6 +871,14 @@
             {
                 "SpriteName" : "Icon/Item/TEST3",
                 "OrigName"   : "Icon/Item/EQUIP_SELECT_DRAGON_ORB"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST2",
+                "OrigName"   : "Icon/Item/WORLDBOSS_BOX_3"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST3",
+                "OrigName"   : "Icon/Item/EQUIP_SELECT_DRAGON_ORB"
             }
         ],
         "SplitLanguage"       : false,

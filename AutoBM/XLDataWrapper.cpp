@@ -31,13 +31,13 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 {
     PRINT_PROCEDURE;
 
-    // Temporary variables used for logging
+    // --- Temporary variables used for logging
 
     std::unordered_map<std::wstring, int> EditedCellPerTable;
 
     int editCount = 0;
 
-    // Temporary containers used for log export
+    // --- Temporary containers used for log export
 
     Book* exportXLSX = CreateXLSXBook<Book*>();
 
@@ -93,11 +93,11 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         PRINT_CELLPOSITION(row, col);
                         P_STRING(tempStringBuffer, C_ERROR, false);
 
-                        exportXLSXSheet->writeStr(editCount + 1, 0, tempStringBuffer.c_str(), before); // Logging
-                        exportXLSXSheet->writeStr(editCount + 1, 2, fileName); // Logging
-                        exportXLSXSheet->writeStr(editCount + 1, 3, XLSXsheet->name()); // Logging
-                        exportXLSXSheet->writeStr(editCount + 1, 4, std::to_wstring(row).c_str()); // Logging
-                        exportXLSXSheet->writeStr(editCount + 1, 5, std::to_wstring(col).c_str()); // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 0, tempStringBuffer.c_str(), before);  // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 2, fileName);                          // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 3, XLSXsheet->name());                 // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 4, std::to_wstring(row).c_str());      // Logging
+                        exportXLSXSheet->writeStr(editCount + 1, 5, std::to_wstring(col).c_str());      // Logging
 
                         while (firstZeroWidthSpace != std::wstring::npos)
                         {
@@ -113,7 +113,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
                         P_STRING(" was fixed as : ", C_PROCEDURE, false);
                         P_STRING(tempStringBuffer, C_ERROR);
 
-                        exportXLSXSheet->writeStr(editCount, 1, tempStringBuffer.c_str(), after); // Logging
+                        exportXLSXSheet->writeStr(editCount, 1, tempStringBuffer.c_str(), after);       // Logging
                     });
             });
     }
@@ -146,21 +146,19 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
     }
     else
     {
-        NEWLINE;
-        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
-        NEWLINE;
+        PRINT_NOCHANGESMADE;
     }
 
     exportXLSX->release();
-
-    WAITFORINPUT;
 }
 
 std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItemCodeByXLSX(KR_STR fullPath) noexcept
 {
+    // --- Initialize map
+
     std::unordered_map<std::string, std::vector<std::string>> tempItemCodeMap;
 
-    // ---
+    // --- Load XLSX
 
     Book* XLSX = CreateXLSXBook<Book*>();
 
@@ -195,7 +193,7 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
         return tempItemCodeMap;
     }
 
-    // ---
+    // --- Load sheet
 
     Sheet* XLSXsheet = XLSX->getSheet(0);
 
@@ -211,7 +209,7 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
         return tempItemCodeMap;
     }
 
-    // ---
+    // --- Read sheet
 
     const int lastRow = XLSXsheet->lastFilledRow();
 
@@ -242,16 +240,14 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
         tempItemCodeMap[referenceCode].emplace_back(newCode);
     }
 
-    // ---
-
     PRINT_SCANCOMPLETE;
 
-    // ---
+    // --- Unload XLSX
 
     XLSX->release();
     PRINT_ONFILEUNLOAD(fullPath);
 
-    // ---
+    // --- Print reference pairs
 
     for (const auto& referenceString : tempItemCodeMap)
     {
@@ -263,7 +259,7 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
         }
     }
 
-    // ---
+    // --- Return result
 
     return tempItemCodeMap;
 }
@@ -271,6 +267,8 @@ std::unordered_map<std::string, std::vector<std::string>> XLDataWrapper::MapItem
 template<class T>
 void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, T&& lambda) noexcept
 {
+    // --- load XLSX
+
     Book* XLSX = CreateXLSXBook<Book*>();
 
     if (XLSX->load(fullPath) == true)
@@ -283,7 +281,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, 
         return;
     }
 
-    // ---
+    // --- Load sheets
 
     const int totalSheetCount = XLSX->sheetCount();
 
@@ -303,12 +301,9 @@ void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, 
             return;
         }
 
-        // ---
-
         const int lastRow = XLSXsheet->lastFilledRow();
         const int lastCol = XLSXsheet->lastFilledCol();
 
-        // Go through each cell of the entire sheet
         for (int row = XLSXsheet->firstRow(); row < lastRow; row++)
         {
             for (int col = XLSXsheet->firstCol(); col < lastCol; col++)
@@ -317,12 +312,10 @@ void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, 
             }
         }
 
-        // ---
-
         PRINT_SCANCOMPLETE;
     }
 
-    // ---
+    // --- Save on edit
 
     if (isEdit == true && mEditFlag == true)
     {
@@ -332,7 +325,7 @@ void XLDataWrapper::RepeatLambdaForAllCellsByXLSX(KR_STR fullPath, bool isEdit, 
         PRINT_SAVECOMPLETE;
     }
 
-    // ---
+    // --- Unload XLSX
 
     XLSX->release();
     PRINT_ONFILEUNLOAD(fullPath);

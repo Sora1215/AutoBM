@@ -29,9 +29,11 @@ JsonDataWrapper& JsonDataWrapper::Instance() noexcept
 
 void JsonDataWrapper::ConnectItemIcon() noexcept
 {
+    // --- Print which function are we currently at
+
     PRINT_PROCEDURE;
 
-    // ---
+    // --- Load map, end procedure if empty
 
     std::unordered_map<std::string, std::vector<std::string>> itemCodeMap = std::move(XL_DW.MapItemCodeByXLSX(IMPORT_FILENAME));
 
@@ -40,16 +42,11 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         NEWLINE;
         P_STRING("An empty container was returned. Aborting procedure.", C_PROCEDURE);
         NEWLINE;
-
-        NEWLINE;
-        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
-        NEWLINE;
-
-        WAITFORINPUT;
+        PRINT_NOCHANGESMADE;
         return;
     }
 
-    // ---
+    // --- Check if path exists 
 
     if (std::filesystem::exists(R1ASSET_PATH))
     {
@@ -58,35 +55,31 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     else
     {
         ERROR_PATHNOTFOUND(R1ASSET_PATH);
-
-        NEWLINE;
-        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);
-        NEWLINE;
-
-        WAITFORINPUT;
+        PRINT_NOCHANGESMADE;
         return;
     }
 
-    // ---
+    // --- Temporary variables for flagging
 
     int totalEditCount = 0;
     int editCount = 0;
     std::vector<std::string> locatedRefKeys;
 
-    // ---
+    // --- OK, we have the parameter and know that the directory is intact, now iterate through icon directory
 
     for (const auto& directoryIterator : std::filesystem::directory_iterator(R1ASSET_PATH))
     {
         const std::wstring fileName = std::wstring(directoryIterator.path().filename());
         const std::wstring fileExtension = std::wstring(directoryIterator.path().extension());
 
+        // --- "return" if file header does not match or extension is not json
+
         if (fileName.find(ICON_FILEHEADER) == std::wstring::npos || fileExtension != L".json")
         {
-            // File extension is not .json
             continue;
         }
 
-        // ---
+        // --- Try opening the file and handle exceptions
 
         const std::wstring fullPath = std::wstring(R1ASSET_PATH) + fileName;
 
@@ -102,7 +95,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             continue;
         }
 
-        // ---
+        // --- Try parsing the file and handle exceptions
 
         json editorJson;
 
@@ -110,7 +103,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         {
             editorJson = json::parse(fileInput);
         }
-        catch (const json::parse_error& msg)
+        catch (const std::exception& msg)
         {
             P_STRING(msg.what(), C_ERROR);
             ERROR_JSONPARSEFAIL(fullPath);
@@ -122,24 +115,34 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         fileInput.close();
         PRINT_ONFILEUNLOAD(fullPath);
 
-        // ---
+        // --- The file is what we want, and it is parsable
 
         for (const auto& referenceCode : itemCodeMap)
         {
+            // --- Check if key was already located
+
+            if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), referenceCode.first) != locatedRefKeys.end())
+            {
+                continue;
+            }
+
             try
             {
-                // I am doing this because this specific function's return type is limited to references
+                /* I am doing this because this specific function's return type is limited to references */
                 const json::array_t& connections = editorJson.at("Atlas").at("ReferenceSpriteList");
 
                 for (const auto& jsonObject : connections)
                 {
                     std::string tempStringBuffer = jsonObject.value(JSON_REFERENCECODE, JSON_NULLCODE);
 
+                    // --- Check if reference code is null
+
                     if (tempStringBuffer == JSON_NULLCODE)
                     {
-                        // Reference code is null
                         continue;
                     }
+
+                    // --- Check if string header is in the right format. If so, remove the header.
 
                     if (tempStringBuffer.find(JSON_ICONHEADER) != std::string::npos)
                     {
@@ -147,18 +150,12 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                     }
                     else
                     {
-                        // String header is not in format of item/icon
                         continue;
                     }
 
-                    if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), referenceCode.first) != locatedRefKeys.end())
-                    {
-                        // The key was already located
-                        continue;
-                    }
-
-                    // A version of the reference code having its header removed
                     //P_STRING(tempStringBuffer, C_PRINT_PARAMETER); ~ Uncomment this line for future debug ~
+
+                    // --- Check if the reference code does not match
 
                     if (tempStringBuffer == referenceCode.first)
                     {
@@ -166,17 +163,19 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                     }
                     else
                     {
-                        // Reference code mismatch
                         continue;
                     }
+
+                    // --- Check if original code is null
 
                     const std::string originalCodeWithHeader = jsonObject.value(JSON_ORIGINALCODE, JSON_NULLCODE);
 
                     if (originalCodeWithHeader == JSON_NULLCODE)
                     {
-                        // Original code is null
                         continue;
                     }
+
+                    // --- Status all green, we are ready to go
 
                     for (const auto& newCode : itemCodeMap[referenceCode.first])
                     {
@@ -195,7 +194,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                         editCount++;
                     }
 
-                    // ---
+                    // --- Save the processed reference key for future checking
 
                     locatedRefKeys.emplace_back(referenceCode.first);
                     break;
@@ -209,7 +208,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             }
         }
 
-        // ---
+        // --- If not edited, skip the file. else, save it
 
         if (editCount == 0)
         {
@@ -238,7 +237,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         editCount = 0;
     }
 
-    // ---
+    // --- Print result
 
     for (const auto& itemCodePair : itemCodeMap)
     {
@@ -260,8 +259,4 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     }
 
     NEWLINE;
-
-    // ---
-
-    WAITFORINPUT;
 }

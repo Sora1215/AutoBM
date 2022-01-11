@@ -111,6 +111,14 @@
             {
                 "SpriteName" : "Icon/Item/TEST6",
                 "OrigName"   : "Icon/Item/RUNE_FLEXIBILITY_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST4",
+                "OrigName"   : "Icon/Item/RUNE_AGITATION_5"
+            },
+            {
+                "SpriteName" : "Icon/Item/TEST6",
+                "OrigName"   : "Icon/Item/RUNE_FLEXIBILITY_5"
             }
         ],
         "SplitLanguage"       : false,

@@ -43,6 +43,11 @@
 #define PRINT_SAVECOMPLETE              P_STRING("[EXPORT] ", C_PRINT_PARAMETER, false);\
                                         P_STRING("Save complete.", C_PROCEDURE_PARAMETER);
 
+// None                                 
+#define PRINT_NOCHANGESMADE             NEWLINE;\
+                                        P_STRING("!!! Nothing has been changed.", C_PRINT_PARAMETER);\
+                                        NEWLINE;
+
 
 
 // ---
