@@ -4,7 +4,7 @@
     Written by SeungGeon Kim
 
     Filename : XLDataWrapper.cpp
-	Edited : 2021-11-29
+	Created : 2021-11-28
 */
 
 #include "XLDataWrapper.h"

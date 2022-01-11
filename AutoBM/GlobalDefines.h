@@ -4,7 +4,7 @@
     Written by SeungGeon Kim
 
     Filename : GlobalDefines.h
-	Edited : 2021-11-27
+	Created : 2021-11-28
 */
 
 #pragma once

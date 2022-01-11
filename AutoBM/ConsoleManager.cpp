@@ -4,7 +4,7 @@
     Written by SeungGeon Kim
 
     Filename : ConsoleManager.cpp
-	Edited : 2021-11-27
+	Edited : 2021-11-28
 */
 
 #include "ConsoleManager.h"

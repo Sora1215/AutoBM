@@ -120,7 +120,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp;$(SolutionDir)external\nlohmann</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <DisableSpecificWarnings>26812;26819</DisableSpecificWarnings>
+      <DisableSpecificWarnings>26812;26819;28020;26495</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,7 +141,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)external\libxl\include_cpp;$(SolutionDir)external\nlohmann</AdditionalIncludeDirectories>
-      <DisableSpecificWarnings>26812;26819</DisableSpecificWarnings>
+      <DisableSpecificWarnings>26812;26819;28020;26495</DisableSpecificWarnings>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -159,11 +159,13 @@
   <ItemGroup>
     <ClCompile Include="AutoBM.cpp" />
     <ClCompile Include="ConsoleManager.cpp" />
+    <ClCompile Include="GitDataWrapper.cpp" />
     <ClCompile Include="JsonDataWrapper.cpp" />
     <ClCompile Include="XLDataWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleManager.h" />
+    <ClInclude Include="GitDataWrapper.h" />
     <ClInclude Include="GlobalDefines.h" />
     <ClInclude Include="JsonDataWrapper.h" />
     <ClInclude Include="PromptDefines.h" />

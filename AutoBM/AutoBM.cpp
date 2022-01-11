@@ -22,12 +22,14 @@
     libxl.dll
 
     Filename : AutoBM.cpp
-    Edited : 2021-12-28
+    Created : 2021-11-28
 */
 
-#include "JsonDataWrapper.h"
 #include "ConsoleManager.h"
+
 #include "XLDataWrapper.h"
+#include "JsonDataWrapper.h"
+#include "GitDataWrapper.h"
 
 #include "PromptDefines.h"
 
@@ -37,12 +39,14 @@ int main()
 {
     CONSOLE.SetupLocal();
 
-    P_STRING("ItemIconConnector v1.0 by Sora.Kim", C_PRINT_PARAMETER);
-    P_STRING("", C_PRINT_PARAMETER);
-    P_STRING("Make sure that this executable is placed just inside the r1_asset repo folder.", C_PROCEDURE_PARAMETER);
-    P_STRING("", C_PRINT_PARAMETER);
+    //P_STRING("ItemIconConnector v1.0 by Sora.Kim", C_PRINT_PARAMETER);
+    //P_STRING("", C_PRINT_PARAMETER);
+    //P_STRING("Make sure that this executable is placed just inside the r1_asset repo folder.", C_PROCEDURE_PARAMETER);
+    //P_STRING("", C_PRINT_PARAMETER);
 
-    JSON_DW.ConnectItemIcon();
+    //JSON_DW.ConnectItemIcon();
+
+
 
     //P_STRING("ExcelZeroWidthSpaceRemover v1.2 by Sora.Kim", C_PRINT_PARAMETER);
     //P_STRING("", C_PRINT_PARAMETER);

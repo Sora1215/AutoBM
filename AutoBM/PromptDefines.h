@@ -4,7 +4,7 @@
     Written by SeungGeon Kim
 
     Filename : PromptDefines.h
-    Edited : 2021-12-28
+    Created : 2021-11-28
 */
 
 #pragma once

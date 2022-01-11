@@ -4,14 +4,13 @@
     Written by SeungGeon Kim
 
 	Filename : XLDataWrapper.h
-	Edited : 2021-11-28
+	Created : 2021-11-28
 */
 
 #pragma once
 
 #define XL_DW XLDataWrapper::Instance()
 
-#include <initializer_list>
 #include "GlobalDefines.h"
 #include <unordered_map>
 

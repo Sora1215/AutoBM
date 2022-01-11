@@ -4,7 +4,7 @@
     Written by SeungGeon Kim
 
     Filename : JsonDataWrapper.cpp
-    Edited : 2021-11-29
+    Created : 2021-11-28
 */
 
 #include "JsonDataWrapper.h"
@@ -12,7 +12,6 @@
 #include "ConsoleManager.h"
 #include "XLDataWrapper.h"
 #include "PromptDefines.h"
-#include <unordered_map>
 #include <filesystem>
 #include "json.hpp"
 #include <fstream>
