@@ -61,7 +61,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
     // --- Temporary variables for flagging
 
     int totalEditCount = 0;
-    int editCount = 0;
+    int cycleEditCount = 0;
     std::vector<std::string> locatedRefKeys;
 
     // --- OK, we have the parameter and know that the directory is intact, now iterate through icon directory
@@ -190,7 +190,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                         editorJson.at("Atlas").at("ReferenceSpriteList").emplace_back(jsonExportObject);
 
                         totalEditCount++;
-                        editCount++;
+                        cycleEditCount++;
                     }
 
                     // --- Save the processed reference key for future checking
@@ -209,7 +209,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
         // --- If not edited, skip the file. else, save it
 
-        if (editCount == 0)
+        if (cycleEditCount == 0)
         {
             continue;
         }
@@ -233,7 +233,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         fileOutput.close();
         PRINT_ONFILEUNLOAD(fullPath);
 
-        editCount = 0;
+        cycleEditCount = 0;
     }
 
     // --- Print result

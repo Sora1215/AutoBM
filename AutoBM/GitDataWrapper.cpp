@@ -16,3 +16,8 @@ GitDataWrapper& GitDataWrapper::Instance() noexcept
     static GitDataWrapper instance;
     return instance;
 }
+
+void GitDataWrapper::DiffCheckTableRepo(KR_STR baseDirectory) noexcept
+{
+
+}

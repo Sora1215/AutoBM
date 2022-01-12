@@ -25,6 +25,8 @@ public:
 	GitDataWrapper(const GitDataWrapper&) = delete;
 	void operator=(const GitDataWrapper&) = delete;
 
+	void DiffCheckTableRepo(KR_STR) noexcept;
+
 private:
 
 	// Making it private to prevent multiple copies of this appearing
