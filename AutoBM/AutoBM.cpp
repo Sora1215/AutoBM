@@ -29,7 +29,6 @@
 
 #include "XLDataWrapper.h"
 #include "JsonDataWrapper.h"
-#include "GitDataWrapper.h"
 
 #include "PromptDefines.h"
 
@@ -45,13 +44,6 @@ int main()
     //P_STRING("", C_PRINT_PARAMETER);
 
     //JSON_DW.ConnectItemIcon();
-
-    P_STRING("TableRepoDiffChecker v1.0 by Sora.Kim", C_PRINT_PARAMETER);
-    P_STRING("", C_PRINT_PARAMETER);
-    P_STRING("Make sure that this executable is placed just inside the Table repo folder.", C_PROCEDURE_PARAMETER);
-    P_STRING("", C_PRINT_PARAMETER);
-
-    GIT_DW.DiffCheckTableRepo(L"../");
 
     //P_STRING("ExcelZeroWidthSpaceRemover v1.2 by Sora.Kim", C_PRINT_PARAMETER);
     //P_STRING("", C_PRINT_PARAMETER);

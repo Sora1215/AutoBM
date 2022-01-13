@@ -159,13 +159,11 @@
   <ItemGroup>
     <ClCompile Include="AutoBM.cpp" />
     <ClCompile Include="ConsoleManager.cpp" />
-    <ClCompile Include="GitDataWrapper.cpp" />
     <ClCompile Include="JsonDataWrapper.cpp" />
     <ClCompile Include="XLDataWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleManager.h" />
-    <ClInclude Include="GitDataWrapper.h" />
     <ClInclude Include="GlobalDefines.h" />
     <ClInclude Include="JsonDataWrapper.h" />
     <ClInclude Include="PromptDefines.h" />
