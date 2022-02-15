@@ -142,6 +142,7 @@ void XLDataWrapper::RemoveZeroWidthSpace(KR_STR baseDirectory, std::initializer_
 
         P_STRING("Diff was exported as : ", C_PRINT, false);
         P_STRING(EXPORT_FILENAME, C_PRINT_PARAMETER);
+
         NEWLINE;
     }
     else

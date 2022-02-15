@@ -247,20 +247,28 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
     // --- Print result
 
+    NEWLINE;
+
     for (const auto& itemCodePair : itemCodeMap)
     {
         if (std::find(locatedRefKeys.begin(), locatedRefKeys.end(), itemCodePair.first) == locatedRefKeys.end())
         {
-            NEWLINE;
             P_STRING("Reference key of : ", C_ERROR, false);
             P_STRING(itemCodePair.first, C_PRINT_PARAMETER, false);
             P_STRING(" was not found.", C_ERROR);
         }
+        else 
+        {
+            P_STRING("Reference key of : ", C_PROCEDURE, false);
+            P_STRING(itemCodePair.first.c_str(), C_PROCEDURE_PARAMETER, false);
+            P_STRING(" was found.", C_PROCEDURE);
+        }
     }
+
+    NEWLINE;
 
     if (totalEditCount > 0)
     {
-        NEWLINE;
         P_STRING("A total of ", C_PROCEDURE, false);
         P_DOUBLE(totalEditCount, C_PROCEDURE_PARAMETER, false);
         P_STRING(" reference pairs were added.", C_PROCEDURE);
