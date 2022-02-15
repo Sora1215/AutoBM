@@ -134,6 +134,15 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                 {
                     std::string tempStringBuffer = jsonObject.value(JSON_REFERENCECODE, JSON_NULLCODE);
 
+                    const std::string originalCodeWithHeader = jsonObject.value(JSON_ORIGINALCODE, JSON_NULLCODE);
+
+                    // --- Check if original code is null
+
+                    if (originalCodeWithHeader == JSON_NULLCODE)
+                    {
+                        continue;
+                    }
+
                     // --- Check if reference code is null
 
                     if (tempStringBuffer == JSON_NULLCODE)
@@ -162,16 +171,16 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                     }
                     else
                     {
-                        continue;
-                    }
+                        // --- Check if the original code does not match
 
-                    // --- Check if original code is null
-
-                    const std::string originalCodeWithHeader = jsonObject.value(JSON_ORIGINALCODE, JSON_NULLCODE);
-
-                    if (originalCodeWithHeader == JSON_NULLCODE)
-                    {
-                        continue;
+                        if (originalCodeWithHeader == referenceCode.first)
+                        {
+                            PRINT_JSONORIGINKEYFOUND(referenceCode.first);
+                        }
+                        else 
+                        {
+                            continue;
+                        }
                     }
 
                     // --- Status all green, we are ready to go
@@ -207,7 +216,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
             }
         }
 
-        // --- If not edited, skip the file. else, save it
+        // --- If not edited, skip the file. Else, save it
 
         if (cycleEditCount == 0)
         {

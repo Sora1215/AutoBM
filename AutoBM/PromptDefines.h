@@ -88,6 +88,10 @@
 #define PRINT_JSONREFKEYFOUND(key)      P_STRING("Found reference key of : ", C_PRINT, false);\
                                         P_STRING(key, C_PRINT_PARAMETER);
 
+// [KR_STR]
+#define PRINT_JSONORIGINKEYFOUND(key)   P_STRING("Found original key of : ", C_PRINT, false);\
+                                        P_STRING(key, C_PRINT_PARAMETER);
+
 
 
 // ---

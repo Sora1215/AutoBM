@@ -1,0 +1,80 @@
+LibXL: Book class reference
+https://www.libxl.com/workbook.html
+
+c++0x: proper way to receive a lambda as parameter by reference
+https://stackoverflow.com/questions/6458612/c0x-proper-way-to-receive-a-lambda-as-parameter-by-reference
+
+I want to convert std::string into a const wchar_t *
+https://stackoverflow.com/questions/246806/i-want-to-convert-stdstring-into-a-const-wchar-t
+
+Colorizing text in the console with C++
+https://stackoverflow.com/questions/4053837/colorizing-text-in-the-console-with-c
+
+C++ wait for user input [duplicate]
+https://stackoverflow.com/questions/21257544/c-wait-for-user-input
+
+can anyone tell me all colors const for SetConsoleTextAttribute() function?
+https://forums.codeguru.com/showthread.php?539241-RESOLVED-can-anyone-tell-me-all-colors-const-for-SetConsoleTextAttribute()-function
+
+What is the advantage of using try {} catch {} versus if {} else {}
+https://stackoverflow.com/questions/651619/what-is-the-advantage-of-using-try-catch-versus-if-else
+
+Pass static member function as template parameter
+
+https://stackoverflow.com/questions/23738590/pass-static-member-function-as-template-parameter
+
+Function passed as template argument
+
+https://stackoverflow.com/questions/1174169/function-passed-as-template-argument
+
+Convert between std::u8string and std::string
+
+https://stackoverflow.com/questions/55556200/convert-between-stdu8string-and-stdstring
+
+Iterator Loop vs index loop [duplicate]
+
+https://stackoverflow.com/questions/14373934/iterator-loop-vs-index-loop
+
+How to convert wstring into string?
+
+https://stackoverflow.com/questions/4804298/how-to-convert-wstring-into-string
+
+How can I change the default .exe icon in Visual Studio 2012 (C++)
+
+https://stackoverflow.com/questions/16026262/how-can-i-change-the-default-exe-icon-in-visual-studio-2012-c/29493580
+
+C++ unordered_map with char* as key
+
+https://stackoverflow.com/questions/20649864/c-unordered-map-with-char-as-key
+
+Is while (true) with break bad programming practice?
+
+https://stackoverflow.com/questions/390481/is-while-true-with-break-bad-programming-practice
+
+What is the difference between 'WCHAR' and 'wchar_t'?
+
+https://stackoverflow.com/questions/561839/what-is-the-difference-between-wchar-and-wchar-t
+
+move constructor with unordered_map
+
+https://stackoverflow.com/questions/11522416/move-constructor-with-unordered-map
+
+nlohmann::basic_json::contains
+
+https://json.nlohmann.me/api/basic_json/contains/
+
+operator<<(basic_json)
+
+https://json.nlohmann.me/api/basic_json/operator_ltlt/
+
+nlohmann::basic_json::dump
+
+https://json.nlohmann.me/api/basic_json/dump/
+
+Object Order
+
+https://json.nlohmann.me/features/object_order/
+
+C++ change newline from CR+LF to LF
+
+https://stackoverflow.com/questions/1535922/c-change-newline-from-crlf-to-lf

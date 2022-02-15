@@ -8,7 +8,7 @@
     ~ External libraries used : LibXL (Paid version)
     ~ Build instructions : Just hit build, then make sure to have the required dlls together with the final executable. 
         This is currently set as a post-build event.
-    ~ Any inquiries about the project may be forwarded either to keithrek@hanmail.net, or straight to the author, who should be working at 2F, JM building.
+    ~ Any inquiries about the project may be forwarded either to keithrek@hanmail.net, or straight to the author, who should be working at 3F, JM building.
 
     Windows SDK 10
     Visual Studio 2022
@@ -38,12 +38,12 @@ int main()
 {
     CONSOLE.SetupLocal();
 
-    //P_STRING("ItemIconConnector v1.0 by Sora.Kim", C_PRINT_PARAMETER);
-    //P_STRING("", C_PRINT_PARAMETER);
-    //P_STRING("Make sure that this executable is placed just inside the r1_asset repo folder.", C_PROCEDURE_PARAMETER);
-    //P_STRING("", C_PRINT_PARAMETER);
+    P_STRING("ItemIconConnector v1.1 by Sora.Kim", C_PRINT_PARAMETER);
+    P_STRING("", C_PRINT_PARAMETER);
+    P_STRING("Make sure that this executable is placed just inside the r1_asset repo folder.", C_PROCEDURE_PARAMETER);
+    P_STRING("", C_PRINT_PARAMETER);
 
-    //JSON_DW.ConnectItemIcon();
+    JSON_DW.ConnectItemIcon();
 
     //P_STRING("ExcelZeroWidthSpaceRemover v1.2 by Sora.Kim", C_PRINT_PARAMETER);
     //P_STRING("", C_PRINT_PARAMETER);
