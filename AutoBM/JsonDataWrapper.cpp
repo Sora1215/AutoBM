@@ -152,6 +152,17 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
 
                     // --- Check if string header is in the right format. If so, remove the header.
 
+                    std::string originalCodeWithoutHeader = originalCodeWithHeader;
+
+                    if (originalCodeWithoutHeader.find(JSON_ICONHEADER) != std::string::npos)
+                    {
+                        originalCodeWithoutHeader.erase(0, std::string(JSON_ICONHEADER).length());
+                    }
+                    else
+                    {
+                        continue;
+                    }
+
                     if (tempStringBuffer.find(JSON_ICONHEADER) != std::string::npos)
                     {
                         tempStringBuffer.erase(0, std::string(JSON_ICONHEADER).length());
@@ -173,7 +184,7 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
                     {
                         // --- Check if the original code does not match
 
-                        if (originalCodeWithHeader == referenceCode.first)
+                        if (originalCodeWithoutHeader == referenceCode.first)
                         {
                             PRINT_JSONORIGINKEYFOUND(referenceCode.first);
                         }
@@ -265,10 +276,10 @@ void JsonDataWrapper::ConnectItemIcon() noexcept
         }
     }
 
-    NEWLINE;
-
     if (totalEditCount > 0)
     {
+        NEWLINE;
+
         P_STRING("A total of ", C_PROCEDURE, false);
         P_DOUBLE(totalEditCount, C_PROCEDURE_PARAMETER, false);
         P_STRING(" reference pairs were added.", C_PROCEDURE);
